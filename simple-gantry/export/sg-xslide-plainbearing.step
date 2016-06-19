@@ -3,7 +3,7 @@ HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
 '/home/jon/work/fellesverkstedet/Tractor-systems/simple-gantry/export/sg
--xslide-plainbearing.step','2016-06-19T17:46:54',('FreeCAD'),('FreeCAD')
+-xslide-plainbearing.step','2016-06-19T19:39:26',('FreeCAD'),('FreeCAD')
   ,'Open CASCADE STEP processor 6.9','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
@@ -16,8 +16,8 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('Open CASCADE STEP translator 6.9 1',
-  'Open CASCADE STEP translator 6.9 1','',(#8));
+#7 = PRODUCT('Open CASCADE STEP translator 6.9 2',
+  'Open CASCADE STEP translator 6.9 2','',(#8));
 #8 = MECHANICAL_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#1283);
