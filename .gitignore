@@ -43,4 +43,4 @@ Temporary Items
 .apdisk
 
 # CAD temporary files
-.fcstd1
+*.fcstd1
