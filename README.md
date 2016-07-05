@@ -22,9 +22,9 @@ Basics
 Full-machine test
 
 * Design & Fabricate Y axis
-* Fabricate 2 X axis
-* Test using 12mm PolyEthylene
-* Make a Z-carriage
+* Fabricate a pair of X-axes
+* Test using 12mm PolyEthylene (UHMW?)
+* Make a Z-carriage, with end-effector attachment
 * Attach a laser diode, run tests
 
 FAB12 workshop
@@ -36,4 +36,5 @@ FAB12 workshop
 
 Bonus
 
-* Research coupling with
+* Also fabricate a V-wheel for 608 bearing using birdbeak
+* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
