@@ -11,6 +11,11 @@ Initial prototype is for a gantry-based vinyl/laser-cutter.
 
 **Prototyping in progress**
 
+## Core principles
+
+* Using a birdbeak bit to make V-profiles, both inner and outer.
+* Using technical low-friction plastics (UHWMPE/POM) motion/contact parts
+* Assembling and contining to machine the axes on the CNC itself
 
 ## TODO
 
