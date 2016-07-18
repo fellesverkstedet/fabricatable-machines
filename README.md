@@ -1,7 +1,10 @@
 
-A *fabricatable machine* is a computer-controlled fabrication machine, which to a very large degree can be made using a standard set of existing computer-controlled machines. Examples include CNC-milling, lasercutter, and 3d-printers.
+A *fabricatable machine* is a computer-controlled fabrication machine that can be made using a standard set of existing computer-controlled machines; with minimal use of speciality parts, processes or skills. The type of machines include CNC-milling, lasercutter, and 3d-printers.
+
+This enables individuals and communities to build their own production machines, to expand their own capabilities. Build more machines to increase production, build cheaper to increase availability, or build specialized machines tailored for specific purposes.
 
 To develop a complete inventory of fabricatable machines is a goal of the [Fablab Network](http://fablabs.io/), as part of the "FAB2.0" concept. Together we aim to build the first self-fabricated Fablab during the [FAB12 conference](http://fab12.fabevent.org/).
+
 A similar project is [Reprap](http://reprap.org/), which focuses on FDM 3d-printers, but has the additional constraint of self-replication: that the individual machine can make itself.
 
 # Simple gantry
