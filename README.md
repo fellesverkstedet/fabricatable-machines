@@ -9,7 +9,7 @@ To develop a complete inventory of fabricatable machines is a goal of the [Fabla
 
 A linear actuator designed to be fabricated in a Fablab, to the desired length/resolution/size.
 It can be used to build custom digital fabrication machines, from laserengraving to light-duty milling.
-Initial prototype is for a gantry-based vinyl/laser-cutter.
+Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricating the first gantry rig [here](https://youtu.be/k9ujdUikcWI)
 
 ![First prototype linear axis fabricated on Shopbot](./simple-gantry/img/simplegantry-firstaxis.jpg)
 
