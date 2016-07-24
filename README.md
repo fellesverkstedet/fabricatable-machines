@@ -30,15 +30,14 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 Basics
 
 * Come up with a better name. birdbeak? V?
-* Upload pictures/results of initial tests to Github repo
 
 Full-machine test
 
-* Design & Fabricate Y axis
-* Fabricate a pair of X-axes
-* Test using 12mm PolyEthylene (UHMW?)
-* Make a Z-carriage, with end-effector attachment
-* Attach a laser diode, run tests
+* Fix pulleys using a setscrew, change M3 screws and add washers
+* Design laser diode attachment & shroud
+* Find another software than Cura for generating gcode
+* Set correct steps per mm
+* Run tests with laser
 
 FAB12 workshop
 
@@ -49,8 +48,10 @@ FAB12 workshop
 
 Bonus
 
+* Add a pen-plotter/vinyl-cutter attachment, using servo
 * Also fabricate a V-wheel for 608 bearing using birdbeak
 * Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
+* 
 
 
 # Motivation
