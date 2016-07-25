@@ -33,11 +33,9 @@ Basics
 
 Full-machine test
 
-* Fix pulleys using a setscrew, change M3 screws and add washers
-* Design laser diode attachment & shroud
-* Find another software than Cura for generating gcode
-* Set correct steps per mm
-* Run tests with laser
+* Design adjustable shroud for the laser
+* Connect the laser-driver to board&software to turn on/off
+* Find an open-source laser software for generating gcode
 
 FAB12 workshop
 
@@ -51,7 +49,6 @@ Bonus
 * Add a pen-plotter/vinyl-cutter attachment, using servo
 * Also fabricate a V-wheel for 608 bearing using birdbeak
 * Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
-* 
 
 
 # Motivation
