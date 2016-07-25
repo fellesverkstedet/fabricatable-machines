@@ -38,12 +38,15 @@ Full-machine test
 * Design adjustable shroud for the laser
 * Connect the laser-driver to board&software to turn on/off
 * Find an open-source laser software for generating gcode
+* Evaluate performance and 
 
 FAB12 workshop
 
+* Maybe design in some connecting-geometry, so axes can be connected together/to framing to make machine
 * Create a manufacturing plan (which parts when)
 * Create a workshop plan (scope, participant involvment)
 * Polish documentation in Github repo
+* Do dry-run on site in China
 * Do it!
 
 Bonus
