@@ -37,8 +37,10 @@ Full-machine test
 
 * Design adjustable shroud for the laser
 * Connect the laser-driver to board&software to turn on/off
-* Find an open-source laser software for generating gcode
-* Evaluate performance and 
+* Implement M3/M5 (spindle control) support for laser in [Redeem](https://bitbucket.org/intelligentagent/redeem).
+* Test using [LaserWeb](https://github.com/openhardwarecoza/LaserWeb3) to control machine.
+Hopefully can be done with Marlin or Grbl backend?
+* Evaluate performance
 
 FAB12 workshop
 
@@ -76,4 +78,13 @@ Laserengraving
 * No software control of the laserdiode (manually turned on off)
 * Some of the bad lines are actually due to the poor quality font rendering
 * At this speed will also (generally) cut through standard white printer paper
+
+## Resources
+
+Open source lasercutting software
+
+* http://www.shapeoko.com/wiki/index.php/Laser_Cutter
+* http://www.shapeoko.com/wiki/index.php/CAM#2D_.28Laser_or_plasma_machines.29
+* https://hackaday.io/project/4828-raster-2-laser-gcode-generator
+
 
