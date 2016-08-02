@@ -57,6 +57,15 @@ Bonus
 * Also fabricate a V-wheel for 608 bearing using birdbeak
 * Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
 
+## Roadmap
+
+* (current phase) Validate usage as a lasercutter/vinylcutter
+* Make it work as a CNC mill
+* Prototype making its own parts.
+Especially consumable, like the pinion/slides
+* Make an axis that is longer than the workarea
+* Reproduce a new machine fully
+
 
 ## Motivation
 
