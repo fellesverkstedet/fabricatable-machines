@@ -49,7 +49,7 @@ Bonus
 
 * Add a pen-plotter/vinyl-cutter attachment, using servo
 * Also fabricate a V-wheel for 608 bearing using birdbeak
-* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
+* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
 
 ## Roadmap
 
