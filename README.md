@@ -17,6 +17,8 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 
 ![First prototype linear axis fabricated on Shopbot](./simple-gantry/img/simplegantry-firstaxis.jpg)
 
+Working title: "Vbird", after the V-rails and birdbeak cutting steel used.
+
 ## Status
 
 **Prototyping in progress**
@@ -29,19 +31,6 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 
 ## TODO
 
-Basics
-
-* Come up with a better name. birdbeak? V?
-
-Full-machine test
-
-* Design adjustable shroud for the laser
-* Connect the laser-driver to board&software to turn on/off
-* Implement M3/M5 (spindle control) support for laser in [Redeem](https://bitbucket.org/intelligentagent/redeem).
-* Test using [LaserWeb](https://github.com/openhardwarecoza/LaserWeb3) to control machine.
-Hopefully can be done with Marlin or Grbl backend?
-* Evaluate performance
-
 FAB12 workshop
 
 * Maybe design in some connecting-geometry, so axes can be connected together/to framing to make machine
@@ -51,11 +40,16 @@ FAB12 workshop
 * Do dry-run on site in China
 * Do it!
 
+Laserengraver full-machine test
+
+* Test using [LaserWeb](https://github.com/openhardwarecoza/LaserWeb3) to control machine.
+Hopefully can be done with Marlin or Grbl backend?
+
 Bonus
 
 * Add a pen-plotter/vinyl-cutter attachment, using servo
 * Also fabricate a V-wheel for 608 bearing using birdbeak
-* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/projects/tree/master/reprapping#tapexy)
+* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
 
 ## Roadmap
 
