@@ -20,6 +20,6 @@ Preparation for Oslo Innovation Week Hackathon 2016
 
 ## Tests
 
-![First test pressing of sherdded PLA waste](/img/14-first-test-press.JPG)
+![First test pressing of sherdded PLA waste](./img/14-first-test-press.JPG)
 
 ## Resources
