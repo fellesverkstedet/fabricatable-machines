@@ -28,6 +28,6 @@ Preparation for Oslo Innovation Week Hackathon 2016
 ![Press plate assembly](./img/09pressplate-assembly.JPG)
 ![Tightening bolts](./img/11tightening-bolts.JPG)
 ![Inserting bolts and square nuts](./img/06-inserting bolts-and-square-nuts.JPG)
-!Failed oven test jack, does not like high temp](./img/012failed-ovent-test-jack-does-not-like-high temp.JPG)
+!Failed oven test jack, does not like high temp](./img/12failed-ovent-test-jack-does-not-like-high temp.JPG)
 
 ## Resources
