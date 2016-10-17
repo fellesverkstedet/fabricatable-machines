@@ -1,0 +1,55 @@
+[Planner]
+move_cache_size = 1024
+print_move_buffer_wait = 250
+min_buffered_move_time = 100
+max_buffered_move_time = 1000
+max_length = 0.001
+acceleration_x = 2
+acceleration_y = 2
+acceleration_z = 2
+acceleration_e = 2
+acceleration_h = 2
+acceleration_a = 2
+acceleration_b = 2
+acceleration_c = 2
+max_jerk_x = 0.04
+max_jerk_y = 0.04
+max_jerk_z = 0.04
+max_jerk_e = 0.04
+max_jerk_h = 0.04
+max_jerk_a = 0.04
+max_jerk_b = 0.04
+max_jerk_c = 0.04
+max_speed_x = 0.2
+max_speed_y = 0.2
+max_speed_z = 0.02
+max_speed_e = 0.2
+max_speed_h = 0.2
+max_speed_a = 0.2
+max_speed_b = 0.2
+max_speed_c = 0.2
+min_speed_x = 0.04
+min_speed_y = 0.04
+min_speed_z = 0.04
+min_speed_e = 0.04
+min_speed_h = 0.04
+min_speed_a = 0.04
+min_speed_b = 0.04
+min_speed_c = 0.04
+
+max_speed_x = 0.2
+max_speed_y = 0.2
+max_speed_z = 0.2
+max_speed_e = 0.2
+max_speed_h = 0.2
+max_speed_a = 0.2
+max_speed_b = 0.2
+max_speed_c = 0.2
+
+[Delta]
+hez = 0.0601
+l = 0.322
+r = 0.175
+ae = 0.02032
+be = 0.02032
+ce = 0.02032
