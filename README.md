@@ -2,12 +2,42 @@
 A *fabricatable machine* is a computer-controlled fabrication machine that can be made using a standard set of existing computer-controlled machines; with minimal use of speciality parts, processes or skills.
 The type of machines include CNC-milling, lasercutter, and 3d-printers.
 
-To develop a complete inventory of fabricatable machines is a goal of the [Fablab Network](http://fablabs.io/), as part of the "FAB2.0" concept. Together we aim to build the first self-fabricated Fablab during the [FAB12 conference](http://fab12.fabevent.org/).
+We want to enable individuals and communities to build their own production machines, to expand their own capabilities.
+Build more machines to increase production, build cheaper to increase availability, or build specialized machines tailored for specific purposes.
 
 
-# Simple gantry
+# Chamfer Rail
 
-A linear actuator designed to be fabricated in a Fablab, to the desired length/resolution/size.
+## TODO: Document
+
+# Award Plotter
+
+* Pen plotter.
+* Servo-based Z-axis
+
+## TODO: Document
+
+
+
+## [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
+
+A CoreXY-based motion platform using low-friction tape for plain bearings.
+Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
+
+
+# V-bird
+
+* Presented during the [FAB12 conference](http://fab12.fabevent.org/).
+* Standardized axis
+* Assembled together into a CNC-mill
+
+
+## TODO: Document
+
+
+# Simple Gantry
+
+Our first complete XY platform designed to be fabricated in a Fablab.
 It can be used to build custom digital fabrication machines, from laserengraving to light-duty milling.
 Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricating the first gantry rig [here](https://youtu.be/k9ujdUikcWI)
 
@@ -17,57 +47,17 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 
 ![First prototype linear axis fabricated on Shopbot](./simple-gantry/img/simplegantry-firstaxis.jpg)
 
-Working title: "Vbird", after the V-rails and birdbeak cutting steel used.
+![Machine builder interface](./simple-gantry/img/machine%20builder%20interface%20-%20simple%20gantry%20640%20x%20320.png)
 
 ## Status
 
-**Prototyping in progress**
+**No longer developed**
 
 ## Core principles
 
 * Using a birdbeak bit to make V-profiles, both inner and outer.
 * Using technical low-friction plastics (UHWMPE/POM) motion/contact parts
 * Assembling and contining to machine the axes on the CNC itself
-
-## TODO
-
-FAB12 workshop
-
-* Maybe design in some connecting-geometry, so axes can be connected together/to framing to make machine
-* Create a manufacturing plan (which parts when)
-* Create a workshop plan (scope, participant involvment)
-* Polish documentation in Github repo
-* Do dry-run on site in China
-* Do it!
-
-Laserengraver full-machine test
-
-* Test using [LaserWeb](https://github.com/openhardwarecoza/LaserWeb3) to control machine.
-Hopefully can be done with Marlin or Grbl backend?
-
-Bonus
-
-* Add a pen-plotter/vinyl-cutter attachment, using servo
-* Also fabricate a V-wheel for 608 bearing using birdbeak
-* Research possible cross-pollination with [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
-
-## Roadmap
-
-* (current phase) Validate usage as a lasercutter/vinylcutter
-* Make it work as a CNC mill
-* Prototype making its own parts.
-Especially consumable, like the pinion/slides
-* Make an axis that is longer than the workarea
-* Reproduce a new machine fully
-
-
-## Motivation
-
-Enables individuals and communities to build their own production machines, to expand their own capabilities. Build more machines to increase production, build cheaper to increase availability, or build specialized machines tailored for specific purposes.
-
-A similar project is [Reprap](http://reprap.org/), which focuses on FDM 3d-printers, but has the additional constraint of self-replication: that the individual machine can make itself.
-
-![Machine builder interface](./simple-gantry/img/machine%20builder%20interface%20-%20simple%20gantry%20640%20x%20320.png)
 
 
 ## Tests
@@ -82,7 +72,20 @@ Laserengraving
 * Some of the bad lines are actually due to the poor quality font rendering
 * At this speed will also (generally) cut through standard white printer paper
 
-## Resources
+
+# Milestones
+
+* Make an axis that is longer than the workarea.
+Either by moving the workpiece, or machine in stages.
+* A machine has been reproduced independently by someone else
+* Use the machine in for realizing a project
+* Have a machine that can fully reproduce itself
+
+# Ideas
+
+* Fabricate V-wheel for standard bearing using Shopbot with birdbeak/birdmouth bit
+
+# Resources
 
 Open source lasercutting software
 
@@ -90,4 +93,11 @@ Open source lasercutting software
 * http://www.shapeoko.com/wiki/index.php/CAM#2D_.28Laser_or_plasma_machines.29
 * https://hackaday.io/project/4828-raster-2-laser-gcode-generator
 
+
+# Related work
+
+To develop a complete inventory of fabricatable machines is a goal of the [Fablab Network](http://fablabs.io/).
+
+The [Reprap](http://reprap.org/) aims to build self-replicating machines, where each individual machine can make itself.
+Mostly focused on FDM 3d-printers.
 
