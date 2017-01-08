@@ -8,7 +8,15 @@ Build more machines to increase production, build cheaper to increase availabili
 
 # Chamfer Rail
 
-## TODO: Document
+A linear actuator with rack & pinion drive system, designed to be CNC-milled.
+This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
+which can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit). 
+
+Additionally the pitch is slightly smaller, for higher resolution and torque.
+
+The files included here are for NEMA17 sized motor.
+
+[FreeCAD source](./chamferrail/chamferrail.fcstd)
 
 # Award Plotter
 
