@@ -12,6 +12,7 @@ Advantages:
 
 ![ISO Pic]({{site.baseurl}}/chamferrail/PlasmaCutter/iso.JPG)
 
+![table.jpg]({{site.baseurl}}/chamferrail/PlasmaCutter/table.jpg)
 
 
 
