@@ -19,9 +19,9 @@ We want to make a Handi-bot style plasma cutter CNC that can be moved by hand an
 - Use "self cleaning pinion rack cogs" using deeper cut outs 
 
 **Related tech research**
-1. Fabricatable machines from fellesverkstedet.
-2. Swedish portable CNC machine
-3. Handibot from Shopbot
+ 1. Fabricatable machines from fellesverkstedet.
+ 2. Swedish portable CNC machine (http://rejsa.nu/forum/viewtopic.php?p=890632&sid=1ae4f8ef5bf3e2a60dba50aed941fa89)
+ 3. Handibot from Shopbot
 
 
 
@@ -38,4 +38,3 @@ _Handibot-2.0-Home_ [Handibot.com](http://handibot.com/)
 _Illustration of self cleaning cogs_
 ![PlasmaCutter.jpg]({{site.baseurl}}/chamferrail/PlasmaCutter/PlasmaCutter.jpg)
 _Swedish portable CNC machine_
-
