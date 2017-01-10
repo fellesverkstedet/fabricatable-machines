@@ -36,3 +36,6 @@ _Plasma cutting table (for reference)_
 _Handibot-2.0-Home_ [Handibot.com](http://handibot.com/)
 ![rack-and-pinion-specification-diagram.png]({{site.baseurl}}/chamferrail/PlasmaCutter/rack-and-pinion-specification-diagram.png)
 _Illustration of self cleaning cogs_
+![PlasmaCutter.jpg]({{site.baseurl}}/chamferrail/PlasmaCutter/PlasmaCutter.jpg)
+_Swedish portable CNC machine_
+
