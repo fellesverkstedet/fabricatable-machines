@@ -26,17 +26,26 @@ The files included here are for NEMA17 sized motor.
 
 ![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crownprince-and-princess.JPG)
 
-* Pen plotter.
+* Pen plotter
+* Trophy for the 2016 Oslo Innovation Award
+* Prints as many dipomas as you want
 * Servo-based Z-axis
 
 [Rhino source](./award-plotter/award-plotter.3dm)
+
 [3D Step file](./award-plotter/award-plotter-3D-STEP.stp)
+
 [2D Step file](./award-plotter/award-plotter-2D-DXF.dxf)
 
 
-![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/26Milling-PCB-with-0.3mm-traces.JPG)
 
-* CNC mill variation of award plotter
+
+# Award Plotter CNC mill variation
+
+![Machine cutting spanner for its own ER11 collet](./award-plotter/img/27-5mm-aluminium-cut-with-trochoidal-milling-strategy-at-5mm-pass-depth.JPG)
+![Fab Lab ISP](./award-plotter/img/32FabISP-programmer-milled-with-0.4mm-bit-USB-for-scale.JPG)
+
+* CNC mill experiment from extra parts left after award plotter trophy
 * Chamferrail rack and pinion based Z-axis
 * Validated the roller rack and pinion system
 * Validated the potential for self production
@@ -44,6 +53,7 @@ The files included here are for NEMA17 sized motor.
 * Able to mill 5mm aluminium and 2mm steel
 
 [Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
+
 [3D Step file](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
 
 
