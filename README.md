@@ -7,6 +7,7 @@ Build more machines to increase production, build cheaper to increase availabili
 
 
 # Chamfer Rail
+*Decmember 2016*
 
 ![Chamfer rail for award plotter CNC mill axis](./award-plotter/img/20-first-chamfer-rail-complete.JPG)
 
@@ -22,7 +23,28 @@ The files included here are for NEMA17 sized motor.
 
 
 
+# Award Plotter - CNC mill variation
+*December 2016*
+
+![Machine cutting spanner for its own ER11 collet](./award-plotter/img/27-5mm-aluminium-cut-with-trochoidal-milling-strategy-at-5mm-pass-depth.JPG)
+
+![Fab Lab ISP](./award-plotter/img/32FabISP-programmer-milled-with-0.4mm-bit-USB-for-scale.JPG)
+
+* CNC mill experiment from extra parts left after award plotter trophy
+* Chamferrail rack and pinion based Z-axis
+* Validated that the roller rack and pinion system can deliver high quality motion
+* Validated the potential for self production
+* Able to produce high quality PCBs
+* Able to mill 5mm aluminium and 2mm steel
+
+[Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
+
+[3D Step](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
+
+
+
 # Award Plotter
+*October 2016*
 
 ![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crownprince-and-princess.JPG)
 
@@ -33,52 +55,57 @@ The files included here are for NEMA17 sized motor.
 
 [Rhino source](./award-plotter/award-plotter.3dm)
 
-[3D Step file](./award-plotter/award-plotter-3D-STEP.stp)
+[3D Step](./award-plotter/award-plotter-3D-STEP.stp)
 
-[2D Step file](./award-plotter/award-plotter-2D-DXF.dxf)
-
-
+[2D Dxf](./award-plotter/award-plotter-2D-DXF.dxf)
 
 
-# Award Plotter CNC mill variation
+# Sheet maker 160mm x 160mm
+*October 2016*
 
-![Machine cutting spanner for its own ER11 collet](./award-plotter/img/27-5mm-aluminium-cut-with-trochoidal-milling-strategy-at-5mm-pass-depth.JPG)
-![Fab Lab ISP](./award-plotter/img/32FabISP-programmer-milled-with-0.4mm-bit-USB-for-scale.JPG)
+![Sheet masker and tow pressed PLA sheets](./sheet-maker/img/15-jig-and-test-pressing-pla.jpg)
 
-* CNC mill experiment from extra parts left after award plotter trophy
-* Chamferrail rack and pinion based Z-axis
-* Validated the roller rack and pinion system
-* Validated the potential for self production
-* Able to produce high quality PCBs
-* Able to mill 5mm aluminium and 2mm steel
+* Compression mold for recylcling plastic waste into sheet material
+* Works well with PLA from 3D prints
+* PLA sheets are easy to lasercut and CNC mill
+* Rape seed oil makes good mold release
+* Works ok with one sided heat from cooking plate
+* Can be improved with two-sided heat source. Maybe cartridge?
+* Needs improved geometry for faster mold release (cycle time)
 
-[Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
+[Rhino source](./sheet-maker/sheet-maker.3dm)
+[2D Dxf](./sheet-maker/export/mini%20sheet%20maker%20test%20-%20160mm%20x%20160mm%20-%20milling%20files%20for%2010mm%20aluminum.dxf)
 
-[3D Step file](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
-
-
-
-## TODO: Document
+## Goal: A fabricatable system for making shopBot sized sheets from waste in a fab lab
 
 
 
-## [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
+# [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
+*August 2016*
+
+![Fab Lab ISP](https://raw.githubusercontent.com/jonnor/tapecore/master/doc/tapexy-second.jpg)
 
 A CoreXY-based motion platform using low-friction tape for plain bearings.
 Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
 
 
+
 # V-bird
+*August 2016*
+
+![Vbird at Fab12 China](./simple-gantry/img/Vbird-at-fab12-china.JPG)
 
 * Presented during the [FAB12 conference](http://fab12.fabevent.org/).
 * Standardized axis
 * Assembled together into a CNC-mill
-
+* Validated the potential for fabricatbale modular rack and pinion stages
 
 ## TODO: Document
 
 
+
 # Simple Gantry
+*July 2016*
 
 Our first complete XY platform designed to be fabricated in a Fablab.
 It can be used to build custom digital fabrication machines, from laserengraving to light-duty milling.
@@ -136,6 +163,10 @@ Open source lasercutting software
 * http://www.shapeoko.com/wiki/index.php/CAM#2D_.28Laser_or_plasma_machines.29
 * https://hackaday.io/project/4828-raster-2-laser-gcode-generator
 
+CAM in your browser
+
+* http://www.makercam.com/
+* http://fabmodules.org/ now ith support for replicape https://github.com/Madouc/fabmodules-html5
 
 # Related work
 
