@@ -24,6 +24,7 @@ The files included here are for NEMA17 sized motor.
 
 
 
+
 # [Award Plotter - CNC mill variation](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/award-plotter)
 *December 2016*
 
@@ -41,6 +42,7 @@ The files included here are for NEMA17 sized motor.
 [Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
 
 [3D Step](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
+
 
 
 
@@ -79,9 +81,11 @@ The files included here are for NEMA17 sized motor.
 * Needs improved geometry for faster mold release (cycle time)
 
 [Rhino source](./sheet-maker/sheet-maker.3dm)
+
 [2D Dxf](./sheet-maker/export/mini%20sheet%20maker%20test%20-%20160mm%20x%20160mm%20-%20milling%20files%20for%2010mm%20aluminum.dxf)
 
 Goal: A fabricatable system for making shopBot sized sheets from waste in a fab lab
+
 
 
 
@@ -91,10 +95,11 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 ![Fab Lab ISP](https://raw.githubusercontent.com/jonnor/tapecore/master/doc/tapexy-second.jpg)
 
-A CoreXY-based motion platform using low-friction tape for plain bearings.
-Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
+* A CoreXY-based motion platform using low-friction tape for plain bearings
+* Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
 
 [FreeCAD source](https://github.com/jonnor/tapecore/blob/master/tapexy.fcstd)
+
 
 
 
@@ -107,9 +112,10 @@ Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 
 * Presented during the [FAB12 conference](http://fab12.fabevent.org/).
 * Standardized axis
 * Assembled together into a CNC-mill
-* Validated the potential for fabricatbale modular rack and pinion stages
+* Validated the potential of fabricatable modular rack and pinion stages
 
 ## TODO: Document
+
 
 
 
@@ -155,8 +161,36 @@ Laserengraving
 
 
 
+
 # [V carved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
 *September 2015*
+
+![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
+
+* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
+* Seemed promising, but required sofisticated milling skils and tooolpath software
+* Requires perfect positioning of pinion on motor shaft
+* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+
+
+
+
+
+# [Engraved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
+*April 2015*
+
+![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
+
+* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
+* Seemed promising, but required sofisticated milling skils and tooolpath software
+* Requires perfect positioning of pinion on motor shaft
+* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+
+
+
+
+# [Column rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
+*January 2015*
 
 ![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
 
