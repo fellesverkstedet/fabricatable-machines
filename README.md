@@ -104,7 +104,7 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 
 
-# V-bird
+# [V-bird](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/simple-gantry)
 *August 2016*
 
 ![Vbird at Fab12 China](./simple-gantry/img/Vbird-at-fab12-china.JPG)
@@ -120,7 +120,7 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 
 
-# Simple Gantry
+# [Simple Gantry](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/simple-gantry)
 *July 2016*
 
 Our first complete XY platform designed to be fabricated in a Fablab.
@@ -189,6 +189,7 @@ Laserengraving
 
 
 
+
 # [Column rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
 *January 2015*
 
@@ -198,6 +199,7 @@ Laserengraving
 * Seemed promising, but required sofisticated milling skils and tooolpath software
 * Requires perfect positioning of pinion on motor shaft
 * Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+
 
 
 
