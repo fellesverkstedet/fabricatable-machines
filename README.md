@@ -6,7 +6,7 @@ We want to enable individuals and communities to build their own production mach
 Build more machines to increase production, build cheaper to increase availability, or build specialized machines tailored for specific purposes.
 
 
-# Chamfer Rail
+# [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
 *Decmember 2016*
 
 ![Chamfer rail for award plotter CNC mill axis](./award-plotter/img/20-first-chamfer-rail-complete.JPG)
@@ -23,7 +23,8 @@ The files included here are for NEMA17 sized motor.
 
 
 
-# Award Plotter - CNC mill variation
+
+# [Award Plotter - CNC mill variation](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/award-plotter)
 *December 2016*
 
 ![Machine cutting spanner for its own ER11 collet](./award-plotter/img/27-5mm-aluminium-cut-with-trochoidal-milling-strategy-at-5mm-pass-depth.JPG)
@@ -43,14 +44,15 @@ The files included here are for NEMA17 sized motor.
 
 
 
-# Award Plotter
+
+# [Award Plotter](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/award-plotter)
 *October 2016*
 
-![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crownprince-and-princess.JPG)
+![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crown-prince-and-princess.JPG)
 
 * Pen plotter
 * Trophy for the 2016 Oslo Innovation Award
-* Prints as many dipomas as you want
+* Prints as many dipomas as the winner wants
 * Servo-based Z-axis
 
 [Rhino source](./award-plotter/award-plotter.3dm)
@@ -58,6 +60,9 @@ The files included here are for NEMA17 sized motor.
 [3D Step](./award-plotter/award-plotter-3D-STEP.stp)
 
 [2D Dxf](./award-plotter/award-plotter-2D-DXF.dxf)
+
+
+
 
 
 # Sheet maker 160mm x 160mm
@@ -76,7 +81,8 @@ The files included here are for NEMA17 sized motor.
 [Rhino source](./sheet-maker/sheet-maker.3dm)
 [2D Dxf](./sheet-maker/export/mini%20sheet%20maker%20test%20-%20160mm%20x%20160mm%20-%20milling%20files%20for%2010mm%20aluminum.dxf)
 
-## Goal: A fabricatable system for making shopBot sized sheets from waste in a fab lab
+Goal: A fabricatable system for making shopBot sized sheets from waste in a fab lab
+
 
 
 
@@ -87,6 +93,9 @@ The files included here are for NEMA17 sized motor.
 
 A CoreXY-based motion platform using low-friction tape for plain bearings.
 Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
+
+[FreeCAD source](https://github.com/jonnor/tapecore/blob/master/tapexy.fcstd)
+
 
 
 
@@ -101,6 +110,7 @@ Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 
 * Validated the potential for fabricatbale modular rack and pinion stages
 
 ## TODO: Document
+
 
 
 
@@ -141,6 +151,21 @@ Laserengraving
 * No software control of the laserdiode (manually turned on off)
 * Some of the bad lines are actually due to the poor quality font rendering
 * At this speed will also (generally) cut through standard white printer paper
+
+
+
+
+# [V carved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
+*September 2015*
+
+![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
+
+* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
+* Seemed promising, but required sofisticated milling skils and tooolpath software
+* Requires perfect positioning of pinion on motor shaft
+* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+
+
 
 
 # Milestones
