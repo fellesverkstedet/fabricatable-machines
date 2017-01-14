@@ -7,7 +7,7 @@ Build more machines to increase production, build cheaper to increase availabili
 
 
 # [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
-*Decmember 2016*
+*December 2016*
 
 ![Chamfer rail for award plotter CNC mill axis](./award-plotter/img/20-first-chamfer-rail-complete.JPG)
 
@@ -167,10 +167,8 @@ Laserengraving
 
 ![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
 
-* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
-* Seemed promising, but required sofisticated milling skils and tooolpath software
-* Requires perfect positioning of pinion on motor shaft
-* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+* Test of CNC milled v-bit engraved rack with SLA 3D printed pinions and V-wheels
+* Sla 3D prints tends to shrink over time
 
 
 
@@ -194,10 +192,10 @@ Laserengraving
 *January 2015*
 
 ![Column rack and pinion](./Module%20development/Column%20rack%20and%20pinion/IMG_7230.JPG)
-* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
-* Seemed promising, but required sofisticated milling skils and tooolpath software
-* Requires perfect positioning of pinion on motor shaft
-* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
+* Test of making linear motion with a column and carriage
+* Is a bad idea bacouse a column can only be attached at top and botoom
+* Makes a weak structure, and a complicated acrriage to farbricate
+* Using a regular 60 degree V-bit to engraving rack was a success
 
 
 
