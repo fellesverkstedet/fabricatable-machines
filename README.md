@@ -176,10 +176,10 @@ Laserengraving
 
 
 
-# [Engraved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
+# [Engraved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/Engraved%20rack%20and%20pinion)
 *April 2015*
 
-![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
+![Engraved rack and pinion with SLA printed pinion and v-wheels](./Module development/Engraved rack and pinion/IMG_7400.JPG)
 
 * Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
 * Seemed promising, but required sofisticated milling skils and tooolpath software
@@ -190,11 +190,10 @@ Laserengraving
 
 
 
-# [Column rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
+# [Column rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/Column%20rack%20and%20pinion)
 *January 2015*
 
-![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
-
+![Column rack and pinion](./Module%20development/Column%20rack%20and%20pinion/IMG_7230.JPG)
 * Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
 * Seemed promising, but required sofisticated milling skils and tooolpath software
 * Requires perfect positioning of pinion on motor shaft
