@@ -8,6 +8,8 @@ Build more machines to increase production, build cheaper to increase availabili
 
 # Chamfer Rail
 
+![Chamfer rail for award plotter CNC mill axis](./award-plotter/img/20-first-chamfer-rail-complete.JPG)
+
 A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
 which can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit). 
@@ -18,10 +20,33 @@ The files included here are for NEMA17 sized motor.
 
 [FreeCAD source](./chamferrail/chamferrail.fcstd)
 
+
+
 # Award Plotter
+
+![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crownprince-and-princess.JPG)
 
 * Pen plotter.
 * Servo-based Z-axis
+
+[Rhino source](./award-plotter/award-plotter.3dm)
+[3D Step file](./award-plotter/award-plotter-3D-STEP.stp)
+[2D Step file](./award-plotter/award-plotter-2D-DXF.dxf)
+
+
+![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/26Milling-PCB-with-0.3mm-traces.JPG)
+
+* CNC mill variation of award plotter
+* Chamferrail rack and pinion based Z-axis
+* Validated the roller rack and pinion system
+* Validated the potential for self production
+* Able to produce high quality PCBs
+* Able to mill 5mm aluminium and 2mm steel
+
+[Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
+[3D Step file](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
+
+
 
 ## TODO: Document
 
