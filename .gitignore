@@ -17,6 +17,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Rhino backups
+*.3dmbak
+*.3dm.rhl
+
 # =========================
 # Operating System Files
 # =========================
