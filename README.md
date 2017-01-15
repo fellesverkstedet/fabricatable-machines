@@ -167,8 +167,10 @@ Laserengraving
 
 ![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
 
-* Test of CNC milled v-bit engraved rack with SLA 3D printed pinions and V-wheels
-* Sla 3D prints tends to shrink over time
+* Test of a tecnnique for making rack and pinion geometry by moving a v-bit along a specific angle
+* Seemed promising, but required sofisticated milling skils and tooolpath software
+* Requires perfect positioning of pinion on motor shaft
+* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
 
 
 
@@ -179,11 +181,8 @@ Laserengraving
 
 ![Engraved rack and pinion with SLA printed pinion and v-wheels](./Module development/Engraved rack and pinion/IMG_7400.JPG)
 
-* Test of a teqnique for making rack and pinion gemotry by moving a v-bit along at a specific angle
-* Seemed promising, but required sofisticated milling skils and tooolpath software
-* Requires perfect positioning of pinion on motor shaft
-* Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
-
+* Test of CNC mill v-bit engraved rack with SLA 3D printed pinions and V-wheels
+* Sla 3D prints tends to shrink over time
 
 
 
