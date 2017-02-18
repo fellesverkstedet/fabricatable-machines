@@ -4,30 +4,30 @@
 
 ### Why make your your own machines
 
-* for freedom
-* for budget
+* for freedom *(enables us to build any kind of machine we dream of)*
+* for budget *(DIY can be cheaper than buying, especially if it is a custom machine)*
 * for scaling capacity
-* for building self confidence
+* for building self confidence *(if I can build it I can fix it, and I know how to use it)*
 * for gaining insight into technology
 * for sport *(it is more rewarding and less silly than kicking a leather ball)*
 
-We like learning by doing. Replicating a machine is like learning an instrument by playing someone elsez music, before you start composing. Its totally ok to be a cover band.
+We like learning by doing. Replicating a machine is like learning an instrument by playing someone elses music, before you start composing your own. Its totally ok to be a cover band.
 
 
 ### Potential consequences from making your own machines
 
-Bank interests choke creativity. Growing your own equipment is a fantastic alternative to million dollar bank loan with ticking interests. *(large monthly payments force risk averse usage and business models)*
+Bank interests choke creativity. Growing your own equipment is a fantastic alternative to a big bank loan with ticking interests. *(large monthly payments force risk averse usage and business models)*
 
 Server farm metaphor: Many cheap machines outperform one mega fancy machine. Examples: prusa, lulzbot etc.
 
-**DIY enables scaling with sneaky comfort**. Example of developing a business :
+**DIY enables scaling with sneaky comfort**. Example of developing a business:
 * 1 Fun hobby *(I have made machine)*
 * 2 Serious hobby *(I have made good machine)*
 * 3 Part time job *(I use my machine to make things for other people)*
 * 4 Full time job *(my job sucked but this is awesome, now I use multiple machines to make lots of things for other people)*
 * 5 Running a company with multiple co-workers and large capacity *(DIY is boring, lets Do It Together)*
 
-**It can also enable natural growth of community workshops** *(Fab Labs, makerspaces, hackerspaces etc)* :
+**It can also enable natural growth of community workshops** *(Fab Labs, makerspaces, hackerspaces etc)*:
 * 1 Fun hobby *(I have made machine)*
 * 2 Serious hobby *(I have made good machine)*
 * 3 Become a part time community fabrication facilitator *(I help other people make things with my machine)*
@@ -169,7 +169,7 @@ Different scorepoints:
 * Do not require other non open source software to run
 * Has Profile, Pocket and 3D mill
 * Makes precise 3D milling
-* Suports ramped punge *(for milling metals)*
+* Suports ramped plunge *(for milling metals)*
 * Supports drill *(for hold down)*
 * Supports tabs *(for parts without internal holes)*
 * High speed/trochoidal milling *(for milling metals on weak machines)*
@@ -182,7 +182,7 @@ Different scorepoints:
 # The actual doing
 
 ### Sourcing part and materials:
-* Co ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to starting to building their own machines gets much lower)*
+* Co ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
 * By from source - find factory webshops
 * By locally if the vendors don't suck
 * Consider registering your own company – gives purchases almost half price in many countries *(no VAT and reduced tax)*
@@ -207,7 +207,7 @@ Different scorepoints:
 
 
 ### Assembling your machine
-* Remember to RTFM *(read the f****** manual)*
+* Remember to RTFM *(read the f****** *manual)*
 
 
 ### Tuning / calibrating your machine:
