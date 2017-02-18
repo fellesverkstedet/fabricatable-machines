@@ -21,8 +21,8 @@ Bank interests choke creativity. Growing your own equipment is a fantastic alter
 Server farm metaphor: Many cheap machines outperform one mega fancy machine. Examples: prusa, lulzbot etc.
 
 **DIY enables scaling with sneaky comfort**. Example of developing a business:
-* 1 Fun hobby *(I have made machine)*
-* 2 Serious hobby *(I have made good machine)*
+* 1 Fun hobby *(I have made a machine)*
+* 2 Serious hobby *(I have made a good machine)*
 * 3 Part time job *(I use my machine to make things for other people)*
 * 4 Full time job *(my job sucked but this is awesome, now I use multiple machines to make lots of things for other people)*
 * 5 Running a company with multiple co-workers and large capacity *(DIY is boring, lets Do It Together)*
@@ -44,9 +44,9 @@ Server farm metaphor: Many cheap machines outperform one mega fancy machine. Exa
 * Optimize your bill of materials (BOM). Use parts that are cheap and easy to source
 * Sticking to standard fab lab inventory machines. Metaphor: Native browser compatibility vs custom plugins
 * Design for simple machine use, not fancy techniques. Avoid two-sided milling if possible. Tolerate badly configured machines. Accept runout, overhangs etc.
-* Reduce time required to machine/print/cut. If it is easy and fast to do, will be done often.
-* Digital fabrication means cheap complexity in part. Increse part complexity to reduce part count and assembly time.
-* Make simple assembly. A machine should ideally be easy to build and not require handcraft skills.
+* Reduce time required to machine/print/cut. If it is easy and fast to do, it will be done often.
+* Digital fabrication means cheap complexity in part. Increase part complexity to reduce part count and assembly time.
+* Make it simple to assembe. A machine should ideally be easy to build and not require handcraft skills.
 * Make it easy to tune and maintain. *(The holy grail is to make a reliable machine that can easily be operated by others. Most DIY machines become dust collectors)*
 * How far do you want to go? Buy a kit from china and make the box around it? Or push the boundaries of  DIY level and machine design freedom?
 
@@ -101,10 +101,12 @@ the bad:
 
 
 ### Axis types
-* aritculated joints - example: Thor DIY robot arm
+* articulated joints - example: Thor DIY robot arm
 * tensioned wire - example: Thorbjørns hang printer
 * unsuported linear axis - example: most diy 3D printers, Nadyas MTM stages
 * supported linear axis - example: most standad fab lab machines, the chamfer rail system
+
+Our chamfer axis design fasciltes both supported and supported linear axis type. For making good CNC milling machines, we bolt the axis to the frame or gantry of the machine at even intervals.
 
 
 ### Drive types
@@ -113,6 +115,8 @@ the bad:
 * Lead screw
 * Rack and pinion
 * Linear motor
+
+We have identifed rack and pinion as the easiest system to fabricate from scracth using standard fab lab machines (ShopBot). In order to have as little backlash and as high resolution/torque as possible we have developed [our own](https://github.com/fellesverkstedet/fabricatable-machines/Module development/Roller rack and pinion) geometry generator for CNC mill friendly rack and pinon.
 
 
 ### Motors
@@ -161,7 +165,7 @@ Closed VS open loop. The simplicity of steppers
 **CAM inside CAD program**
 * Fusion360 *(score:8)*
 * Freecad *(score:6)*
-* Bark beetle *(score:10)*
+* Bark beetle *(score:10)* *(disclosure: Jens Dyvik has written this guide, made Bark Beetle and determined the score point criteria bellow)*
 
 Different scorepoints:
 * Open source
@@ -182,9 +186,9 @@ Different scorepoints:
 # The actual doing
 
 ### Sourcing part and materials:
-* Co ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
-* By from source - find factory webshops
-* By locally if the vendors don't suck
+* Co-ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
+* Buy from source - find factory webshops
+* Buy locally if the vendors don't suck
 * Consider registering your own company – gives purchases almost half price in many countries *(no VAT and reduced tax)*
 
 
@@ -212,7 +216,9 @@ Different scorepoints:
 
 ### Tuning / calibrating your machine:
 * Be patient like a Zen master. Great machine calibration give great rewards.
-
+* Tweak the pressre of you glide blocks/ v-wheels before with the pinion disengaged from the rack
+* Tweak the pinion pressure on the rack with the help of the motor plates once you are done with the glide bloacks / v-wheels
+* If you are real fancy you use software to compensate for unenven motion
 
 ### Using your machine and sharing back:
 * Make spare parts
