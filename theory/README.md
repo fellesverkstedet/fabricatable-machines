@@ -11,7 +11,7 @@
 * for gaining insight into technology
 * for sport *(it is more rewarding and less silly than kicking a leather ball)*
 
-We like learning by doing. Replicating a machine is like learning an instrument by playing someone else music, before you start composing. Its totally ok to be a cover band.
+We like learning by doing. Replicating a machine is like learning an instrument by playing someone elsez music, before you start composing. Its totally ok to be a cover band.
 
 
 ### Potential consequences from making your own machines
@@ -20,19 +20,19 @@ Bank interests choke creativity. Growing your own equipment is a fantastic alter
 
 Server farm metaphor: Many cheap machines outperform one mega fancy machine. Examples: prusa, lulzbot etc.
 
-DIY enables scaling with sneaky comfort. Example of developing a business :
-*1 Fun hobby *(I have made machine)*
-*2 Serious hobby *(I have made good machine)*
-*3 Part time job *(I use my machine to make things for other people)*
-*4 Full time job *(my job sucked but this is awesome, now I use multiple machines to make lots of things for other people)*
-*5 Running a company with multiple co-workers and large capacity *(DIY is boring, lets Do It Together)*
+**DIY enables scaling with sneaky comfort**. Example of developing a business :
+* 1 Fun hobby *(I have made machine)*
+* 2 Serious hobby *(I have made good machine)*
+* 3 Part time job *(I use my machine to make things for other people)*
+* 4 Full time job *(my job sucked but this is awesome, now I use multiple machines to make lots of things for other people)*
+* 5 Running a company with multiple co-workers and large capacity *(DIY is boring, lets Do It Together)*
 
-It can also enable natural growth of community workshops *(Fab Labs, makerspaces, hackerspaces etc)* :
-*1 Fun hobby *(I have made machine)*
-*2 Serious hobby *(I have made good machine)*
-*3 Become a part time community fabrication facilitator *(I help other people make things with my machine)*
-*4 Become a full time community fabrication facilitator *(I help lots of people make things with multiple machines)*
-*5 Running a complete Fab Lab *(we help lots of people make things with multiple machines, and take part in a global network of people collaborating and sharing knowledge)*
+**It can also enable natural growth of community workshops** *(Fab Labs, makerspaces, hackerspaces etc)* :
+* 1 Fun hobby *(I have made machine)*
+* 2 Serious hobby *(I have made good machine)*
+* 3 Become a part time community fabrication facilitator *(I help other people make things with my machine)*
+* 4 Become a full time community fabrication facilitator *(I help lots of people make things with multiple machines)*
+* 5 Running a complete Fab Lab *(we help lots of people make things with multiple machines, and take part in a global network of people collaborating and sharing knowledge)*
 
 
 
@@ -50,6 +50,7 @@ It can also enable natural growth of community workshops *(Fab Labs, makerspaces
 * Make it easy to tune and maintain. *(The holy grail is to make a reliable machine that can easily be operated by others. Most DIY machines become dust collectors)*
 * How far do you want to go? Buy a kit from china and make the box around it? Or push the boundaries of  DIY level and machine design freedom?
 
+
 ###Choosing a digital fabrication technique
 
 **3D printers**
@@ -66,6 +67,7 @@ the bad:
 * Weak materials (even fiber reinforced filaments suffer from z axis delamination)
 * Only suitable for making small parts
 
+
 **Laser cutters**
 
 the good:
@@ -79,10 +81,11 @@ the bad:
 * Designing 2D to become 3D requires more skills and assembly
 * Only suitable for making small parts
 
+
 **CNC mills**
 
 the good:
-* Very fast (a ShopBot alphs cut at the speed of a 700w lasercutter)
+* Very fast (a ShopBot alpha cut at the speed of a 700w lasercutter)
 * Very accurate
 * Real hardcore materials (Aluminum, brass, bronze, steel and thick Delrin/POM)
 * High resolution 3D surfaces
