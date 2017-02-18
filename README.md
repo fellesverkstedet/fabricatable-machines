@@ -5,6 +5,7 @@ The type of machines include CNC-milling, lasercutter, and 3d-printers.
 We want to enable individuals and communities to build their own production machines, to expand their own capabilities.
 Build more machines to increase production, build cheaper to increase availability, or build specialized machines tailored for specific purposes.
 
+Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
 # [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
 *December 2016*
