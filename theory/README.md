@@ -73,21 +73,20 @@ the bad:
 the good:
 * Super easy to use
 * Fast
-* Reasonably accurate (hampered by concave laserbeam and mirror alignment
+* Reasonably accurate *(hampered by concave laserbeam and mirror alignment*
 
 the bad:
 * Only 2D cut and raster engrave with tricky Z depth
-* Weak materials (Delrin/POM is the only lasercutable material you can't break with your fingers)
+* Weak materials *(Delrin/POM is the only lasercutable material you can't break with your fingers)*
 * Designing 2D to become 3D requires more skills and assembly
-* Only suitable for making small parts
 
 
 **CNC mills**
 
 the good:
-* Very fast (a ShopBot alpha cut at the speed of a 700w lasercutter)
+* Very fast *(a ShopBot alpha cut at the speed of a 700w lasercutter)*
 * Very accurate
-* Real hardcore materials (Aluminum, brass, bronze, steel and thick Delrin/POM)
+* Real hardcore materials *(Aluminum, brass, bronze, steel and thick Delrin/POM)*
 * High resolution 3D surfaces
 * Reasonable geometry complexity
 * Can make tiny and precise parts
@@ -95,7 +94,7 @@ the good:
 
 the bad:
 * Twosided milling or mulitpart assembly require more design and operator skill
-* Most Fab Labs have shopbots in terrible condition (unreliable, or low performance)
+* Most Fab Labs have shopbots in terrible condition *(unreliable, or low performance)*
 * Parts needs fixturing, requires skill and planning
 * Big machines are scary
 * Current software toolchain sucks
@@ -157,18 +156,18 @@ Closed VS open loop. The simplicity of steppers
 * Makercam *(score:3)*
 
 **Desktop based**
-*V-Carve *(score:5)*
+* V-Carve *(score:5)*
 
 **CAM inside CAD program**
-*Fusion360 *(score:8)*
-*Freecad *(score:6)*
-*Bark beetle *(score:10)*
+* Fusion360 *(score:8)*
+* Freecad *(score:6)*
+* Bark beetle *(score:10)*
 
 Different scorepoints:
 * Open source
 * Free to install
 * Do not require other non open source software to run
-* Has Profile, pocket and 3D mill
+* Has Profile, Pocket and 3D mill
 * Makes precise 3D milling
 * Suports ramped punge *(for milling metals)*
 * Supports drill *(for hold down)*
