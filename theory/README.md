@@ -105,7 +105,7 @@ the bad:
 * Articulated joints - example: Thor DIY robot arm
 * Unsupported linear rail - example: most diy 3D printers, Nadyas MTM stages
 * Supported linear rail - example: most standad fab lab machines, the chamfer rail system
-![Axis types](./theory/img/axis-types.jpg)
+![Axis types](./img/axis-types.jpg)
 Our chamfer axis design fascilitates both supported and supported linear axis config. For making good CNC milling machines, we bolt the axis to the frame or gantry of the machine at even intervals.
 
 
