@@ -179,11 +179,20 @@ Different scorepoints:
 * High speed/trochoidal milling *(for milling metals on weak machines)*
 * Can be integrated with parametric models *(for smooth worflows and future apllications)*
 * Integrated machine controll *(its the future)*
-* Is well documented
+* Has good documentation
+
+
+
+### Existing a motion systems you can to build upon
+* RepRap. Focus on FDM printing
+* Alu extrusion based systems with belt drive. Focus on quick and easy. Openbuilds, Shapoko, X-Carve
+* MTM Stages by Nadya. Focus on modular, reconfigurable and expandable machines
+* Chamfer rail by Jens and Jon, in Fabricatable machines development. Focus on making a larger degree of your own machine for maxiumum freedom in form, function and scale. 
 
 
 
 # The actual doing
+
 
 ### Sourcing part and materials:
 * Co-ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
