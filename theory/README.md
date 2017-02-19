@@ -101,12 +101,12 @@ the bad:
 
 
 ### Axis types
-* articulated joints - example: Thor DIY robot arm
-* tensioned wire - example: Thorbjørns hang printer
-* unsuported linear axis - example: most diy 3D printers, Nadyas MTM stages
-* supported linear axis - example: most standad fab lab machines, the chamfer rail system
-
-Our chamfer axis design fasciltes both supported and supported linear axis type. For making good CNC milling machines, we bolt the axis to the frame or gantry of the machine at even intervals.
+* Tensioned wire - example: Thorbjørns hang printer
+* Articulated joints - example: Thor DIY robot arm
+* Unsupported linear rail - example: most diy 3D printers, Nadyas MTM stages
+* Supported linear rail - example: most standad fab lab machines, the chamfer rail system
+![Axis types](./theory/img/axis-types.jpg)
+Our chamfer axis design fascilitates both supported and supported linear axis config. For making good CNC milling machines, we bolt the axis to the frame or gantry of the machine at even intervals.
 
 
 ### Drive types
@@ -116,7 +116,7 @@ Our chamfer axis design fasciltes both supported and supported linear axis type.
 * Rack and pinion
 * Linear motor
 
-We have identifed rack and pinion as the easiest system to fabricate from scracth using standard fab lab machines (ShopBot). In order to have as little backlash and as high resolution/torque as possible we have developed [our own](https://github.com/fellesverkstedet/fabricatable-machines/Module development/Roller rack and pinion) geometry generator for CNC mill friendly rack and pinon.
+We have identifed rack and pinion as the easiest system to fabricate from scratch using standard fab lab machines (ShopBot). In order to have as little backlash and as high resolution/torque as possible we have developed [our own](https://github.com/fellesverkstedet/fabricatable-machines/Module development/Roller rack and pinion) geometry generator for CNC mill friendly rack and pinon.
 
 
 ### Motors
