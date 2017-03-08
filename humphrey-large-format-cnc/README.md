@@ -26,3 +26,5 @@ A gantry based cnc milling machine capable of cutting standard size sheet materi
 
 ![Humphrey sketch](./img/casette-cnc-sketch.jpg)
 *sketch of casette concept, compact and suitable for meeting health and safety standards*
+
+Alex's sturdy full frame sketch (./img/humphrey_sketch_as.jpg)
