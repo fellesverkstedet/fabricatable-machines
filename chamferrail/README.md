@@ -159,16 +159,16 @@ The screw pockets in the glide blocks are autotapping! Just make sure you add sp
 
 ![Chamfer rail 320mm axis](./img/27finished-axis-plate.JPG)
 
-Use wedge to fine adjust pressure the pressure the glide block excert on the rail. Be patient! (wedge and axis not shown in picture)
+Use wedge to fine adjust the pressure the glide block excerts on the rail. Be patient! (wedge and axis not shown in picture)
 ![Chamfer rail 320mm axis](./img/28plate-on-axis.JPG)
 
 Countersink the screw holes for the motor and screw the motorplate onto the motor.
 ![Chamfer rail 320mm axis](./img/29motor-plate.JPG)
 
-Sideways drill holes for the set screw in the pinion wall beneath the teeth. There is no set screw visible in this image. Fine djust the pininn height so there is 0.5-1mm clearing from the rack floor.
+Sideways drill holes for the set screw in the pinion wall beneath the teeth. There is no set screw visible in this image. Fine adjust the pinion height so there is 0.5-1mm clearing from the rack floor.
 ![Chamfer rail 320mm axis](./img/30pinion-needs-set-screw.JPG)
 
-Fine tune the position of the motor plate. Make the teeth a bit tight on the rack. Test! You will need to fine adjust pinion pressure and glide block pressure after running ing the axis. Remove motors when adjusting the glide blocks. Be patient!
+Fine tune the position of the motor plate. Make the teeth a bit tight on the rack. Test! You will need to fine adjust pinion pressure and glide block pressure after running in the axis. Remove motors when adjusting the glide blocks. Be patient!
 ![Chamfer rail 320mm axis](./img/31axis-plate-and-axis.JPG)
 
 ![Chamfer rail 320mm axis](./img/32front-side.JPG)
