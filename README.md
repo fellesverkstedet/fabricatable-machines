@@ -8,19 +8,27 @@ Build more machines to increase production, build cheaper to increase availabili
 Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
 # [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
-*December 2016*
+*December 2016 / March 2017*
 
-![Chamfer rail for award plotter CNC mill axis](./award-plotter/img/20-first-chamfer-rail-complete.JPG)
+![Chamfer rail on cnc bed](./chamferrail/img/16detail.JPG)
+
+![Chamfer rail 320mm axis](./chamferrail/img/33back-side.JPG)
 
 A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
-which can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit). 
+which can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
 
 Additionally the pitch is slightly smaller, for higher resolution and torque.
 
-The files included here are for NEMA17 sized motor.
+The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
-[FreeCAD source](./chamferrail/chamferrail.fcstd)
+[Rhino source](./chamferrail/standard-chamferrails.3dm)
+
+[FreeCAD source, older design](./chamferrail/chamferrail.fcstd)
+
+[STEP 3D](./chamferrail/standard-chamferrails.stp)
+
+[DXF 2D](./chamferrail/standard-chamferrails.dxf)
 
 
 
@@ -68,7 +76,7 @@ The files included here are for NEMA17 sized motor.
 
 
 
-# Sheet maker 160mm x 160mm
+# [Sheet maker 160mm x 160mm](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/sheet-maker)
 *October 2016*
 
 ![Sheet masker and tow pressed PLA sheets](./sheet-maker/img/15-jig-and-test-pressing-pla.jpg)
