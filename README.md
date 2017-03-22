@@ -14,7 +14,7 @@ Bellow you find a timeline of development. Press the download button in [root](h
 
 ![hank](./hank-medium-format-cnc/img/hank-first-cut.jpg)
 
-* A gantry based CNC milling machine where about 75% of the parts can be fabricated on a CNC mill
+* A gantry based CNC milling machine where a substantial amount of the parts can be fabricated on a CNC mill
 * Linear rails, rack, pinion and glide blocks can all be fabricated on a conventional CNC milling machine
 * Based on the chamfer rail system in this repo
 * Work area is 600mm x 300mm x 50mm
