@@ -14,11 +14,11 @@ Bellow you find a timeline of development. Press the download button in [root](h
 
 ![hank](./hank-medium-format-cnc/img/hank-first-cut.jpg)
 
-*A gantry based CNC milling machine where about 75% of the parts can be fabricated on a CNC mill
-*Linear rails, rack, pinion and glide blocks can all be fabricated on a conventional CNC milling machine
-*Based on the chamfer rail system in this repo
-*Work area is 600mm x 300mm x 50mm
-*The rack and pinion has 4.444444 steps per mm with a 200 step motor
+* A gantry based CNC milling machine where about 75% of the parts can be fabricated on a CNC mill
+* Linear rails, rack, pinion and glide blocks can all be fabricated on a conventional CNC milling machine
+* Based on the chamfer rail system in this repo
+* Work area is 600mm x 300mm x 50mm
+* The rack and pinion has 4.444444 steps per mm with a 200 step motor
 
 we are having challenges with the alu rails and pom glide blocks. It seems that the heavy weight creates alu dust. and the dust builds up and scratches the alu glide surface. this is only a problem so far on the x axis, since it carries.the weight of the gantry. we thought first it was wood dust scraping, but is seems to be alu dust, or abrasive from the metal grinder about 3m away from the machine. next we will try different glide block geometry, and different materials
 
@@ -35,11 +35,11 @@ we are having challenges with the alu rails and pom glide blocks. It seems that 
 
 ![Chamfer rail 320mm axis](./chamferrail/img/33back-side.JPG)
 
-*A linear actuator with rack & pinion drive system, designed to be CNC-milled.
-*This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
-*Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
-*The rack and pinion has 4.444444 steps per mm with a 200 step motor
-*The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
+* A linear actuator with rack & pinion drive system, designed to be CNC-milled.
+* This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
+* Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
+* The rack and pinion has 4.444444 steps per mm with a 200 step motor
+* The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
 
 The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
