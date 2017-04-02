@@ -1,10 +1,10 @@
 # Hank - medium format CNC mill
 *March 2017*
 
-![parts](./img/hank-part-overview.jpg)
+![Bought parts on the left, self fabricated parts on the right](./img/hank-part-overview.jpg)
 *Bought parts on the left, self fabricated parts on the right*
 
-![hank](./img/hank-first-cut.jpg)
+![Hank after his first test job](./img/hank-first-cut.jpg)
 *Hank after his first test job*
 
 * A gantry based CNC milling machine where a substantial amount of the parts can be fabricated on a CNC mill
@@ -51,6 +51,7 @@
 * Mod various post processors for starting with autohoming
 * Do extensive testing
 * Improve documentation
+* Make BOM (bill of materials)
 * Test self-replication *(first set of chamfer rail axes have already been made for Fellesverkstedets Fab Academy students)*
 
 
@@ -59,22 +60,107 @@
 * M119 for get endstop states
 * G92 for custom home example: G92 X0 Y0 Z0
 
-### the Making off Hank
+
+
+### CAD model
 
 ![hank cad](./img/hank-cad-4view.jpg)
 *CAD drawing of Hank*
 
-![rails](./img/hank-chamferrails.jpg)
+
+
+### Fabricating chamfer rails
+
+![Engraving source URL](./img/engraving-docu-link.jpg)
+*Engraving source URL*
+
+![X-rails finsihed](./img/x-rails.jpg)
+*X-rails finsihed*
+
+![The self fabricated rails, note multiple Z axis for hotswap](./img/hank-chamferrails.jpg)
 *The self fabricated rails, note multiple Z axis for hotswap*
 
-![bed](./img/trimming-hdf-sandwhich-for-bed-and-gantry.jpg)
-*Finish milling bed to precise dimensions, note the pockets for aattaching the rails with wood screws*
+
+
+### Fabricating POM parts
+
+![Milling motor plates and glide blocks](./img/motorplates.jpg)
+*Milling motor plates and glide blocks*
+
+![Milling POM pinions](./img/milling-pinions.jpg)
+*Milling POM pinions*
+
+
+
+### Fabrictaing axis plates
+
+![Milling axes plates](./img/axes-plate.jpg)
+*Milling axes plates*
+
+![Registrating ZY-axis plate for twosided milling](./img/registation-twosided-yplate.jpg)
+*Registrating ZY-axis plate for twosided milling*
+
+
+
+### Fabricating bed and gantry
+
+![Milling bed and gantry sandwich](./img/bedandgantry1.jpg)
+*Milling bed and gantry sandwich*
+
+![Gluing bed and gantry sandwich](./img/bedandgantry2glued.jpg)
+*Gluing bed and gantry sandwich*
+
+![Finish milling bed to precise dimensions, note the pockets for attaching the rails with wood screws](./img/trimming-hdf-sandwhich-for-bed-and-gantry.jpg)
+*Finish milling bed to precise dimensions, note the pockets for attaching the rails with wood screws*
+
+
+
+### Assembly
+
+![Bought parts on the left, self fabricated parts on the right](./img/hank-part-overview.jpg)
+*Bought parts on the left, self fabricated parts on the right*
+
+![Attatching rails with wood screws](./img/attaching-rails.jpg)
+*Attatching rails with wood screws*
+
+![Attaching X axis plate to gantry](./img/attaching-x-axis-plate-to-gantry.jpg)
+*Attaching X axis plate to gantry*
+
+![Attaching glide blocks with wood screw](./img/attaching-glide-blocks.jpg)
+*Attaching glide blocks with wood screw*
+
+![Bed, gantry and YZ-axis plate](./img/bed-gantry-and-zy-axisplate.jpg)
+*Bed, gantry and YZ-axis plate*
+
+![Adding endtops](./img/adding-endstop.jpg)
+*Adding end stops
+
+![Wiring Replicape controller, drivers and powersupply](./img/wiring-electronics.jpg)
+*Wiring Replicape controller, drivers and powersupply*
+
+![Calibrating controller and fixing cabling](./img/almost-done.jpg)
+*Calibrating controller and fixing cabling*
+
+
+
+### Hello world test mill
+
+![Hank after his first test job](./img/hank-first-cut.jpg)
+*Hank after his first test job, making parts for Alex wooden boat*
+
+
+
+### Working on fixing glide blocks scratching X rails
 
 ![scrape](./img/reparing-scraped-rail-after-first-cut.jpg)
 *Repairing the damaged rails after they got scratched by the small POM bocks*
 
 ![new glide block](./img/new-wider-glide-block.jpg)
 *Upgrading the X xis glide block to mega contact surface*
+
+
+
+### Testing self replication
 
 ![making chamfer rail](./img/hank-milling-axis-for-anew-machine.jpg)
 *Hank milling chamfer rails for a new machine*
@@ -86,4 +172,4 @@
 *First self replication test with two chamfer rails*
 
 ![Axis in use](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/assignments/week11/mech/3.jpg)
-*Fellesvertedets Fab Academy 2017 students, Hanne Eriksen and Jakob Nilsson, building a ping pong installation with axes fabricated by Hank*
+*Fellesverkstedets Fab Academy 2017 students, Hanne Eriksen and Jakob Nilsson, building a ping pong installation with axes fabricated by Hank*
