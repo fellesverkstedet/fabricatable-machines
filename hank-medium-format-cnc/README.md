@@ -70,6 +70,7 @@
 
 
 ### Fabricating chamfer rails
+Full tutorial on milling Chamfer rails [here](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/chamferrail/README.md)
 
 ![Engraving source URL](./img/engraving-docu-link.jpg)
 *Engraving source URL*
@@ -133,7 +134,7 @@
 *Bed, gantry and YZ-axis plate*
 
 ![Adding endtops](./img/adding-endstop.jpg)
-*Adding end stops
+*Adding end stops*
 
 ![Wiring Replicape controller, drivers and powersupply](./img/wiring-electronics.jpg)
 *Wiring Replicape controller, drivers and powersupply*

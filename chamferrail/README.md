@@ -4,11 +4,11 @@
 
 ![Chamfer rail 320mm axis](./img/33back-side.JPG)
 
-A linear actuator with rack & pinion drive system, designed to be CNC-milled.
-This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
-which can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
-
-Additionally the pitch is slightly smaller, for higher resolution and torque.
+* A linear actuator with rack & pinion drive system, designed to be CNC-milled.
+* This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
+* Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
+* The rack and pinion has 4.444444 steps per mm with a 200 step motor
+* The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
 
 The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
@@ -23,9 +23,18 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
 # How to fabricate
 
-### Materials
+### BOM (Bill of materials)
 * 10mm Aluminium, minimum 130mm wide *(we use 6082 alloy)*
 * 12.7mm POM/Delrin/Acetal
+* 30mm 4mm wood screws
+* 16mm M4 bolts
+* M4 spacers
+* 4mm hex set-setscrews
+* Nema 17 or Nema23 size stepper motor
+* Stepper driver
+* End stop optional
+* Motor and end stop cable
+* Stepper driver controller *(Arduino, Replicape, LinuxCNC etc.)*
 
 
 ### Equipment
