@@ -8,6 +8,10 @@
 * The g-code will automatically be downloaded to your default browser downloads location
 * Use replicapes ocotprint web interface to load and start the g-code
 
+### Recommended EAGLE settings for a ø0.4mm milling bit
+* Export layer 1 traces as a monochrome image in 1269 dpi (decimal does not work). 
+* Use minimum clearance 20mil (0.4572 mm) to account for rounding errors due to dpi.  
+
 ### Notes
 
 * Works best in Chrome
