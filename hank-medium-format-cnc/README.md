@@ -21,12 +21,15 @@
 * Gluing up a stack of HDF plates for the bed and gantry works great
 * Finish milling the HDF stack on the bed of a larger CNC mill works great, but requires high level CNC milling skills
 * Pockets for self threading wood screws in the POM glide block and machinebed sandwich works great
+* The machine is able to mill 5mm thick steel
 
 **Design fails**
 * The contact sufrace of the glide blocks is too small for heavy loads. The combination of a slightly skew glide block with small contact surface are makes the POM blocks scratch the alu rails. This quickly became a problem on the X axis because the two glide blaocks carried the entire load of the gantry. *(big single block instead of two small have been successfully tested)*
 * It is difficult to make very long and precise rails with the chamfer rail system. *(our 900mm long X axes were a bit higher in the middle during chamfer millng)*
 * The two motors on the X axis should be more towards the front to counter balance the weight of the gantry, z axis, spindle and motors
 * Dust control on the rails and rack still need to be developed. *(early tests with felt pads seem promising)*
+* The glide blocks requires very carefull calibration
+* The pinion set screws are critical, there should be two set scrwes at 90degress on the pinions
 
 
 
@@ -174,3 +177,10 @@ Full tutorial on milling Chamfer rails [here](https://github.com/fellesverkstede
 
 ![Axis in use](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/assignments/week11/mech/3.jpg)
 *Fellesverkstedets Fab Academy 2017 students, Hanne Eriksen and Jakob Nilsson, building a ping pong installation with axes fabricated by Hank*
+
+
+
+### Testing performance
+
+![5mm steel](./img/dry-machining-5mm-steel.jpg)
+*Dry machining 5mm low carbon steel in one pass. Trochoidal milling at 50mm/s, 10% stepover. Using a 3 flute 6mm bit at 30.000RPM. Router is a lowcost Makita RT0700C*
