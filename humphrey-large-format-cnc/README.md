@@ -23,6 +23,7 @@ A gantry based cnc milling machine capable of cutting standard size sheet materi
 * touchscreen operation with tablet or laptop?
 * it shold look good!
 
+### Sketches
 
 ![Humphrey sketch](./img/casette-cnc-sketch.jpg)
 *sketch of casette concept, compact and suitable for meeting health and safety standards*
@@ -31,4 +32,24 @@ A gantry based cnc milling machine capable of cutting standard size sheet materi
 *Alex's sturdy full frame sketch*
 
 ![Upside down x axis sketch](./img/upside-down-x-axis-principle.jpg)
+*Jens's skexth of updside down axis principle*
 
+![](.img/upside-down-x-axis-refined-sketch.jpg)
+*Refined sketch*
+
+![](.img/upside-down-x-axis-refined-sketch-gantry.jpg)
+*Backside of gantry*
+
+![](.img/upside-down-x-axis-refined-sketch-gantry-ghosted.jpg)
+*Ghosted view showing alu and pom torsion box. Finger tabs and bolts not yet drawn*
+
+![](.img/upside-down-x-axis-refined-sketch-front.jpg)
+*Front view. Not the the Valchromat be dparts *(blue)* can be fabricated with regualar woodworking tools*
+
+![](.img/upside-down-x-axis-refined-sketch-parts.jpg)
+*Part overview*
+
+
+### Bill of materials *(BOM)*
+
+![](.img/BOM.jpg)
