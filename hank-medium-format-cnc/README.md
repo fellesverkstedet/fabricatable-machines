@@ -184,3 +184,9 @@ Full tutorial on milling Chamfer rails [here](https://github.com/fellesverkstede
 
 ![5mm steel](./img/dry-machining-5mm-steel.jpg)
 *Dry machining 5mm low carbon steel in one pass. Trochoidal milling at 50mm/s, 10% stepover. Using a 3 flute 6mm bit at 30.000RPM. Router is a lowcost Makita RT0700C*
+
+![ISP PCB](./img/hank-test-pcb-mill1.jpg)
+*Testing precision by milling circuit for ISP programmer. No-tune up between steel milling and this test. Circuit milled with a wood v-bit, not proper pcb bit*
+
+![ISP PCB2](./img/hank-test-pcb-mill2.jpg)
+*First test on the right was milled at too high speed (15mm/s with single flute V-Bit bit). The more succesfull test on the right was milled at 6mm/s.*
