@@ -20,6 +20,11 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
 [DXF 2D](./standard-chamferrails.dxf)
 
+**Projects using chamfer rail:**
+* [Hank - medium sized CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hank-medium-format-cnc/README.md)
+* [Ping pong arcade machine by Verket Fab Academy students](http://archive.fabacademy.org/2017/fablabverket/group-project.html)
+* [Mad max drawing machine by Barcelona Fab Academy students](http://archive.fabacademy.org/2017/fablabbcn/group/machine/group3/)
+* [Robot arm by Trivandrum Fab Academy Students](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/machine_building/team_1/index.html) [Test in 6mm acrylic](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/students/280/week9.html)
 
 # How to fabricate
 
