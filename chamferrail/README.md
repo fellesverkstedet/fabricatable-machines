@@ -61,7 +61,7 @@ Both aluminium and plastic requires very sharp milling bits
 ### Feeds and speeds
 **Alumnium**
 
-* 6mm Up-Cut single-flute: Feed rate 11mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
+* 6mm Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
 * 3mm Up-Cut single-flute: Feed rate 9mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.2mm, ramp angle 12deg
 * 2mm Up-Cut single-flute: Feed rate 8mm/s, plunge rate 5mm/s, Spindle RPM 18000, pass depth 0.7mm, ramp angle 12deg
 * 30mm V-bit double-flute: Feed rate 40mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 0.5mm, ramp angle 12deg
