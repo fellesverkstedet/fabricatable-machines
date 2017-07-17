@@ -9,8 +9,9 @@
 * Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
 * The rack and pinion has 4.444444 steps per mm with a 200 step motor
 * The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
+* Motor plate files are included for NEMA17, NEMA23 and 60mm sized motors.
 
-The files included here are for NEMA17, NEMA23 and 60mm sized motors.
+**NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples of state of the art glide block design.
 
 [Rhino source](./standard-chamferrails.3dm)
 
@@ -21,6 +22,9 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 [DXF 2D](./standard-chamferrails.dxf)
 
 **Projects using chamfer rail:**
+* [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
+* [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)
+* [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
 * [Hank - medium sized CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hank-medium-format-cnc/README.md)
 * [Ping pong arcade machine by Verket Fab Academy students](http://archive.fabacademy.org/2017/fablabverket/group-project.html)
 * [Mad max drawing machine by Barcelona Fab Academy students](http://archive.fabacademy.org/2017/fablabbcn/group/machine/group3/)
@@ -90,7 +94,7 @@ Always use climb millng direction.
 Manually drill holes in the corner of the aluminium sheet. Screw it down to the bed. Then do the screw pocket milling to 6mm depth with a 6mm bit, and the holes to full depth (10.6mm) with a 3mm bit,
 ![Chamfer rail 320mm axis](./img/04pockets-axis.JPG)
 
-Place a screw with a spacer in the holes. This will hold the axis down after it is has been cut out. We lasercut wooden spacers from high quality plywood. They can be safely milled into and wont dent the aluminium.
+Place a screw with a spacer in the holes. This will hold the axis down after it is has been cut out. We lasercut wooden washers from high quality plywood. They can be safely milled into and wont dent the aluminium. You can also use metal washers insde the screw pockets. This gives the strongest and most reialble fixturing.
 ![Chamfer rail 320mm axis](./img/05hold-down-with-ply-spacers.JPG)
 
 Mill the rack pockets 4.1mm depth with a 6mm bit.
