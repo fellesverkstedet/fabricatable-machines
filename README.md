@@ -7,8 +7,26 @@ Build more machines to increase production, build cheaper to increase availabili
 
 Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
+
+# [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
+*June 2017, by Jakob Nilsson*
+
+![Hector slide](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/presentation.png)
+
+* A portable CNC milling machine that fits in your luggage
+* The cutting head extends through the frame
+* All PCBs for machine control and motor drivers are self fabricated
+
+### Status
+
+**Currently being tested**
+
+Full documentation and source files ![here](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
+
+
+
 # [Hank - medium format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hank-medium-format-cnc)
-*March 2017*
+*March 2017, by Jens Dyvik and Alex Schaub*
 
 ![parts](./hank-medium-format-cnc/img/hank-part-overview.jpg)
 
@@ -22,6 +40,9 @@ Bellow you find a timeline of development. Press the download button in [root](h
 
 Further documentation in repo subfolder [README](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hank-medium-format-cnc/README.md)
 
+### Status
+
+**Currently being tested, we are concidering upgrading to Humphrey style upside down rails and glide blocks**
 
 [Rhino source](./hank-medium-format-cnc/hank-cnc-mill-3dm.zip)
 
@@ -32,7 +53,7 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 
 
 # [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
-*December 2016 / March 2017*
+*December 2016 / March 2017, by Jens Dyvik*
 
 ![Chamfer rail on cnc bed](./chamferrail/img/16detail.JPG)
 
@@ -43,8 +64,13 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 * Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
 * The rack and pinion has 4.444444 steps per mm with a 200 step motor
 * The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
+* Motor plate files are included for NEMA17, NEMA23 and 60mm sized motors.
 
-The files included here are for NEMA17, NEMA23 and 60mm sized motors.
+**NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples of state of the art glide block design.
+
+### Status
+
+**Currently in test and improvement cycle**
 
 [Rhino source](./chamferrail/standard-chamferrails.3dm)
 
@@ -59,7 +85,7 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
 
 # [Award Plotter - CNC mill variation](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/award-plotter)
-*December 2016*
+*December 2016, by Jens Dyvik*
 
 ![Machine cutting spanner for its own ER11 collet](./award-plotter/img/27-5mm-aluminium-cut-with-trochoidal-milling-strategy-at-5mm-pass-depth.JPG)
 
@@ -72,6 +98,10 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 * Able to produce high quality PCBs
 * Able to mill 5mm aluminium and 2mm steel
 
+### Status
+
+**No longer developed**
+
 [Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
 
 [3D Step](./award-plotter/320%20x%20160%20CNC%20mill%20version.stp)
@@ -81,7 +111,7 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
 
 # [Award Plotter](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/award-plotter)
-*October 2016*
+*October 2016, by Jens Dyvik, Graham Hayward, Hans Christian Skovholt and Erling Knudtsen*
 
 ![Trophy for the 2016 Oslo Innovation Award - printing diploma on stage](./award-plotter/img/00Award-winners-with-the-crown-prince-and-princess.JPG)
 
@@ -89,6 +119,10 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 * Trophy for the 2016 Oslo Innovation Award
 * Prints as many dipomas as the winner wants
 * Servo-based Z-axis
+
+### Status
+
+**No longer developed**
 
 [Rhino source](./award-plotter/award-plotter.3dm)
 
@@ -101,7 +135,7 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 
 
 # [Sheet maker 160mm x 160mm](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/sheet-maker)
-*October 2016*
+*October 2016, by Jens Dyvik*
 
 ![Sheet masker and tow pressed PLA sheets](./sheet-maker/img/15-jig-and-test-pressing-pla.jpg)
 
@@ -112,6 +146,10 @@ The files included here are for NEMA17, NEMA23 and 60mm sized motors.
 * Works ok with one sided heat from cooking plate
 * Can be improved with two-sided heat source. Maybe cartridge?
 * Needs improved geometry for faster mold release (cycle time)
+
+### Status
+
+**Currently being tested**
 
 [Rhino source](./sheet-maker/sheet-maker.3dm)
 
@@ -124,7 +162,7 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 
 # [TapeXY](https://github.com/jonnor/tapecore/tree/master/README.md#tapexy)
-*August 2016*
+*August 2016, by Jon Nordby*
 
 ![Fab Lab ISP](https://raw.githubusercontent.com/jonnor/tapecore/master/doc/tapexy-second.jpg)
 
@@ -138,7 +176,7 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 
 # [V-bird](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/simple-gantry)
-*August 2016*
+*August 2016, by Jens Dyvik and Jon Nordby*
 
 ![Vbird at Fab12 China](./simple-gantry/img/Vbird-at-fab12-china.JPG)
 
@@ -147,14 +185,16 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 * Assembled together into a CNC-mill
 * Validated the potential of fabricatable modular rack and pinion stages
 
-## TODO: Document
+### Status
+
+**No longer developed**
 
 
 
 
 
 # [Simple Gantry](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/simple-gantry)
-*July 2016*
+*July 2016, by Jens Dyvik and Jon Nordby*
 
 Our first complete XY platform designed to be fabricated in a Fablab.
 It can be used to build custom digital fabrication machines, from laserengraving to light-duty milling.
@@ -168,18 +208,18 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 
 ![Machine builder interface](./simple-gantry/img/machine%20builder%20interface%20-%20simple%20gantry%20640%20x%20320.png)
 
-## Status
+### Status
 
 **No longer developed**
 
-## Core principles
+### Core principles
 
 * Using a birdbeak bit to make V-profiles, both inner and outer.
 * Using technical low-friction plastics (UHWMPE/POM) motion/contact parts
 * Assembling and contining to machine the axes on the CNC itself
 
 
-## Tests
+### Tests
 
 Laserengraving
 
@@ -196,7 +236,7 @@ Laserengraving
 
 
 # [V carved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/CNC%20milled%20rack%20and%20pinion/V%20carved%20rack%20and%20pinion)
-*September 2015*
+*September 2015, by Jens Dyvik*
 
 ![V-Carved rack and pinion with V-wheels](./Module development/CNC milled rack and pinion/V carved rack and pinion/Pictures/V-carved rack and pinion9-assembled.JPG)
 
@@ -205,23 +245,28 @@ Laserengraving
 * Requires perfect positioning of pinion on motor shaft
 * Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
 
+### Status
 
+**No longer developed**
 
 
 
 # [Engraved rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/Engraved%20rack%20and%20pinion)
-*April 2015*
+*April 2015, by Jens Dyvik*
 
 ![Engraved rack and pinion with SLA printed pinion and v-wheels](./Module development/Engraved rack and pinion/IMG_7400.JPG)
 
 * Test of CNC mill v-bit engraved rack with SLA 3D printed pinions and V-wheels
 * Sla 3D prints tends to shrink over time
 
+### Status
+
+**No longer developed**
 
 
 
 # [Column rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/Column%20rack%20and%20pinion)
-*January 2015*
+*January 2015, by Jens Dyvik and Jon Nordby*
 
 ![Column rack and pinion](./Module%20development/Column%20rack%20and%20pinion/IMG_7230.JPG)
 * Test of making linear motion with a column and carriage
@@ -229,6 +274,9 @@ Laserengraving
 * Makes a weak structure, and a complicated acrriage to farbricate
 * Using a regular 60 degree V-bit to engraving rack was a success
 
+### Status
+
+**No longer developed**
 
 
 
