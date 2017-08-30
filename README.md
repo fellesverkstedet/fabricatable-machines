@@ -66,7 +66,7 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 * The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
 * Motor plate files are included for NEMA17, NEMA23 and 60mm sized motors.
 
-**NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples of state of the art glide block design.
+**NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an example of a state of the art glide block design.
 
 ### Status
 
@@ -168,6 +168,10 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 
 * A CoreXY-based motion platform using low-friction tape for plain bearings
 * Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
+
+### Status
+
+**Sleeping**
 
 [FreeCAD source](https://github.com/jonnor/tapecore/blob/master/tapexy.fcstd)
 
