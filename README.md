@@ -8,6 +8,16 @@ Build more machines to increase production, build cheaper to increase availabili
 Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
 
+
+# [Rack and Pinion for Fusion360](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail/Fusion360)
+*September 2017, by Jakob Nilsson*
+
+Now we have a rack and pinon generator for Autodesk Fusion360 as well!
+![Overview](chamferrail/Fusion360/img/overview.jpg)
+![Master Dimensions](chamferrail/Fusion360/img/master_dimensions.jpg)
+
+Fully parametric and jointed!
+
 # [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
 *June 2017, by Jakob Nilsson*
 
