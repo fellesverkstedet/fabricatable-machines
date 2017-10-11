@@ -1,8 +1,8 @@
 
 # Rack and Pinion for Fusion360 
 
-![Overview](./img/overview.jpg)
-![Overview](./img/overview_rolled.jpg)
+![Overview1](./img/rack_n_pinion.gif)
+![Overview2](./img/overview_rolled.jpg)
 
 Standard settings:
 * "Standard" 45 mm / revolution pinion 
