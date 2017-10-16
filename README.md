@@ -7,6 +7,22 @@ Build more machines to increase production, build cheaper to increase availabili
 
 Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
+# [Hattori - Small format CNC Mill and 3D printer](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc)
+*July-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
+
+![*CNC mill version on the left, 3D printer version on the right*](./img/hattori-small-format-cnc/Hattori_CNCmill_and_3Dprinter.jpg)
+*CNC mill version on the left, 3D printer version on the right*
+
+* A solid, small-format desktop CNC platform for CNC milling and 3D printing
+* Fabricatable with a CNC mill
+* Uses the [Chamfer Rail](../chamferrail) system
+* Current version has a 200mm x 300mm x 120mm work volume
+* Each axis is identical and can be made from from 130mm x 8mm aluminium flat bar or HDF sheet (reduced from 10mm) 
+* Hot-swappable build platform and end-effectors for quick job processing or transition between milling and 3D-printing
+
+### Status
+
+**Currently being tested**
 
 
 # [Rack and Pinion for Fusion360](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail/Fusion360)
@@ -17,6 +33,8 @@ Now we have a rack and pinon generator for Autodesk Fusion360 as well!
 ![Master Dimensions](chamferrail/Fusion360/img/master_dimensions.jpg)
 
 Fully parametric and jointed!
+
+
 
 # [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
 *June 2017, by Jakob Nilsson*
@@ -52,7 +70,7 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 
 ### Status
 
-**Currently being tested, we are concidering upgrading to Humphrey style upside down rails and glide blocks**
+**Obsolote. The test machine has been disassembled and axis parts re-used for new experiements**
 
 [Rhino source](./hank-medium-format-cnc/hank-cnc-mill-3dm.zip)
 

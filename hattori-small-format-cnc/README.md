@@ -1,5 +1,5 @@
-# Hattori - Small-Format CNC Mill and 3D printer
-*July-September 2017, Jens Dyvik and many collaborators*
+# Hattori - Small format CNC Mill and 3D printer
+*July-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
 
 ![*CNC mill version on the left, 3D printer version on the right*](./img/Hattori_CNCmill_and_3Dprinter.jpg)
 *CNC mill version on the left, 3D printer version on the right*
