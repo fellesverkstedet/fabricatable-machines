@@ -10,12 +10,12 @@ Bellow you find a timeline of development. Press the download button in [root](h
 # [Hattori - Small format CNC Mill and 3D printer](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc)
 *July-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
 
-![*CNC mill version on the left, 3D printer version on the right*](./img/hattori-small-format-cnc/Hattori_CNCmill_and_3Dprinter.jpg)
+![*CNC mill version on the left, 3D printer version on the right*](./img/hattori-small-format-cnc/img/Hattori_CNCmill_and_3Dprinter.jpg)
 *CNC mill version on the left, 3D printer version on the right*
 
 * A solid, small-format desktop CNC platform for CNC milling and 3D printing
 * Fabricatable with a CNC mill
-* Uses the [Chamfer Rail](../chamferrail) system
+* Uses the [Chamfer Rail](./chamferrail) system
 * Current version has a 200mm x 300mm x 120mm work volume
 * Each axis is identical and can be made from from 130mm x 8mm aluminium flat bar or HDF sheet (reduced from 10mm) 
 * Hot-swappable build platform and end-effectors for quick job processing or transition between milling and 3D-printing
