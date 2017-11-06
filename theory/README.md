@@ -40,7 +40,7 @@ Server farm metaphor: Many cheap machines outperform one mega fancy machine. Exa
 
 ### Guidelines
 * Digital means distributable and reproducible
-* Design for reproducibility: Don’t make it fancy, make it simple
+* Design for reproducibility: Donâ€™t make it fancy, make it simple
 * Optimize your bill of materials (BOM). Use parts that are cheap and easy to source
 * Sticking to standard fab lab inventory machines. Metaphor: Native browser compatibility vs custom plugins
 * Design for simple machine use, not fancy techniques. Avoid two-sided milling if possible. Tolerate badly configured machines. Accept runout, overhangs etc.
@@ -63,7 +63,7 @@ the good:
 the bad:
 * Slow
 * Unreliable
-* Inaccurate – (everything warps and parts require heavy post processing: filing, drilling, edge breaking etc.)
+* Inaccurate â€“ (everything warps and parts require heavy post processing: filing, drilling, edge breaking etc.)
 * Weak materials (even fiber reinforced filaments suffer from z axis delamination)
 * Only suitable for making small parts
 
@@ -101,7 +101,7 @@ the bad:
 
 
 ### Axis types
-* Tensioned wire - example: Thorbjørns hang printer
+* Tensioned wire - example: ThorbjÃ¸rns hang printer
 * Articulated joints - example: Thor DIY robot arm
 * Unsupported linear rail - example: most diy 3D printers, Nadyas MTM stages
 * Supported linear rail - example: most standad fab lab machines, the chamfer rail system
@@ -192,13 +192,14 @@ Different scorepoints:
 
 
 # The actual doing
-
+### Steps overview as of 2017-11:
+![Fabrication steps overview](./img/fabricatable_machines-steps_overview_2017.jpg)
 
 ### Sourcing part and materials:
-* Co-ops – buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
+* Co-ops â€“ buy together for discounts and efficiency *(if a fab lab stock necessary parts and materials, the threshold for people to start to building their own machines gets much lower)*
 * Buy from source - find factory webshops
 * Buy locally if the vendors don't suck
-* Consider registering your own company – gives purchases almost half price in many countries *(no VAT and reduced tax)*
+* Consider registering your own company â€“ gives purchases almost half price in many countries *(no VAT and reduced tax)*
 
 
 ### CNC mill machine preparation:
