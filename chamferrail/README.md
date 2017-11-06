@@ -11,15 +11,13 @@
 * All parts except pinion can be milled from a single cutsheet
 * If you fabricate the glide blocks and chamfer rail from the same material we reccomed that you apply [UHMW tape](https://www.amazon.co.uk/gp/product/B00DE2RUMC/) on the glide blocks 
 
-**NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples of state of the art glide block design.
+**NOTE:** The glide block design in this repo was updated on november 6th 2017. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples how we use the state of the art glide block design.
 
-[Rhino source](./standard-chamferrails.3dm)
-
-[STEP 3D](./standard-chamferrails.stp)
-
-[DXF 2D](./standard-chamferrails.dxf)
-
-[FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
+* [Rhino files](./standard-chamferrails.3dm)
+* [Grasshopper based paramteric axis generator](./chamfer-rail-generator.gh)
+* [STEP 3D](./standard-chamferrails.stp)
+* [DXF 2D](./standard-chamferrails.dxf)
+* [FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
 
 **Projects using chamfer rail:**
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
