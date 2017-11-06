@@ -6,20 +6,20 @@
 
 * A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 * This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
-* Can be reproduced using only standard CNC operations and bits (chamfering using a 90deg V-bit, or 3D mill with ball nose or end mill). 
-* The rack and pinion has 4.444444 steps per mm with a 200 step motor
-* The pitch is slightly smaller than v-bird rail, for higher resolution and torque.
-* Motor plate files are included for NEMA17, NEMA23 and 60mm sized motors.
+* Can be reproduced using only standard CNC operations and bits *(chamfering using a 90deg V-bit, or 3D mill with ball nose bit)*
+* The rack and pinion has 3.33333 steps per mm with a 200 step motor *(performance with with a nema23 motor is so good we have opted for larger circumference on the pinion. Makes for much faster rack fabrication with a larger bit, and stronger teeth when the rack is made form a weak material)*
+* All parts except pinion can be milled from a single cutsheet
+* If you fabricate the glide blocks and chamfer rail from the same material we reccomed that you apply [UHMW tape](https://www.amazon.co.uk/gp/product/B00DE2RUMC/) on the glide blocks 
 
 **NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples of state of the art glide block design.
 
 [Rhino source](./standard-chamferrails.3dm)
 
-[FreeCAD source, older design](./chamferrail.fcstd)
-
 [STEP 3D](./standard-chamferrails.stp)
 
 [DXF 2D](./standard-chamferrails.dxf)
+
+[FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
 
 **Projects using chamfer rail:**
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
@@ -33,33 +33,35 @@
 # How to fabricate
 
 ### BOM (Bill of materials)
-* 10mm Aluminium, minimum 130mm wide *(we use 6082 alloy)*
+* 8mm Aluminium, minimum 130mm wide *(we use 6082 alloy)* or for less hardcore machine 8mm HDF (Valchromat or other type)
 * 12.7mm POM/Delrin/Acetal
-* 30mm 4mm wood screws
-* 16mm M4 bolts
-* M4 spacers
-* 4mm hex set-setscrews
-* Nema 17 or Nema23 size stepper motor
+* M5 25mm bolts (6pcs for one axis plate)
+* M5 20mm bolts (10pcs for one axis sandwhich)
+* M5 16mm bolts (4pcs for one motor plate)
+* M5 nuts (4pcs if trapped nut teqnique is used for attaching motor plates)
+* M5 washeres (20pcs)
+* M5 hex set-setscrews (3 pcs for one pinion)
+* Nema 17 or Nema23 size stepper motor (we reccomend the [ihss57](https://www.aliexpress.com/store/product/NEMA-23-2N-m-283ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS57-36-20/1932111_32712473144.html?spm=2114.12010612.0.0.243238e3iJu6Vc) integrated cloed loop stepper from JMC)
 * Stepper driver
 * End stop optional
 * Motor and end stop cable
-* Stepper driver controller *(Arduino, Replicape, LinuxCNC etc.)*
+* Stepper driver controller (Arduino+GRBL, Replicape, LinuxCNC etc.)
 
 
-### Equipment
+### Tools needed
 * 3 axis CNC millng machine *(we use a Fab Lab standard ShopBot Alpha PRS 96-48, 4hp spindle)*
 * Screw driver
-* M4 tap *(or make triangle pockets for hex nuts to attach motor plate)
+* M5 tap
 
 
 ### Milling bits
-* 6mm Up-Cut single-flute *(for cutouts and clearing large pockets)*
-* 3mm Up-Cut single-flute *(for small inside holes)*
-* 2mm Up-Cut single-flute *(for milling the rack and pinon tooth geometry)*
+* 6mm Up-Cut single-flute *(for cutouts, clearing pinion pocket and rack geometry)*
+* 3mm Up-Cut single-flute *(for small inside holes and pinon tooth geometry)*
 * V-Bit 90deg large, at least 10mm diameter *(for milling the chamfer glide suraces)*
+* Alternatively you can use a 6mm ball nose bit to 3D mill the chamfer *(reccomeded for weaker machines)*
 * V-Bit 90deg small *(for chamfering the rack teeth, not critical)*
 
-Both aluminium and plastic requires very sharp milling bits
+Both aluminium and plastic requires very sharp milling bits.
 
 
 ### Feeds and speeds
@@ -67,7 +69,6 @@ Both aluminium and plastic requires very sharp milling bits
 
 * 6mm Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
 * 3mm Up-Cut single-flute: Feed rate 9mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.2mm, ramp angle 12deg
-* 2mm Up-Cut single-flute: Feed rate 8mm/s, plunge rate 5mm/s, Spindle RPM 18000, pass depth 0.7mm, ramp angle 12deg
 * 30mm V-bit double-flute: Feed rate 40mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 0.5mm, ramp angle 12deg
 * 6mm V-bit single-flute: Feed rate 11mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.0mm, ramp angle 12deg
 
@@ -79,7 +80,7 @@ No coolant required. The milling bit should be cold or luke warm after milling. 
 * 3mm Up-Cut single-flute: Feed rate 18mm/s, plunge rate 12mm/s, Spindle RPM 18000, pass depth 4mm, ramp angle 18deg
 
 
-### Fabrication time
+### Fabrication time *these are old values, expect faster fabrication with our new rack geoemtry suitable for 6mm bit*
 * 320m x 127mm aluminium axis including rack and rail geometry: **39minutes** + tool change and setup
 * Aluminum axis plate for 127mm wide rail: **32minutes** + tool change and setup
 * POM pinion, 4 x glide blocks, motor plate and adjustment wedge: **9minutes** + tool change and setup
@@ -89,7 +90,7 @@ No coolant required. The milling bit should be cold or luke warm after milling. 
 
 You can practise milling this in wood or other cheap material.
 
-Always use climb millng direction.
+Always use climb millng direction when milling aluminum or plastic.
 
 Manually drill holes in the corner of the aluminium sheet. Screw it down to the bed. Then do the screw pocket milling to 6mm depth with a 6mm bit, and the holes to full depth (10.6mm) with a 3mm bit,
 ![Chamfer rail 320mm axis](./img/04pockets-axis.JPG)
@@ -149,7 +150,7 @@ Place a screw with spacer and cutout the pinions. Notice how the precision surfa
 ![Chamfer rail 320mm axis](./img/22pinoin-cutout.JPG)
 
 
-### Glide block milling
+### Glide block milling NOTE: *this an old glide block design* check Hattori or Humprhrey design in the repo for examples of latest design*
 
 Make the screw pockets to 7mm depth and the wedge hole to full depth using 3mm bit.
 ![Chamfer rail 320mm axis](./img/17woodscrew-pocksets.JPG)
@@ -196,6 +197,7 @@ Fine tune the position of the motor plate. Make the teeth a bit tight on the rac
 # Happy axis making!
 
 *Jens Dyvik, march 2017*
+*Updated november 2017*
 
 
 
