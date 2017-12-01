@@ -22,6 +22,10 @@ Had to change some thicknesses to fit the parts on 2 pieces of stock valchromat,
 * Test screw slot grip
 * Tune dimensions for nut sizes and for screw lengths
 
+*Check*
+* Issues - enhancements
+* Can the Y range be increased so that we have acces to the work area above the gantry in resting position
+
 
 ![stock.JPG](/humphrito-medium-format-cnc/fusion360-in-work/img/stock.JPG "top 8mm bottom 16 mm valchromat")
 ![front.JPG](/humphrito-medium-format-cnc/fusion360-in-work/img/front.JPG "front view")
