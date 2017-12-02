@@ -7,6 +7,9 @@ See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machin
 
 ## Status:
 
+**Update:** [Joinery experiment](experiment.md)
+
+
 In development. Design files in Fusion360, step and Rhino format.
 
 The Fusion 360 files are further progressed and will be completed and milled shortly. 
