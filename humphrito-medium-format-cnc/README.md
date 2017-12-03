@@ -5,14 +5,33 @@ A medium sized gantry based CNC machine made to be able to machine an area the s
 
 See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machine.
 
-## Status:
-
-**Update:** [Joinery experiment](experiment.md)
-
+### Latest developments:
+[Fulltext Joinery experiment](experiment.md)
+![](img/experiment/screw_locked_finger_joint_test.jpg)
 
 In development. Design files in Fusion360, step and Rhino format.
 
 The Fusion 360 files are further progressed and will be completed and milled shortly. 
+
+### Design decisions
+
+#### Size and orientation
+* Workarea 1200x600 mm.
+* Should fit on top of a standard shipping pallet when mounted vertical.
+* Z is the normal axis from the spoilboard.
+* Y i vertical
+* X is horizontal
+
+![](img/humphrito-sketch-on-pallet.jpg)
+
+#### Materials
+* 12 mm POM plastic sheet for the pinions and glide blocks.
+* 16 mm Valchromat HDF sheet for the frame and ribs of the torsion box holding the spoilboard and some key parts of the gantry.
+* 8 mm Valchromat HDF sheet for all other parts, including rails with rack, these can be swapped to aluminium later.
+
+#### Fasteners
+* M5 hex head machine screws for rails
+* L50x5Ø 30mm Threaded wood screws for structure
 
 ### Notes on the Fusion model:
 *Must be fixed:*
@@ -33,6 +52,15 @@ The Fusion 360 files are further progressed and will be completed and milled sho
 *Check*
 * Issues - enhancements
 * Can the Y range be increased so that we have acces to the work area above the gantry in resting position
+
+## Safety and human interaction
+
+The machine has many moving parts. It should be mounted inside an enclosure so that no-one can reach in and get fingers trapped or touch a powered spindle. All power should be cut when the enclosure is open. Cutting the power means that the gantry wants to slide down to the bottom, making tool change awkvard. Therefore a spring could be used to keep the gantry somewhere where the spindle end is easy to reach. (A counter weight increases the mass that has to be accelerated.)
+
+**User safety rules:**
+* Mount the machine securely so that it can not fall over under operation.  
+* Needs to be safe when power is removed 
+* Connect emergency stop button so that it cuts all power in an easy to reach place
 
 ## Images
 
