@@ -6,6 +6,20 @@ A medium sized gantry based CNC machine made to be able to machine an area the s
 See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machine.
 
 ### Latest developments:
+
+### New model and more parts
+
+If you want to see it all together, use the latest step model.
+I could not export the assembly as f3d from fusion so I uploaded it in parts.
+
+![](img/overview.JPG "Full assembly")
+
+![](img/x-carriage.JPG "The X carriage")
+
+![](img/z-axis.JPG "The Z axis with spindle mounting holes and trapped nuts on the back.")
+
+
+### Joint experiment
 [Fulltext Joinery experiment](experiment.md)
 ![](img/experiment/screw_locked_finger_joint_test.jpg)
 
