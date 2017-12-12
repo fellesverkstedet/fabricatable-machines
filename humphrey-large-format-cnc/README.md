@@ -24,7 +24,7 @@
 * The one sided and easy milling of the chamfer rails lead to a small varaition in axis thickness. This gave a small amount of backlash in certain places on the X and Y axes (0.1-0.3mm)
 * It takes a long time to drill and tap all the holes in the assembly
 * Gluing up the machine bed sandwhich requires some skill and good preperation
-* The glide blocks warped a little (solved by split block design in latest generation [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
+* The glide blocks warped a little (solved by split block design in latest generation [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail))
 * Tuning the postion off the glide blocks and motor plates requires patience and determination
 * Aligning the split Y axes is tricky. (can be solved by milling helper tools, or helper geometry in bed sandwhich)
 
@@ -47,10 +47,10 @@
 * Document the wiring and autohome system with the Oriental motor drivers
 * Update BOM in general(and include link to cheap JMC ihss57 motor alterntive to the luxury Oriental motor option)
 * Update axes to latest rack and pinion geometry and glideblock design
-* Incorparate electroincs enclosure in design
+* Incorporate electronics enclosure in design
 * Incorporate e-chain mangagement in design
 * Upload leg design
-* Design helper tools and helper geometry in bed sandwhich for easier alignment of the split Y axes
+* Design helper-tools and helper-geometry in bed sandwhich for easier alignment of the split Y axes
 
 
 ### The making of
@@ -93,7 +93,7 @@ For feeds and speeds and how to make chamfer rail parts in aluminium see the [ch
 *Milling the backside of the pinoins. This layout got a little tight, but we managed*
 
 ![Comparision of pinions](./img/11b-humphrey-pininon-comparsion.jpg)
-*Comparision of pinions. Our regular nema23 size motor pinon on the left, the Oriental motor with 10mm shaft adapted pinion center and a standard ShopBot pinion on the right. Note that the ShopBot pinion has a circumference that is 2.5 times as large as on our design. This gives the shopbot smooth movement with traditional involute gears, but also necistates a gearbox with backlash. Our cnc friendly pinion design gives reasonably smooth movemnt, and needs no gearbox*
+*Comparision of pinions. Our regular nema23 size motor pinon on the left, the Oriental motor with 10mm shaft adapted pinion center and a standard ShopBot pinion on the right. Note that the ShopBot pinion has a circumference that is 2.5 times as large as on our design. This gives the shopbot smooth movement with traditional involute gears, but also necitates a gearbox with backlash. Our cnc friendly pinion design gives reasonably smooth movemnt, and needs no gearbox*
 
 ![Parts packed](./img/12humphrey-cnc-milled-parts-ready-for-check-in.jpg)
 *All the aluminium and plastic parts fit in one suitcase and a ski-sized package. The parts where actually checked in as ski-luggage from Oslo to Amsterdam for no extra cost*
