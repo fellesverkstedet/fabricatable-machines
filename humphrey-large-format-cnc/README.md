@@ -12,7 +12,7 @@
 *[Videos](https://vimeo.com/album/4881878) from the making of and [hello world first cuts](https://vimeo.com/album/4881878/video/225453047)
 
 **Design wins**
-* Spitting rails to make an axis a large or larger than the mother machine works with our chamfer rail system
+* Spitting rails to make an axis as large as or larger than the mother machine works with our chamfer rail system
 * The chamfer rail system performs decent with long axes
 * Placing the Y axes upside down underneath the machine beds works very well for gantry type machines
 * The torsion box based gantry became super stiff and quite light
@@ -21,11 +21,12 @@
 * We have managed to make a large CNC machine with high enough performance for small business and open workspaces!
 
 **Design fails**
-* The one sided and easy milling of the chamfer rails lead to a small varition in axis thickness. This gave a small amount of backlash in certain places on the X and Y axes (0.1-0.3mm)
-* It takes a long time to dill and tap all the holes in the assembly
+* The one sided and easy milling of the chamfer rails lead to a small varaition in axis thickness. This gave a small amount of backlash in certain places on the X and Y axes (0.1-0.3mm)
+* It takes a long time to drill and tap all the holes in the assembly
 * Gluing up the machine bed sandwhich requires some skill and good preperation
 * The glide blocks warped a little (solved by split block design in latest generation [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
 * Tuning the postion off the glide blocks and motor plates requires patience and determination
+* Aligning the split Y axes is tricky. (can be solved by milling helper tools, or helper geometry in bed sandwhich)
 
 ### Status
 
@@ -36,10 +37,20 @@
 * [3D assembly, Rhino source](./humphrey-3d-model.zip)
 * [3D assembly, STEP](./humphrey-3d-model-stp.zip)
 
-* [Cutsheet 10mm aluminium, Rhino source](./Humphrey-CNC_layout -10mm_aluminium.zip)
-* [Cutsheet 12.7mm POM, Rhino source](./Humphrey-CNC_layout -12.7mm_POM.3dm)
-* [Cutsheet 25mm Ertalyte-TX, Rhino source](./Humphrey-CNC_layout -25mm_Ertalyte_TX.3dm)
+* [Cutsheet 10mm aluminium, Rhino source](./Humphrey-CNC_layout%-10mm_aluminium.zip)
+* [Cutsheet 12.7mm POM, Rhino source](./Humphrey-CNC_layout%-12.7mm_POM.3dm)
+* [Cutsheet 25mm Ertalyte-TX, Rhino source](./Humphrey-CNC_layout%-25mm_Ertalyte_TX.3dm)
 
+### To do
+* Document final installation
+* Document safety front wall
+* Document the wiring and autohome system with the Oriental motor drivers
+* Update BOM in general(and include link to cheap JMC ihss57 motor alterntive to the luxury Oriental motor option)
+* Update axes to latest rack and pinion geometry and glideblock design
+* Incorparate electroincs enclosure in design
+* Incorporate e-chain mangagement in design
+* Upload leg design
+* Design helper tools and helper geometry in bed sandwhich for easier alignment of the split Y axes
 
 
 ### The making of
