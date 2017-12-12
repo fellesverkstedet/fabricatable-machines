@@ -12,20 +12,20 @@
 *[Videos](https://vimeo.com/album/4881878) from the making of and [hello world first cuts](https://vimeo.com/album/4881878/video/225453047)
 
 **Design wins**
-*Spitting rails to make an axis a large or larger than the mother machine works with our chamfer rail system
-*Th chamfer rail system performs well with long axes
-*Plcaing the Y axes upside down underneath the machine beds works very well for gantry type machines
-*The torsion box based gantry become super stiff and quite light
-*The machine was used to mill its own legs and physical end stops
-*Milling the parts in Oslo,Norway(at Fellesverkstedet Fab Lab) and assembling the machine and fabricating the bed locally in Amsterdam, the Netherlands (at Contact Amsterdam) worked well
-*We have managed to make a large CNC machine with high enough performance for small business and open workspaces!
+* Spitting rails to make an axis a large or larger than the mother machine works with our chamfer rail system
+* The chamfer rail system performs decent with long axes
+* Placing the Y axes upside down underneath the machine beds works very well for gantry type machines
+* The torsion box based gantry became super stiff and quite light
+* The machine was used to mill its own legs and physical end stops
+* Milling the parts in Oslo,Norway(at Fellesverkstedet Fab Lab) and assembling the machine and fabricating the bed locally in Amsterdam, the Netherlands (at Contact Amsterdam) worked well
+* We have managed to make a large CNC machine with high enough performance for small business and open workspaces!
 
 **Design fails**
-*The one sided and easy milling of the chamfer rails lead to a small varition in axis thickness. This gave a small amount of backlash in certain places on the X and Y axes (0.1-0.3mm)
-*It takes a long time to dill and tap all the holes in the assembly
-*Gluing up the machine bed sandwhich requires some skill and good preperation
-*The glide blocks warped a little (solved by split block design in latest generation [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
-*Tuning the postion off the glide blocks and motor plates requires patience and determination
+* The one sided and easy milling of the chamfer rails lead to a small varition in axis thickness. This gave a small amount of backlash in certain places on the X and Y axes (0.1-0.3mm)
+* It takes a long time to dill and tap all the holes in the assembly
+* Gluing up the machine bed sandwhich requires some skill and good preperation
+* The glide blocks warped a little (solved by split block design in latest generation [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail)
+* Tuning the postion off the glide blocks and motor plates requires patience and determination
 
 ### Status
 
@@ -33,12 +33,12 @@
 
 ### Source files
 
-[3D assembly, Rhino source](./humphrey-3d-model.zip)
-[3D assembly, STEP](./humphrey-3d-model-stp.zip)
+* [3D assembly, Rhino source](./humphrey-3d-model.zip)
+* [3D assembly, STEP](./humphrey-3d-model-stp.zip)
 
-[Cutsheet 10mm aluminium, Rhino source](./Humphrey-CNC_layout -10mm_aluminium.zip)
-[Cutsheet 12.7mm POM, Rhino source](./Humphrey-CNC_layout -12.7mm_POM.3dm)
-[Cutsheet 25mm Ertalyte-TX, Rhino source](./Humphrey-CNC_layout -25mm_Ertalyte_TX.3dm)
+* [Cutsheet 10mm aluminium, Rhino source](./Humphrey-CNC_layout -10mm_aluminium.zip)
+* [Cutsheet 12.7mm POM, Rhino source](./Humphrey-CNC_layout -12.7mm_POM.3dm)
+* [Cutsheet 25mm Ertalyte-TX, Rhino source](./Humphrey-CNC_layout -25mm_Ertalyte_TX.3dm)
 
 
 
@@ -48,11 +48,14 @@ For feeds and speeds and how to make chamfer rail parts in aluminium see the [ch
 ![Cutsheet](./img/03humphrey-aluminium-cutsheet.jpg)
 *All the aluminum parts fit inside a 2m x 1m sheet. We used 10mm material, but the gantry became so stiff that we have shifted to 8mm as standard*
 
+
 ![Milling of the rack teeth](./img/04humphrey-milling-rack-teeth.jpg)
 *Milling of the rack teeth with a 2mm bit. The cnc friendly rack and pinion design on the chamfer rail has given such good performance, our new standard is now optimized for milling with a 6mm bit*
 
+
 ![The Y axes are complete](./img/05humphrey-y-axes.jpg)
 *The Y axes are complete. Note that each axis has been split into two pieces in order to make a long enough axis (2.9m) with a work area of 2.5m. We oriented the parts in opposing directions when we milled them, which gave offset erros after homing. We reccomed milling them with all the rack sides pointing in the same direction. The cutsheet has been updated with this orientation*
+
 
 ![Close-up of the rack teeth](./img/06humphrey-nested-axe-on-machine-bed.jpg)
 *Close-up of the rack teeth. Note the small chamfer to reduce wear on the POM pinion*
