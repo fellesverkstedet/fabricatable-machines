@@ -7,8 +7,27 @@ Build more machines to increase production, build cheaper to increase availabili
 
 Bellow you find a timeline of development. Press the download button in [root](https://github.com/fellesverkstedet/fabricatable-machines) to get all files. Study the theory of machine building and our design decisions [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory).
 
+# [Humphrey - Large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc)
+*June-July 2017, by Jens Dyvik and Alex Schaub*
+
+![Humphrey CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/01humphrey-first-cuts.jpg)
+*Humphrey with first cuting job, a mega rack and pinion*
+
+![The two pice rail](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/02humphrey-detail-of-joined-updside-down-rails.jpg)
+*The two pice rail on the Y axis is what made it possible to make an equally large machine as the shopbot mother. Mounting them upside down protects from dust and makes the machine super compact*
+
+*A gantry based cnc milling machine capable of cutting standard size sheet material (2440mm x 1220mm).
+*Based upon the [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail) system.
+*[Videos](https://vimeo.com/album/4881878) from the making of and [hello world first cuts](https://vimeo.com/album/4881878/video/225453047)
+
+
+### Status
+**In operation at Contact Amsterdam**
+
+
+
 # [Hattori - Small format CNC Mill and 3D printer](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc)
-*July-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
+*June-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
 
 ![*CNC mill version on the left, 3D printer version on the right*](./hattori-small-format-cnc/img/Hattori_CNCmill_and_3Dprinter.jpg)
 *CNC mill version on the left, 3D printer version on the right*
@@ -21,7 +40,6 @@ Bellow you find a timeline of development. Press the download button in [root](h
 * Hot-swappable build platform and end-effectors for quick job processing or transition between milling and 3D-printing
 
 ### Status
-
 **Currently being tested**
 
 
@@ -46,7 +64,6 @@ Fully parametric and jointed!
 * All PCBs for machine control and motor drivers are self fabricated
 
 ### Status
-
 **Currently being tested**
 
 Full documentation and source files ![here](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
@@ -69,7 +86,6 @@ Full documentation and source files ![here](http://archive.fabacademy.org/archiv
 Further documentation in repo subfolder [README](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hank-medium-format-cnc/README.md)
 
 ### Status
-
 **Obsolote. The test machine has been disassembled and axis parts re-used for new experiements**
 
 [Rhino source](./hank-medium-format-cnc/hank-cnc-mill-3dm.zip)
@@ -97,7 +113,6 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 **NOTE:** The glide block design in this repo is undergoing improvements. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an example of a state of the art glide block design.
 
 ### Status
-
 **Currently in test and improvement cycle**
 
 [Rhino source](./chamferrail/standard-chamferrails.3dm)
@@ -127,7 +142,6 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 * Able to mill 5mm aluminium and 2mm steel
 
 ### Status
-
 **No longer developed**
 
 [Rhino source](./award-plotter/320%20x%20160%20CNC%20mill%20version.3dm)
@@ -149,7 +163,6 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 * Servo-based Z-axis
 
 ### Status
-
 **No longer developed**
 
 [Rhino source](./award-plotter/award-plotter.3dm)
@@ -176,7 +189,6 @@ Further documentation in repo subfolder [README](https://github.com/fellesverkst
 * Needs improved geometry for faster mold release (cycle time)
 
 ### Status
-
 **Currently being tested**
 
 [Rhino source](./sheet-maker/sheet-maker.3dm)
@@ -198,7 +210,6 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 * Designed for low-force end-effectors, easy reproduction using lasercutter + FDM 3d-printer.
 
 ### Status
-
 **Sleeping**
 
 [FreeCAD source](https://github.com/jonnor/tapecore/blob/master/tapexy.fcstd)
@@ -218,7 +229,6 @@ Goal: A fabricatable system for making shopBot sized sheets from waste in a fab 
 * Validated the potential of fabricatable modular rack and pinion stages
 
 ### Status
-
 **No longer developed**
 
 
@@ -241,7 +251,6 @@ Initial prototype is for a gantry-based vinyl/laser-cutter. Video from fabricati
 ![Machine builder interface](./simple-gantry/img/machine%20builder%20interface%20-%20simple%20gantry%20640%20x%20320.png)
 
 ### Status
-
 **No longer developed**
 
 ### Core principles
@@ -278,7 +287,6 @@ Laserengraving
 * Has been replaced by the much simpler roller rack and pinion system, used on the [Chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines#chamfer-rail)
 
 ### Status
-
 **No longer developed**
 
 
@@ -292,7 +300,6 @@ Laserengraving
 * Sla 3D prints tends to shrink over time
 
 ### Status
-
 **No longer developed**
 
 
@@ -307,7 +314,6 @@ Laserengraving
 * Using a regular 60 degree V-bit to engraving rack was a success
 
 ### Status
-
 **No longer developed**
 
 
