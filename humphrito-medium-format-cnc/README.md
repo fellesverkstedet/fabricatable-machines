@@ -1,11 +1,27 @@
+# Humphrito - Medium format CNC mill
+*December 2017, by Jakob Nilsson and Jens Dyvik*
 
-# Humphrito Medium format CNC 
+A medium sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1220x2400mm plate.
 
-A medium sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1200x2500mm plate.
+See also [Humphrey](/https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for a full size machine.
 
-See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machine.
+### Status
+**First version is currently being fabricated**
+
+### Latest developments:
+
+**New model and more parts**
+If you want to see it all together, use the latest step model.
+I could not export the assembly as f3d from fusion so I uploaded it in parts.
+
+![](img/overview.JPG "Full assembly")
+
+![](img/x-carriage.JPG "The X carriage")
+
+![](img/z-axis.JPG "The Z axis with spindle mounting holes and trapped nuts on the back.")
 
 ### BOM
+*(bill of materials)*
 
 **Materials**
 * 2x sheets of 8mm high quality MDF *(we like [Valchromat](http://www.valchromat.pt/distribuidores.aspx?menuid=338) and [Spanolux](https://www.spanolux.com/en/solutions/black-mdf))*
@@ -28,12 +44,12 @@ See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machin
 
 **Motors and end-effectors**
 * 4x [JMC iHSS57-36-20](http://www.jmc-motor.com/products.php?cid=248&id=118) closed loop stepper motors - [Aliexpress link](https://www.aliexpress.com/store/product/NEMA-23-2N-m-283ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS57-36-20/1932111_32712473144.html?spm=2114.12010612.0.0.652b10ccMEcLrM)
-* 1x 800watt air cooled spindle - [Aliexpress link](https://www.aliexpress.com/store/product/Square-0-8KW-Air-cooled-Spindle-motor-ER11-24000rpm-400Hz-ENGRAVING-MILLING-GRIND-6-5A/907217_32665487318.html?spm=2114.12010612.0.0.54a41c927Yz5F6)
-* 1x 1500watt VFD (variable frquency drive) - [Aliexpress link](https://www.aliexpress.com/store/product/Variable-Frequency-Drive-VFD-Inverter-1-5KW-2HP-220V-7A/907217_695200328.html?spm=2114.12010612.0.0.3b24f1efj9cBe2)
-* *Alternative spindle for high speed milling with small bits - [Aliexpress link](https://www.aliexpress.com/item/250w-40000rpm-ER8-Brushless-spindle-motor-MACH3-driver-DC36V-for-CNC-drilling-milling-carving-kits/32757165445.html?spm=a2g0s.13010208.99999999.271.VrrmR0) (untested)* 
+* 1x [800watt air cooled spindle](https://www.aliexpress.com/store/product/Square-0-8KW-Air-cooled-Spindle-motor-ER11-24000rpm-400Hz-ENGRAVING-MILLING-GRIND-6-5A/907217_32665487318.html?spm=2114.12010612.0.0.54a41c927Yz5F6)
+* 1x [1500watt VFD](https://www.aliexpress.com/store/product/Variable-Frequency-Drive-VFD-Inverter-1-5KW-2HP-220V-7A/907217_695200328.html?spm=2114.12010612.0.0.3b24f1efj9cBe2)*(variable frequency drive)*
+* *[Alternative spindle for high speed milling with small bits](https://www.aliexpress.com/item/250w-40000rpm-ER8-Brushless-spindle-motor-MACH3-driver-DC36V-for-CNC-drilling-milling-carving-kits/32757165445.html?spm=a2g0s.13010208.99999999.271.VrrmR0) (untested)* 
 
 **Sensors**
-* 3x Proximity switches - [Aliexpress link](https://www.aliexpress.com/store/product/10PCS-inductive-proximity-sensor-SN04-N-three-wire-NPN-normally-open-Waterproof/907217_1939241212.html?spm=2114.12010612.0.0.43e2fadfhDJbTT)*(10 pack)*
+* 3x [Proximity switches](https://www.aliexpress.com/store/product/10PCS-inductive-proximity-sensor-SN04-N-three-wire-NPN-normally-open-Waterproof/907217_1939241212.html?spm=2114.12010612.0.0.43e2fadfhDJbTT)*(10 pack)*
 
 **Cables**
 * Six lead wire for wiring motors and proximity switches to control board *(step, direction, enable, alarm, ground and proximty switch signal)*
@@ -53,25 +69,14 @@ See also (Humphrey)[/humphrey-large-format-cnc/README.md] for a full size machin
 **Control board**
 * 1x [Arduino UNO](https://store.arduino.cc/genuino-uno-rev3)
 * 1x [GRBL screw terminal shield](https://www.tindie.com/products/18robots/grbl-compatible-cnc-shield-for-arduino/) *(untested)*
-* *Alternative control board is the awesome [Replicape](https://www.thing-printer.com/product/replicape/) ,removes the need for a dedicated computer to run the machine*
+* *Alternative control board is the awesome [Replicape](https://www.thing-printer.com/product/replicape/), removes the need for a dedicated computer to run the machine*
 
 **Miscellaneous**
 * 1x Power supply (we recommended 36v for the iHSS57 steppers)
 * 2x E-chains or peasant style flexible strip of plastic
 
 
-### Latest developments:
 
-### New model and more parts
-
-If you want to see it all together, use the latest step model.
-I could not export the assembly as f3d from fusion so I uploaded it in parts.
-
-![](img/overview.JPG "Full assembly")
-
-![](img/x-carriage.JPG "The X carriage")
-
-![](img/z-axis.JPG "The Z axis with spindle mounting holes and trapped nuts on the back.")
 
 
 ### Joint experiment
