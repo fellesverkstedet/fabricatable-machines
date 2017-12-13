@@ -7,9 +7,9 @@
 ![The two pice rail](./img/02humphrey-detail-of-joined-updside-down-rails.jpg)
 *The two pice rail on the Y axis is what made it possible to make an equally large machine as the shopbot mother. Mounting them upside down protects from dust and makes the machine super compact*
 
-*A gantry based cnc milling machine capable of cutting standard size sheet material (2440mm x 1220mm).
-*Based upon the [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail) system.
-*[Videos](https://vimeo.com/album/4881878) from the making of and [hello world first cuts](https://vimeo.com/album/4881878/video/225453047)
+* A gantry based cnc milling machine capable of cutting standard size sheet material (2440mm x 1220mm).
+* Based upon the [chamfer rail](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail) system.
+* [Videos](https://vimeo.com/album/4881878) from the making of and [hello world first cuts](https://vimeo.com/album/4881878/video/225453047)
 
 **Design wins**
 * Spitting rails to make an axis as large as or larger than the mother machine works with our chamfer rail system
