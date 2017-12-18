@@ -3,7 +3,7 @@
 
 A medium sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1220x2400mm plate.
 
-See also [Humphrey](/https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for a full size machine.
+See also [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for a full size machine.
 
 ### Status
 **First version is currently being fabricated**
