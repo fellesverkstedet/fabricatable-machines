@@ -1,16 +1,36 @@
 # Humphrito - Medium format CNC mill
 *December 2017, by Jakob Nilsson and Jens Dyvik*
 
-A medium sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1220x2400mm plate.
+A **medium** sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1220x2400mm plate.
 
-See also [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for a full size machine.
+**Machine sizes reference table:**
+* [Hattori](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)  - Small size
+* [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrito-medium-format-cnc/README.md) - Medium size (this machine)
+* [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) - Large size
 
-### Status
-**First version is currently being fabricated**
 
 ### Latest developments:
 
-**New model and more parts**
+**First version kit has been fabricated, not yet assembled**
+
+#### Video of the parts in the kit
+
+[![YOUTUBE LINK](img/youtube_link.png)](https://www.youtube.com/watch?v=Xjq5qzolGBw&t=1s)
+
+
+#### Manufacturing pictures
+
+
+![](img/foot.jpg "gantry foot")
+![](img/gantry_back.jpg)
+![](img/gantry_iso.jpg)
+![](img/gantry_side_on_y_axis.jpg)
+![](img/milling_16mm.jpg)
+![](img/pinions.jpg)
+![](img/torsion_box_wo_back.jpg)
+![](img/electronics.jpg "Electronics")
+
+#### Model files
 If you want to see it all together, use the latest step model.
 I could not export the assembly as f3d from fusion so I uploaded it in parts.
 
