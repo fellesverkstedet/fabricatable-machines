@@ -54,13 +54,17 @@ I could not export the assembly as f3d from fusion so I uploaded it in parts.
 * Some type of transparent plastic and wood sheets to build a safety enclosure
 
 **Fasteners**
-* One type wood screw
-* Other type of wood screw
-* One length of M5 machine screw
-* Other length of M5 machine screw
-* M5 nuts
-* M5 washers
-* Wood glue
+* 100 of 5x50 mm wood screw with 30 mm threads. Not fully threaded. For Gantry and Torison box.
+* 50 of 5x25 mm wood screws, fully threaded. For X and Y Rails.
+* 32 of M5x16 machine screws. For attaching motors and motor plates.
+* 8 of M5x20 machine screws. For attaching the Z-rail. (Could be changed to wood screws.)
+* 24 of M5x25 machine screws. For attaching the glide blocks.
+* 12 of M5x10 set screws. For attaching the pinions. (12 mm is OK.)
+* 50 of M5 nuts
+* 60 of big M5 washers (max 15 mm outer diameter)
+* 8 of M6x35 machine screws. For attaching the spindle.
+* 8 of M6 nuts.
+* Wood glue for the gantry and torsion box.
 
 **Motors and end-effectors**
 * 4x [JMC iHSS57-36-20](http://www.jmc-motor.com/products.php?cid=248&id=118) closed loop stepper motors - [Aliexpress link](https://www.aliexpress.com/store/product/NEMA-23-2N-m-283ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS57-36-20/1932111_32712473144.html?spm=2114.12010612.0.0.652b10ccMEcLrM)
