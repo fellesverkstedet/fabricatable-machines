@@ -136,7 +136,7 @@ The machine has many moving parts. It should be mounted inside an enclosure so t
 * Needs to be safe when power is removed 
 * Connect emergency stop button so that it cuts all power in an easy to reach place
 
-## Images
+## Concept Images
 
 ![stock.JPG](img/stock.JPG "top 8mm bottom 16 mm valchromat")
 ![front.JPG](img/front.JPG "front view")
