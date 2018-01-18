@@ -31,20 +31,40 @@ A **medium** sized gantry based CNC machine made to be able to machine an area t
 ![](img/electronics.jpg "Electronics")
 
 #### Model files
-If you want to see it all together, use the latest step model.
-I could not export the assembly as f3d from fusion so I uploaded it in parts.
+##### Fusion 360
+To view the .f3z fusion360 archive files: 
+Open Fusion360. In the data panel, choose a project and upload the file with the "Upload button".
+The files can now be opened as any other of your projects from your data panel
 
+Alternatively: Use these links to view online
+http://a360.co/2BbxOAL - Base and gantry 
+http://a360.co/2DqlCCk - X-carriage, Z axis and POM parts 
+http://a360.co/2Bdz5r2 - Full assembly with spindle and motors, also fully jointed
+
+##### Other 3D software
+Use the .step files
+
+#### Whats in the files
+
+![](img/assy_and_cut_sheet1.JPG "The base and gantry assembled and as cutsheets")
+Please note that you need to add extra clearance to the 8 mm holes to make assembly easier. I reccomend doing that in CAM. 
+The padding for all the holes in the 16 mm sheet is controled by a parameter called "finger_pad16" and the model updates if you tune it.
+
+![](img/assy_and_cut_sheet2.JPG "The X carriage and the Z axis assembled and as cutsheet. Also shows all the POM parts.")
+As you can see there is lots left of the 8 mm sheet that I made the Z-axis and X-carriage from. I made all the glide blocks and pinions from a 12 mm POM sheet of a peculiar shape. 
 ![](img/overview.JPG "Full assembly")
 
+Full assembly with spindle and motors, also fully jointed
 ![](img/x-carriage.JPG "The X carriage")
-
+The X carriage
 ![](img/z-axis.JPG "The Z axis with spindle mounting holes and trapped nuts on the back.")
+The Z axis with spindle mounting holes and trapped nuts on the back.
 
 ### BOM
 *(bill of materials)*
 
 **Materials**
-* 2x sheets of 8mm high quality MDF *(we like [Valchromat](http://www.valchromat.pt/distribuidores.aspx?menuid=338) and [Spanolux](https://www.spanolux.com/en/solutions/black-mdf))*
+* 1.2x sheets of 8mm high quality MDF *(we like [Valchromat](http://www.valchromat.pt/distribuidores.aspx?menuid=338) and [Spanolux](https://www.spanolux.com/en/solutions/black-mdf))*
 * 1x sheets of 16mm high quality MDF (can be replaced by more 8mm if you tweak the design)
 * *Alternatively additional 8mm aluminum if you want make high quality long lasting chamfer rails. We recommend that you make the rails from HDF first, then replace them with aluminum versions if you meet performance limitations*
 * 12mm POM/Delrin for milling pinions *(pinions can also be 3D printed, but precision and performance will be reduced)*
@@ -99,57 +119,13 @@ I could not export the assembly as f3d from fusion so I uploaded it in parts.
 * 1x Power supply (we recommended 36v for the iHSS57 steppers)
 * 2x E-chains or peasant style flexible strip of plastic
 
-
-
-
-
-### Joint experiment
-[Fulltext Joinery experiment](experiment.md)
+### Screw-and-glue joints for Valchromat
+I have deviced a way of removing the need for clamps when glueing milled valchromat parts together. The parts are slotted with the CNC so that you can screw them together from the side without them instantly cracking. Milled parts can be assembled using finger joints and then gently screwed together with a cordless electric screwdriver on a low torque setting. This screw joint will fail if you try to torque it very hard so only use it to provide a good clamping force for the glue to set.
 ![](img/experiment/screw_locked_finger_joint_test.jpg)
+[Read more about my screw-and-glue experiments](experiment.md)
 
-In development. Design files in Fusion360, step and Rhino format.
-
-The Fusion 360 files are further progressed and will be completed and milled shortly. 
-
-### Design decisions
-
-#### Size and orientation
-* Workarea 1200x600 mm.
-* Should fit on top of a standard shipping pallet when mounted vertical.
-* Z is the normal axis from the spoilboard.
-* Y i vertical
-* X is horizontal
-
-![](img/humphrito-sketch-on-pallet.jpg)
-
-#### Materials
-* 12 mm POM plastic sheet for the pinions and glide blocks.
-* 16 mm Valchromat HDF sheet for the frame and ribs of the torsion box holding the spoilboard and some key parts of the gantry.
-* 8 mm Valchromat HDF sheet for all other parts, including rails with rack, these can be swapped to aluminium later.
-
-#### Fasteners
-* M5 hex head machine screws for rails
-* L50x5Ø 30mm Threaded wood screws for structure
-
-### Notes on the Fusion model:
-*Must be fixed:*
-* Holes for easy glueing of spoilboard
-* Fingers for aligning the tosion box to the y-axis and backing
-* 8mm X and Z axis plates
-* 8mm All Motor plates, sketches exist
-* 8mm z-axis rail, spacer and backing   ((perhaps not enought 8mm material)
-* Add perforation and guide for changing to alu later
-* Add rack teeth (will lag so I do this last)
-* All POM pieces (glide blocks and pinions) Sketches exists
-* CAM
-
-*Before milling*
-* Test screw slot grip
-* Tune dimensions for nut sizes and for screw lengths
-
-*Check*
-* Issues - enhancements
-* Can the Y range be increased so that we have acces to the work area above the gantry in resting position
+## Future improvements
+* Can the Y range be increased so that we have acces to the work area above the gantry in resting position?
 
 ## Safety and human interaction
 
