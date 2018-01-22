@@ -1,7 +1,8 @@
 # Humphrito - Medium format CNC mill
 *December 2017, by Jakob Nilsson and Jens Dyvik*
 
-A **medium** sized gantry based CNC machine made to be able to machine an area the size of a quarter of a standard 1220x2400mm plate.
+A **medium** sized gantry based CNC machine with a work volume of 63x610x1220mm. 
+The work volume is choosen to be the area of a quarter of a standard 1220x2400mm plywood/MDF plate stock and to be able to mill standard  50 mm XPS insulation foam blocks.
 
 **Machine sizes reference table:**
 * [Hattori](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)  - Small size
