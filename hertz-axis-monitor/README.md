@@ -1,9 +1,13 @@
 # Hertz - Axis monitoring board
 
+Hertz is a machine state sensing board that monitors the state of an axis on a fabricatable machine. The goal is to detect if components are not well tuned or worn, and communicate this to the machine operator. There are also all kinds of cool other use cases that pops up when an axis has a vibration sensor with smarts.
+
 ![first sketch](./img/hertz-board-concept-sketch1.jpg)
 *First sketch of board. Visualized with KiCAD*
 
-Hertz is a machine state sensing board that monitors the state of an axis on a fabricatable machine. The goal is to have detect if components are not well tuned or worn, and communicate thes to the machine operator. There are also all kinds of cool other usse cases that pops up when an axis ha a vibration sensor with smarts.
+### Status
+
+*Currently researching, not yet designed or tested*
 
 ### Core functionality
 
@@ -21,7 +25,7 @@ Hertz is a machine state sensing board that monitors the state of an axis on a f
 ### Potential challenges
 
 * Might be sensitive to stepper orientation (solve with two piezos at 90deg?)
-* Calibration may require the same levl of skill and patience as needed to tune an axis (so it should ideally work out of the box)
+* Calibration may require the same level of skill and patience as needed to tune an axis (so it should ideally work out of the box)
 * Beep may be annoying
 
 
@@ -36,7 +40,7 @@ Hertz is a machine state sensing board that monitors the state of an axis on a f
 
 ### How to contribute with the development off this
 * FFT analysis seems to be the thing. Which chip and firmware is most suited to the task?
-* Listening to the frequency of the step commands from the controller can help make intelligent analysis. For instacne when step frequencies are steady, low vibration is expected. When the rise an fall sharply a higher degree of vibration is expected. Direction change with a delayed shocked could for instance indicte a pinion too far from the rack. Are there any libraries for this? Like FreqCount
+* Listening to the frequency of the step commands from the controller can help make intelligent analysis. For instance when step frequencies are steady, low vibration is expected. When the rise an fall sharply a higher degree of vibration is expected. Direction change with a delayed shocked could for instance indicte a pinion too far from the rack. Are there any libraries for this? Like FreqCount
 * Which SMD components to use? Which resistor values etc.? Focus on Seeds open parts library?
 * What is the best kind of cable and connector? Is it cool or stupid to have signal and power through the same cable?
 * What kind of protection smarts do we need?
