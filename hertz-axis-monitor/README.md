@@ -18,7 +18,7 @@ Hertz is a machine state sensing board that monitors the state of an axis on a f
 * Input: piezo (vibration), mode pin (on, on with speaker, on for milling feedback, homing/verification mode and off), potmeter (manual calibration), step and dir, power, gnd
 * Output: piezo (beeps), led (blinks), pwm for signal to mothership (same as led?), homing signal, step and dir (passthrough), alarm (passthrough), 36v (passthrough)
 * Doubles as a quick connect shield for jmc motors
-* When combined with the hrbl shield for Arduino UNO and ready made cables it can make a plug and play solution for the electronic side of machine building
+* When combined with the [Hrbl shield](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hrbl-shield) for Arduino UNO and ready made cables it can make a plug and play solution for the electronic side of machine building
 * The design should be optimized for DIY CNC milling of the PCB, but also made commercially available as a ready made
 
 

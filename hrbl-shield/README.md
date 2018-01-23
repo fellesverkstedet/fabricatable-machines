@@ -1,6 +1,6 @@
 # Hrbl - Grbl shield for integrated motors
 
-A shield aiming to simply connecting motors, limit switches, safety and spindle to an ardunio board. Tailor made for fabricatable CNC milling machine needs. Potentially great to combine with Hertz - axis monitoring board. Optimized for ihss57 integrated closed loop stepper motors.
+A shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board. Tailor made for fabricatable CNC milling machine needs. Potentially great to combine with [Hertz - axis monitoring board](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hertz-axis-monitor). Optimized for ihss57 integrated closed loop stepper motors.
 
 ![top](./img/hrbl-shield-v0_1-top.jpg)
 *The goal is give the same super easy connection as when working with RC servos on a breakout shield*
