@@ -18,15 +18,32 @@ A shield aiming to simply connecting motors, limit switches, safety and spindle 
 * Spindle control with start and speed control. Uses optocoupler for safe handling of 24v start signal
 * Connection for safety contactor helper connection. Needs to be jumped if not used. Contactor helper need to be normally open
 
+### BOM
+
+*coming soon*
+
+### Dependables
+
+* Arduino UNO
+* JMC ihss57 clsed loop integrated stepper motors
+* 8 pole cable with 0.5mm2 wires
+* Power supply and cables
+* Control computer or pi
+* Limit switch to place next to motor (optional)
+* Spindle and VFD (optinal)
+
 ![bottom](./img/hrbl-shield-v0_1-bottom.jpg)
-*Power is routed in the bottom layer. The board is deigned to be easy to CNC mill from a 2 sided FR1 board*
+*Power is routed in the bottom layer. The board is deaigned to be easy to CNC mill from a 2 sided FR1 board*
 
 ![pcb](./img/hrbl-shield-v0_1-pcb.jpg)
 *Current PCB layout*
 
+![jmc motor](./img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
+*The shield is deign to work with these ihss57 integrated motors. One cable in each end, thats it!.*
+
 ### To do
 
-* Find optinmmal smd connectors and update routing
+* Find optimal smd connectors and update routing
 * Refine vias and connector type for 36v power
 * Find optimal smd optcupler and update routing
 * Inspect for errors and unfabricatable geometry
