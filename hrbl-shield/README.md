@@ -2,6 +2,9 @@
 
 A shield aiming to simply connecting motors, limit switches, safety and spindle to an ardunio board. Tailor made for fabricatable CNC milling machine needs. Potentially great to combine with Hertz - axis monitoring board. Optimized for ihss57 integrated closed loop stepper motors.
 
+![top](./img/hrbl-shield-v0_1-top.jpg)
+*The goal is give the same super easy connection as when working with RC servos on a breakout shield*
+
 ### Status
 
 *First version almost ready for testing. Needs quality control and final component decisions*
@@ -15,13 +18,10 @@ A shield aiming to simply connecting motors, limit switches, safety and spindle 
 * Spindle control with start and speed control. Uses optocoupler for safe handling of 24v start signal
 * Connection for safety contactor helper connection. Needs to be jumped if not used. Contactor helper need to be normally open
 
-![top](.img/hrbl-shield-v0_1-top.jpg)
-*The goal is give the same super connection as when working with RC servos on a breakout shield*
-
-![bottom](.img/hrbl-shield-v0_1-bottom.jpg)
+![bottom](./img/hrbl-shield-v0_1-bottom.jpg)
 *Power is routed in the bottom layer. The board is deigned to be easy to CNC mill from a 2 sided FR1 board*
 
-![pcb](.img/.jpg)
+![pcb](./img/hrbl-shield-v0_1-pcb.jpg)
 *Current PCB layout*
 
 ### To do
