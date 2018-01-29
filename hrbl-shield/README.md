@@ -45,6 +45,6 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 
 * Find optimal smd connectors and update routing
 * Refine vias and connector type for 36v power
-* Find optimal smd optcupler and update routing
+* Find optimal smd optcupler and update routing (for 4N25 or 4N35 use 390 Ohm resistor)
 * Inspect for errors and unfabricatable geometry
 * CNC mill, solder and test the board
