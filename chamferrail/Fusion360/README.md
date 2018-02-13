@@ -1,6 +1,15 @@
 
 # Rack and Pinion for Fusion360 
 
+## 13.02.2018 UPDATE: Latest Fusion version 
+![Overview1](./img/With_cutter.JPG)
+
+I have added a body that can be used to cut clean channels with rack teeth in the rails. The slot is wide enought so that the pinon does not interfear with the teeth while tuning the glide blocks.
+
+I have removed the air gap between the pinion and the tip of the rack teeth. Note that this only changes the pinion geometry. 
+
+## Previous versions:
+
 ![Overview1](./img/rack_n_pinion.gif)
 ![Overview2](./img/overview_rolled.jpg)
 
