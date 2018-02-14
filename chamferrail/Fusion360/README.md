@@ -1,12 +1,16 @@
 
 # Rack and Pinion for Fusion360 
 
-## 13.02.2018 UPDATE: Latest Fusion version 
-![Overview1](./img/With_cutter.JPG)
+## 14.02.2018 UPDATE: Fully parametric version of the rail
+![Overview1](./img/parametric_rail_and_rack.jpg)
+![](./img/parameters.jpg)
 
-I have added a body that can be used to cut clean channels with rack teeth in the rails. The slot is wide enought so that the pinon does not interfear with the teeth while tuning the glide blocks.
+Fully parametric model of the rail with rack for fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
+![](./img/pinion_positons.JPG)
 
+The rack clearance is wide enought so that the pinion clears the rack teeth when adjusting the glide blocks.
 I have removed the air gap between the pinion and the tip of the rack teeth. Note that this only changes the pinion geometry. 
+
 
 ## Previous versions:
 
