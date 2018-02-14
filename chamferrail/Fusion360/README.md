@@ -1,7 +1,7 @@
 
 # Rack and Pinion for Fusion360 
 
-## 14.02.2018 UPDATE: Fully parametric version of the rail
+## 14.02.2018 UPDATE: Parametric version of the rail
 ![Overview1](./img/parametric_rail_and_rack.jpg)
 ![](./img/parameters.jpg)
 
