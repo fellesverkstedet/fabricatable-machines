@@ -5,6 +5,8 @@
 Parametric model of a axis fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
 
 Designed for 8 mm thick stock for all parts.
+TODO:
+* Design and test a viper system
 
 ![Overview1](./img/iso_with_axis_plate.JPG)
 ![Overview1](./img/axis.gif)
