@@ -9,7 +9,7 @@ Parametric model of a axis fusion360. Drop it into your model and break the link
 ![](./img/motor_plate.gif)
 
 The rack clearance is wide enought so that the pinion clears the rack teeth when adjusting the glide blocks.
-
+![](./img/parameters.jpg)
 
 ## Previous versions:
 
