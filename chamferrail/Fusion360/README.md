@@ -1,15 +1,14 @@
 
 # Rack and Pinion for Fusion360 
 
-## 14.02.2018 UPDATE: Parametric version of the rail
-![Overview1](./img/parametric_rail_and_rack.jpg)
-![](./img/parameters.jpg)
+## 18.02.2018 Update: Parametric version of the axis
+Parametric model of a axis fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
 
-Fully parametric model of the rail with rack for fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
-![](./img/pinion_positons.JPG)
+![Overview1](./img/iso_with_axis_plate.JPG)
+![Overview1](./img/axis.gif)
+![](./img/motor_plate.gif)
 
 The rack clearance is wide enought so that the pinion clears the rack teeth when adjusting the glide blocks.
-I have removed the air gap between the pinion and the tip of the rack teeth. Note that this only changes the pinion geometry. 
 
 
 ## Previous versions:
