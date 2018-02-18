@@ -11,6 +11,8 @@ Designed for 8 mm thick stock for all parts.
 ![](./img/motor_plate.gif)
 
 The rack clearance is wide enought so that the pinion clears the rack teeth when adjusting the glide blocks.
+
+All parts are parametric but I have favourited the most used and most stable parameters, shown below:
 ![](./img/parameters.jpg)
 
 
