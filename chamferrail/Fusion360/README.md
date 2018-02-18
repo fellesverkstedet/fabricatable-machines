@@ -4,6 +4,8 @@
 ## 18.02.2018 Update: Parametric version of the axis
 Parametric model of a axis fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
 
+Designed for 8 mm thick stock for all parts.
+
 ![Overview1](./img/iso_with_axis_plate.JPG)
 ![Overview1](./img/axis.gif)
 ![](./img/motor_plate.gif)
