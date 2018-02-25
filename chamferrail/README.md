@@ -65,10 +65,11 @@ Both aluminium and plastic requires very sharp milling bits.
 ### Feeds and speeds
 **Alumnium**
 
-* 6mm Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
-* 3mm Up-Cut single-flute: Feed rate 9mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.2mm, ramp angle 12deg
+* 6mm Endmill Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
+* 3mm Endmill Up-Cut single-flute: Feed rate 9mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.2mm, ramp angle 12deg
 * 30mm V-bit double-flute: Feed rate 40mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 0.5mm, ramp angle 12deg
 * 6mm V-bit single-flute: Feed rate 11mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.0mm, ramp angle 12deg
+* 6mm Ball nose Up-Cut single-flute: Feed rate 30mm/s, plunge rate 20mm/s, Spindle RPM 18000, stepover 0.36mm, start from the bottom
 
 No coolant required. The milling bit should be cold or luke warm after milling. It is important that your mililng machines is well tuned and set up. Follow instructions on the [theory](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/theory) page. Finish milling can be done at full depth (set pass depth to a bit more than material thickness). Leave about 0.1mm offset for the finish pass to clean up.
 
@@ -90,15 +91,19 @@ You can practise milling this in wood or other cheap material.
 
 Always use climb millng direction when milling aluminum or plastic.
 
+
+#### The holes
 Manually drill holes in the corner of the aluminium sheet. Screw it down to the bed. Then do the screw pocket milling to 6mm depth with a 6mm bit, and the holes to full depth (10.6mm) with a 3mm bit,
 ![Chamfer rail 320mm axis](./img/04pockets-axis.JPG)
 
 Place a screw with a spacer in the holes. This will hold the axis down after it is has been cut out. We lasercut wooden washers from high quality plywood. They can be safely milled into and wont dent the aluminium. You can also use metal washers insde the screw pockets. This gives the strongest and most reialble fixturing.
 ![Chamfer rail 320mm axis](./img/05hold-down-with-ply-spacers.JPG)
 
+#### The rack pocket
 Mill the rack pockets 4.1mm depth with a 6mm bit.
 ![Chamfer rail 320mm axis](./img/06rack-pocket.JPG)
 
+#### Cutout
 Cut the axis out. We usually add 0.6mm, making the cut depth 10.6mm. If you mill multiple axes make sure there is enough space between for the v-bit to only work one side at a time. We should have added some more distance.
 ![Chamfer rail 320mm axis](./img/07cutout.JPG)
 
@@ -107,23 +112,25 @@ Remove the rest of alumium plate. This makes the chamfer and rack milling safer 
 
 ![Chamfer rail 320mm axis](./img/09ready-for-chamfer.JPG)
 
-
+#### The chamfered edge
 Zero the large V-Bit on the bed instead of the top of the material. Then move the Z axis up 10mm and set custom Z zero. This way you are not depending on perfect material thickness.
 ![Chamfer rail 320mm axis](./img/10zeroing-on-bed.JPG)
 
-Chamfer the sides to 4mm depth. Be carefull of your offset. If your curve is offet with 2mm, you need mill 6mm deep for 4mm chamfer. If you bit is not flat underneath, you will need to compensate this too. The chamfered surface will be the precision rail geometry. You can make a second final finish pass a little slower for max smoothness. If you machine is weak you can 3D mill these surfaces with an endmill or ballnose instead of using a large v-bit.
+Chamfer the sides to 4mm depth. Be carefull of your offset. If your curve is offet with 2mm, you need mill 6mm deep for 4mm chamfer. If you bit is not flat underneath, you will need to compensate this too. The chamfered surface will be the precision rail geometry. You can make a second final finish pass a little slower for max smoothness. If you machine is weak you can 3D mill these surfaces with an endmill (up-down milling) or ballnose (starting from the bottom) instead of the v-bit.
 ![Chamfer rail 320mm axis](./img/12chamfered-sideview.JPG)
 
+#### The rack teeth
 Rough mill the rack geometry to 4mm depth, with a 2mm bit and 0.1mm offset. Make sure you are using climb milling direction.
 ![Chamfer rail 320mm axis](./img/13rack-milling.JPG)
 
-Finish mill the rack geometry to 4mm depth, with a 2mm bit. Make sure you are using climb milling direction. You can use 4mm pass depth. If your machine is weak, make multiple finsih passes.
+Finish mill the rack geometry to 4mm depth, with a 2mm bit. Make sure you are using climb milling direction. You can use 3.9mm vertical pass depth for maximum surface finish. If your machine is weak, make multiple finsih passes.
 ![Chamfer rail 320mm axis](./img/13rack-milling.JPG)
 
 
 you can add a 0.3mm chamfer to reduce pinion wear.
 ![Chamfer rail 320mm axis](./img/14rack-chamfered.JPG)
 
+#### Axis finished
 Unscrew and enjoy
 ![Chamfer rail 320mm axis](./img/15finsihed-axis.JPG)
 
