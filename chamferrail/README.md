@@ -21,6 +21,7 @@
 * [STEP 3D](./standard-chamferrails.stp)
 * [DXF 2D](./standard-chamferrails.dxf)
 * [FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
+* <a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf">PDF Drawing with part names</a>
 
 
 **Fusion360 version Updated 07.03.2018**
@@ -28,7 +29,8 @@
 Parametric model of a complete chamfer rail axis in Fusion360 including CAM for all parts, a tool library and joints.
 This version introduces a new viper system to protect the glide surfaces from dirt.
 
-<img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300"><img src="./img/rack_n_pinion.gif" width="300">
+<img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300">
+<img src="./img/rack_n_pinion.gif" width="300"><a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf"><img src="./img/drawing.JPG" width="300"></a>
 
 Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, motor spacer plate, glide blocks from Ertalyte TX and a 12,6 mm POM pinion.
 
@@ -40,7 +42,7 @@ Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, moto
 * [Fusion360 Chamferrails with vipers and CAM. 60 mm per revolution 6mm bit for rack](./fusion360_axis_with_CAM.f3d)
 * [Fusion360 Chamferrails STEP version, same as above](./fusion360_axis_with_CAM.step)
 * [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
-
+* <a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf">PDF Drawing with part names</a>
 
 **Projects using chamfer rail:**
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
