@@ -1,26 +1,26 @@
 
 # Rack and Pinion for Fusion360 
 
-## 18.02.2018 Update: Parametric version of the axis
-Parametric model of a axis fusion360. Drop it into your model and break the link and it will be added to your timeline. All parameters will be imported.
+## 07.03.2018 Update: Parametric version of the axis
+Parametric model of a complete Chmfer rail axis in fusion360 including CAM for all parts, a tool library and joints.
+This version introduces a new viper system to protect the glide surfaces from dirt.
 
 Designed for 8 mm thick stock for all parts.
 
 ![Overview1](./img/iso_with_axis_plate.JPG)
+![Overview1](./img/CAM.JPG)
 ![Overview1](./img/axis.gif)
-![](./img/motor_plate.gif)
+
+(Older gif but you get the idea)
 
 The rack clearance is wide enought so that the pinion clears the rack teeth when adjusting the glide blocks.
 
 All parts are parametric but I have favourited the most used and most stable parameters, shown below:
 ![](./img/parameters.jpg)
 
+![Overview1](./img/rack_n_pinion.gif)
 
-### TODO:
-* Design and test a viper system
-* Mill a test axis and try with Nema 24 motors
-
-## Previous versions:
+## Old updates for Fusion360:
 
 ![Overview1](./img/rack_n_pinion.gif)
 ![Overview2](./img/overview_rolled.jpg)
