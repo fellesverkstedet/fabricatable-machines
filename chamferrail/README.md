@@ -4,6 +4,9 @@
 
 ![Chamfer rail 320mm axis](./img/33back-side.JPG)
 
+![Overview1](./img/axis.gif)
+
+
 * A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 * This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
 * Can be reproduced using only standard CNC operations and bits *(chamfering using a 90deg V-bit, or 3D mill with ball nose bit)*
@@ -18,6 +21,26 @@
 * [STEP 3D](./standard-chamferrails.stp)
 * [DXF 2D](./standard-chamferrails.dxf)
 * [FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
+
+
+**Fusion360 version Updated 07.03.2018**
+
+Parametric model of a complete chamfer rail axis in Fusion360 including CAM for all parts, a tool library and joints.
+This version introduces a new viper system to protect the glide surfaces from dirt.
+
+<img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300"><img src="./img/rack_n_pinion.gif" width="300">
+
+Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, motor spacer plate, glide blocks from Ertalyte TX and a 12,6 mm POM pinion.
+
+<img src="./img/exploded.jpg" height="600"><img src="./img/assembled.jpg" height="600">
+
+<img src="./img/glide_blocks_vipers.jpg" width="300"><img src="./img/tapping_pinion.jpg" width="300">
+
+
+* [Fusion360 Chamferrails with vipers and CAM. 60 mm per revolution 6mm bit for rack](./fusion360_axis_with_CAM.f3d)
+* [Fusion360 Chamferrails STEP version, same as above](./fusion360_axis_with_CAM.step)
+* [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
+
 
 **Projects using chamfer rail:**
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
@@ -77,7 +100,7 @@ No coolant required. The milling bit should be cold or luke warm after milling. 
 
 * 6mm Up-Cut single-flute: Feed rate 22mm/s, plunge rate 15mm/s, Spindle RPM 18000, pass depth 8mm, ramp angle 18deg
 * 3mm Up-Cut single-flute: Feed rate 18mm/s, plunge rate 12mm/s, Spindle RPM 18000, pass depth 4mm, ramp angle 18deg
-
+* 6mm Ball nose Up-Cut single-flute: Feed rate 30mm/s, plunge rate 20mm/s, Spindle RPM 18000, stepover 0.36mm, start from the bottom
 
 ### Fabrication time *these are old values, expect faster fabrication with our new rack geoemtry suitable for 6mm bit*
 * 320m x 127mm aluminium axis including rack and rail geometry: **39minutes** + tool change and setup
