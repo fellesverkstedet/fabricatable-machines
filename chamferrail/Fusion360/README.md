@@ -2,10 +2,10 @@
 # Rack and Pinion for Fusion360 
 
 ## 07.03.2018 Update: Parametric version of the axis
-Parametric model of a complete Chmfer rail axis in fusion360 including CAM for all parts, a tool library and joints.
+Parametric model of a complete chamfer rail axis in Fusion360 including CAM for all parts, a tool library and joints.
 This version introduces a new viper system to protect the glide surfaces from dirt.
 
-Designed for 8 mm thick stock for all parts.
+Designed for 8 mm thick stock for, aluminium rail with rack, axis plate, motor plate, motor spacer plate, glide blocks from Ertalyte TX and a 12,6 mm POM pinion.
 
 ![Overview1](./img/iso_with_axis_plate.JPG)
 ![Overview1](./img/CAM.JPG)
