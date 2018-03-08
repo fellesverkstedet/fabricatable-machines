@@ -32,6 +32,8 @@ This version introduces a new viper system to protect the glide surfaces from di
 <img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300">
 <img src="./img/rack_n_pinion.gif" width="300"><a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf"><img src="./img/drawing.JPG" width="300"></a>
 
+[Video of assembly](./img/Fusion360_axis-assembly_video.avi)
+
 Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, motor spacer plate, glide blocks from Ertalyte TX and a 12,6 mm POM pinion.
 
 <img src="./img/exploded.jpg" height="600"><img src="./img/assembled.jpg" height="600">
