@@ -75,8 +75,8 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 * Some type of transparent plastic and wood sheets to build a safety enclosure
 
 **Fasteners**
-* 100 of 5x50 mm wood screw with 30 mm threads. Not fully threaded. For Gantry and Torison box.
-* 50 of 5x25 mm wood screws, fully threaded. For X and Y Rails.
+* 100 of 5x50 mm wood screw with 30 mm threads. Not fully threaded. For Gantry and Torison box. [link](https://www.clasohlson.com/no/Forsenket-treskrue-EFZ/Pr409566028)
+* 50 of 5x25 mm wood screws, fully threaded. For X and Y Rails. [link](https://www.clasohlson.com/no/Forsenket-treskrue-EFZ/Pr409566028)
 * 32 of M5x16 machine screws. For attaching motors and motor plates.
 * 8 of M5x20 machine screws. For attaching the Z-rail. (Could be changed to wood screws.)
 * 24 of M5x25 machine screws. For attaching the glide blocks.
