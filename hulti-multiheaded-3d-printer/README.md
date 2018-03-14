@@ -1,2 +1,2 @@
-# Hulti - first take on 3D printing with scale
+# Hulti - first take on large-format 3D printing
 
