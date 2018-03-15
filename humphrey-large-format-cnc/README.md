@@ -34,6 +34,7 @@
 
 ### Source files
 
+* [3D assembly, Fusion360 - In work](http://a360.co/2GzDQQc)
 * [3D assembly, Rhino source](./humphrey-3d-model.zip)
 * [3D assembly, STEP](./humphrey-3d-model-stp.zip)
 
