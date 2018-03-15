@@ -12,7 +12,7 @@ My favourite configuration was a 5 mm diameter wood screw, 3 mm "core" diameter,
 The "core" fits prefectly in the 3mm milled slot and gives maximum pressure on the threads without uncessecary friction. 
 I think the joint strenght can be further increased by making the slot deeper than the outer diamater of the wood screw but this weakens the valchromat. I recommend 1 mm extra but Slot depth = screw diameter is the minimum.
 The length of the slot should be longer than the screw to avoid uncecessary splitting forces from the tip pressing into the end of the slot. 
-The hole in the "top" part that you first stick the screw through should be a tight clearance hole for the thread to align well the slot. The hole should be positioned so that the screw thread does not press into the bottom surface/wall of the milled slot, this is to keep the screw from going of course. 
+The hole in the "top" part that you first stick the screw through should be a tight clearance hole (Ø5mm) for the thread to align well the slot. The hole should be positioned so that the screw thread does not press into the bottom surface/wall of the milled slot, this is to keep the screw from going of course. 
 
 The failure mode is always that the valchromat splits open and then the thread is dug away. Stopping the splitting is key, this keeps the pressure on the threads and prevents them from digging out. The finger joints holds the valchromat together and the unthreaded neck for the woodscrew helps a lots by not introducing any splitting forces from the top of the valchromat.
 
