@@ -1,0 +1,19 @@
+
+In GRBL config.h
+
+// By default on a 328p(Uno), Grbl combines the variable spindle PWM and the enable into one pin to help
+// preserve I/O pins. For certain setups, these may need to be separate pins. This configure option uses
+// the spindle direction pin(D13) as a separate spindle enable pin along with spindle speed PWM on pin D11.
+// NOTE: This configure option only works with VARIABLE_SPINDLE enabled and a 328p processor (Uno).
+// NOTE: Without a direction pin, M4 will not have a pin output to indicate a difference with M3. 
+// NOTE: BEWARE! The Arduino bootloader toggles the D13 pin when it powers up. If you flash Grbl with
+// a programmer (you can use a spare Arduino as "Arduino as ISP". Search the web on how to wire this.),
+// this D13 LED toggling should go away. We haven't tested this though. Please report how it goes!
+ #define USE_SPINDLE_DIR_AS_ENABLE_PIN // Default disabled. Uncomment to enable.
+
+on VFD
+
+Reprogram it so that it listens to exterenal PWM (refernce voltage)
+That FOR = Run forwards
+
+Check Data points= 1,2,44,70
