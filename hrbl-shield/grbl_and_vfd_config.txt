@@ -17,3 +17,10 @@ Reprogram it so that it listens to exterenal PWM (refernce voltage)
 That FOR = Run forwards
 
 Check Data points= 1,2,44,70
+
+Program what the spindle speed is
+
+
+Steppers at 3200 steps per rev (001100 på dip switch)
+rack gives 60 mm travel per rev
+= 53.333333333 steps per mm 
