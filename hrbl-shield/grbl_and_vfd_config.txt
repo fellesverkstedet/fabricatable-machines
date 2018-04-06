@@ -24,3 +24,10 @@ Program what the spindle speed is
 Steppers at 3200 steps per rev (001100 på dip switch)
 rack gives 60 mm travel per rev
 = 53.333333333 steps per mm 
+
+
+pd001= 1
+pd002 = 1
+pd070 = 1
+pd007 = clear
+jumper leftmost (VI to center)
