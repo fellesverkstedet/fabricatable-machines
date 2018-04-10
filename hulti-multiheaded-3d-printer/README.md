@@ -48,6 +48,7 @@ Fusion is that the CAM-module is included, so you can move really fast from your
 ###  Layout 
 
 I like to start out with blocking everything out and getting a feel for the design, before I turn to details. I am aiming for a footprint about 1600 x 1000 mm. This should allow print sizes around 1400 x 600. 
+![blocking it out](img/CAD/cad1_blocking.png)
 
 ## CAM
 
