@@ -38,7 +38,7 @@ Trough discussions with Jens we came up with this really nice concept using the 
 [Ormerod](https://www.3dhubs.com/3d-printers/ormerod). 3D printing does not require as much stiffness and strength as a CNC, so hopefully this will suffice for our system. The nice thing about this design is that the extruders are able to cross each other. 
 This allows for much more finesse when we start optimizing our tool paths.  I let the drawings do the explaining here. 
 
-So, now that we´ve sorted out our design, let´s start blocking everything out in CAD.
+So, now that we´ve established the design parameters it´s time to start blocking out the design in CAD. 
 
 ## CAD 
 
@@ -46,15 +46,19 @@ I do realize that much of the CAD-work would probably be easier and faster in Rh
 
 ###  Layout 
 
-I like to start out with blocking everything out and getting a feel for the design, before I turn to details. I am aiming for a footprint about 1600 x 1000 mm.  As for the height of the machine, I´ve decided to start of with a 600mm axes. This should allow print sizes around 1400 x 600 x 500. Fairly big. I also want to fabricate a solid surface as a fundament for the printer.  Im thinking to link everything using good old fasion joinery techniques. More about this later. 
-
-TODO: Change this. It´s a bit smaller. 
+I like to start out with blocking everything out and getting a feel for the design, before I turn to details. I am aiming for a footprint about 1600 x 700 mm.  As for the height of the machine, I´ve decided to start of with 600mm axes. This should allow print sizes around 1400 x 400 x 300. Fairly big. I also want to fabricate a solid surface as a fundament for the printer.  I´m thinking to link everything using good old fasion joinery techniques. More about this later. 
 
 ![blocking it out](img/CAD/cad1_blocking.png)
 
-Now that we´ve sorted that out it´s time to put things together.  To generate the rack&pinion setup, we will be using Jakob Nilssons parameterized [generator](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail).  
+Now that we´ve sorted that out it´s time to put things together.  To generate the rack&pinion setup, we will be using Jakob Nilssons parameterized [generator](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail).  I have to admit that I´m initially quite sceptical about the glide block situation. 3D printing requires fine precision, but the inital testing done by Fellesverkstedet and friends shows promising results so I guess it´s worth a try. Glide blocks without bearings is used in many applications in industry and after some examination of a old lathe at the local makerspace, my scepticism has been put to ease. I guess it´s just a matter of the correct amount of oil! Anyhow, let´s keep on going. 
 
+I use the generator to make 3 rails, one 1600mm and two 600mm. 
 
+![racks](img/CAD/cad2_racks.png)
+
+Next up I´ve decided to redraw my own glideblocks. It really just comes down to that I want to have full control of the parameters of the glideblock. I´ll be adding my own joints and mounting holes. This might be a small waste of time, but to keep the model clean, I feel it´s worth the hazzle.  
+
+![glide_blocks](img/CAD/cad3_glideBlocks.png)
 
 ## CAM
 
