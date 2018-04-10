@@ -42,14 +42,19 @@ So, now that we´ve sorted out our design, let´s start blocking everything out 
 
 ## CAD 
 
-I do realize that much of the CAD-work would probably be easier and faster in Rhino, but in the spirit of keeping everything opensource I wanted to do everything in Autodesk´s Fusion360, which is free for all hobbyists and makers. A really nice thing about 
-Fusion is that the CAM-module is included, so you can move really fast from your CAD-design to excecution! 
+I do realize that much of the CAD-work would probably be easier and faster in Rhino, but in the spirit of keeping everything open-source I wanted to do everything in Autodesk´s Fusion360, which is free for all hobbyists and makers. A really nice thing about Fusion is that the CAM-module is included, so you can move really fast from your CAD-design to excecution.
 
 ###  Layout 
 
-I like to start out with blocking everything out and getting a feel for the design, before I turn to details. I am aiming for a footprint about 1600 x 1000 mm. This should allow print sizes around 1400 x 600. 
+I like to start out with blocking everything out and getting a feel for the design, before I turn to details. I am aiming for a footprint about 1600 x 1000 mm.  As for the height of the machine, I´ve decided to start of with a 600mm axes. This should allow print sizes around 1400 x 600 x 500. Fairly big. I also want to fabricate a solid surface as a fundament for the printer.  Im thinking to link everything using good old fasion joinery techniques. More about this later. 
+
+TODO: Change this. It´s a bit smaller. 
 
 ![blocking it out](img/CAD/cad1_blocking.png)
+
+Now that we´ve sorted that out it´s time to put things together.  To generate the rack&pinion setup, we will be using Jakob Nilssons parameterized [generator](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail).  
+
+
 
 ## CAM
 
