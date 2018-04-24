@@ -28,9 +28,11 @@ I explored several diferent options here.
 
 [SCARA robost](https://en.wikipedia.org/wiki/SCARA)
 An interesting concept, but in terms of DIY, expensive and complex. 
+
 [Industrial robots, 6-DOF](http://new.abb.com/products/robotics/industrial-robots/irb-6700)
 These are nice, and can in many ways do what I require, but the thing about industrial robots is that they are expensive!  HVL has a really nice robotics lab 
 with several robots available, but we seak out to create a tool for people.  
+
 [3-axis gantry](https://www.youtube.com/watch?v=SuOIWfGuqVk)
 Here you can se a paralell processing system. The work area of each extruder is divided into sections. 
 
