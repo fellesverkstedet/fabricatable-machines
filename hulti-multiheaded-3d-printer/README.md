@@ -82,17 +82,17 @@ Now it´s time to talk about joinery. An important aspect to consider in all mac
 This feels good. At this points I did a quick test of my design. I added a piece lilly to give it some weight. 
 
 
-![dancing flower](cad5_danceOfTheLilly.gif)
+![dancing flower](img/CAD/cad5_danceOfTheLilly.gif)
 
 
 The rest of the machine is basically just repeating these steps. I use joints to lock everything into place and I add screwholes all over the place to lock everything together. 
 
-![tower torsion](cad6_twr_torsion1.png)
-![tower torsion2](cad7_twr_torsion2.png)
+![tower torsion](img/CAD/cad6_twr_torsion1.png)
+![tower torsion2](img/CAD/cad7_twr_torsion2.png)
 
 Adding the yaxis. Same principle goes. Draw a gliding block and fit the pre generated rack. 
 
-![yaxis](cad8_yaxis.png)
+![yaxis](img/CAD/cad8_yaxis.png)
 
 TODO: Finish up CAD and mill this beast! 
 
