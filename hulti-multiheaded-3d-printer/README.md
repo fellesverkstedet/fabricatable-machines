@@ -85,16 +85,27 @@ This feels good. At this points I did a quick test of my design. I added a piece
 ![dancing flower](img/CAD/cad5_danceOfTheLilly.gif)
 
 
-The rest of the machine is basically just repeating these steps. I use joints to lock everything into place and I add screwholes all over the place to lock everything together. 
+The rest of the machine is basically just repeating these steps. I use joints to lock everything into place and I add plenty of screwholes all over the place to lock everything together. 
 
-![tower torsion](img/CAD/cad6_twr_torsion1.png)
 ![tower torsion2](img/CAD/cad7_twr_torsion2.png)
 
 Adding the yaxis. Same principle goes. Draw a gliding block and fit the pre generated rack. 
 
+![tower torsion1](img/CAD/cad6_twr_torsion1.png)
 ![yaxis](img/CAD/cad8_yaxis.png)
+![system1](img/CAD/cad9_system1.png)
 
-TODO: Finish up CAD and mill this beast! 
+And boom. I think I have a system I feel good about now. Last thing I want to add is a bottom sheet that alligns and lock everything together using joints.  Now is also a good time to mirror the system I´ve created, so that I have to parallel linear rails that I can play with. I am also adding a heighten base that will work as my print surface. 
+
+![system2](img/CAD/cad10_system2.png)
+
+Now it´s just a matter of copying and pasting in the towers. I´ll start out with four as a proof of concept. 
+
+![system3](img/CAD/cad11_system3.png)
+
+I now have a really nice parametized model of my system which is scalable. The rails can simply be extended by changing the parameters in the rack generator, and adding them to the system. Same thing goes if I want to add more print towers. 
+
+Now it´s time to build this beast! 
 
 ## CAM
 
