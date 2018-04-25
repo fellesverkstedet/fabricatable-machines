@@ -40,7 +40,9 @@ Ideely we want to create a system where the indevidual extruders can move as fre
 are not able to cross each other, and I strongly believe that this is a limiting factor in a parallel processing scheme.  Industrial robots could be a way to solve this problem, but as stated above, they are expensive! 
 Trough discussions with Jens we came up with this really nice concept using the chamfer rail system. Instead of the traditional gantry setup, supported on both sides, we went for a "single-side-supported" system alá the RepRap
 [Ormerod](https://www.3dhubs.com/3d-printers/ormerod). 3D printing does not require as much stiffness and strength as a CNC, so hopefully this will suffice for our system. The nice thing about this design is that the extruders are able to cross each other. 
-This allows for much more finesse when we start optimizing our tool paths.  I let the drawings do the explaining here. 
+This allows for much more finesse when we start optimizing our tool paths.  I let the drawings do the explaining here.
+
+![concept trad vs ours](img/Concept/concept_drawing-02.png)
 
 So, now that we´ve established the design parameters it´s time to start blocking out the design in CAD. 
 
