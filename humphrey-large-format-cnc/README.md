@@ -1,6 +1,22 @@
 ﻿# Humphrey - Large format CNC mill
-*June-July 2017, by Jens Dyvik and Alex Schaub*
 
+## Humphrey v2
+*April 2018 Jakob Nilsson*
+![Humphrey v2 Doing its first production](./img/humphrey_V2/in_production.JPG)
+**Stats**
+* 3.1 m * 1.22 m work area
+* 4 of Nema24 closed loop stepper motors, 3Nm
+* 2,2 kW 24000 RPM aircooled spindle
+* Torsion box bed
+* Square cross-section aluminium gantry
+* Grbl + arduino UNO controller, USB communication
+* Full auto homing using inductive limit switches and Z-plate on gantry "foot"
+* Modelled and CAMed in Fusion360
+
+[Production and installation pictures](.img/humphrey_V2)
+
+## Humphrey v1
+*June-July 2017, by Jens Dyvik and Alex Schaub*
 ![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)
 *Humphrey with first cuting job, a mega rack and pinion*
 
