@@ -15,6 +15,8 @@
 
 [Production and installation pictures](.img/humphrey_V2)
 
+[STEP model assembled machine](./new-dev-files/humphrey%20v2%20STEP.zip)
+
 ## Humphrey v1
 *June-July 2017, by Jens Dyvik and Alex Schaub*
 ![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)
