@@ -1,7 +1,7 @@
 # Hulti - first take on large-format 3D printing 
 ## This is work in progress. I´ll add stuff as I go along. Currently finishing up CAM.
 
-![concept drawing](img/concept-drawing-01.png)
+![concept drawing](img/Concept/concept-drawing-01.png)
 
 Hulti is a prototype of a 3D printer that does parallel processing of layers, meaning instead of having one nozzle extruding plastic we have many. The theory goes something like many workers can do the job quicker 
 than one. While most of the research I am conducting is focused on the software and algorithms controlling the system, I wanted to have a physical platform where I can my test and visualize my theories. 
