@@ -105,7 +105,6 @@ Now it´s just a matter of copying and pasting in the towers. I´ll start out wi
 
 I now have a really nice parametized model of my system which is scalable. The rails can simply be extended by changing the parameters in the rack generator, and adding them to the system. Same thing goes if I want to add more print towers. 
 
-Now it´s time to build this beast! 
 
 ## CAM
 
