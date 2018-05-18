@@ -9,6 +9,7 @@
 <img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300">
 <img src="./img/rack_n_pinion.gif" width="300"><a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf"><img src="./img/drawing.JPG" width="300"></a>
 
+**Chamfer rail is**
 * A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 * This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
 * Can be reproduced using only standard CNC operations and bits *(chamfering using a 90deg V-bit, or 3D mill with ball nose bit)*
@@ -21,18 +22,20 @@ Depending on which material you are making your axis from we recommend different
 
 ![Chamfer rail 320mm axis](./img/teeth_size_comparission.JPG)
 
-_LEFT: Larger teeth for soft materials. RIGHT: Smaller teeth for hard materials_
+_LEFT: Larger teeth for soft materials. RIGHT: Smaller teeth for hard materials (Motor axis is Ø8 mm in both cases)_
 
 ### Soft rack material - Large teeth 
 
 For soft axis materials like Valchromat (HDF-board) we recommend this "large teeth" rack and pinion geometry. 
 It allows for very fast rack fabrication with a large milling bit, with strong enough teeth even when the rack is made form a weak material. However, this comes at a cost of a reduction in maximum torque and precision.
 
+**Stats**
 * 6 toothed pinon
 * This rack and pinion has 3.33333 steps per mm with a 200 step motor (moves 60 mm per revolution)
 * The rack is machined with a 6 mm flat endmill.
 * The pinion is machined with a 3 mm flat endmill or can be 3D-printed.
 
+**Files**
 * [Rhino files](./standard-chamferrails.3dm)
 * [Grasshopper based paramteric axis generator](./chamfer-rail-generator.gh)
 * [STEP 3D](./standard-chamferrails.stp)
@@ -48,16 +51,18 @@ It allows for very fast rack fabrication with a large milling bit, with strong e
 For hard axis materials like aluminium we recommend this "small teeth" rack and pinion geometry.  
 It allows for a decent rack fabrication speed with a medium milling bit while optimizing the size for maximum torque and precison without the need of a gearbox.
 
+**Stats**
 * 8 toothed pinion
 * This rack and pinion has 5 steps per mm with a 200 step motor (moves 40 mm per revolution)
 * The rack is machined with a 3 mm flat endmill
 * The pinion is machined with a 1 mm flat endmill, preferably from POM or a similar hard, but elastic low friction plastic.
 
+**Files**
 * [STEP Complete Z axis with small teeth](./fusion360_Z_axis_small_teeth.step)
 * [STEP Only rack and pinon with small teeth](./STEP_small_teeth_rack_and_pinon_only.step)
 * [Fusion360 Only rack and pinon with small teeth](.fusion360_small_teeth_rack_and_pinion_only.f3d)
 
-**Projects using chamfer rail:**
+## Projects using chamfer rail:
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
 * [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)
 * [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
@@ -65,8 +70,6 @@ It allows for a decent rack fabrication speed with a medium milling bit while op
 * [Ping pong arcade machine by Verket Fab Academy students](http://archive.fabacademy.org/2017/fablabverket/group-project.html)
 * [Mad max drawing machine by Barcelona Fab Academy students](http://archive.fabacademy.org/2017/fablabbcn/group/machine/group3/)
 * [Robot arm by Trivandrum Fab Academy Students](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/machine_building/team_1/index.html) [Test in 6mm acrylic](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/students/280/week9.html)
-
-**NOTE:** The glide block design in this repo was updated on november 6th 2017. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples how we use the state of the art glide block design.
 
 # How to fabricate
 
@@ -203,7 +206,9 @@ Place a screw with spacer and cutout the pinions. Notice how the precision surfa
 ![Chamfer rail 320mm axis](./img/22pinoin-cutout.JPG)
 
 
-### Glide block milling NOTE: *this an old glide block design* check Hattori or Humprhrey design in the repo for examples of latest design*
+### Glide block milling 
+
+**NOTE:** The glide block design in this repo was updated on november 6th 2017. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples how we use the state of the art glide block design.
 
 Make the screw pockets to 7mm depth and the wedge hole to full depth using 3mm bit.
 ![Chamfer rail 320mm axis](./img/17woodscrew-pocksets.JPG)
