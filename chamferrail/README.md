@@ -43,8 +43,6 @@ It allows for very fast rack fabrication with a large milling bit, with strong e
 * [FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
 * [Fusion360 Chamferrails with vipers and CAM. 60 mm per revolution 6mm bit for rack](./fusion360_axis_with_CAM.f3d)
 * [Fusion360 Chamferrails STEP version, same as above](./fusion360_axis_with_CAM.step)
-* [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
-* <a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf">PDF Drawing with part names</a>
 
 ### Hard Materials - Smaller teeth
 
@@ -114,6 +112,9 @@ Both aluminium and plastic requires very sharp milling bits.
 
 
 ### Feeds and speeds
+
+* [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
+
 **Alumnium**
 
 * 6mm Endmill Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
