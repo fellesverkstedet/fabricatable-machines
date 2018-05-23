@@ -4,49 +4,63 @@
 
 ![Chamfer rail 320mm axis](./img/33back-side.JPG)
 
-![Overview1](./img/axis.gif)
+![Chamfer rail 320mm axis](./img/axis.gif)
 
+<img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300">
+<img src="./img/rack_n_pinion.gif" width="300"><a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf"><img src="./img/drawing.JPG" width="300"></a>
 
+**Chamfer rail is**
 * A linear actuator with rack & pinion drive system, designed to be CNC-milled.
 * This is a simplified version of the axis system from [V-bird](#V-bird) and [Simple Gantry](#simple-gantry),
 * Can be reproduced using only standard CNC operations and bits *(chamfering using a 90deg V-bit, or 3D mill with ball nose bit)*
-* The rack and pinion has 3.33333 steps per mm with a 200 step motor *(performance with with a nema23 motor is so good we have opted for larger circumference on the pinion. Makes for much faster rack fabrication with a larger bit, and stronger teeth when the rack is made form a weak material)*
 * All parts except pinion can be milled from a single cutsheet
 * If you fabricate the glide blocks and chamfer rail from the same material we reccomed that you apply [UHMW tape](https://www.amazon.co.uk/gp/product/B00DE2RUMC/) on the glide blocks 
 
-**NOTE:** The glide block design in this repo was updated on november 6th 2017. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples how we use the state of the art glide block design.
+## Rack and pinion - Sizes
 
+Depending on which material you are making your axis from we recommend different teeth sizes for the rack and pinion gears. 
+
+![Chamfer rail 320mm axis](./img/teeth_size_comparission.JPG)
+
+_LEFT: Larger teeth for soft materials. RIGHT: Smaller teeth for hard materials (Motor axis is Ø8 mm in both cases)_
+
+### Soft rack material - Large teeth 
+
+For soft axis materials like Valchromat (HDF-board) we recommend this "large teeth" rack and pinion geometry. 
+It allows for very fast rack fabrication with a large milling bit, with strong enough teeth even when the rack is made form a weak material. However, this comes at a cost of a reduction in maximum torque and precision.
+
+**Stats**
+* 6 toothed pinon
+* This rack and pinion has 3.33333 steps per mm with a 200 step motor (moves 60 mm per revolution)
+* The rack is machined with a 6 mm flat endmill.
+* The pinion is machined with a 3 mm flat endmill or can be 3D-printed.
+
+**Files**
 * [Rhino files](./standard-chamferrails.3dm)
 * [Grasshopper based paramteric axis generator](./chamfer-rail-generator.gh)
 * [STEP 3D](./standard-chamferrails.stp)
 * [DXF 2D](./standard-chamferrails.dxf)
 * [FreeCAD source, older design](./old-dev-files/chamferrail.fcstd)
-* <a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf">PDF Drawing with part names</a>
-
-
-**Fusion360 version Updated 07.03.2018**
-
-Parametric model of a complete chamfer rail axis in Fusion360 including CAM for all parts, a tool library and joints.
-This version introduces a new viper system to protect the glide surfaces from dirt.
-
-<img src="./img/iso_with_axis_plate.JPG" width="300"><img src="./img/CAM.JPG" width="300">
-<img src="./img/rack_n_pinion.gif" width="300"><a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf"><img src="./img/drawing.JPG" width="300"></a>
-
-[Video of assembly](./img/Fusion360_axis-assembly_video.avi)
-
-Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, motor spacer plate, glide blocks from Ertalyte TX and a 12,6 mm POM pinion.
-
-<img src="./img/exploded.jpg" height="600"><img src="./img/assembled.jpg" height="600">
-
-<img src="./img/glide_blocks_vipers.jpg" width="300"><img src="./img/tapping_pinion.jpg" width="300">
-
-
 * [Fusion360 Chamferrails with vipers and CAM. 60 mm per revolution 6mm bit for rack](./fusion360_axis_with_CAM.f3d)
 * [Fusion360 Chamferrails STEP version, same as above](./fusion360_axis_with_CAM.step)
-* [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
-* <a href="Fusion360 6mm-Axis-with-CAM-Drawing-v1.pdf">PDF Drawing with part names</a>
 
-**Projects using chamfer rail:**
+### Hard Materials - Smaller teeth
+
+For hard axis materials like aluminium we recommend this "small teeth" rack and pinion geometry.  
+It allows for a decent rack fabrication speed with a medium milling bit while optimizing the size for maximum torque and precison without the need of a gearbox.
+
+**Stats**
+* 8 toothed pinion
+* This rack and pinion has 5 steps per mm with a 200 step motor (moves 40 mm per revolution)
+* The rack is machined with a 3 mm flat endmill
+* The pinion is machined with a 1 mm flat endmill, preferably from POM or a similar hard, but elastic low friction plastic.
+
+**Files**
+* [STEP Complete Z axis with small teeth](./fusion360_Z_axis_small_teeth.step)
+* [STEP Only rack and pinon with small teeth](./STEP_small_teeth_rack_and_pinon_only.step)
+* [Fusion360 Only rack and pinon with small teeth](.fusion360_small_teeth_rack_and_pinion_only.f3d)
+
+## Projects using chamfer rail:
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
 * [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)
 * [Hector - luggage based CNC platform](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
@@ -56,6 +70,14 @@ Designed for 8 mm thick stock for, aluminium rail, axis plate, motor plate, moto
 * [Robot arm by Trivandrum Fab Academy Students](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/machine_building/team_1/index.html) [Test in 6mm acrylic](http://archive.fabacademy.org/archives/2017/fablabtrivandrum/students/280/week9.html)
 
 # How to fabricate
+
+Show below in aluminum, please note that this is not the optimal tooth size for hard materials:
+
+<img src="./img/exploded.jpg" height="600"><img src="./img/assembled.jpg" height="600">
+
+<img src="./img/glide_blocks_vipers.jpg" width="300"><img src="./img/tapping_pinion.jpg" width="300">
+
+[Video of assembly](./img/Fusion360_axis-assembly_video.avi)
 
 ### BOM (Bill of materials)
 * 8mm Aluminium, minimum 130mm wide *(we use 6082 alloy)* or for less hardcore machine 8mm HDF (Valchromat or other type)
@@ -90,6 +112,9 @@ Both aluminium and plastic requires very sharp milling bits.
 
 
 ### Feeds and speeds
+
+* [Fusion360 Chamferrails CAM tool library](./fusion360_tool_library_for_chamfer_rail.tools)
+
 **Alumnium**
 
 * 6mm Endmill Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
@@ -182,7 +207,9 @@ Place a screw with spacer and cutout the pinions. Notice how the precision surfa
 ![Chamfer rail 320mm axis](./img/22pinoin-cutout.JPG)
 
 
-### Glide block milling NOTE: *this an old glide block design* check Hattori or Humprhrey design in the repo for examples of latest design*
+### Glide block milling 
+
+**NOTE:** The glide block design in this repo was updated on november 6th 2017. Check [Hattori - small format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md) for an examples how we use the state of the art glide block design.
 
 Make the screw pockets to 7mm depth and the wedge hole to full depth using 3mm bit.
 ![Chamfer rail 320mm axis](./img/17woodscrew-pocksets.JPG)
