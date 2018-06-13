@@ -12,7 +12,7 @@ FILE_NAME(
 /* name */ 
 'C:/Users/jakob/Documents/GitHub/fabricatable-machines/chamferrail/new
 -dev-files/wrench.step',
-/* time_stamp */ '2018-06-13T15:30:50+02:00',
+/* time_stamp */ '2018-06-13T15:35:45+02:00',
 /* author */ ('jaknil'),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v17',
@@ -935,8 +935,8 @@ POSITIVE_RATIO_MEASURE(7850.),#636);
 #905=DIRECTION('ref_axis',(-0.320301507483668,-0.947315651883621,0.));
 #906=DIRECTION('center_axis',(0.,0.,1.));
 #907=DIRECTION('ref_axis',(1.,0.,0.));
-#908=DIRECTION('',(5.55111512312578E-17,1.,1.66533453693773E-16));
-#909=DIRECTION('',(0.866025403784439,0.,-0.5));
+#908=DIRECTION('',(0.,0.,1.));
+#909=DIRECTION('',(1.,0.,0.));
 #910=CARTESIAN_POINT('',(0.,0.,0.));
 #911=CARTESIAN_POINT('',(0.,0.,0.));
 #912=CARTESIAN_POINT('Origin',(12.70815494305,-7.94482260600887,0.));
@@ -1139,7 +1139,7 @@ POSITIVE_RATIO_MEASURE(7850.),#636);
 #1093=CARTESIAN_POINT('Origin',(2.90447185049886E-6,-6.58401446854778,0.));
 #1094=CARTESIAN_POINT('Origin',(2.90447185049886E-6,-6.58401446854778,0.));
 #1095=CARTESIAN_POINT('Origin',(-7.39759526419163,-59.6302758244919,0.));
-#1096=CARTESIAN_POINT('',(63.9437526110541,83.5992965855137,11.037059336457));
+#1096=CARTESIAN_POINT('',(0.,0.,0.));
 #1097=UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(0.01),#1103,
 'DISTANCE_ACCURACY_VALUE',
 'Maximum model space distance between geometric entities at asserted c
@@ -1199,13 +1199,13 @@ SI_UNIT($,.RADIAN.)
 #1113=SHAPE_REPRESENTATION('',(#646),#1101);
 #1114=PRODUCT_DEFINITION_CONTEXT('part definition',#1122,'design');
 #1115=PRODUCT_DEFINITION('Test axis Fusion360 6mm Axis with CAM v6',
-'Test axis Fusion360 6mm Axis with CAM v6 v10',#1117,#1114);
+'Test axis Fusion360 6mm Axis with CAM v6 v11',#1117,#1114);
 #1116=PRODUCT_DEFINITION('tool','tool',#1118,#1114);
 #1117=PRODUCT_DEFINITION_FORMATION('',$,#1124);
 #1118=PRODUCT_DEFINITION_FORMATION('',$,#1125);
 #1119=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'Test axis Fusion360 6mm Axis with CAM v6 v10',
-'Test axis Fusion360 6mm Axis with CAM v6 v10',(#1124));
+'Test axis Fusion360 6mm Axis with CAM v6 v11',
+'Test axis Fusion360 6mm Axis with CAM v6 v11',(#1124));
 #1120=PRODUCT_RELATED_PRODUCT_CATEGORY('tool','tool',(#1125));
 #1121=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1122);
@@ -1213,7 +1213,7 @@ SI_UNIT($,.RADIAN.)
 'Core Data for Automotive Mechanical Design Process');
 #1123=PRODUCT_CONTEXT('part definition',#1122,'mechanical');
 #1124=PRODUCT('Test axis Fusion360 6mm Axis with CAM v6',
-'Test axis Fusion360 6mm Axis with CAM v6 v10',$,(#1123));
+'Test axis Fusion360 6mm Axis with CAM v6 v11',$,(#1123));
 #1125=PRODUCT('tool','tool',$,(#1123));
 #1126=PRESENTATION_STYLE_ASSIGNMENT((#1128));
 #1127=PRESENTATION_STYLE_ASSIGNMENT((#1129));
