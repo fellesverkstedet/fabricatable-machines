@@ -28,6 +28,13 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 * Tubing for compressed air
 * Safety helmet/mask needed?
 
+### Safety
+
+Glasses, helmet or film on safety window needed
+Good extraction is needed
+
+* Good info on eye safety for cnc plasma http://www.esabna.com/us/en/education/blog/what-eye-protection-is-required-for-cnc-plasma-cutting.cfm
+
 
 ### Research links and thoughts
 
