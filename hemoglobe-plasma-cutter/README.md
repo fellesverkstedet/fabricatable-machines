@@ -9,10 +9,10 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 
 *Currently researching, not yet designed or tested*
 
-### BOM
+# BOM
 *Bill of materials*
 
-# Plasma source
+### Plasma source
 * Hyperherm Powermax45 XP - seems to be the most suiabtle device for a low cost plasma cutter in a public workshop
 * Machine torch, short type - for convenient mounting on the Z axis
 * Consumables for machine torch - these wear out and there are differnt kinds for cutting and marking
@@ -22,12 +22,12 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 * Tubing for compressed air
 * Air filter - it is important that moisture and oil is removed from the compressed air before it enters the Powermax45 XP plasma device
 
-# Safety equipment
+### Safety equipment
 * Tinted glasses, helmet or film on safety window needed - to avoid eye damge from looking at the plasma arc
 * Extraction and filter - vey important for health and safety
 * Ducting for extracion
 
-# Saferty electronics
+### Saferty electronics
 * Contactor threephase - for controlling power to the Powermax45 XP
 * Contactor single phase - for controlling power to the 36v power supply
 * Sensor for drawerbed
@@ -35,10 +35,10 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 * Safety brain - for ensuring that the machine only can operate when the drawerbed and window is closed
 * Reset and e-stop button - for controlling power to the machine
 
-# Electronics
+### Electronics
 * Proma MyPlasm THC - a torch height controller that overides the Z axis with step and direction commands *(seems to be a good low cost solution for THC)*
 * 4 x JMC Ihss57 closed loop stepper motor - great value for money motors with integrated drivers
-* Extra motor for driver
+* Extra motor for tint window? Or brigth illumination inside?
 * 36v Power supply for JMC stepper motors and MyPlasm THC - amp capacity is currently unknown
 * Control board - Arduino UNO with GRBL or Replicape
 * Power cables
@@ -46,8 +46,9 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 * End stops?
 * CAM computer - to make jobs
 * Machine control computer or rasberry pi
+* On/off switch?
 
-# Materials
+### Materials
 * Aluminium 8mm - for axes plates and bushings?
 * Steel flatbar 8mm - for axes?
 * Brass strip 5mm - For rack?
@@ -115,7 +116,12 @@ http://proma-elektronika.com/index.php/en/products/thc-torch-height-control/comp
 Disucussion about Powermax 45 vs 65. Duty cycle on powermax 45 seems to be no problem
 http://www.plasmaspider.com/viewtopic.php?f=60&t=23560&p=145508&hilit=duty+cycle#p145508
 
-Remenber short machine torch.
+Machines running on 608 bearings:
+
+* http://precisionplasmallc.com/ DIY kit
+* Torchmate 2x4 and 2x2
+
+Remember short machine torch.
 Power use single phase vs threephase?
 Which consumables? Shielded 40, shielded 30, fine cut?
 
