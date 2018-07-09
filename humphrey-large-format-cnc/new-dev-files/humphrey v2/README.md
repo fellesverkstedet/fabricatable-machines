@@ -15,8 +15,8 @@ https://a360.co/2NBCXcX
 [Roller_gantry.step](humphrey%20v2%20STEP.zip)
 
 ### Pics:
-![](covers_n_vipers.png)
-![](under_foot.png)
+![Covers and vipers](img/covers_n_vipers.png)
+![Gantry foot](img/under_foot.png)
 
 
 ## See also: 
