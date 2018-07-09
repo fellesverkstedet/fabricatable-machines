@@ -9,27 +9,82 @@ A plasma cutter with a 2m x 1m work area. Based on the gantry design from on [Hu
 
 *Currently researching, not yet designed or tested*
 
-### BOM
+# BOM
+*Bill of materials*
 
-* Hyperherm Powermax45 - seems to be the most suiabtle device for a low cost plasma cutter in a public workshop
+### Plasma source
+* Hyperherm Powermax45 XP - seems to be the most suiabtle device for a low cost plasma cutter in a public workshop
 * Machine torch, short type - for convenient mounting on the Z axis
-* Machine control interface cable - for automatic tart stop
-* Machine advance interface cable - for autatc adjustment of amp output
-* Proma comapct THC SD - a torch height controller that overides the Z axis with step and direction commands (brilliant low cost solution)
-* Ihss57 closed loop stepper motor - great value for money motors with integrated drivers
-* Aluminium 8mm - for milling all the axes, glideblocks, axis plates, gantry and machine frame
-* PTFE tape - to apply onto the surface of the gliblocks
-* POM plastic - for milling the pinions
-* Control board - Arduino UNO with GRBL or Replicape
-* Extraction and filter - vey important for health and safety
-* Ducting
-* Air filter
+* Consumables for machine torch - these wear out and there are differnt kinds for cutting and marking
+* Machine cpc interface cable - for automatic start/stop
+* Machine serial interface cable - for automtic adjustment of amp output
 * Air compressor with sufficient capacity
 * Tubing for compressed air
-* Safety helmet/mask needed?
+* Air filter - it is important that moisture and oil is removed from the compressed air before it enters the Powermax45 XP plasma device
+
+### Safety equipment
+* Tinted glasses, helmet or film on safety window needed - to avoid eye damge from looking at the plasma arc
+* Extraction and filter - vey important for health and safety
+* Ducting for extracion
+
+### Saferty electronics
+* Contactor threephase - for controlling power to the Powermax45 XP
+* Contactor single phase - for controlling power to the 36v power supply
+* Sensor for drawerbed
+* Sensor for window
+* Safety brain - for ensuring that the machine only can operate when the drawerbed and window is closed
+* Reset and e-stop button - for controlling power to the machine
+
+### Electronics
+* Proma MyPlasm THC - a torch height controller that overides the Z axis with step and direction commands *(seems to be a good low cost solution for THC)*
+* 4 x JMC Ihss57 closed loop stepper motor - great value for money motors with integrated drivers
+* Extra motor for tint window? Or brigth illumination inside?
+* 36v Power supply for JMC stepper motors and MyPlasm THC - amp capacity is currently unknown
+* Control board - Arduino UNO with GRBL or Replicape
+* Power cables
+* Signal cables 
+* End stops?
+* CAM computer - to make jobs
+* Machine control computer or rasberry pi
+* On/off switch?
+
+### Materials
+* Aluminium 8mm - for axes plates and bushings?
+* Steel flatbar 8mm - for axes?
+* Brass strip 5mm - For rack?
+* Steel plate 3mm - for machine bed?
+* POM plastic 12mm - for milling the pinions
+* Material for bearing covers?
+* Material for axis wiping?
+
+# General hardware
+* 608 bearings - for rolling on the axes surface
+* M5 bolts
+* M5 nuts
+* M5 whashers
+* Electronics cabinet - for housing the electronics
+* Din rail 35mm
+* Wheels - for drawerbed to roll in and out
+
+
+# Software
+
+
+
+### Tools need to fab
+
+* Large format milling machine *for instance fab lab standard shopbot* - to fabricate the machine parts
+* M5 tapping tool and taps - to make threads in the holes
+* Screw driver/drill - to mount materials in the milling machine and predrill horizontl holes for tapping
+* Wrenches - to tightening all the nuts and bolts during assembly
+
+
 
 
 ### Research links and thoughts
+
+Good info on eye safety for cnc plasma
+http://www.esabna.com/us/en/education/blog/what-eye-protection-is-required-for-cnc-plasma-cutting.cfm
 
 Good guide to building a plasma and running it with LinuxCNC
 http://wiki.linuxcnc.org/cgi-bin/wiki.pl?GantryPlasmaMachine
@@ -50,7 +105,6 @@ Copied and pasted repsonse on THC:
 8. Ability to be automated (all settings for different power and different materials automated.....so THC is almost transparent to operator)
 9. Collision avoidance (THC knows when to retract between cuts...and when it is not necessary to save time).
 
-
 About toolpaths and CAM
 Plasma toolpaths should be in "climb" direction
 https://www.youtube.com/watch?v=LvIpgBNyXBs	
@@ -62,7 +116,12 @@ http://proma-elektronika.com/index.php/en/products/thc-torch-height-control/comp
 Disucussion about Powermax 45 vs 65. Duty cycle on powermax 45 seems to be no problem
 http://www.plasmaspider.com/viewtopic.php?f=60&t=23560&p=145508&hilit=duty+cycle#p145508
 
-Remenber short machine torch.
+Machines running on 608 bearings:
+
+* http://precisionplasmallc.com/ DIY kit
+* Torchmate 2x4 and 2x2
+
+Remember short machine torch.
 Power use single phase vs threephase?
 Which consumables? Shielded 40, shielded 30, fine cut?
 
