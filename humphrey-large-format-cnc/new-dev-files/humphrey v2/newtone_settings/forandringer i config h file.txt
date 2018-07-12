@@ -1,0 +1,2 @@
+i config h skal
+ #define USE_SPINDLE_DIR_AS_ENABLE_PIN // Default disabled. Uncomment to enable.        -- skal avkomenteres

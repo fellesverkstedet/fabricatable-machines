@@ -1,0 +1,4 @@
+Go away	G90; G0 Y2600	Jogs away from primary work surface
+Tool change pos	G90; G0 X200 Y-20 Z90	Jogs to the toolchange positon
+HOME X Y	$H; G92 X-96.73 Y-36.4 Z90	Home machine after startup
+Warmup spindle	M3 S12000; G04 P60; M3 S18000; G04 P60; M3 S20000; G04 P60; M3 S24000; G04 P60;M5	Spindle warmup routine
