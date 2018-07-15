@@ -110,13 +110,16 @@ NOTE: Fusion is at this point really slow. After talks with Jacob and doing some
 
 ## CAM
 
-I will section my CAM work into mainly two sections, main gantry and towers. I´ll mill and build the towers as I go along. **IMPORTANT NOTE:** use a surface tool and level your CNC bed / scrap sheet. To make the glide blocks run smoothly everything needs to be leveled. I kinda scipted this part, and I suffered from this. 
+I will section my CAM work into mainly two sections, main gantry and towers. I´ll start off by milling out and building the main gantries, and then add towers to the bunch as I´ll go along.
+**IMPORTANT NOTE:** use a surface tool and level your CNC bed / scrap sheet. To make the glide blocks run smoothly everything needs to be leveled. I kinda scipted this part, and I suffered from this. 
 
 I´ll skip the detailed explanation of the CAM proess, Jake over at CBA has done a really good job at this. Read it [here](https://gitlab.cba.mit.edu/jakeread/machineweek).
 
 ![CAMing](img/CAM/CAM2_done.jpg)
 
 ## Assemble 
+
+Once I have all the parts it´s just a matter assembling and tuning. As Jake describes in he´s walktrough, it is important to tune the glide blocks just right. You want them to be tight enough so that your setup is stiff enough, but loose enough so that you´ll have a allright and smooth motion. **IMPORTANT NOTE:** valchro againt valchro doesn´t glide smoothly. At this point I fitted all of my glide blocks with [UHMW tape](https://www.amazon.co.uk/dp/B00DE2P5FG/ref=pe_3187911_185740111_TE_item). This worked amazingly well. My towers are now running smoothly along my rails. Imaginge that! A bearing free 3D printer. In 2018! ´
 
     
 
