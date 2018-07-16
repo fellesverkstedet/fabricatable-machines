@@ -1,0 +1,10 @@
+M3 S12000 ; Turn on spindle and set RPM to 12000
+G04 P60 		; Dwell for 60 s
+M3 S18000
+G04 P60
+M3 S20000
+G04 P60
+M3 S24000
+G04 P60
+M5
+

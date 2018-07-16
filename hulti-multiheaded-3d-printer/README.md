@@ -104,20 +104,24 @@ Now it´s just a matter of copying and pasting in the towers. I´ll start out wi
 
 ![system3](img/CAD/cad11_system3.png)
 
-<<<<<<< HEAD
 I now have a really nice parametized model of my system which is scalable. The rails can simply be extended by changing the parameters in the rack generator, and adding them to the system. Same thing goes if I want to add more print towers. 
 
-=======
-I now have a really nice parametized model of my system which is scalable. The rails can simply be extended by changing the parameters in the rack generator, and adding them to the system. Same thing goes if I want to add more print towers.  Next up CAM. 
->>>>>>> 830fe46212e8ae36b419b615ba7ac8ef67041c92
+NOTE: Fusion is at this point really slow. After talks with Jacob and doing some reading in the fusion forums, it seems that Fusion is struggling with the patterns we use in the skrethes to make the rack system. A work-around might be to pattern features instead of doing all of the pattern in a sketch. Will come back to this. 
 
 ## CAM
 
-A really nice tshing about Fusion360 is that the CAM module is integrated in the package, making it really easy to move from your design to ready-to-go .gcode. 
+I will section my CAM work into mainly two sections, main gantry and towers. I´ll start off by milling out and building the main gantries, and then add towers to the bunch as I´ll go along.
+**IMPORTANT NOTE:** use a surface tool and level your CNC bed / scrap sheet. To make the glide blocks run smoothly everything needs to be leveled. I kinda scipted this part, and I suffered from this. 
 
-First thing to do is to nest all of the parts and fit them into my valchromat sheet
+I´ll skip the detailed explanation of the CAM proess, Jake over at CBA has done a really good job at this. Read it [here](https://gitlab.cba.mit.edu/jakeread/machineweek).
+
+![CAMing](img/CAM/CAM2_done.jpg)
 
 ## Assemble 
+
+Once I have all the parts it´s just a matter assembling and tuning. As Jake describes in he´s walktrough, it is important to tune the glide blocks just right. You want them to be tight enough so that your setup is stiff enough, but loose enough so that you´ll have a allright and smooth motion. **IMPORTANT NOTE:** valchro againt valchro doesn´t glide smoothly. At this point I fitted all of my glide blocks with [UHMW tape](https://www.amazon.co.uk/dp/B00DE2P5FG/ref=pe_3187911_185740111_TE_item). This worked amazingly well. My towers are now running smoothly along my rails. Imaginge that! A bearing free 3D printer. In 2018! ´
+
+    
 
 ## Electronics and Control 
 
