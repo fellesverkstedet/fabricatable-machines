@@ -1101,9 +1101,17 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="R5" library="fab" deviceset="RES-US" device="1206FAB" value="4.7K"/>
 <part name="R6" library="fab" deviceset="RES-US" device="1206FAB" value="?"/>
 <part name="PSU" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="RIBBON_X" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_XOLD" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="IHSS60" library="pinhead" deviceset="PINHD-1X10" device=""/>
-<part name="RIBBON_X1" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_X1NOTUSED" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_XZ" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_Y1_Y2" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_X" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_Z" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_Y1" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="RIBBON_Y2" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="S2" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="S1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1146,6 +1154,56 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <text x="210.82" y="88.9" size="1.778" layer="91">lilla</text>
 <text x="210.82" y="86.36" size="1.778" layer="91">grå</text>
 <text x="200.66" y="114.3" size="1.778" layer="91">HECTOR</text>
+<text x="218.44" y="99.06" size="1.778" layer="91">skip</text>
+<text x="218.44" y="96.52" size="1.778" layer="91">skip</text>
+<text x="259.08" y="104.14" size="1.778" layer="91">brun</text>
+<text x="259.08" y="101.6" size="1.778" layer="91">rød</text>
+<text x="259.08" y="99.06" size="1.778" layer="91">orange</text>
+<text x="259.08" y="96.52" size="1.778" layer="91">gul</text>
+<text x="259.08" y="93.98" size="1.778" layer="91">grønn</text>
+<text x="259.08" y="91.44" size="1.778" layer="91">blå</text>
+<text x="259.08" y="88.9" size="1.778" layer="91">lilla</text>
+<text x="259.08" y="86.36" size="1.778" layer="91">grå</text>
+<text x="302.26" y="104.14" size="1.778" layer="91">brun</text>
+<text x="302.26" y="101.6" size="1.778" layer="91">rød</text>
+<text x="302.26" y="99.06" size="1.778" layer="91">orange</text>
+<text x="302.26" y="96.52" size="1.778" layer="91">gul</text>
+<text x="302.26" y="93.98" size="1.778" layer="91">grønn</text>
+<text x="302.26" y="91.44" size="1.778" layer="91">blå</text>
+<text x="302.26" y="88.9" size="1.778" layer="91">lilla</text>
+<text x="302.26" y="86.36" size="1.778" layer="91">grå</text>
+<text x="302.26" y="68.58" size="1.778" layer="91">brun</text>
+<text x="302.26" y="66.04" size="1.778" layer="91">rød</text>
+<text x="302.26" y="63.5" size="1.778" layer="91">orange</text>
+<text x="302.26" y="60.96" size="1.778" layer="91">gul</text>
+<text x="302.26" y="58.42" size="1.778" layer="91">grønn</text>
+<text x="302.26" y="55.88" size="1.778" layer="91">blå</text>
+<text x="302.26" y="53.34" size="1.778" layer="91">lilla</text>
+<text x="302.26" y="50.8" size="1.778" layer="91">grå</text>
+<text x="302.26" y="38.1" size="1.778" layer="91">brun</text>
+<text x="302.26" y="35.56" size="1.778" layer="91">rød</text>
+<text x="302.26" y="33.02" size="1.778" layer="91">orange</text>
+<text x="302.26" y="30.48" size="1.778" layer="91">gul</text>
+<text x="302.26" y="27.94" size="1.778" layer="91">grønn</text>
+<text x="302.26" y="25.4" size="1.778" layer="91">blå</text>
+<text x="302.26" y="22.86" size="1.778" layer="91">lilla</text>
+<text x="302.26" y="20.32" size="1.778" layer="91">grå</text>
+<text x="342.9" y="68.58" size="1.778" layer="91">brun</text>
+<text x="342.9" y="66.04" size="1.778" layer="91">rød</text>
+<text x="342.9" y="63.5" size="1.778" layer="91">orange</text>
+<text x="342.9" y="60.96" size="1.778" layer="91">gul</text>
+<text x="342.9" y="58.42" size="1.778" layer="91">grønn</text>
+<text x="342.9" y="55.88" size="1.778" layer="91">blå</text>
+<text x="342.9" y="53.34" size="1.778" layer="91">lilla</text>
+<text x="342.9" y="50.8" size="1.778" layer="91">grå</text>
+<text x="342.9" y="38.1" size="1.778" layer="91">brun</text>
+<text x="342.9" y="35.56" size="1.778" layer="91">rød</text>
+<text x="342.9" y="33.02" size="1.778" layer="91">orange</text>
+<text x="342.9" y="30.48" size="1.778" layer="91">gul</text>
+<text x="342.9" y="27.94" size="1.778" layer="91">grønn</text>
+<text x="342.9" y="25.4" size="1.778" layer="91">blå</text>
+<text x="342.9" y="22.86" size="1.778" layer="91">lilla</text>
+<text x="342.9" y="20.32" size="1.778" layer="91">grå</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="119.38" y="40.64" rot="R270"/>
@@ -1160,40 +1218,43 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="R5" gate="G$1" x="43.18" y="-20.32"/>
 <instance part="R6" gate="G$1" x="88.9" y="-10.16"/>
 <instance part="PSU" gate="G$1" x="175.26" y="-27.94"/>
-<instance part="RIBBON_X" gate="A" x="208.28" y="55.88"/>
+<instance part="RIBBON_XOLD" gate="A" x="208.28" y="55.88"/>
 <instance part="IHSS60" gate="A" x="203.2" y="22.86" rot="R180"/>
-<instance part="RIBBON_X1" gate="A" x="208.28" y="93.98"/>
+<instance part="RIBBON_X1NOTUSED" gate="A" x="208.28" y="93.98"/>
+<instance part="RIBBON_XZ" gate="A" x="256.54" y="93.98"/>
+<instance part="RIBBON_Y1_Y2" gate="A" x="299.72" y="93.98"/>
+<instance part="RIBBON_X" gate="A" x="299.72" y="58.42"/>
+<instance part="RIBBON_Z" gate="A" x="299.72" y="27.94"/>
+<instance part="RIBBON_Y1" gate="A" x="340.36" y="58.42"/>
+<instance part="RIBBON_Y2" gate="A" x="340.36" y="27.94"/>
+<instance part="S2" gate="A" x="289.56" y="-10.16"/>
+<instance part="S1" gate="A" x="281.94" y="-10.16"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="STEP_X" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D2"/>
-<wire x1="149.86" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="157.48" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RIBBON_X" gate="A" pin="1"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="1"/>
 <wire x1="205.74" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="190.5" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="STEP_Y" class="0">
+<net name="PUL+Y" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D3"/>
 <wire x1="149.86" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="157.48" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="STEP_Z" class="0">
+<net name="PUL+Z" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D4"/>
 <wire x1="149.86" y1="30.48" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
 <label x="157.48" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DIR_X" class="0">
+<net name="DIR+X" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D5"/>
 <wire x1="149.86" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
@@ -1221,7 +1282,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="157.48" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="4"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="4"/>
 <wire x1="205.74" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
 <label x="177.8" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -1241,7 +1302,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <junction x="38.1" y="5.08"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="8"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="8"/>
 <wire x1="205.74" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="190.5" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -1308,7 +1369,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="27.94" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="5"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="5"/>
 <wire x1="205.74" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <label x="190.5" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -1405,14 +1466,50 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="157.48" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="2"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="2"/>
 <wire x1="205.74" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="193.04" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="1"/>
-<wire x1="205.74" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="187.96" y="104.14" size="1.778" layer="95"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="2"/>
+<wire x1="205.74" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="187.96" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="4"/>
+<wire x1="254" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+<label x="236.22" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="4"/>
+<wire x1="297.18" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="279.4" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_X" gate="A" pin="4"/>
+<wire x1="297.18" y1="60.96" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="276.86" y="60.96" size="1.778" layer="95"/>
+<pinref part="RIBBON_Z" gate="A" pin="4"/>
+<wire x1="297.18" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
+<label x="276.86" y="30.48" size="1.778" layer="95"/>
+<wire x1="287.02" y1="30.48" x2="281.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="60.96" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="60.96" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
+<junction x="287.02" y="30.48"/>
+<junction x="287.02" y="60.96"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1" gate="A" pin="4"/>
+<wire x1="337.82" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
+<label x="317.5" y="60.96" size="1.778" layer="95"/>
+<pinref part="RIBBON_Y2" gate="A" pin="4"/>
+<wire x1="337.82" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="317.5" y="30.48" size="1.778" layer="95"/>
+<wire x1="327.66" y1="30.48" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="60.96" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
+<junction x="327.66" y="30.48"/>
+<junction x="327.66" y="60.96"/>
 </segment>
 </net>
 <net name="SPINDLE_ENABLE" class="0">
@@ -1450,21 +1547,21 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </net>
 <net name="DIR" class="0">
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="3"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="3"/>
 <wire x1="205.74" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="193.04" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_36V+" class="0">
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="6"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="6"/>
 <wire x1="205.74" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <label x="187.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_GND" class="0">
 <segment>
-<pinref part="RIBBON_X" gate="A" pin="7"/>
+<pinref part="RIBBON_XOLD" gate="A" pin="7"/>
 <wire x1="205.74" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <label x="187.96" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -1476,9 +1573,39 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="213.36" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="6"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="6"/>
 <wire x1="205.74" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="187.96" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="6"/>
+<wire x1="254" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<label x="236.22" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="6"/>
+<wire x1="297.18" y1="91.44" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
+<label x="279.4" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_X" gate="A" pin="6"/>
+<wire x1="297.18" y1="55.88" x2="281.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="276.86" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Z" gate="A" pin="6"/>
+<wire x1="297.18" y1="25.4" x2="281.94" y2="25.4" width="0.1524" layer="91"/>
+<label x="276.86" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1" gate="A" pin="6"/>
+<wire x1="337.82" y1="55.88" x2="322.58" y2="55.88" width="0.1524" layer="91"/>
+<label x="317.5" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y2" gate="A" pin="6"/>
+<wire x1="337.82" y1="25.4" x2="322.58" y2="25.4" width="0.1524" layer="91"/>
+<label x="317.5" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENA+" class="0">
@@ -1488,7 +1615,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="213.36" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="4"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="4"/>
 <wire x1="205.74" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="187.96" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -1537,37 +1664,278 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="213.36" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="8"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="8"/>
 <wire x1="205.74" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
 <label x="187.96" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="8"/>
+<wire x1="254" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<label x="236.22" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="8"/>
+<wire x1="297.18" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
+<label x="279.4" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_X" gate="A" pin="8"/>
+<wire x1="297.18" y1="50.8" x2="281.94" y2="50.8" width="0.1524" layer="91"/>
+<label x="276.86" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Z" gate="A" pin="8"/>
+<wire x1="297.18" y1="20.32" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
+<label x="276.86" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1" gate="A" pin="8"/>
+<wire x1="337.82" y1="50.8" x2="322.58" y2="50.8" width="0.1524" layer="91"/>
+<label x="317.5" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y2" gate="A" pin="8"/>
+<wire x1="337.82" y1="20.32" x2="322.58" y2="20.32" width="0.1524" layer="91"/>
+<label x="317.5" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PUL-" class="0">
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="7"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="7"/>
 <wire x1="205.74" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <label x="187.96" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="7"/>
+<wire x1="254" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
+<label x="236.22" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="7"/>
+<wire x1="297.18" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<label x="279.4" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_X" gate="A" pin="7"/>
+<wire x1="297.18" y1="53.34" x2="289.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="276.86" y="53.34" size="1.778" layer="95"/>
+<pinref part="RIBBON_X" gate="A" pin="5"/>
+<wire x1="297.18" y1="58.42" x2="289.56" y2="58.42" width="0.1524" layer="91"/>
+<label x="276.86" y="58.42" size="1.778" layer="95"/>
+<wire x1="289.56" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="53.34" x2="289.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="53.34" x2="289.56" y2="58.42" width="0.1524" layer="91"/>
+<junction x="289.56" y="58.42"/>
+<junction x="289.56" y="53.34"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Z" gate="A" pin="7"/>
+<wire x1="297.18" y1="22.86" x2="289.56" y2="22.86" width="0.1524" layer="91"/>
+<label x="276.86" y="22.86" size="1.778" layer="95"/>
+<pinref part="RIBBON_Z" gate="A" pin="5"/>
+<wire x1="297.18" y1="27.94" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="276.86" y="27.94" size="1.778" layer="95"/>
+<wire x1="289.56" y1="27.94" x2="281.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="22.86" x2="289.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="22.86" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<junction x="289.56" y="27.94"/>
+<junction x="289.56" y="22.86"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1" gate="A" pin="7"/>
+<wire x1="337.82" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
+<label x="317.5" y="53.34" size="1.778" layer="95"/>
+<pinref part="RIBBON_Y1" gate="A" pin="5"/>
+<wire x1="337.82" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
+<label x="317.5" y="58.42" size="1.778" layer="95"/>
+<wire x1="330.2" y1="58.42" x2="322.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="53.34" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
+<junction x="330.2" y="58.42"/>
+<junction x="330.2" y="53.34"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y2" gate="A" pin="7"/>
+<wire x1="337.82" y1="22.86" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
+<label x="317.5" y="22.86" size="1.778" layer="95"/>
+<pinref part="RIBBON_Y2" gate="A" pin="5"/>
+<wire x1="337.82" y1="27.94" x2="330.2" y2="27.94" width="0.1524" layer="91"/>
+<label x="317.5" y="27.94" size="1.778" layer="95"/>
+<wire x1="330.2" y1="27.94" x2="322.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="22.86" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="22.86" x2="330.2" y2="27.94" width="0.1524" layer="91"/>
+<junction x="330.2" y="27.94"/>
+<junction x="330.2" y="22.86"/>
 </segment>
 </net>
 <net name="DIR-" class="0">
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="5"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="5"/>
 <wire x1="205.74" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="187.96" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="5"/>
+<wire x1="254" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
+<label x="236.22" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="5"/>
+<wire x1="297.18" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="279.4" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENA-" class="0">
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="3"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="3"/>
 <wire x1="205.74" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="187.96" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DC+" class="0">
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="2"/>
-<wire x1="205.74" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="187.96" y="101.6" size="1.778" layer="95"/>
+<pinref part="RIBBON_X1NOTUSED" gate="A" pin="1"/>
+<wire x1="205.74" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
+<label x="187.96" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_XZ" gate="A" pin="3"/>
+<wire x1="254" y1="99.06" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
+<label x="236.22" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1_Y2" gate="A" pin="3"/>
+<wire x1="297.18" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="279.4" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RIBBON_X" gate="A" pin="3"/>
+<wire x1="297.18" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
+<label x="276.86" y="63.5" size="1.778" layer="95"/>
+<pinref part="RIBBON_Z" gate="A" pin="3"/>
+<wire x1="284.48" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="33.02" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="276.86" y="33.02" size="1.778" layer="95"/>
+<wire x1="284.48" y1="33.02" x2="281.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="63.5" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
+<junction x="284.48" y="33.02"/>
+<junction x="284.48" y="63.5"/>
+</segment>
+<segment>
+<pinref part="RIBBON_Y1" gate="A" pin="3"/>
+<wire x1="337.82" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
+<label x="317.5" y="63.5" size="1.778" layer="95"/>
+<pinref part="RIBBON_Y2" gate="A" pin="3"/>
+<wire x1="325.12" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="33.02" x2="325.12" y2="33.02" width="0.1524" layer="91"/>
+<label x="317.5" y="33.02" size="1.778" layer="95"/>
+<wire x1="325.12" y1="33.02" x2="322.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="63.5" x2="325.12" y2="33.02" width="0.1524" layer="91"/>
+<junction x="325.12" y="33.02"/>
+<junction x="325.12" y="63.5"/>
+</segment>
+</net>
+<net name="PUL+X" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D2"/>
+<wire x1="149.86" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
+<label x="157.48" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="8"/>
+<wire x1="287.02" y1="-17.78" x2="297.18" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="7"/>
+<wire x1="287.02" y1="-15.24" x2="297.18" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="6"/>
+<wire x1="287.02" y1="-12.7" x2="297.18" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="5"/>
+<wire x1="287.02" y1="-10.16" x2="297.18" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="4"/>
+<wire x1="287.02" y1="-7.62" x2="297.18" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="3"/>
+<wire x1="287.02" y1="-5.08" x2="297.18" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="2"/>
+<wire x1="287.02" y1="-2.54" x2="297.18" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="1"/>
+<wire x1="287.02" y1="0" x2="297.18" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="8"/>
+<wire x1="279.4" y1="-17.78" x2="269.24" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="7"/>
+<wire x1="279.4" y1="-15.24" x2="269.24" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="6"/>
+<wire x1="279.4" y1="-12.7" x2="269.24" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="5"/>
+<wire x1="279.4" y1="-10.16" x2="269.24" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="4"/>
+<wire x1="279.4" y1="-7.62" x2="269.24" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="3"/>
+<wire x1="279.4" y1="-5.08" x2="269.24" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="2"/>
+<wire x1="279.4" y1="-2.54" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="S1" gate="A" pin="1"/>
+<wire x1="279.4" y1="0" x2="269.24" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

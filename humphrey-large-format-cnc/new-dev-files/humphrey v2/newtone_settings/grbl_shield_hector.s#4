@@ -1410,9 +1410,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="193.04" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="1"/>
-<wire x1="205.74" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="187.96" y="104.14" size="1.778" layer="95"/>
+<pinref part="RIBBON_X1" gate="A" pin="2"/>
+<wire x1="205.74" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="187.96" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPINDLE_ENABLE" class="0">
@@ -1565,9 +1565,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </net>
 <net name="DC+" class="0">
 <segment>
-<pinref part="RIBBON_X1" gate="A" pin="2"/>
-<wire x1="205.74" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="187.96" y="101.6" size="1.778" layer="95"/>
+<pinref part="RIBBON_X1" gate="A" pin="1"/>
+<wire x1="205.74" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
+<label x="187.96" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
