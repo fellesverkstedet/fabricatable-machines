@@ -58,7 +58,7 @@ It allows for a decent rack fabrication speed with a medium milling bit while op
 **Files**
 * [STEP Complete Z axis with small teeth](./fusion360_Z_axis_small_teeth.step)
 * [STEP Only rack and pinon with small teeth](./STEP_small_teeth_rack_and_pinon_only.step)
-* [Fusion360 Only rack and pinon with small teeth](.fusion360_small_teeth_rack_and_pinion_only.f3d)
+* [Fusion360 Only rack and pinon with small teeth](fusion360_small_teeth_rack_and_pinion_only.f3d)
 
 ## Projects using chamfer rail:
 * [Humphrey - large format CNC mill](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md)
