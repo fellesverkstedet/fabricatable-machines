@@ -1188,29 +1188,29 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <text x="302.26" y="20.32" size="1.778" layer="91">blå</text>
 <text x="302.26" y="17.78" size="1.778" layer="91">lilla</text>
 <text x="302.26" y="15.24" size="1.778" layer="91">grå</text>
-<text x="342.9" y="68.58" size="1.778" layer="91">brun</text>
-<text x="342.9" y="66.04" size="1.778" layer="91">rød</text>
-<text x="342.9" y="63.5" size="1.778" layer="91">orange</text>
-<text x="342.9" y="60.96" size="1.778" layer="91">gul</text>
-<text x="342.9" y="58.42" size="1.778" layer="91">grønn</text>
-<text x="342.9" y="55.88" size="1.778" layer="91">blå</text>
-<text x="342.9" y="53.34" size="1.778" layer="91">lilla</text>
-<text x="342.9" y="50.8" size="1.778" layer="91">grå</text>
-<text x="342.9" y="33.02" size="1.778" layer="91">brun</text>
-<text x="342.9" y="30.48" size="1.778" layer="91">rød</text>
-<text x="342.9" y="27.94" size="1.778" layer="91">orange</text>
-<text x="342.9" y="25.4" size="1.778" layer="91">gul</text>
-<text x="342.9" y="22.86" size="1.778" layer="91">grønn</text>
-<text x="342.9" y="20.32" size="1.778" layer="91">blå</text>
-<text x="342.9" y="17.78" size="1.778" layer="91">lilla</text>
-<text x="342.9" y="15.24" size="1.778" layer="91">grå</text>
+<text x="345.44" y="68.58" size="1.778" layer="91">brun</text>
+<text x="345.44" y="66.04" size="1.778" layer="91">rød</text>
+<text x="345.44" y="63.5" size="1.778" layer="91">orange</text>
+<text x="345.44" y="60.96" size="1.778" layer="91">gul</text>
+<text x="345.44" y="58.42" size="1.778" layer="91">grønn</text>
+<text x="345.44" y="55.88" size="1.778" layer="91">blå</text>
+<text x="345.44" y="53.34" size="1.778" layer="91">lilla</text>
+<text x="345.44" y="50.8" size="1.778" layer="91">grå</text>
+<text x="345.44" y="33.02" size="1.778" layer="91">brun</text>
+<text x="345.44" y="30.48" size="1.778" layer="91">rød</text>
+<text x="345.44" y="27.94" size="1.778" layer="91">orange</text>
+<text x="345.44" y="25.4" size="1.778" layer="91">gul</text>
+<text x="345.44" y="22.86" size="1.778" layer="91">grønn</text>
+<text x="345.44" y="20.32" size="1.778" layer="91">blå</text>
+<text x="345.44" y="17.78" size="1.778" layer="91">lilla</text>
+<text x="345.44" y="15.24" size="1.778" layer="91">grå</text>
 <text x="276.86" y="7.62" size="1.778" layer="91">SOCKERBIT</text>
 <text x="276.86" y="58.42" size="1.778" layer="91">DIR-</text>
 <text x="317.5" y="58.42" size="1.778" layer="91">DIR-</text>
 <text x="317.5" y="22.86" size="1.778" layer="91">DIR-</text>
 <text x="276.86" y="22.86" size="1.778" layer="91">DIR-</text>
 <text x="294.64" y="40.64" size="1.778" layer="91">SIG-_X_Z</text>
-<text x="335.28" y="40.64" size="1.778" layer="91">SIG-_Y1_Y2</text>
+<text x="337.82" y="40.64" size="1.778" layer="91">SIG-_Y1_Y2</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="119.38" y="40.64" rot="R270"/>
@@ -1232,8 +1232,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="RIBBON_Y1_Y2" gate="A" x="299.72" y="93.98"/>
 <instance part="RIBBON_X" gate="A" x="299.72" y="58.42"/>
 <instance part="RIBBON_Z" gate="A" x="299.72" y="22.86"/>
-<instance part="RIBBON_Y1" gate="A" x="340.36" y="58.42"/>
-<instance part="RIBBON_Y2" gate="A" x="340.36" y="22.86"/>
+<instance part="RIBBON_Y1" gate="A" x="342.9" y="58.42"/>
+<instance part="RIBBON_Y2" gate="A" x="342.9" y="22.86"/>
 <instance part="S2" gate="A" x="289.56" y="-10.16"/>
 <instance part="S1" gate="A" x="281.94" y="-10.16"/>
 </instances>
@@ -1494,10 +1494,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="RIBBON_Y1" gate="A" pin="4"/>
-<wire x1="337.82" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
 <label x="317.5" y="60.96" size="1.778" layer="95"/>
 <pinref part="RIBBON_Y2" gate="A" pin="4"/>
-<wire x1="337.82" y1="25.4" x2="327.66" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="25.4" x2="327.66" y2="25.4" width="0.1524" layer="91"/>
 <label x="317.5" y="25.4" size="1.778" layer="95"/>
 <wire x1="327.66" y1="25.4" x2="322.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
@@ -1614,13 +1614,16 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="RIBBON_Y1" gate="A" pin="6"/>
-<wire x1="337.82" y1="55.88" x2="322.58" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="55.88" x2="332.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="317.5" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="RIBBON_Y2" gate="A" pin="6"/>
-<wire x1="337.82" y1="20.32" x2="322.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="55.88" x2="322.58" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="20.32" x2="332.74" y2="20.32" width="0.1524" layer="91"/>
 <label x="317.5" y="20.32" size="1.778" layer="95"/>
+<wire x1="332.74" y1="20.32" x2="322.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="55.88" x2="332.74" y2="20.32" width="0.1524" layer="91"/>
+<junction x="332.74" y="55.88"/>
+<junction x="332.74" y="20.32"/>
 </segment>
 </net>
 <net name="ENA+" class="0">
@@ -1705,13 +1708,16 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="RIBBON_Y1" gate="A" pin="8"/>
-<wire x1="337.82" y1="50.8" x2="322.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="50.8" x2="335.28" y2="50.8" width="0.1524" layer="91"/>
 <label x="317.5" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="RIBBON_Y2" gate="A" pin="8"/>
-<wire x1="337.82" y1="15.24" x2="322.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="50.8" x2="322.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="15.24" x2="335.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="317.5" y="15.24" size="1.778" layer="95"/>
+<wire x1="335.28" y1="15.24" x2="322.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="50.8" x2="335.28" y2="15.24" width="0.1524" layer="91"/>
+<junction x="335.28" y="50.8"/>
+<junction x="335.28" y="15.24"/>
 </segment>
 </net>
 <net name="PUL-" class="0">
@@ -1732,20 +1738,20 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="RIBBON_Y1" gate="A" pin="7"/>
-<wire x1="337.82" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="317.5" y="53.34" size="1.778" layer="95"/>
 <pinref part="RIBBON_Y1" gate="A" pin="5"/>
-<wire x1="337.82" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="58.42" x2="322.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="53.34" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
 <junction x="330.2" y="58.42"/>
 <junction x="330.2" y="53.34"/>
 <pinref part="RIBBON_Y2" gate="A" pin="7"/>
-<wire x1="337.82" y1="17.78" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="17.78" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
 <label x="317.5" y="17.78" size="1.778" layer="95"/>
 <pinref part="RIBBON_Y2" gate="A" pin="5"/>
-<wire x1="337.82" y1="22.86" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="22.86" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="22.86" x2="322.58" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="17.78" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="17.78" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
@@ -1753,7 +1759,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <junction x="330.2" y="17.78"/>
 <wire x1="330.2" y1="53.34" x2="330.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="40.64" x2="330.2" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="40.64" x2="335.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="40.64" x2="337.82" y2="40.64" width="0.1524" layer="91"/>
 <junction x="330.2" y="40.64"/>
 </segment>
 </net>
@@ -1799,11 +1805,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="RIBBON_Y1" gate="A" pin="3"/>
-<wire x1="337.82" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
 <label x="317.5" y="63.5" size="1.778" layer="95"/>
 <pinref part="RIBBON_Y2" gate="A" pin="3"/>
 <wire x1="325.12" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
 <label x="317.5" y="27.94" size="1.778" layer="95"/>
 <wire x1="325.12" y1="27.94" x2="322.58" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="63.5" x2="325.12" y2="45.72" width="0.1524" layer="91"/>
