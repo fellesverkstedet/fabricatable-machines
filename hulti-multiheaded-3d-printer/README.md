@@ -127,6 +127,6 @@ Once I have all the parts it´s just a matter assembling and tuning. As Jake des
 
 
 
-*Frikk H Fossdal - april 2018*
+*Frikk H Fossdal - july 2018*
 
 
