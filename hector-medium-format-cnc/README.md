@@ -27,6 +27,8 @@ HECTOR has mostly been used as a "show-bot" but the testing indicated that the p
 
 For an even higher precision in X-direction and easier machining, consider removing the chamfer on the edge of the rails and develop "square glide blocks". This is not yet tested but we have high hopes for high performance on medium load. For high load, please consider the roller-axis solutuion instead.
 
+See rectangle-rail files here:
+
 [Square glide blocks model files](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/chamferrail/new-dev-files)
 
 ![Square glide blocks](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/chamferrail/new-dev-files/square_glide_block.jpg)
