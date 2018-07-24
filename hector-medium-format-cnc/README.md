@@ -2,11 +2,10 @@
 ![HECTOR](img/hector_upgraded.jpg)
 
 <details><summary>AIMATION</summary>
-
-![Animated HECTOR](img/hector_upgraded_animation.gif)
-
+<p>
+<img src="img/hector_upgraded_animation.gif">
+</p>
 </details>
-
 
 HECTOR was initially a 2017 fab academy final project. 
 
