@@ -37,7 +37,7 @@ HECTOR has mostly been used as a "show-bot" but "finger based low load backlash 
 
 ## Recommended upgrade ## 
 
-For an even higher precision in X-direction and easier machining, consider removing the chamfer on the edge of the rails and develop "square glide blocks". This is not yet tested but we have high hopes for high performance on medium load. For high load, please consider the roller-axis solutuion instead.
+For an even higher precision in X-direction and easier machining, consider removing the chamfer on the edge of the rails and develop "square glide blocks". This is not yet tested but we have high hopes for high performance on medium load. For high load, please consider the roller-axis solution instead.
 
 See rectangle-rail files here:
 
