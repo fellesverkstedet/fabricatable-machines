@@ -4,9 +4,10 @@
 <details><summary>AIMATION</summary>
 <p>
 <img src="img/hector_upgraded_animation.gif">
+
 </p>
 </details>
-
+  <br>
 HECTOR was initially a 2017 fab academy final project. 
 
 ## Files ##
