@@ -52,6 +52,10 @@ Humphrey v2 is slightly heavier than v1. We think that this caused too high fric
 * All rails and pinions were replaced with new smaller rack and pinon tooth size versions to [increase the gearing ratio](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#pinion-size-and-maximum-rack-pushing-force)
 
   Result: Smoother motions and less stalling but backlash in X was still around 1 mm. However the motors are now strong enough to damage the pinon teeth. 
+  
+* All aluminium glide surfaces were treated with PTFE dry film lubrication spray
+  
+  Result: Any benefit wore off quickly, the vipers might be partly to blame for rubbing it off.
 
 * All glide blocks were replaces with aluminium glide blocks covered in UHMW-low-friction-tape
   
