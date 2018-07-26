@@ -57,7 +57,7 @@ Humphrey v2 is slightly heavier than v1. We think that this caused too high fric
   
   Result: Tuning got easier and backlash seemed better(?) but they had even quicker oxide buildup(?) and no clear improvement in friction forces. (This was not tested for long.)
 
-* All axis plates and glide blocks were redesigned and replaces to hold 36 of 608-type ball bearings and dust covers.
+* [Roller axis developed and tested](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail), all axis plates and glide blocks replaced, now using ball bearings and needing dust covers.
 
   Result: Incredible reduction in friction, all three axis can be moved at the same time using two fingers. Backlash seems to be <0.1mm. Smooth running so far. [Test](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) indicate that the roller-axis is vounerable to dust. (Currently being evaluated.)
 
@@ -85,6 +85,72 @@ Humphrey v2 is slightly heavier than v1. We think that this caused too high fric
 [Fusion360 cloud link, full assembly](https://a360.co/2Okah8P) 
 
 [STEP model assembled machine](./humphrey_v2/Assembled_with_rollers-step.zip)
+
+## Pictures
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/cut_patterns_torison_box.png)
+
+_Humphrey v2 Torsion box cut patterns_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/torsion_box_(02).jpeg)
+
+_Assembly of the torsion box_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/assy_(03).jpeg)
+
+_Assembly of the gantry_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/assy_(06).jpeg)
+
+_Mounting of all axis together_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/test_run.JPG)
+
+_First tests_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/first_cuts.JPG)
+
+_First cuts_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/changed_teeth_size.jpg)
+
+_Comparission of the rack and pinion sizes during the upgrade to higher gear ratio_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/making_roller_excenters.JPG)
+
+_Machining of 40 excenters for the roller axis conversion_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/roller_x-z-carriage.JPG)
+
+_Test fitting the Roller-axis X-carriage aluminium parts_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/humphrey_being_upgraded_to_rollers.JPG)
+
+_Humphrey v2 being upgraded to use rollers instead of glide blocks_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
+
+_All 3D printed components for the dust protection of the roller axis_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/assy_(01).JPG)
+
+_All the aluminium in the original delivery_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_parts_in_rail_update.JPG)
+
+_New aluminium parts for the gearing upgrade_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/roller_upgrade_kit.JPG)
+
+_New aluminium parts for the roller axis upgrade_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/roller_upgraded_humphrey_v2.JPG)
+
+_Humphrey v2 after the roller axis upgrade_
+
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/closeup_results_of_test_cuts.JPG)
+
+_Humphrey v2 roller axis first test results, note the circles_
 
 ## Humphrey v1
 *June-July 2017, by Jens Dyvik and Alex Schaub*
