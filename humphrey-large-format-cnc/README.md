@@ -29,8 +29,6 @@ Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with 
 
 #### Using glide blocks
 
-[STEP model assembled machine](./new-dev-files/humphrey%20v2%20STEP.zip)
-
 [Fusion360 cloud link, full assembly](http://a360.co/2GzDQQc) 
 
 #### Using roller axis
