@@ -90,6 +90,8 @@ Humphrey v2 is slightly heavier than v1. We think that this caused too high fric
 
 [STEP model assembled machine](./humphrey_v2/Assembled_with_rollers-step.zip)
 
+[Components BOM with supplier links and prices](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
+
 ## Pictures
 
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/cut_patterns_torison_box.png)
