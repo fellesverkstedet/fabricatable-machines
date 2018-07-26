@@ -3,21 +3,40 @@
 ## Humphrey v2
 *April 2018 Jakob Nilsson*
 ![Humphrey v2 Doing its first production](./img/humphrey_V2/in_production.JPG)
-**Stats**
+
+[Production and installation pictures](.img/humphrey_V2)
+
+### Changes from v1
+Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with some request for new features. The most notable planned changes from v1 were:
+
+* Longer 3.1 m * 1.22 m work area (was 2.44m * 1.22 m on v1)
+* 4 of Nema24 closed loop stepper motors, 3Nm
+* 2,2 kW 24000 RPM aircooled spindle (was 800w on v1)
+* Torsion box bed
+* Prefabricated steel legs (v1 made it's own legs after temporary assembly)
+* Square cross-section aluminium gantry (v1 had a lighter triangular gantry profile)
 * 3.1 m * 1.22 m work area
 * 4 of Nema24 closed loop stepper motors, 3Nm
 * 2,2 kW 24000 RPM aircooled spindle
 * Torsion box bed
-* Square cross-section aluminium gantry
-* Grbl + arduino UNO controller, USB communication
+* CNC cut slots for glue-holding screws for improved torsion box assembly
+* Square cross-section aluminium gantry with place for all electronics
 * Full auto homing using inductive limit switches and Z-plate on gantry "foot"
-* Modelled and CAMed in Fusion360
+* Pre milled geometries for sideways threading
+* Larger rack and pinion teeth
+* CNC threading of vertical holes
+* Split Ertalite TX plastic glide blocks
+* Dust vipers integrated into the glide blocks
+* Metal links to position the split y-rails
+* Custom GRBL connection shield with full optoinsulation
 
-[Production and installation pictures](.img/humphrey_V2)
+### Files
+
+#### Using glide blocks
 
 [STEP model assembled machine](./new-dev-files/humphrey%20v2%20STEP.zip)
 
-[Fusion360 cloud link, full assembly](http://a360.co/2GzDQQc)
+[Fusion360 cloud link, full assembly](http://a360.co/2GzDQQc) 
 
 ## Humphrey v1
 *June-July 2017, by Jens Dyvik and Alex Schaub*
