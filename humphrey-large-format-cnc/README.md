@@ -38,6 +38,10 @@ Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with 
 
 [Fusion360 cloud link, full assembly](http://a360.co/2GzDQQc) 
 
+#### Using roller axis
+
+[Fusion360 cloud link, full assembly](https://a360.co/2Okah8P) 
+
 ## Humphrey v1
 *June-July 2017, by Jens Dyvik and Alex Schaub*
 ![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)
