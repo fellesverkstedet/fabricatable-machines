@@ -30,9 +30,9 @@ Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with 
 
 ### Backlash and tuning issues - [See issue 14](https://github.com/fellesverkstedet/fabricatable-machines/issues/14)
 
-Humphrey v2 is slightly heavier than v1. We think that this caused too high friction forces between the plastic glide blocks and the rails. What happened was that the glide block surfaces within a days use would be covered in a layer of aluminium oxide, which would dramatically increase the friction and make the machine underperform. We measured that it took 16 kg pull on a luggage scale to move the X-carriage. This caused backlash of 1-2 mm and caused the motors to jerk and sometimes stall. This also made tuning the chamfered glide blocks very challanging since the margins were so small between too loose and too tight to move. 
+Humphrey v2 is slightly heavier than v1. We think that this caused too high friction forces between the plastic glide blocks and the rails. What happened was that the glide block surfaces within a days use would be covered in a layer of aluminium oxide, which would dramatically increase the friction and make the machine underperform. We measured that [it took 16 kg pull on a luggage scale to move the X-carriage](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/pull_test.jpg). This caused backlash of 1-2 mm (without any extra milling load) and caused the motors to jerk and sometimes stall. This also made tuning the chamfered glide blocks very challanging since the margins were so small between too loose and too tight to move. 
 
-**Attempted fixes:**
+**Log of fixes and upgrades:**
 * Endless and recurring tuning of the glide blocks and motor positons
 
   Result: Slight tempoprary improvement but the glide blocks shifted from the load and this quickly loosened the tuning.
@@ -51,7 +51,7 @@ Humphrey v2 is slightly heavier than v1. We think that this caused too high fric
   
 * All rails and pinions were replaced with new smaller rack and pinon tooth size versions to [increase the gearing ratio](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#pinion-size-and-maximum-rack-pushing-force)
 
-  Result: Smoother motions and less stalling but backlash in X was still around 1 mm.
+  Result: Smoother motions and less stalling but backlash in X was still around 1 mm. However the motors are now strong enough to damage the pinon teeth. 
 
 * All glide blocks were replaces with aluminium glide blocks covered in UHMW-low-friction-tape
   
@@ -112,6 +112,10 @@ _First tests_
 
 _First cuts_
 
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/backlash_typical.jpg)
+
+_Milled test pockets that shows typical imperfections from backlash_
+
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/changed_teeth_size.jpg)
 
 _Comparission of the rack and pinion sizes during the upgrade to higher gear ratio_
@@ -148,9 +152,17 @@ _New aluminium parts for the roller axis upgrade_
 
 _Humphrey v2 after the roller axis upgrade_
 
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/alu-milling_still.JPG)
+
+_Aluminium milling on Humphrey v2!_
+
+[![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/alu-milling_video.JPG)](https://photos.app.goo.gl/FRxFFRnpFdPw9nKu7)
+
+_Aluminium milling on Humphrey v2 video_
+
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/closeup_results_of_test_cuts.JPG)
 
-_Humphrey v2 roller axis first test results, note the circles_
+_Humphrey v2 roller axis first test results, check out those circles!_
 
 ## Humphrey v1
 *June-July 2017, by Jens Dyvik and Alex Schaub*
