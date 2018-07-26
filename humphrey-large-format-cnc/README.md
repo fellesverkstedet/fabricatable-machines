@@ -120,6 +120,10 @@ _First cuts_
 
 _Milled test pockets that shows typical imperfections from backlash_
 
+![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/alu-glide-blocks.jpg)
+
+_New aluminium glide blocks being produced_
+
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/changed_teeth_size.jpg)
 
 _Comparission of the rack and pinion sizes during the upgrade to higher gear ratio_
