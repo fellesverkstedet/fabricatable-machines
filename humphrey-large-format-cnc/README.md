@@ -1,8 +1,10 @@
 ﻿# Humphrey - Large format CNC mill
 
 ## Humphrey v2
-*April 2018 Jakob Nilsson*
+*July 2018 Jakob Nilsson*
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/in_production.JPG)
+
+_Humphrey v2 doing it's first production cuts_
 
 [Production and installation pictures](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/)
 
@@ -20,10 +22,55 @@ Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with 
 * Pre milled marks and reliefs for easier sideways threading of aluminium parts
 * Larger rack and pinion teeth for faster milling 
 * CNC threading of vertical holes
-* Split Ertalite TX plastic glide blocks to aviod warping
+* Split glide blocks to aviod warping, made from [Ertalyte TX](http://www.boedeker.com/ertaly_p.htm?utm_source=google&utm_medium=cpc&utm_campaign=Ertalyte&utm_content=ertalyte&utm_term=ertalyte&gclid=Cj0KCQjwu_jYBRD8ARIsAC3EGCJTTdM0VmiQMfy559bWI8msx-GFd42NzXiWPIiUJrVDcyjbf4ZEix4aArsJEALw_wcB) a low friction plastic, with compressing screws.
+* Y-axis glide blocks placed so that the machine rest on the glide block instead of hanging from it.
 * Dust vipers integrated into the glide blocks
 * Metal links to simplify positioning the split y-rails
 * Custom GRBL connection shield with full opto-insulation
+
+### Backlash and tuning issues - [See issue 14](https://github.com/fellesverkstedet/fabricatable-machines/issues/14)
+
+Humphrey v2 is slightly heavier than v1. We think that this caused too high friction forces between the plastic glide blocks and the rails. What happened was that the glide block surfaces within a days use would be covered in a layer of aluminium oxide, which would dramatically increase the friction and make the machine underperform. We measured that it took 16 kg pull on a luggage scale to move the X-carriage. This caused backlash of 1-2 mm and caused the motors to jerk and sometimes stall. This also made tuning the chamfered glide blocks very challanging since the margins were so small between too loose and too tight to move. 
+
+**Attempted fixes:**
+* Endless and recurring tuning of the glide blocks and motor positons
+
+  Result: Slight tempoprary improvement but the glide blocks shifted from the load and this quickly loosened the tuning.
+  
+* Increasing the [motor](https://www.aliexpress.com/item/NEMA-23-2N-m-283ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS57-36-20/32712473144.html) torque by reprogramming their firmware using a [HISU adjuster with RS232 cable for JMC driver](https://www.aliexpress.com/item/HISU-for-Andriy-Kyrychenko/32805819281.html?spm=2114.search0204.3.1.2e5f22b096LPf6&ws_ab_test=searchweb0_0,searchweb201602_3_10152_10065_10151_10344_10068_10869_10342_10868_10343_10340_10059_10341_10696_100031_10084_10083_10103_10618_10624_10307_10623_10622_10621_10620,searchweb201603_6,ppcSwitch_5_ppcChannel&algo_expid=75d93e7b-17cd-46cd-bf5e-ac884c644ff8-0&algo_pvid=75d93e7b-17cd-46cd-bf5e-ac884c644ff8&priceBeautifyAB=0)
+
+  Result: Slight improvement, less stalling, increased shifting of the glide blocks.
+
+* Roughing the surface under the glide blocks to make tuning last longer
+
+  Result: Tuning lasted longer but backlash and reliability was still not good enough.
+
+* The X-rail was removed and all precision surfaces were remachined to remove small imprefections
+
+  Result: Tuning and backlash in X got improved but the machine still jerked and had >1 mm backlash.
+  
+* All rails and pinions were replaced with new smaller rack and pinon tooth size versions to [increase the gearing ratio](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#pinion-size-and-maximum-rack-pushing-force)
+
+  Result: Smoother motions and less stalling but backlash in X was still around 1 mm.
+
+* All glide blocks were replaces with aluminium glide blocks covered in UHMW-low-friction-tape
+  
+  Result: Tuning got easier and backlash seemed better(?) but they had even quicker oxide buildup(?) and no clear improvement in friction forces. (This was not tested for long.)
+
+* All axis plates and glide blocks were redesigned and replaces to hold 36 of 608-type ball bearings and dust covers.
+
+  Result: Incredible reduction in friction, all three axis can be moved at the same time using two fingers. Backlash seems to be <0.1mm. Smooth running so far. [Test](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) indicate that the roller-axis is vounerable to dust. (Currently being evaluated.)
+
+## Fails
+
+* We think that the chamfer rail gets in a self-reinforcing spiral of increasing friction when it is over-loaded. This made it impossible to reach good performace on Humphrey v2 with chamfer rail.
+* Compressing plastic glide block screws made tuning difficult.
+* Fixing the performance problems took lots of unforseen effort
+* The gantry feet often clashed with the Z-rail and dust skirt, it's inner sides should be lower to avoid this.
+
+## Wins 
+
+* Humphrey v2 has the highest precison, is most powerfull and is the biggest machine we have made with the fabricatable machines system.
 
 ### Files
 
