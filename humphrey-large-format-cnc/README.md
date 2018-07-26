@@ -27,11 +27,13 @@ Humphrey v2 was based on the lessons learned from Humphrey v1 and upgraded with 
 
 ### Files
 
-#### Using glide blocks
+#### Using glide blocks - OLD!
+
+[STEP model assembled machine](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/humphrey%20v2_with_glide_blocks.zip)
 
 [Fusion360 cloud link, full assembly](http://a360.co/2GzDQQc) 
 
-#### Using roller axis
+#### Using roller axis - LATEST! 
 
 [Fusion360 cloud link, full assembly](https://a360.co/2Okah8P) 
 
