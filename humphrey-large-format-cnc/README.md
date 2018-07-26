@@ -154,11 +154,11 @@ _Humphrey v2 after the roller axis upgrade_
 
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/alu-milling_still.JPG)
 
-_Aluminium millingon Humphrey v2!_
+_Aluminium milling on Humphrey v2!_
 
 [![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/alu-milling_video.JPG)](https://photos.app.goo.gl/FRxFFRnpFdPw9nKu7)
 
-_Aluminum milling video_
+_Aluminium milling on Humphrey v2 video_
 
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/closeup_results_of_test_cuts.JPG)
 
