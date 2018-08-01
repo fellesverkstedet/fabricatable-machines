@@ -7,7 +7,7 @@ A 3m version of [Humphrey](https://github.com/fellesverkstedet/fabricatable-mach
 * 800W 24000 rpm spindle
 * Valchromat torsion box bed
 * Closed loop 3Nm Nema24 stepper motors
-*
+
 
 ## Files
 
