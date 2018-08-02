@@ -8,7 +8,7 @@ Hobo is a large format cnc milling machine made from 12mm wood plates. It was de
 
 ### Status
 
-*No longer developed, not reccomend for reproduction. See [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for current reccomended large format machine*
+*No longer developed, not reccomended for reproduction. See [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for our current reccomended large format machine.*
 
 ### Design wins
 
