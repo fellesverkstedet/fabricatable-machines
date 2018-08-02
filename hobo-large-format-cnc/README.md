@@ -4,16 +4,16 @@
 ![Hobo](./img/hobo-front-view.JPG)
 *Hobo milling PMMA at FAB14*
 
+Hobo is a large format cnc milling machine made from 12mm wood plates. It was demoed at FAB14 and is now part of Francisco Sanchez mobile fab lab.
+
 ### Status
 
 *No longer developed, not reccomend for reproduction. See [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) for current reccomended large format machine*
 
-Hobo is a large format cnc milling machine made from 12mm wood plates. It was demoed at FAB14 and is now part of Francisco Sanchez mobile fab lab.
-
 ### Design wins
 
 * Super fast to CNC mill all the parts
-* Very chaep to build
+* Very cheap to build
 * The wood construction became very rigid
 * Plastic rack gave decent performance
 * Registering plastic rack with wooden dowels worked great
@@ -24,7 +24,7 @@ Hobo is a large format cnc milling machine made from 12mm wood plates. It was de
 
 ### Design fails
 
-* The rubber inline rubber skatewheels made for a very soft and unstable milling machine. Large rubber wheels are too soft to make a decent CNC mill
+* The rubber inline rubber skatewheels made the machine very soft and unstable. Large rubber wheels are too soft to make a decent CNC mill.
 * Having only tree inline skate wheels on the X axis instead of four made the machine even less stable
 * Fine tuning the position of the wheels where difficult
 * Combining the mounting of the Y  otors with the upper Y wheels made it very difficult to tune with high pressure on the wheel and low pressure on the pinion
@@ -40,25 +40,25 @@ We will combine the wood construction principle from Hobo with the 608 bearing r
 * Video explaining the Z axis construction [here](https://youtu.be/7Ns-z3jZd3Q)
 
 ### The making of
+![Hobo](./img/hobo-bom-screenshot.JPG)
+*Screenshot from the Bill of materials in the repo. If you swap the high-end spindle for a low performance DIY version you have a very cheap CNC mill*
+
 ![Hobo](./img/hobo-drawing-front.jpg)
 *Front view*
 
 ![Hobo](./img/hobo-drawing-perspective.jpg)
 *Nice and simple*
 
-![Hobo](./img/hobo-milling-rack.jpg)
+![Hobo](./img/hobo-milling-rack.JPG)
 *CNC milling the rack pieces. We used too few hold down screws and skipped the wooden washers. This made the skin between the teeth disappear in some places. Note that we used the same spindle as on Hobo. Good fun to mill with 60.000 RPM*
 
-![Hobo](./img/hobo-bom-screenshot.jpg)
-*Screenshot from the attached Bill of materials. If you swap the high-end spindle for a low performances DIY versoin you have a very cheap CNC mill*
-
 ![Hobo](./img/hobo-torsion-box-bed.jpg)
-*If you dont need to transport the machine over a long distance, a torsion box bed gives high perfomrace for a low cost*
+*If you dont need to transport the machine over a long distance, a torsion box bed gives high stiffness for a low cost*
 
-![Hobo](./img/hobo-assembling-x-z-plate.jpg)
+![Hobo](./img/hobo-assembling-x-z-plate.JPG)
 *Assembly of the XZ axis plate. The thin green plastic is to spcace out the construction. The inline skate wheels were 24mm wide, same as two 12mm thick parts, so we needed to some extra witdth to avoid having the wheel rubb against the side wall. We als added whashers between the wheel bearings and the side walls*
 
-![Hobo](./img/hobo-perspective-view.jpg)
+![Hobo](./img/hobo-perspective-view.JPG)
 *Torsion box bed complete*
 
 ![Hobo](./img/hobo-gantry-and-rails-ready-for-shipping.jpg)
