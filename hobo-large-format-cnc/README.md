@@ -1,7 +1,7 @@
 # Hobo - Large format CNC Mill
 *July 2018, by Torbjørn Nordvik Helgesen and Jens Dyvik*
 
-![Hobo](./img/hobo-front-view.jpg)
+![Hobo](./img/hobo-front-view.JPG)
 *Hobo milling PMMA at FAB14*
 
 ### Status
@@ -36,8 +36,8 @@ We will combine the wood construction principle from Hobo with the 608 bearing r
 ### External documentation
 
 * Torbjørn has written a great piece on the story of Hobo [here](http://www.thnordvik.com/touluse).
-* [Video of Hobo and other machines at FAB14](https://youtu.be/syCI9m8QGj4)
-* [Video explaining the Z axis construction](https://youtu.be/7Ns-z3jZd3Q)
+* Video of Hobo and other machines at FAB14 [here](https://youtu.be/syCI9m8QGj4)
+* Video explaining the Z axis construction [here](https://youtu.be/7Ns-z3jZd3Q)
 
 ### The making of
 ![Hobo](./img/hobo-drawing-front.jpg)
