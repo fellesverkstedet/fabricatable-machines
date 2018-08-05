@@ -1,7 +1,14 @@
 
-﻿These are instructions for how to assemble Humphrey v3 from a kit of pre-produced parts. First you will build the table which you then can use as a work-table to assemble all the other parts on. You will then build the mechanics and tune the motion system before finally adding the motors and electronics.
+﻿These are instructions for how to assemble Humphrey v3 from a kit of pre-produced parts. Each section list the parts you will need to complete the stage. Please contribute by offering improvements to these instructions, eithe by commenting in the Issues or as a Pull-request.
+# Introduction to the parts
+First you will build the table which you then can use as a work-table to assemble all the other parts on. You will then build the mechanics and tune the motion system before finally adding the motors and electronics.
 
-# Table
+* The Table
+* The Gantry
+* The Carriage
+* Tuning the motion system
+* The Electronics
+# The table
 This section tells you how to build the table. It is recommended to start with this since you then can use it as a work-table to assemble all the other parts on.
 
 Equipment:
@@ -22,7 +29,7 @@ Summary of the steps:
 3. Attach the Y-rails
 4. Attach the spoil board
 
-## Legs
+## The Legs
 There are 6 identical legs that carry the torsion box. Each has an adjustable foot underneath. 
 * Dry fit a foot to understand how they go together
 * Dissasemble it
@@ -30,11 +37,11 @@ There are 6 identical legs that carry the torsion box. Each has an adjustable fo
 * Assemble the leg and clamp the pieces in place using the 5x50mm wood screws
 * Place the adjustable foot in the bottom and set it to middle position.
 
-## Torsion box
-## Y-rails
+## The Torsion box
+## The Y-rails
 * Place the aluminium "mega nuts" on the top long sides of the torsion box
 * Place the valchromat spacers and aluminium rails under the sides and secure them with M5x35mm machine screws
-## Spoil board
+## The Spoil board
 * Make sure the torsion box wood glue has dried enough to remove the clamping screws.
 * Remove all the 5x50mm screws from the top of the torsion box.
 * Find the four Ø6mm plug holes where the corners of the spoil board will go and put wooden dowels in the holes. 
@@ -46,16 +53,15 @@ There are 6 identical legs that carry the torsion box. Each has an adjustable fo
 
 
 
-# Gantry
+# The Gantry
 
-# Carriage
+# The Carriage
 
-# Tuning
+# Tuning the motion system
 
-# Electronics
+# The Electronics
 ## Motors
 ## Limit switches 
 ## Wireing 
 ## Power and safety
 ## Configuring the controller
-
