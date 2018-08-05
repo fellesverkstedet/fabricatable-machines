@@ -1,6 +1,12 @@
 
-﻿These are instructions for how to assemble Humphrey v3 from a kit of pre-produced parts. Each section list the parts you will need to complete the stage. Please contribute by offering improvements to these instructions, either by commenting in the Issues or as a Pull-request.
-# Introduction to the parts
+# Assembly instructions for Humphrey v3
+
+[Online 3D model](https://a360.co/2AF6yjp) (Can be downloaded)
+
+## Summary
+
+These are instructions for how to assemble Humphrey v3 from a kit of pre-produced parts. Each section list the parts you will need to complete the stage. Please contribute by offering improvements to these instructions, either by commenting in the Issues or as a Pull-request.
+## Introduction to the parts
 First you will build the table which you then can use as a work-table to assemble all the other parts on. You will then build the mechanics and tune the motion system before finally adding the motors and electronics.
 
 * The Table
@@ -8,8 +14,12 @@ First you will build the table which you then can use as a work-table to assembl
 * The Carriage
 * Tuning the motion system
 * The Electronics
+
 # The table
-This section tells you how to build the table. It is recommended to start with this since you then can use it as a work-table to assemble all the other parts on.
+
+This section tells you how to build the table. It is recommended to start with this since you then can use it as a work-table to assemble all the other parts on. 
+
+The table consist of a [torison box](https://en.wikipedia.org/wiki/Torsion_box) that rests on 6 legs with adjustable feet. On top of the torsion box there is a 19 mm thick spoil board sheet that is the size of the work area of the machine. This layer will be worn down when using the machine and will have to be re-planed every now and then and eventually it will have to be made thicker again by glueing on more sheets.
 
 Equipment:
 * Wood glue for 2,5 m^2
@@ -31,18 +41,16 @@ Summary of the steps:
 3. Attach the Y-rails
 4. Attach the spoil board
 
-# The Table
-
-The table consist of a [torison box](https://en.wikipedia.org/wiki/Torsion_box) that rests on 6 legs with adjustable feet. On top of the torsion box there is a 19 mm thick spoil board sheet that is the size of the work area of the machine. This layer will be worn down when using the machine and will have to be re-planed every now and then and eventually it will have to be made thicker again by glueing on more sheets.
-
 ![The assembled table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)
 
 _The assembled table_
 
-## Building the legs
+## The legs
 ![Leg](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/leg.JPG)
 
 _One assembled leg with adjustable foot_
+
+### Building the legs
 
 There are 6 identical legs that carry the torsion box. Each has an adjustable foot underneath. 
 * Dry fit a foot to understand how they go together
@@ -59,7 +67,7 @@ The torsion box consists of two "skins" separated by a core. The skins are divid
 
 Figure out where you want to place the machine and assemble it there. Think about how you want it oriented. You want to be able to walk around the long sides and at least the front of the short side of the machine without risk of becoming trapped between the moving gantry and the walls or other obstacles.
 
-### Building the box on the legs
+### Building the torsion box
 
 * Align the legs under the bottom torsion box skins (8 mm thick) using wooden dowels
 
