@@ -1,6 +1,6 @@
-# 3D prints for Humphrey v2 dust protection of roller axis
+# 3D prints for Humphrey dust protection of roller axis
 
-These are the 3D prints for Humphrey v2 with roller axis. (v3 will have some changes.)
+These are all the 3D prints needed for Humphrey with roller axis (currently v2 and v3.)
 
 ![Covers and vipers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/img/covers_n_vipers.png)
 
