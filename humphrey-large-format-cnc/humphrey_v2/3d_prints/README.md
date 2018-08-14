@@ -13,10 +13,16 @@ Start with printing a copy of the cover "test platform" (see filename) and a "Ro
 ![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/apart-cover.jpg)
 ![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/assembled-cover-test.jpg)
 
+Download the zip-files, unzip. Print the 33 parts in the quantities listed below, the quantiy is also written in each filename.
 
-Download the zip-files, unzip. print these 33 prints according to the list below, the quantiy is also written in each filename.
+### Print settings
 
-**Print these covers:**
+I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzle and 20% infill but feel free to experiment with other settings. If you want to modify the parts, you can fish out the originals from the [assembly files here](https://a360.co/2NBCXcX). 
+
+### Covers
+
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Roller_covers-stl.zip)
+
 * Roller_cover 16st
 * Roller_cover_no_snap_x_lower 1st
 * Roller_cover_no_snap_x_lower_mirrored 1st
@@ -24,13 +30,25 @@ Download the zip-files, unzip. print these 33 prints according to the list below
 
 22 prints, 4 models. 
 
-**Print these Vipers:**
+### Vipers
+
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Vipers-stl.zip)
+
 * viper_xlower 1st
 * viper_xlower_mirror 1st
 * Viper_xtop_and_z-axis 6st
 * Viper_y-axis 4st
 
-12 prints, 4 models.
+12 prints, 4 models. 
+
+### Pre set plates for Cura
+
+These are four pre set plates of parts to be sliced in [Cura](https://ultimaker.com/en/products/ultimaker-cura-software), they take between 7-8 h each to print using standard draft settings so in total 30h.
+
+[CURA plates.zip](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/CURA_plates.zip)
+
+![All plates](./img/Cura_plates_UM0.jpg)
+
 
 # Pictures
 
