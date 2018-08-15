@@ -40,9 +40,9 @@ Equipment required
 
 The 3mm wide slots are 9 mm deep
 
-* Sheet 1: 12 mm torsion box parts 1
-* Sheet 2: 12 mm torsion box parts 2
-* Sheet 3: 6 legs probe and VFD
+* Sheet 1: 12 mm torsion box parts 1 (has dogbones for 6mm bit)
+* Sheet 2: 12 mm torsion box parts 2 (has dogbones for 6mm bit)
+* Sheet 3: 6 legs probe and VFD stiffeners (has dogbones for 6mm bit)
 
 ## 8 mm sheets
 
@@ -53,8 +53,8 @@ The 3mm wide slots are 6.5 mm deep
 The pockets on the top edges is 4mm deep in both cases.
 
 * Sheet 1: 8 mm torsion box parts 1 (missing dogbbones)
-* Sheet 2: 8 mm torsion box parts 2 (has dogbones)
-* Sheet 3: 8 mm torsion box parts 3 (has dogbones)
+* Sheet 2: 8 mm torsion box parts 2 (has dogbones for 6mm bit)
+* Sheet 3: 8 mm torsion box parts 3 (has dogbones for 6mm bit)
 
 ## 19 mm sheet
 
