@@ -9,7 +9,7 @@ The purpose of the tosion box is to make a stiff bed for the CNC machine to trav
 
 ![torsion box](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)
 
-[Read how to asseble it here](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/assembly.md)
+[Read how to assemble it here](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/assembly.md)
 
 # Making the parts for the table
 
