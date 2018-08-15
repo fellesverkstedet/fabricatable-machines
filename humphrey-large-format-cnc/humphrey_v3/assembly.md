@@ -46,18 +46,23 @@ Summary of the steps:
 _The assembled table_
 
 ## The legs
-![Leg](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/leg.JPG)
+
+![Leg assembled](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/leg.JPG)
 
 _One assembled leg with adjustable foot_
 
 ### Building the legs
 
-There are 6 identical legs that carry the torsion box. Each has an adjustable foot underneath. 
+There are 6 identical legs that carry the torsion box. Each will have an adjustable foot underneath. 
+* Find the pieces
+
+![Pieces](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/Foot_pieces.JPG)
+
 * Dry fit a foot to understand how they go together
 * Dissasemble it
 * Apply glue to the surfaces that will touch
 * Assemble the leg and clamp the pieces in place using the 5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets.
-* Place the adjustable foot in the bottom and set it to middle position.
+* The rubber feet will be attached later.
 
 ## The Torsion box
 
@@ -65,28 +70,52 @@ The torsion box consists of two "skins" separated by a core. The skins are divid
 
 ### Placement of the machine
 
-Figure out where you want to place the machine and assemble it there. Think about how you want it oriented. You want to be able to walk around the long sides and at least the front of the short side of the machine without risk of becoming trapped between the moving gantry and the walls or other obstacles.
+* Figure out where you want to place the machine and on which side you will control it from. (It will be possible to move it after assembly but before is much easier.) You want to be able to walk around the long sides and at least the front of the short side of the machine without risk of becoming trapped between the moving gantry and the walls or other obstacles. 
+
+![walls](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/walls.JPG)
+
+![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/size.JPG)
 
 ### Building the torsion box
 
-* Align the legs under the bottom torsion box skins (8 mm thick) using wooden dowels
+* Find the 8 mm thick bottom "skin" pieces. Note that the holes are placed 100mm  further in from one of the long edges, this is the operator side. Place this side towards were you will be standing when operating the machine.
+
+![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/8mm_skins.JPG)
+
+* Align the legs under the bottom torsion box skins (8 mm thick) using 6mm diameter wooden dowels. There are 12 predrilled holes.
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_first_skin.JPG)
 
-* Screw the legs into place from below. Do not glue them to the table if you want to be able to change them with a [storage system](https://github.com/fellesverkstedet/hat-systems) later
-* Use the [Laser level](https://www.clasohlson.com/no/Bosch-Quigo-III-krysslaser-/41-1002) and adjust the feet so that the table is level
+* Screw the legs into place. Place the screws from below so that you can accees them later. Do not glue the legs to the table. (You might want to exchange them with a [storage system](https://github.com/fellesverkstedet/hat-systems) later).
+* Place an adjustable rubber foot on the bottom of each leg with a large M8 washer above the nut and set it to middle position. Try to set all feet to the same height.
+
+![foot](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/foot.JPG)
+
+* Use a [Laser level](https://www.clasohlson.com/no/Bosch-Quigo-III-krysslaser-/41-1002) and adjust the nut on the rubber feet so that the table is level.
+* Find the core pieces
+
+![Ribs](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/ribs.JPG)
+
 * Dry mount a few torsion box core pieces so that you are fammiliar with how they fit together before you apply glue to them.
-* Add the long torsion box core pieces, apply glue to the edges of them that touch the lower skin. Clamp them in with Ø5x50mm wood screws from below the table. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets.
-* Apply the shorter torsion box core pieces, glue and screw them in the same way as the long ones.
+* The long core pieces go on first
+* The short core pices slot into the long ones
+* When you are fammiliar with how they fit together, apply glue to the lower edges that will rest on top of the lower skin. Do not yet apply glue to the edges facing up.
+* Screw the core pieces to the bottom skin from below, using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These bottom screws can be removed later but can also stay in. Your choice.
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_core.JPG)
 
+* Find the two 12 mm top skin sheets
+
+![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/12mm_skins.JPG)
+
 * Dry mount the top skin sheets (12mm thick) as practice before adding glue, you can use the tip of a flat screwdriver to help get the "fingers" top pop into the holes in the skin. 
-* Take the top skin off and smear glue on the edges that will touch the bottom of the top skin
+* Take the top skin off and smear glue on the edges of the core that will touch the bottom of the top skin.
+* Put the top skin back on and screw it from the top using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These top screws will have to be removed after the glue has set and before the spoilboard is glued on.
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_top_skin.JPG)
 
 ## The Y-rails
+
 * Place the aluminium "mega nuts" on the top long sides of the torsion box
 * Place the valchromat spacers and aluminium rails under the sides and secure them with M5x35mm machine screws. Do not tighten the screws yet.
 
