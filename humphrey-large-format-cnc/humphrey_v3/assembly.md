@@ -1,5 +1,5 @@
 
-# Assembly instructions for Humphrey v3
+# Assembly instructions for Humphrey v3 - The table
 
 [Online 3D model](https://a360.co/2AF6yjp) (Can be downloaded)
 
@@ -163,15 +163,4 @@ The torsion box is build from glued together valchromat and consists of two "ski
 * Mark the time so you will know when the glue has set.
 * Remove the 28 Ø4x40mm wood screws from the spoil board when the glue has set. Count them to not miss any.
 
-# The Gantry
-
-# The Carriage
-
-# Tuning the motion system
-
-# The Electronics
-## Motors
-## Limit switches 
-## Wireing 
-## Power and safety
-## Configuring the controller
+[Continued in The gantry](gantry.md)
