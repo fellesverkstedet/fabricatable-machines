@@ -128,8 +128,15 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ![Links](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/links.jpg)
 
-* Place the aluminium "mega nuts" on the top long sides of the torsion box
-* Place the valchromat spacers and aluminium rails under the sides and secure them with M5x35mm machine screws. Do not tighten the screws yet.
+* Place the aluminium "mega nuts" on the top long sides of the torsion and the valchromat spacers and aluminium rails under the sides and screw them together from below with M5x35mm machine screws and large washers. Do not tighten the screws yet.
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail_mount.jpg)
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail2.jpg)
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail3.jpg)
+
+* Place the links into the Y-rails from below and screw them in place, don't use washers. Press the rails towards each other before tightening the link screws. Leave the rest of the screws loose but in place.
 
 ## The Spoil board
 * Make sure the torsion box wood glue has dried enough to remove the clamping screws from the top skin.
