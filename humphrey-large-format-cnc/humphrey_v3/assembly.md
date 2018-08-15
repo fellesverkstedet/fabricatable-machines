@@ -28,7 +28,7 @@ Equipment:
 * 12 of Ø6mm wooden dowels for aligning the feet
 * 130 of Ø5x50mm wood screws for the torsion box
 * 24 of Ø4x40 wood screws for attaching the legs
-* ?? of Ø5x50mm wood screws for the legs
+* Ø5x50mm wood screws for the legs
 * 44 of M5x35mm machine screws for the Y-rail
 * Electric screwdriver with LOW torque setting
 * It is also very recommended but not mandatory to have a [foam glue-roller](https://www.aliexpress.com/item/Portable-Handheld-Glue-Applicator-with-2pcs-Rollers-Manual-Gluer-for-Woodworking-Glue-Machine-180ml-320ml-Hot/32839266171.html) as you will have use of it every time you need to add new thickness to your spoil-board.
@@ -54,19 +54,19 @@ _One assembled leg with adjustable foot_
 ### Building the legs
 
 There are 6 identical legs that carry the torsion box. Each will have an adjustable foot underneath. 
-* Find the pieces
+* Find 6 set of the valcrhomat leg pieces
 
-![Pieces](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/Foot_pieces.JPG)
+![Pieces](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/foot_pieces.JPG)
 
 * Dry fit a foot to understand how they go together
 * Dissasemble it
-* Apply glue to the surfaces that will touch
+* Apply glue to the surfaces that will be pressed together.
 * Assemble the leg and clamp the pieces in place using the 5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets.
 * The rubber feet will be attached later.
 
 ## The Torsion box
 
-The torsion box consists of two "skins" separated by a core. The skins are divided in to two pieces each. The top skin is 12 mm thick and the bottom one is 8 mm thick. The core consists of both 8 mm and 12 mm thick pieces that slot together. 
+The torsion box is build from glued together valchromat and consists of two "skins" separated by a core. The skins are divided in two pieces each. The top skin is 12 mm thick and the bottom one is 8 mm thick. The core consists of both 8 mm and 12 mm thick pieces that slot together. 
 
 ### Placement of the machine
 
@@ -78,7 +78,7 @@ The torsion box consists of two "skins" separated by a core. The skins are divid
 
 ### Building the torsion box
 
-* Find the 8 mm thick bottom "skin" pieces. Note that the holes are placed 100mm  further in from one of the long edges, this is the operator side. Place this side towards were you will be standing when operating the machine.
+* Find the 8 mm thick valchromat "bottom skin" pieces. Note that on one side the holes are placed 100mm further in, this is the operator side. Place this side towards were you will be standing when operating the machine.
 
 ![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/8mm_skins.JPG)
 
@@ -94,17 +94,17 @@ The torsion box consists of two "skins" separated by a core. The skins are divid
 * Use a [Laser level](https://www.clasohlson.com/no/Bosch-Quigo-III-krysslaser-/41-1002) and adjust the nut on the rubber feet so that the table is level.
 * Find the core pieces
 
-![Ribs](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/ribs.JPG)
+![Ribs](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/ribs.jpg)
 
 * Dry mount a few torsion box core pieces so that you are fammiliar with how they fit together before you apply glue to them.
 * The long core pieces go on first
 * The short core pices slot into the long ones
-* When you are fammiliar with how they fit together, apply glue to the lower edges that will rest on top of the lower skin. Do not yet apply glue to the edges facing up.
+* When you are familiar with how they fit together, apply glue to the lower edges that will rest on top of the lower skin. Do not yet apply glue to the edges facing up.
 * Screw the core pieces to the bottom skin from below, using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These bottom screws can be removed later but can also stay in. Your choice.
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_core.JPG)
 
-* Find the two 12 mm top skin sheets
+* Find the two 12 mm valchromat top skin sheets
 
 ![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/12mm_skins.JPG)
 
@@ -115,6 +115,18 @@ The torsion box consists of two "skins" separated by a core. The skins are divid
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_top_skin.JPG)
 
 ## The Y-rails
+
+* Find all long and thin aluminium pieces
+
+![y-rail and nut](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/thin_alu.jpg)
+
+* Find the 12 mm thick valchromat spacer pieces
+
+![Spacers](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/12mm_spacers.jpg)
+
+* Find the small aluminium links
+
+![Links](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/links.jpg)
 
 * Place the aluminium "mega nuts" on the top long sides of the torsion box
 * Place the valchromat spacers and aluminium rails under the sides and secure them with M5x35mm machine screws. Do not tighten the screws yet.
