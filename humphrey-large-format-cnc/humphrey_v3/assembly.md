@@ -86,7 +86,7 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_first_skin.JPG)
 
-* Screw the legs into place. Place the screws from below so that you can accees them later. Do not glue the legs to the table. (You might want to exchange them with a [storage system](https://github.com/fellesverkstedet/hat-systems) later).
+* Screw the legs into place. Place the screws from below so that you can access them later. Do not glue the legs to the table. (You might want to exchange them with a [storage system](https://github.com/fellesverkstedet/hat-systems) later).
 * Place an adjustable rubber foot on the bottom of each leg with a large M8 washer above the nut and set it to middle position. Try to set all feet to the same height.
 
 ![foot](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/foot.JPG)
@@ -97,8 +97,9 @@ The torsion box is build from glued together valchromat and consists of two "ski
 ![Ribs](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/ribs.jpg)
 
 * Dry mount a few torsion box core pieces so that you are fammiliar with how they fit together before you apply glue to them.
-* The long core pieces go on first
+ The long core pieces go on first
 * The short core pices slot into the long ones
+* Check the "open time" on your brand of wood glue so you know how long time you have to work with. Prepare some paper for spills etc.
 * When you are familiar with how they fit together, apply glue to the lower edges that will rest on top of the lower skin. Do not yet apply glue to the edges facing up.
 * Screw the core pieces to the bottom skin from below, using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These bottom screws can be removed later but can also stay in. Your choice.
 
@@ -110,7 +111,8 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 * Dry mount the top skin sheets (12mm thick) as practice before adding glue, you can use the tip of a flat screwdriver to help get the "fingers" top pop into the holes in the skin. 
 * Take the top skin off and smear glue on the edges of the core that will touch the bottom of the top skin.
-* Put the top skin back on and screw it from the top using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These top screws will have to be removed after the glue has set and before the spoilboard is glued on.
+* Put the top skin back on and screw it from the top using Ø5x50mm wood screws. USE THE LOWEST SETTING ON A ELECTRIC SCREW DRIVER and finish them with a hand tool. The purpose of the scews is just to clamp the pieces together while the glue sets. These top screws will have to be removed after the glue has set and before the spoilboard is glued on. 
+* Make a note of the time so that you will know when the screws are safe to remove. Check the glue bottle for the required clamping time.
 
 ![Table](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_top_skin.JPG)
 
@@ -128,16 +130,37 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ![Links](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/links.jpg)
 
-* Place the aluminium "mega nuts" on the top long sides of the torsion box
-* Place the valchromat spacers and aluminium rails under the sides and secure them with M5x35mm machine screws. Do not tighten the screws yet.
+* Note that rounded corners always should point outward.
+
+* Place the aluminium "mega nuts" on the top long sides of the torsion and the valchromat spacers and aluminium rails under the sides and screw them together from below with M5x35mm machine screws and large washers. Do not tighten the screws yet.
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail_mount.jpg)
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail2.jpg)
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail3.jpg)
+
+* Place the links into the Y-rails from below and screw them in place, don't use washers. Press the rails towards each other before tightening the link screws. Leave the rest of the screws loose but in place.
 
 ## The Spoil board
-* Make sure the torsion box wood glue has dried enough to remove the clamping screws from the top skin.
-* Remove all the 5x50mm screws from the top of the torsion box.
+
+* Find the 19 mm Valchromat spoilboard.
+
+![Spoilboard](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/spoilboard.jpg)
+
+* Find something that you can smear wood glue onto a 3m^2 wide area quickly with. A [foam glue-roller](https://www.aliexpress.com/item/Portable-Handheld-Glue-Applicator-with-2pcs-Rollers-Manual-Gluer-for-Woodworking-Glue-Machine-180ml-320ml-Hot/32839266171.html) is recommended.  
+* Preapre an electric screw drivers, Ø4x40mm wood screws and matching bits.
+* Make sure the torsion box wood glue has dried enough to remove the clamping screws from the top skin. 
+* Remove all the 5x50mm screws from the top of the torsion box. ()You may remove the ones from the bottom as well but it is not required.)
 * Find the four Ø6mm plug holes where the corners of the spoil board will go and put wooden dowels in the holes. 
-* Apply glue to the bottom of the spoilboard
-* Place the spoilboard on the wooden dowels
-* Screw down the spoilboard using 28 of Ø4x40mm wood screws
+
+![dowel_holes_spoilboard](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/dowel_holes_spoilboard.jpg)
+
+* Apply layer of wood glue to the table 40 mm past the wooden dowels and 10 mm away from the aluminium "mega nuts" on the sides. 
+* Smear it out to an even thickness.
+* Place the spoilboard on the wooden dowels.
+* Screw down the spoilboard down using 28 Ø4x40mm wood screws. Count them.
+* Mark the time so you will know when the glue has set.
 * Remove the 28 Ø4x40mm wood screws from the spoil board when the glue has set. Count them to not miss any.
 
 # The Gantry
