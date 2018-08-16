@@ -9,8 +9,6 @@ The purpose of the tosion box is to make a stiff bed for the CNC machine to trav
 
 ![torsion box](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)
 
-[Read how to assemble it here](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/assembly.md)
-
 # Making the parts for the table
 
 Materials required
@@ -38,7 +36,7 @@ All you need to make the parts:
 * [Fusion model with the main torsion box core parts](https://a360.co/2OGe8wh)
 * [Fusion model with the legs](https://a360.co/2MuRitT)
 
-* [Top assembly containing all parts](https://a360.co/2AF6yjp)
+* [Online 3D model containing all parts](https://a360.co/2AF6yjp)
 
 ## General
 
@@ -74,3 +72,9 @@ The pockets on the top edges is 4mm deep in both cases.
 The pockets on both long edges are 8.5mm deep.
 
 * Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
+
+
+[How to assemble the table](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Table_assembly.md)
+
+[Back to Assemby main page](assembly.md)
+
