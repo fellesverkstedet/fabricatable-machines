@@ -1,5 +1,9 @@
 # The Gantry
 
+[Continued from The Table assembly](Table_assembly.md)
+
+[Back to Assemby main page](Assembly.md)
+
 ![The assembled gantry](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/gantry.jpg)
 
 ## Threading the parts
@@ -21,13 +25,7 @@ There are 150 holes in total on the whole machine that needs drilling and thread
 
 ## Assembly of the gantry
 
-Continued in...
+Continued in The Carriage.
 
-# The Carriage
-# Tuning the motion system
-# The Electronics
-## Motors
-## Limit switches 
-## Wireing 
-## Power and safety
-## Configuring the controller
+
+[Back to Assemby main page](Assembly.md)

@@ -30,8 +30,8 @@ Equipment required
 
 ## Files
 All you need to make the parts:
-* [Cleaned DXF files from Rhino with optional holddown](DXF_from_fusion.zip) Try these first.
-* (Option) [DXF-files from fusion](DXF-cleaned_holddown.zip) Try these if your CAM software can't open the ones above.
+* [Cleaned DXF files from Rhino with optional holddown](Table_parts_DXF-cleaned_holddown.zip) Try these first.
+* (Option) [DXF-files from fusion](Table_parts_DXF_from_fusion.zip) Try these if your CAM software can't open the ones above.
 
 *Source files:* (Normally not needed)
 * [Fusion model with layouts and most parts](https://a360.co/2Mzsrp2)
