@@ -65,7 +65,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Brige core](./img/assembly/bridge_core3.JPG)
 
-* Screw them bridge top onto all the ribs and the gantry feet, do not tighten the screws yet.
+* Screw the top to the ribs and the gantry feet, do not tighten the screws yet.
 
 ![Brige core](./img/assembly/bridge_core4.JPG)
 
@@ -89,7 +89,9 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![X-rail and backside](./img/assembly/x-rail-backside3.JPG)
 
-* Do not tighten the screws yet.
+* You can now tighten the screws. Start with the X-rail. 
+
+![X-rail and backside](./img/assembly/x-rail_first.JPG)
 
 # Gantry feet soles
 
@@ -199,12 +201,8 @@ Before we can tighten the screws we want to make sure the feet are paralell with
 
 ![Check](./img/assembly/paralell.jpg) 
 
-* Tighten all screws, starting with the ones for the X-rail, marked here:
-
-![Check](./img/assembly/paralell.jpg) 
-
+* Tighten all screws.
 * Doublecheck the paralellity-measurement in the front and in the back.
-
 
 Continued in The Carriage.
 
