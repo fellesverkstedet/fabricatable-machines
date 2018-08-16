@@ -153,3 +153,8 @@ New weak link pinion, lower motor setting to create soft weak link
 
 Incident kunde bränt spindel shopbot 
 Andra i bygg acceptera vårdslös om brand
+
+## Notes h3
+
+Make easier access to screws between gantry feet and bottom plate in gantry
+
