@@ -28,10 +28,21 @@ Equipment required
 * 6 mm milling bits
 * 3 mm milling bits
 
+## Files
+All you need to make the parts:
+* [Cleaned DXF files from Rhino with optional holddown](DXF_from_fusion.zip) Try these first.
+* (Option) [DXF-files from fusion](DXF-cleaned_holddown.zip) Try these if your CAM software can't open the ones above.
+
+*Source files:* (Normally not needed)
+* [Fusion model with layouts and most parts](https://a360.co/2Mzsrp2)
+* [Fusion model with the main torsion box core parts](https://a360.co/2OGe8wh)
+* [Fusion model with the legs](https://a360.co/2MuRitT)
+
+* [Top assembly containing all parts](https://a360.co/2AF6yjp)
 
 ## General
 
-* Add dogbones to all fingers and rectangular holes, some are already modelled.
+* The parts are modelled with dogbones for a 6mm bit.
 * Additonal holddown screw-holes can and should be be added, also inside parts where needed.
 
 ## 12 mm sheets
@@ -40,9 +51,9 @@ Equipment required
 
 The 3mm wide slots are 9 mm deep
 
-* Sheet 1: 12 mm torsion box parts 1 (has dogbones for 6mm bit)
-* Sheet 2: 12 mm torsion box parts 2 (has dogbones for 6mm bit)
-* Sheet 3: 6 legs probe and VFD stiffeners (has dogbones for 6mm bit)
+* Sheet 1: 12 mm torsion box parts 1 
+* Sheet 2: 12 mm torsion box parts 2 
+* Sheet 3: 6 legs probe and VFD stiffeners 
 
 ## 8 mm sheets
 
@@ -53,8 +64,8 @@ The 3mm wide slots are 6.5 mm deep
 The pockets on the top edges is 4mm deep in both cases.
 
 * Sheet 1: 8 mm torsion box parts 1 (missing dogbbones)
-* Sheet 2: 8 mm torsion box parts 2 (has dogbones for 6mm bit)
-* Sheet 3: 8 mm torsion box parts 3 (has dogbones for 6mm bit)
+* Sheet 2: 8 mm torsion box parts 2 
+* Sheet 3: 8 mm torsion box parts 3 
 
 ## 19 mm sheet
 
