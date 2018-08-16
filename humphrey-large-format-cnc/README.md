@@ -6,6 +6,8 @@
 
 _Humphrey v2 doing it's first production cuts_
 
+[How to make Humphrey v3](./humphrey_v3/assembly.md)
+
 ### Summary 
 
 Humphrey v2 was comissioned by [Newtone](https://newtone.no/), which is a joint venture and shared creative workspace for recording, mixing and making music, they also build, repair and restore stuff need to create music. They have used it to build all the custom acustic wall elements they needed to build Norways biggest professional recording studio on their premisies. 

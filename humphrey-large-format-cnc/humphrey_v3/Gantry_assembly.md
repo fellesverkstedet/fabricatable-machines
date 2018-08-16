@@ -1,31 +1,101 @@
-# The Gantry
 
-[Continued from The Table assembly](Table_assembly.md)
+# Gantry Assembly
 
-[Back to Assemby main page](assembly.md)
+These are instructions on how to assemble the gantry from a kit of parts.
 
-![The assembled gantry](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/gantry.jpg)
+![The assembled gantry](./img/gantry.jpg)
 
-## Threading the parts
+[View online 3D model of the gantry bridge](https://a360.co/2Mpi5Ib)
+
+[View online 3D model of the gantry foot sole](https://a360.co/2MvIG6q)
+
+## General assembly advice
+
+* M5x16 mm screws with cylinder head are used for 95% of all parts. Use these if nothing else is stated. They use a 4 mm hex bit.
+* Do not tighten screws before instructed to do so. This is to make it easier to fit parts together and for them to find their correct positions.
+* Washers are rarely needed and may interfear with fitting of parts, don't add washers unless asked to.
+* Using a power drill with a 4 mm hex bit can shorten the assembly time
+* DO NOT USE LARGE TOOLS, if you use a big ratchet wrench with a bit insert you will most likely not feel when you have reached the correct torque. This is the reason why small screws and have smaller tools.
+
+![T-handle from wurth](t-handle.jpg) [buy here](https://nettbutikk.wuerth.no/haandverktoy/skrutrekkere-og-sekskantnokler/skrutrekkere-hex-for-innvendig-6-kt/t-haandtak-hex-skrutrekker)
+
+## Before assembly: Threading the parts
 
 In order to assemble the gantry you will first need to drill and thread the sideways holes into the aluminium parts. 
 Using a proper setup and good tools for the work makes it much easier and reduces risks of injuries or damages.
 
 There are 150 holes in total on the whole machine that needs drilling and threading and one person can drill and thread 40 holes per hour if they work efficently.
 
+NOTE: If you are multiple people helping with the assembly, thread the parts as you go, starting with the ones needed for the first steps.
+
 ![Drill marks](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_marks.jpg)
 
 * Always keep the bits lubricated (or it will break, trust me). Wd-40, vaseline, oil... anytyhing goes. Using a dipping cup speeds things up.
 * Use a power drill and a sharp spiral fluted bit.
-* Drill horizontally, in hip height.
+* Drill horizontally, in hip height. (Vertical = no pushing power and hard to hold steady)
 * Clamp the piece to a secure table so well that you can guide and press the drill with both hands. (To litte pressure = takes forever and everything gets hotter) 
 * You can save some time by using a combination drilling and threading bit, just make sure to lubricate both parts of the bit.
 * Dry chips = not enough lubrication.
 * Use safety googles, sharp aluminium chips come flying off the bit, especially when reversing out.
+* Double check parts for missed drill holes, some are impossible to access without dissassembly later. Which is inconvenient but completely possible.
 
-## Assembly of the gantry
+# Gantry feet
+
+* Find two sets of these parts
+
+![gantry feet](./img/gantry_feet2.jpg)
+
+* Make two mirrored copies of the gantry feet, like this.
+
+![gantry feet](./img/gantry_feet.jpg)
+
+* Screw then together using the default M5x16 screws, do not tighten them yet.
+
+# Bridge core
+
+* Find these parts.
+
+![Brige core](./img/bridge_core.JPG)
+
+* Screw the feet to the bridge bottom,do not tighten the screws yet.
+
+![Brige core](./img/bridge_core2.JPG)
+
+* Screw the ribs to the bottom, do not tighten the screws yet.
+
+![Brige core](./img/bridge_core3.JPG)
+
+* Screw them bridge top onto all the ribs and the gantry feet, do not tighten the screws yet.
+
+![Brige core](./img/bridge_core4.JPG)
+
+* Do not tighten the screws yet.
+
+# X-rail and backside
+
+* Find these parts
+
+![X-rail and backside](./img/x-rail-backside.JPG)
+
+* Mount the X-rail onto the gantry, do not tighten the screws yet.
+
+![X-rail and backside](./img/x-rail-backside2.JPG)
+
+* Make sure that the rack teeth are pointing down (to aviod them collecting dust)
+
+![X-rail and backside](./img/x-rail-backside_teeth_up.JPG)
+
+* Screw on the backside, do not tighten the screws yet.
+
+![X-rail and backside](./img/x-rail-backside3.JPG)
+
+* Do not tighten the screws yet.
+
+# Gantry feet soles
+
+
+
 
 Continued in The Carriage.
-
 
 [Back to Assemby main page](assembly.md)
