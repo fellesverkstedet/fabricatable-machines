@@ -21,6 +21,8 @@ These are instructions for how to make the kit of parts you will need to proceed
 
 These are instructions for how to assemble Humphrey v3 from a kit of parts.
 
+This is the recommended order of assembly:
+
 * [Table assembly](Table_assembly.md)
 * [Gantry assembly](Gantry_assembly.md)
 * The Carriage
