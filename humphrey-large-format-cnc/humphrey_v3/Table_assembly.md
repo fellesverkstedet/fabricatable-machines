@@ -153,4 +153,4 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 [Continued in Gantry assembly](Gantry_assembly.md)
 
-[Back to Assemby main page](Assembly.md)
+[Back to Assemby main page](assembly.md)
