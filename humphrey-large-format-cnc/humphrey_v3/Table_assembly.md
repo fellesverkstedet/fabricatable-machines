@@ -3,7 +3,7 @@
 
 This section tells you how to build the table. It is recommended to start with this since you then can use it as a work-table to assemble all the other parts on. 
 
-[![table](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)]((https://a360.co/2AF6yjp))
+![table](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)
 
 [View 3D model in browser](https://a360.co/2AF6yjp)
 
