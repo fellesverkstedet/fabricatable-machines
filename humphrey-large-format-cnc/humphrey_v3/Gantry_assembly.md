@@ -113,6 +113,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Center](./img/assembly/excenter.JPG)
 
+* NOTE: Immedietly tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
+
 ## The right sole
 
 * Mounting the bearings before screwing the parts together makes it MUCH easier.
@@ -137,11 +139,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/motor_layer_cores2.JPG) 
 
-* Screw on the ribs to the bottom layer, do not tighten the screws yet.
+* Screw on the ribs to the bottom layer and tighten the screws.
 
 ![Sole](./img/assembly/sole2.JPG) 
 
-* Screw on the top layer, do not tighten the screws yet.
+* Screw on the top layer and tighten the screws.
 
 ![Sole](./img/assembly/sole.JPG) 
 
@@ -169,11 +171,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
 
-* Screw on the ribs to the bottom layer, do not tighten the screws yet.
+* Screw on the ribs to the bottom layer and tighten the screws.
 
 ![Sole](./img/assembly/sole2_mirror.JPG) 
 
-* Screw on the top layer, do not tighten the screws yet.
+* Screw on the top layer and tighten the screws.
 
 ![Sole](./img/assembly/sole_mirror.JPG) 
 
@@ -195,14 +197,24 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ## Test measurement
 
-Before we can tighten the screws we want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Otherwise we might struggle to tune the bearings later.
+Before we can tighten the last screws we want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Otherwise we might struggle to tune the bearings later.
 
 * Check this measurement in the front and in the back.
 
 ![Check](./img/assembly/paralell.jpg) 
 
-* Tighten all screws.
+* If it looks good, tighten the screws. If not, try to adjust it first.
 * Doublecheck the paralellity-measurement in the front and in the back.
+
+# Mounting the gantry on the table
+
+* You should now be able to lift and ease the gantry onto the Y-rails. Be at least two people before attempting this. No force should be needed to roll the gantry in place.
+
+![Check](./img/assembly/mount_gantry.jpg) 
+
+_CONGRATULATIONS THAT CONCLUDES THE GANTRY ASSEMBLY_
+
+![Check](./img/assembly/mounted.JPG) 
 
 Continued in The Carriage.
 
