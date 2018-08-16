@@ -23,3 +23,4 @@ This is a guide on how to make the Humphrey v3 CNC millling machine.
 * Wireing 
 * Power and safety
 * Configuring the [grbl](https://github.com/gnea/grbl/wiki) controller
+
