@@ -1,5 +1,5 @@
 
-# Gantry Assembly
+# Gantry assembly
 
 These are instructions on how to assemble the gantry from a kit of parts.
 
@@ -93,44 +93,51 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 # Gantry feet soles
 
-* Find two sets of these parts
+* Find two sets of these parts, we will assebmle them one at a time since they have different bearing configurations.
 
 ![Sole parts](./img/assembly/sole_parts.JPG)
 
-(Check for missed drilling in the ends, easy to miss)
+(Check for missed drilling in the ends, easy to miss.)
 
-* Find bearings and *fixed* bearing cores
+* Find bearings and *fixed* bearing cores.
 
 ![Sole parts](./img/assembly/center_exploded.JPG)
 
 ![Center](./img/assembly/center.JPG)
 
-* Find the bearings, large washers and *excentric* bearing cores
+* Find the bearings, large washers and *excentric* bearing cores.
 
 ![Sole parts](./img/assembly/excenter_exploded.JPG)
 
+* Note that these always have two washers on top of the bearing and as default one below the excenter.
+
 ![Center](./img/assembly/excenter.JPG)
 
-## Mounting the bearings
+## The right sole
 
 * Mounting the bearings before screwing the parts together makes it MUCH easier. Arrange them like this:
 
- * Shown with the bearings hidden for visibillity:
+* Shown with the bearings hidden for visibillity:
 
- ![Bearings](./img/assembly/sole_vertical1.JPG)
+![Bearings](./img/assembly/sole_vertical1.JPG)
 
- * It should look like this when done:
+* It should look like this when done:
 
- ![Bearings](./img/assembly/sole_vertical2.JPG)
+![Bearings](./img/assembly/sole_vertical2.JPG)
 
- * And for the bottom layer mount them like this:
+* And for the bottom layer mount them like this:
+
+* Shown with the bearings hidden for visibillity:
  
-  * Shown with the bearings hidden for visibillity:
- 
-  ![Bearings](./img/assembly/motor_layer_cores.JPG)
-  * It should look like this when done:
+![Bearings](./img/assembly/motor_layer_cores.JPG)
 
- ![Bearings](./img/assembly/motor_layer_cores2.JPG) 
+* IMPORTANT! Use two washers below both these two excenters:
+
+![Bearings](./img/assembly/two_washers_below.JPG)
+
+* It should look like this when done:
+
+![Bearings](./img/assembly/motor_layer_cores2.JPG) 
 
 * Screw on the ribs to the bottom layer, do not tighten the screws yet.
 
@@ -140,8 +147,41 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Sole](./img/assembly/sole.JPG) 
 
+## The left sole
 
+* Shown with the bearings hidden for visibillity:
 
+![Bearings](./img/assembly/sole_vertical1_mirror.JPG)
+
+* It should look like this when done:
+
+![Bearings](./img/assembly/sole_vertical2_mirror.JPG)
+
+* And for the bottom layer mount them like this:
+
+* Shown with the bearings hidden for visibillity:
+ 
+![Bearings](./img/assembly/motor_layer_cores_mirror.JPG)
+
+* IMPORTANT! Use two washers below both these two excenters:
+
+![Bearings](./img/assembly/two_washers_below.JPG)
+
+* It should look like this when done:
+
+![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
+
+* Screw on the ribs to the bottom layer, do not tighten the screws yet.
+
+![Sole](./img/assembly/sole2_mirror.JPG) 
+
+* Screw on the top layer, do not tighten the screws yet.
+
+![Sole](./img/assembly/sole_mirror.JPG) 
+
+* Now you have made the two ganty feet soles
+
+![Sole](./img/assembly/sole_mirror.JPG) ![Sole](./img/assembly/sole.JPG) 
 
 Continued in The Carriage.
 
