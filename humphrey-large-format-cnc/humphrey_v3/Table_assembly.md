@@ -1,23 +1,11 @@
 
 # Assembly instructions for Humphrey v3 - The table
 
-[Online 3D model](https://a360.co/2AF6yjp) (Can be downloaded)
-
-## Summary
-
-These are instructions for how to assemble Humphrey v3 from a kit of pre-produced parts. Each section list the parts you will need to complete the stage. Please contribute by offering improvements to these instructions, either by commenting in the Issues or as a Pull-request.
-## Introduction to the parts
-First you will build the table which you then can use as a work-table to assemble all the other parts on. You will then build the mechanics and tune the motion system before finally adding the motors and electronics.
-
-* The Table
-* The Gantry
-* The Carriage
-* Tuning the motion system
-* The Electronics
-
-# The table
-
 This section tells you how to build the table. It is recommended to start with this since you then can use it as a work-table to assemble all the other parts on. 
+
+[![table](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)]((https://a360.co/2AF6yjp))
+
+[View 3D model in browser](https://a360.co/2AF6yjp)
 
 The table consist of a [torison box](https://en.wikipedia.org/wiki/Torsion_box) that rests on 6 legs with adjustable feet. On top of the torsion box there is a 19 mm thick spoil board sheet that is the size of the work area of the machine. This layer will be worn down when using the machine and will have to be re-planed every now and then and eventually it will have to be made thicker again by glueing on more sheets.
 
@@ -28,7 +16,7 @@ Equipment:
 * 12 of Ø6mm wooden dowels for aligning the feet
 * 130 of Ø5x50mm wood screws for the torsion box
 * 24 of Ø4x40 wood screws for attaching the legs
-* Ø5x50mm wood screws for the legs
+* 48 of Ø5x50mm wood screws for the legs
 * 44 of M5x35mm machine screws for the Y-rail
 * Electric screwdriver with LOW torque setting
 * It is also very recommended but not mandatory to have a [foam glue-roller](https://www.aliexpress.com/item/Portable-Handheld-Glue-Applicator-with-2pcs-Rollers-Manual-Gluer-for-Woodworking-Glue-Machine-180ml-320ml-Hot/32839266171.html) as you will have use of it every time you need to add new thickness to your spoil-board.
