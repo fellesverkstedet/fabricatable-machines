@@ -22,7 +22,9 @@ Around hole, better symmetry on holes and not hit alu
 ### Observations
 Alu: skip needless tabs and or increase tols where not critical
 Y motor plate collides with y backstop screws so that motor can’t disengage rack (?)
+Had to file quite a bit to get the X-rail on. 
 ### Suggested updates
+Make access holes so that the feet to bottom plate screws can be easier accessed.
 X echain collides with screws
 Accitentaly Flipped the installation of the ribs in gantry and in gantry feet, make symmetrical or not fit the wrong way
 Ribs in gantry should not touch press out x axis, risk of missalign
@@ -151,3 +153,8 @@ New weak link pinion, lower motor setting to create soft weak link
 
 Incident kunde bränt spindel shopbot 
 Andra i bygg acceptera vårdslös om brand
+
+## Notes h3
+
+Make easier access to screws between gantry feet and bottom plate in gantry
+

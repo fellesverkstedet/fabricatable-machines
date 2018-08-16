@@ -53,7 +53,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 # Bridge core
 
-* Find these parts.
+* Find these parts:
 
 ![Brige core](./img/assembly/bridge_core.JPG)
 
@@ -73,7 +73,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 # X-rail and backside
 
-* Find these parts
+* Find these parts:
 
 ![X-rail and backside](./img/assembly/x-rail-backside.JPG)
 
@@ -85,7 +85,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![X-rail and backside](./img/assembly/x-rail-backside_teeth_up.JPG)
 
-* Screw on the backside, do not tighten the screws yet.
+* Screw on the backside, no need to use all screws yet, this needs to come off later when we are installing the wires later.
 
 ![X-rail and backside](./img/assembly/x-rail-backside3.JPG)
 
@@ -93,31 +93,29 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 # Gantry feet soles
 
-* Find two sets of these parts, we will assebmle them one at a time since they have different bearing configurations.
+* Find two sets of these parts, we will assemble them one at a time since they have different bearing configurations.
 
 ![Sole parts](./img/assembly/sole_parts.JPG)
 
-(Check for missed drilling in the ends, easy to miss.)
+(Check for missed drilling in the ends, they easy to miss.)
 
-* Find bearings and *fixed* bearing cores.
+* Find bearings and the *fixed* bearing cores. They are as default assembled without washers.
 
 ![Sole parts](./img/assembly/center_exploded.JPG)
 
 ![Center](./img/assembly/center.JPG)
 
-* Find the bearings, large washers and *excentric* bearing cores.
+* Find the bearings, large washers and the *excentric* bearing cores. Note that the excenters always should have two washers on top of the bearing and as default one washer below the excenter. 
 
 ![Sole parts](./img/assembly/excenter_exploded.JPG)
-
-* Note that these always have two washers on top of the bearing and as default one below the excenter.
 
 ![Center](./img/assembly/excenter.JPG)
 
 ## The right sole
 
-* Mounting the bearings before screwing the parts together makes it MUCH easier. Arrange them like this:
+* Mounting the bearings before screwing the parts together makes it MUCH easier.
 
-* Shown with the bearings hidden for visibillity:
+*  Arrange them like this: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/sole_vertical1.JPG)
 
@@ -125,13 +123,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/sole_vertical2.JPG)
 
-* And for the bottom layer mount them like this:
-
-* Shown with the bearings hidden for visibillity:
+* And for the bottom layer mount them like this. IMPORTANT exception, use two washers below both of these: (Shown with the bearings hidden for visibillity)
  
 ![Bearings](./img/assembly/motor_layer_cores.JPG)
 
-* IMPORTANT! Use two washers below both these two excenters:
+* Two washers for both of these excenters. 
 
 ![Bearings](./img/assembly/two_washers_below.JPG)
 
@@ -149,7 +145,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ## The left sole
 
-* Shown with the bearings hidden for visibillity:
+*  Arrange them bearings like this: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/sole_vertical1_mirror.JPG)
 
@@ -157,15 +153,15 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/sole_vertical2_mirror.JPG)
 
-* And for the bottom layer mount them like this:
+* And for the bottom layer mount them like this. IMPORTANT exception, use two washers below these: (Shown with the bearings hidden for visibillity)
 
-* Shown with the bearings hidden for visibillity:
- 
 ![Bearings](./img/assembly/motor_layer_cores_mirror.JPG)
 
-* IMPORTANT! Use two washers below both these two excenters:
+* Two washers for both the excenter and the fixed core. 
 
 ![Bearings](./img/assembly/two_washers_below.JPG)
+
+![Bearings](./img/assembly/two_washers_below_center.JPG)
 
 * It should look like this when done:
 
@@ -181,7 +177,34 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Now you have made the two ganty feet soles
 
-![Sole](./img/assembly/sole_mirror.JPG) ![Sole](./img/assembly/sole.JPG) 
+![Sole](./img/assembly/sole_mirror.JPG) ![Sole](./img/assembly/both_soles.JPG) 
+
+# Attaching the gantry feet soles
+
+* Screw the gantry soles to the gantry feet, do not tighten the screws yet.
+
+![Sole to feet](./img/assembly/assembly_soles_to_feet.JPG) 
+
+![Sole to feet](./img/assembly/assembly_soles_to_feet2.JPG) 
+
+* It takes 4 screws to attach each sole, use the access holes in the bottom to reach them, do not tighten the screws yet.
+
+![Sole to feet](./img/assembly/soles_access_holes_screws.jpg) 
+
+## Test measurement
+
+Before we can tighten the screws we want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Otherwise we might struggle to tune the bearings later.
+
+* Check this measurement in the front and in the back.
+
+![Check](./img/assembly/paralell.jpg) 
+
+* Tighten all screws, starting with the ones for the X-rail, marked here:
+
+![Check](./img/assembly/paralell.jpg) 
+
+* Doublecheck the paralellity-measurement in the front and in the back.
+
 
 Continued in The Carriage.
 
