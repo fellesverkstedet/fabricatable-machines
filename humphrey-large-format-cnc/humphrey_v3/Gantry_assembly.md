@@ -2,7 +2,7 @@
 
 [Continued from The Table assembly](Table_assembly.md)
 
-[Back to Assemby main page](Assembly.md)
+[Back to Assemby main page](assembly.md)
 
 ![The assembled gantry](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/gantry.jpg)
 
@@ -28,4 +28,4 @@ There are 150 holes in total on the whole machine that needs drilling and thread
 Continued in The Carriage.
 
 
-[Back to Assemby main page](Assembly.md)
+[Back to Assemby main page](assembly.md)
