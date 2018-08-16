@@ -128,7 +128,17 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail3.jpg)
 
-* Place the links into the Y-rails from below and screw them in place, don't use washers. Press the rails towards each other before tightening the link screws. Leave the rest of the screws loose but in place.
+* Place the links into the Y-rails from below and screw them in place, don't use washers. Press the rails towards each other before tightening the link screws. 
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/link_place.JPG)
+
+* Find M6 screws to use as temorary guide pins (Ø6mm wooden dowels can also be used but screws are easier)
+* Screw the M6 screws into the Ø6mm holes in the bottom of the Y-rails to align the rails with the Ø6mm holes in the valchromat table. Make sure they go all the way through the spacer into the top layer of valchromat.
+
+![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail4.jpg)
+
+* Tighten the screws holding the Y-rails.
+* Remove the M6 guide screws.
 
 ## The Spoil board
 
