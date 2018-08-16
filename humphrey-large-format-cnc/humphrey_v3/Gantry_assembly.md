@@ -3,7 +3,7 @@
 
 These are instructions on how to assemble the gantry from a kit of parts.
 
-![The assembled gantry](./img/gantry.jpg)
+![The assembled gantry](./img/assembly/gantry.jpg)
 
 [View online 3D model of the gantry bridge](https://a360.co/2Mpi5Ib)
 
@@ -17,11 +17,11 @@ These are instructions on how to assemble the gantry from a kit of parts.
 * Using a power drill with a 4 mm hex bit can shorten the assembly time
 * DO NOT USE LARGE TOOLS, if you use a big ratchet wrench with a bit insert you will most likely not feel when you have reached the correct torque. This is the reason why small screws and have smaller tools.
 
-![T-handle from wurth](t-handle.jpg) [buy here](https://nettbutikk.wuerth.no/haandverktoy/skrutrekkere-og-sekskantnokler/skrutrekkere-hex-for-innvendig-6-kt/t-haandtak-hex-skrutrekker)
+![T-handle from wurth](./img/assembly/t-handle_4mm.JPG) [buy here](https://nettbutikk.wuerth.no/haandverktoy/skrutrekkere-og-sekskantnokler/skrutrekkere-hex-for-innvendig-6-kt/t-haandtak-hex-skrutrekker)
 
 ## Before assembly: Threading the parts
 
-In order to assemble the gantry you will first need to drill and thread the sideways holes into the aluminium parts. 
+In order to assemble the gantry you will first need to drill and thread the M5 sideways holes into the aluminium parts. 
 Using a proper setup and good tools for the work makes it much easier and reduces risks of injuries or damages.
 
 There are 150 holes in total on the whole machine that needs drilling and threading and one person can drill and thread 40 holes per hour if they work efficently.
@@ -43,11 +43,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Find two sets of these parts
 
-![gantry feet](./img/gantry_feet2.jpg)
+![gantry feet](./img/assembly/gantry_feet2.jpg)
 
 * Make two mirrored copies of the gantry feet, like this.
 
-![gantry feet](./img/gantry_feet.jpg)
+![gantry feet](./img/assembly/gantry_feet.jpg)
 
 * Screw then together using the default M5x16 screws, do not tighten them yet.
 
@@ -55,19 +55,19 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Find these parts.
 
-![Brige core](./img/bridge_core.JPG)
+![Brige core](./img/assembly/bridge_core.JPG)
 
 * Screw the feet to the bridge bottom,do not tighten the screws yet.
 
-![Brige core](./img/bridge_core2.JPG)
+![Brige core](./img/assembly/bridge_core2.JPG)
 
 * Screw the ribs to the bottom, do not tighten the screws yet.
 
-![Brige core](./img/bridge_core3.JPG)
+![Brige core](./img/assembly/bridge_core3.JPG)
 
 * Screw them bridge top onto all the ribs and the gantry feet, do not tighten the screws yet.
 
-![Brige core](./img/bridge_core4.JPG)
+![Brige core](./img/assembly/bridge_core4.JPG)
 
 * Do not tighten the screws yet.
 
@@ -75,23 +75,70 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Find these parts
 
-![X-rail and backside](./img/x-rail-backside.JPG)
+![X-rail and backside](./img/assembly/x-rail-backside.JPG)
 
 * Mount the X-rail onto the gantry, do not tighten the screws yet.
 
-![X-rail and backside](./img/x-rail-backside2.JPG)
+![X-rail and backside](./img/assembly/x-rail-backside2.JPG)
 
 * Make sure that the rack teeth are pointing down (to aviod them collecting dust)
 
-![X-rail and backside](./img/x-rail-backside_teeth_up.JPG)
+![X-rail and backside](./img/assembly/x-rail-backside_teeth_up.JPG)
 
 * Screw on the backside, do not tighten the screws yet.
 
-![X-rail and backside](./img/x-rail-backside3.JPG)
+![X-rail and backside](./img/assembly/x-rail-backside3.JPG)
 
 * Do not tighten the screws yet.
 
 # Gantry feet soles
+
+* Find two sets of these parts
+
+![Sole parts](./img/assembly/sole_parts.JPG)
+
+(Check for missed drilling in the ends, easy to miss)
+
+* Find bearings and *fixed* bearing cores
+
+![Sole parts](./img/assembly/center_exploded.JPG)
+
+![Center](./img/assembly/center.JPG)
+
+* Find the bearings, large washers and *excentric* bearing cores
+
+![Sole parts](./img/assembly/excenter_exploded.JPG)
+
+![Center](./img/assembly/excenter.JPG)
+
+## Mounting the bearings
+
+* Mounting the bearings before screwing the parts together makes it MUCH easier. Arrange them like this:
+
+ * Shown with the bearings hidden for visibillity:
+
+ ![Bearings](./img/assembly/sole_vertical1.JPG)
+
+ * It should look like this when done:
+
+ ![Bearings](./img/assembly/sole_vertical2.JPG)
+
+ * And for the bottom layer mount them like this:
+ 
+  * Shown with the bearings hidden for visibillity:
+ 
+  ![Bearings](./img/assembly/motor_layer_cores.JPG)
+  * It should look like this when done:
+
+ ![Bearings](./img/assembly/motor_layer_cores2.JPG) 
+
+* Screw on the ribs to the bottom layer, do not tighten the screws yet.
+
+![Sole](./img/assembly/sole2.JPG) 
+
+* Screw on the top layer, do not tighten the screws yet.
+
+![Sole](./img/assembly/sole.JPG) 
 
 
 
