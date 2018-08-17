@@ -139,6 +139,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/motor_layer_cores2.JPG) 
 
+* REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
+
 * Screw on the ribs to the bottom layer and tighten the screws.
 
 ![Sole](./img/assembly/sole2.JPG) 
@@ -170,6 +172,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 * It should look like this when done:
 
 ![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
+
+* REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
 * Screw on the ribs to the bottom layer and tighten the screws.
 
