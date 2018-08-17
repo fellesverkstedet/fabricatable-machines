@@ -149,7 +149,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ## The left sole
 
-*  Arrange them bearings like this: (Shown with the bearings hidden for visibillity)
+*  Arrange the bearings like this: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/sole_vertical1_mirror.JPG)
 
