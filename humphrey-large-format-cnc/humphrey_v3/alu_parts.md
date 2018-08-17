@@ -7,7 +7,7 @@ The CNC we used for manufacturing has a 2440 mm long work area.
 ## Files
 
 * Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp) 
-* [Full step model)](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip) 
+* [Full step model](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip) 
 * [All step files with the aluminium layouts](./parts/alu_parts_STEP.zip)
 
 
@@ -29,7 +29,7 @@ The CNC we used for manufacturing has a 2440 mm long work area.
 
 * X_Z_rails_cores [Fusion CAM](https://a360.co/2PhWqAk)
 
-![Alu Parts](./img/parts/X_Z_rail_cores.JPG)
+![Alu Parts](./img/parts/X_Z_rails_cores.JPG)
 
 * 2_motor_plates_z_homeing_plate [Fusion CAM](https://a360.co/2PiNYRo)
 
