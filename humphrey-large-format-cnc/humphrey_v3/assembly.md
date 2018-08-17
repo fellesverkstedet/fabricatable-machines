@@ -28,5 +28,5 @@ This is the recommended order of assembly:
 * [Gantry assembly](Gantry_assembly.md)
 * The Carriage
 * Tuning the motion system
-* Elektronics
+* Electronics
 
