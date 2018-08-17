@@ -139,6 +139,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/motor_layer_cores2.JPG) 
 
+* REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
+
 * Screw on the ribs to the bottom layer and tighten the screws.
 
 ![Sole](./img/assembly/sole2.JPG) 
@@ -149,7 +151,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ## The left sole
 
-*  Arrange them bearings like this: (Shown with the bearings hidden for visibillity)
+*  Arrange the bearings like this: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/sole_vertical1_mirror.JPG)
 
@@ -171,6 +173,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
 
+* REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
+
 * Screw on the ribs to the bottom layer and tighten the screws.
 
 ![Sole](./img/assembly/sole2_mirror.JPG) 
@@ -181,7 +185,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Now you have made the two ganty feet soles
 
-![Sole](./img/assembly/sole_mirror.JPG) ![Sole](./img/assembly/both_soles.JPG) 
+![Sole](./img/assembly/both_soles.JPG) 
 
 # Attaching the gantry feet soles
 
@@ -212,7 +216,15 @@ Before we can tighten the last screws we want to make sure the feet are paralell
 
 ![Check](./img/assembly/mount_gantry.jpg) 
 
-_CONGRATULATIONS THAT CONCLUDES THE GANTRY ASSEMBLY_
+## Setting endstops
+
+IMPORTANT: Install the endstop screws immedietly so that there is now risk of the ganry falling off the rails and hurting anybody. If for some reason you can not install the endstops at once, don't leave the gantry on the rails.
+
+* Put short M5 screws as endstops in all four corners
+
+![Endstop y](./img/assembly/endstop_Y.jpg) 
+
+_CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
 ![Check](./img/assembly/mounted.JPG) 
 

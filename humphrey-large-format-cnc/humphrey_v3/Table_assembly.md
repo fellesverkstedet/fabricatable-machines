@@ -161,6 +161,8 @@ The torsion box is build from glued together valchromat and consists of two "ski
 * Mark the time so you will know when the glue has set.
 * Remove the 28 Ø4x40mm wood screws from the spoil board when the glue has set. Count them to not miss any.
 
+_CONGRATULATIONS THAT CONCLUDES THE TABLE ASSEMBLY_
+
 [Continued in Gantry assembly](Gantry_assembly.md)
 
 [Back to Assemby main page](assembly.md)
