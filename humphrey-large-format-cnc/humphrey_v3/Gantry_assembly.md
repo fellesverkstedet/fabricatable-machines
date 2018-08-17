@@ -216,7 +216,15 @@ Before we can tighten the last screws we want to make sure the feet are paralell
 
 ![Check](./img/assembly/mount_gantry.jpg) 
 
-_CONGRATULATIONS THAT CONCLUDES THE GANTRY ASSEMBLY_
+## Setting endstops
+
+IMPORTANT: Install the endstop screws immedietly so that there is now risk of the ganry falling off the rails and hurting anybody. If for some reason you can not install the endstops at once, don't leave the gantry on the rails.
+
+* Put short M5 screws as endstops in all four corners
+
+![Endstop y](./img/assembly/endstop_Y.jpg) 
+
+_CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
 ![Check](./img/assembly/mounted.JPG) 
 
