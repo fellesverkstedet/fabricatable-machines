@@ -26,7 +26,7 @@ This is the recommended order of assembly:
 
 * [Table assembly](Table_assembly.md)
 * [Gantry assembly](Gantry_assembly.md)
-* [The Carriage](Carriage_assembly.md)
+* [Carriage assemby](Carriage_assembly.md)
 * Tuning the motion system
 * Electronics
 
