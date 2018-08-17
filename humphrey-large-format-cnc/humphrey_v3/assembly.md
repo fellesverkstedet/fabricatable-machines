@@ -6,7 +6,7 @@ Each section list the parts you will need to complete the stage. Please contribu
 
 ![Cad Iso](./img/cad_iso.JPG)
 
-[View full 3D model](https://a360.co/2AF6yjp)
+[Interactive 3D model](https://a360.co/2AF6yjp)
 
 # Making the kit of parts
 
