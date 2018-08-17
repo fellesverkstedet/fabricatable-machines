@@ -185,7 +185,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Now you have made the two ganty feet soles
 
-![Sole](./img/assembly/sole_mirror.JPG) ![Sole](./img/assembly/both_soles.JPG) 
+![Sole](./img/assembly/both_soles.JPG) 
 
 # Attaching the gantry feet soles
 
