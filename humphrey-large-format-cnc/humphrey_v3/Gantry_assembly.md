@@ -222,7 +222,7 @@ IMPORTANT: Install the endstop screws immedietly so that there is now risk of th
 
 * Put short M5 screws as endstops in all four corners
 
-![Endstop y](./img/assembly/endstop_Y.jpg) 
+![Endstop y](./img/assembly/endstop_y.jpg) 
 
 _CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
