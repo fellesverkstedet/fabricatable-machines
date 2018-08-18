@@ -228,6 +228,6 @@ _CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
 ![Check](./img/assembly/mounted.JPG) 
 
-Continued in The Carriage.
+Continued in [Carriage assembly](Carriage_assembly.md)
 
 [Back to Assemby main page](assembly.md)
