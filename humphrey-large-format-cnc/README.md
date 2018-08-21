@@ -15,7 +15,7 @@
 
 _Humphrey v2 doing it's first production cuts_
 
-[How to make Humphrey v3](./humphrey_v3/assembly.md)
+For updated how to make see [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3)
 
 ### Summary 
 
