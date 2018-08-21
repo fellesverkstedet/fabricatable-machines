@@ -4,12 +4,16 @@ These parts are milled from 200x8mm flat bar aluminium 6082-T6 grade. We buy the
 
 The CNC we used for manufacturing has a 2440 mm long work area.
 
+*NOTE!* Missing parts in layout: 
+* Homing plate
+* The small spindle spring mounting clamps.
+* Dust skirt holder
+
 ## Files
 
 * Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp) 
 * [Full step model](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip) 
 * [All step files with the aluminium layouts](./parts/alu_parts_STEP.zip)
-
 
 * Mega_nuts_long_motor_plates_2_motor_spacers [Fusion CAM](https://a360.co/2PiNYRo)
 
@@ -37,4 +41,6 @@ The CNC we used for manufacturing has a 2440 mm long work area.
 
 ## How to mill
 
-* [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) 
+* [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate)
+
+[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#How-to-make-Humphrey-v3)

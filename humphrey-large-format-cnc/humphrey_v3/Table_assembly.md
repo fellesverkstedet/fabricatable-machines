@@ -165,4 +165,4 @@ _CONGRATULATIONS THAT CONCLUDES THE TABLE ASSEMBLY_
 
 [Continued in Gantry assembly](Gantry_assembly.md)
 
-[Back to Assemby main page](assembly.md)
+[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#How-to-make-Humphrey-v3)

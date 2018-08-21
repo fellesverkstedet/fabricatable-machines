@@ -111,7 +111,9 @@
 
 ![mount carriage](./img/assembly/mounted_carriage.JPG)
 
+_CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
+[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#How-to-make-Humphrey-v3)
 
 
 
