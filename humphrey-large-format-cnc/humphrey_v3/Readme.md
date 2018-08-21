@@ -4,6 +4,8 @@
 
 A 3m version of [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc)
 
+[How to make Humphrey v3](assembly.md)
+
 ## Stats
 
 * Work area 2440x1220 mm
@@ -14,7 +16,7 @@ A 3m version of [Humphrey](https://github.com/fellesverkstedet/fabricatable-mach
 
 ## Complete machine files
 
-For step by step instructions see [How to make Humphrey v3](assembly.md)
+[How to make Humphrey v3](assembly.md)
 
 * [Fusion360 assembly](https://a360.co/2AF6yjp)
 * [STEP assembly](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip)
