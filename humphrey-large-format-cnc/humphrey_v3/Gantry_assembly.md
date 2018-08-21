@@ -115,11 +115,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * NOTE: Immedietly tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
-## The right sole
+## The soles
 
 * Mounting the bearings before screwing the parts together makes it MUCH easier.
 
-*  Arrange them like this: (Shown with the bearings hidden for visibillity)
+*  Make two of these: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/sole_vertical1.JPG)
 
@@ -141,24 +141,6 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
-* Screw on the ribs to the bottom layer and tighten the screws.
-
-![Sole](./img/assembly/sole2.JPG) 
-
-* Screw on the top layer and tighten the screws.
-
-![Sole](./img/assembly/sole.JPG) 
-
-## The left sole
-
-*  Arrange the bearings like this: (Shown with the bearings hidden for visibillity)
-
-![Bearings](./img/assembly/sole_vertical1_mirror.JPG)
-
-* It should look like this when done:
-
-![Bearings](./img/assembly/sole_vertical2_mirror.JPG)
-
 * And for the bottom layer mount them like this. IMPORTANT exception, use two washers below these: (Shown with the bearings hidden for visibillity)
 
 ![Bearings](./img/assembly/motor_layer_cores_mirror.JPG)
@@ -172,6 +154,16 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 * It should look like this when done:
 
 ![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
+
+* Screw on the ribs to the bottom layer and tighten the screws.
+
+![Sole](./img/assembly/sole2.JPG) 
+
+* Screw on the top layer and tighten the screws.
+
+![Sole](./img/assembly/sole.JPG) 
+
+
 
 * REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
@@ -230,4 +222,4 @@ _CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
 Continued in [Carriage assembly](Carriage_assembly.md)
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#How-to-make-Humphrey-v3)
+[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)

@@ -1,6 +1,6 @@
 # Humphrey version 3 
 
-A full size CNC milling machine of the [Humphrey machine family](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc#humphrey---large-format-cnc-mill)
+A full size CNC milling machine of the [Humphrey machine family.](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc#humphrey---large-format-cnc-mill)
 
 ![posing_with_motion_system](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/installation/posing_with_motion_system.JPG)
 
@@ -30,7 +30,7 @@ Each section list the parts you will need to complete the stage. Please contribu
 
 ![making_humphrey_group.jpg](./img/installation/making_humphrey_group.jpg)
 
-<a hrf="https://a360.co/2AF6yjp"><img src="https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/assembly/3D_model_arrows.jpg"></a>
+<a href="https://a360.co/2AF6yjp"><img src="https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/3D_model_arrows.jpg"></a>
 
 [Interactive 3D model](https://a360.co/2AF6yjp)
 
@@ -44,6 +44,12 @@ These are instructions for how to make the kit of parts you will need to proceed
 * [3D printing the dust covers and vipers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/README.md)
 * [Bill of materials (BOM) with the "vitamines" you need to buy](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
 
+## Production times
+
+### For a solo experienced person
+* Milling the aluminium parts took 5 regular workdays, CAM in Fusion360 and milled on a Shopbot
+* Milling the valchromat parts took 1 regular workday, CAM in Rhino using [Bark Beetle](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths) on a Shopbot
+
 # Putting it together
 
 These are instructions for how to assemble Humphrey v3 from a kit of parts, in the recommended order of assembly:
@@ -54,9 +60,16 @@ These are instructions for how to assemble Humphrey v3 from a kit of parts, in t
 * Tuning the motion system
 * Electronics
 
+## Assembly times
+
+### For a five person group of inexperienced people plus one experienced and using the online manuals
+
+* Table assembly, Gantry assembly and Carriage assembly was completed in 6 hours of work spread over two days, without stressing.
+
 # Pictures
 
-[cad_iso.JPG](./img/cad_iso.JPG)
+![cad_iso.JPG](./img/cad_iso.JPG)
+
 
 
 
