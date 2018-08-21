@@ -40,7 +40,7 @@ These are instructions for how to make the kit of parts you will need to proceed
 
 * [Milling the valchromat parts](Making_the_parts_for_the_table.md)
 * [Milling the aluminium parts](alu_parts.md)
-* [Making the pinons parts](plastic_parts.md)
+* [Milling the pinons from plastic](plastic_parts.md)
 * [3D printing the dust covers and vipers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/README.md)
 * [Bill of materials (BOM) with the "vitamines" you need to buy](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
 
@@ -49,6 +49,7 @@ These are instructions for how to make the kit of parts you will need to proceed
 ### For a solo experienced person
 * Milling the aluminium parts took 5 regular workdays, CAM in Fusion360 and milled on a Shopbot
 * Milling the valchromat parts took 1 regular workday, CAM in Rhino using [Bark Beetle](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths) on a Shopbot
+* (Estimated from Cura) 20 h to print the 3D prints using one Ultimaker 
 
 # Putting it together
 
@@ -64,7 +65,7 @@ These are instructions for how to assemble Humphrey v3 from a kit of parts, in t
 
 ### For a five person group of inexperienced people plus one experienced and using the online manuals
 
-* Table assembly, Gantry assembly and Carriage assembly was completed in 6 hours of work spread over two days, without stressing.
+* Table assembly, Gantry assembly and Carriage assembly was completed in 6-7 hours of workshop spread over two days, without stressing.
 
 # Pictures
 

@@ -92,4 +92,11 @@ Relaxed building of torsion box and legs:
 
 3 h more = completet drilling and threading. Assembled gantry and carriage and mounted them. 
 
+remove wings på vertical y axis roller holder to avoid crash with other rollers (optional improvement, might interfear with covers)
 
+Change tabs on  vertical y axis roller holder to make it impossible to assemble the wrong way
+
+
+tightening order for X-rail, add more tolerance to the finger holes and break the tips
+
+add Access to bottom gantry screws through the gantry feet 

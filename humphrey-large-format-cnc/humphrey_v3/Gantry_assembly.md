@@ -12,7 +12,6 @@ These are instructions on how to assemble the gantry from a kit of parts.
 ## General assembly advice
 
 * M5x16 mm screws with cylinder head are used for 95% of all parts. Use these if nothing else is stated. They use a 4 mm hex bit.
-* Do not tighten screws before instructed to do so. This is to make it easier to fit parts together and for them to find their correct positions.
 * Washers are rarely needed and may interfear with fitting of parts, don't add washers unless asked to.
 * Using a power drill with a 4 mm hex bit can shorten the assembly time
 * DO NOT USE LARGE TOOLS, if you use a big ratchet wrench with a bit insert you will most likely not feel when you have reached the correct torque. This is the reason why small screws and have smaller tools.
@@ -49,27 +48,24 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![gantry feet](./img/assembly/gantry_feet.jpg)
 
-* Screw then together using the default M5x16 screws, do not tighten them yet.
-
+* Screw then together using the default M5x16 screws.
 # Bridge core
 
 * Find these parts:
 
 ![Brige core](./img/assembly/bridge_core.JPG)
 
-* Screw the feet to the bridge bottom,do not tighten the screws yet.
+* Screw the feet to the bridge bottom.
 
 ![Brige core](./img/assembly/bridge_core2.JPG)
 
-* Screw the ribs to the bottom, do not tighten the screws yet.
+* Screw the ribs to the bottom.
 
 ![Brige core](./img/assembly/bridge_core3.JPG)
 
-* Screw the top to the ribs and the gantry feet, do not tighten the screws yet.
+* Screw the top to the ribs and the gantry feet.
 
 ![Brige core](./img/assembly/bridge_core4.JPG)
-
-* Do not tighten the screws yet.
 
 # X-rail and backside
 
@@ -77,7 +73,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![X-rail and backside](./img/assembly/x-rail-backside.JPG)
 
-* Mount the X-rail onto the gantry, do not tighten the screws yet.
+* Mount the X-rail onto the gantry.
 
 ![X-rail and backside](./img/assembly/x-rail-backside2.JPG)
 
@@ -89,17 +85,17 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![X-rail and backside](./img/assembly/x-rail-backside3.JPG)
 
-* You can now tighten the screws. Start with the X-rail. 
+* Make sure to tighten all screws. Start with the X-rail. 
 
 ![X-rail and backside](./img/assembly/x-rail_first.JPG)
 
 # Gantry feet soles
 
-* Find two sets of these parts, we will assemble them one at a time since they have different bearing configurations.
+* Find two sets of these parts, we will assemble with slightly different bearing configurations.
 
 ![Sole parts](./img/assembly/sole_parts.JPG)
 
-(Check for missed drilling in the ends, they easy to miss.)
+*Check for missed drilling in the ends, they easy to miss.*
 
 * Find bearings and the *fixed* bearing cores. They are as default assembled without washers.
 
@@ -113,7 +109,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Center](./img/assembly/excenter.JPG)
 
-* NOTE: Immedietly tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
+* NOTE: Immedietly tighten screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
 ## The soles
 
@@ -123,37 +119,25 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Bearings](./img/assembly/sole_vertical1.JPG)
 
-* It should look like this when done:
+* Both should look like this when done:
 
 ![Bearings](./img/assembly/sole_vertical2.JPG)
 
-* And for the bottom layer mount them like this. IMPORTANT exception, use two washers below both of these: (Shown with the bearings hidden for visibillity)
- 
-![Bearings](./img/assembly/motor_layer_cores.JPG)
+* Mount both of them on the bottom layers like this
 
-* Two washers for both of these excenters. 
+![Bearings](./img/assembly/motor_layer_vertical_before_side_cores_explode.JPG)
 
-![Bearings](./img/assembly/two_washers_below.JPG)
+![Bearings](./img/assembly/motor_layer_vertical_before_side_cores.JPG)
 
-* It should look like this when done:
+* Add the side bearings: NOTE THE DOUBLE WASHERS BELOW THE SIDE BEARINGS!
 
-![Bearings](./img/assembly/motor_layer_cores2.JPG) 
+![Bearings](./img/assembly/motor_layer_vertical_side_cores.JPG)
+
+![Bearings](./img/assembly/motor_layer_vertical_side_cores_mirror.JPG)
 
 * REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
 * And for the bottom layer mount them like this. IMPORTANT exception, use two washers below these: (Shown with the bearings hidden for visibillity)
-
-![Bearings](./img/assembly/motor_layer_cores_mirror.JPG)
-
-* Two washers for both the excenter and the fixed core. 
-
-![Bearings](./img/assembly/two_washers_below.JPG)
-
-![Bearings](./img/assembly/two_washers_below_center.JPG)
-
-* It should look like this when done:
-
-![Bearings](./img/assembly/motor_layer_cores2_mirror.JPG) 
 
 * Screw on the ribs to the bottom layer and tighten the screws.
 
@@ -163,17 +147,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Sole](./img/assembly/sole.JPG) 
 
-
-
 * REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
-
-* Screw on the ribs to the bottom layer and tighten the screws.
-
-![Sole](./img/assembly/sole2_mirror.JPG) 
-
-* Screw on the top layer and tighten the screws.
-
-![Sole](./img/assembly/sole_mirror.JPG) 
 
 * Now you have made the two ganty feet soles
 
@@ -181,7 +155,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 # Attaching the gantry feet soles
 
-* Screw the gantry soles to the gantry feet, do not tighten the screws yet.
+* Screw the gantry soles to the gantry feet.
 
 ![Sole to feet](./img/assembly/assembly_soles_to_feet.JPG) 
 
@@ -193,14 +167,13 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ## Test measurement
 
-Before we can tighten the last screws we want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Otherwise we might struggle to tune the bearings later.
+We want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Otherwise we might struggle to tune the bearings later.
 
 * Check this measurement in the front and in the back.
 
 ![Check](./img/assembly/paralell.jpg) 
 
-* If it looks good, tighten the screws. If not, try to adjust it first.
-* Doublecheck the paralellity-measurement in the front and in the back.
+* If it looks good, tighten all screws. If not, try to adjust it first.
 
 # Mounting the gantry on the table
 
