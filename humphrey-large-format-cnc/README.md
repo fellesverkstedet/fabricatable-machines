@@ -1,4 +1,13 @@
 ﻿# Humphrey - Large format CNC mill
+ 
+ ## What is a Humphrey CNC mill
+ 
+* A "full size", workshop size CNC platform for 3 axis milling
+* Fabricatable with a CNC mill
+* (UPDATED) Uses the [Roller axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) system
+* Work area 1220 x 2440 Can be longer
+* Traveling gantry with integrated electronics
+* Can be made from 200mm x 8mm aluminium flat bar and 8 and 12mm valchromat
 
 ## Humphrey v2
 *July 2018 Jakob Nilsson*
