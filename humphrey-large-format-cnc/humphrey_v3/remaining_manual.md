@@ -45,7 +45,6 @@ Vaccum hose upper guide bracket, better way of attaching?
 Way of adding z up/down endstops? (Up breaks homeing cable
 Use software travel limits to keep it from attempthing dump code
 
-Y motor plate wheels after vertical holder or collision happens. Also make them non identical to reduce mixup
 
 
 Build thin box firsr, flip and glue. Leg screws hits ribs
@@ -61,8 +60,6 @@ Tool for conical screws
 Bit for both type of wood screw
 
 Ingrease step on sides of spoilboard so it can take shipping abuse
-
-20:00 limmed lock
 
 Screws unde gantry collides x z carriage
 
@@ -100,3 +97,9 @@ Change tabs on  vertical y axis roller holder to make it impossible to assemble 
 tightening order for X-rail, add more tolerance to the finger holes and break the tips
 
 add Access to bottom gantry screws through the gantry feet 
+
+Missing a 12mm y rib for the torsion box, had the wrong name, is missed in cutsheet
+
+
+Done:
+Y motor plate wheels after vertical holder or collision happens. Also make them non identical to reduce mixup

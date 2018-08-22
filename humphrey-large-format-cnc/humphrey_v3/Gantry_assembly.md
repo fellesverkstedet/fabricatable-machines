@@ -131,23 +131,19 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 * Add the side bearings: NOTE THE DOUBLE WASHERS BELOW THE SIDE BEARINGS!
 
-![Bearings](./img/assembly/motor_layer_vertical_side_cores.JPG)
+![Bearings](./img/assembly/motor_layer_vertical_side_cores.jpg)
 
 ![Bearings](./img/assembly/motor_layer_vertical_side_cores_mirror.JPG)
 
 * REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
-* And for the bottom layer mount them like this. IMPORTANT exception, use two washers below these: (Shown with the bearings hidden for visibillity)
-
-* Screw on the ribs to the bottom layer and tighten the screws.
+* For both soles, screw on the other ribs to the bottom layers:
 
 ![Sole](./img/assembly/sole2.JPG) 
 
-* Screw on the top layer and tighten the screws.
+*  For both soles, screw on the top layer and tighten the screws:
 
 ![Sole](./img/assembly/sole.JPG) 
-
-* REMINDER: Tighten the screws holding *fixed* bearings and leave the screws holding the *excenters* loose.
 
 * Now you have made the two ganty feet soles
 
@@ -161,7 +157,7 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Sole to feet](./img/assembly/assembly_soles_to_feet2.JPG) 
 
-* It takes 4 screws to attach each sole, use the access holes in the bottom to reach them, do not tighten the screws yet.
+* It takes 4 screws to attach each sole, use the access holes in the bottom to reach them.
 
 ![Sole to feet](./img/assembly/soles_access_holes_screws.jpg) 
 
@@ -185,7 +181,7 @@ We want to make sure the feet are paralell within a 1mm, that is +/- 0,5 mm. Oth
 
 IMPORTANT: Install the endstop screws immedietly so that there is now risk of the ganry falling off the rails and hurting anybody. If for some reason you can not install the endstops at once, don't leave the gantry on the rails.
 
-* Put short M5 screws as endstops in all four corners
+* Put short M5 screws as endstops in all four corners.
 
 ![Endstop y](./img/assembly/endstop_y.jpg) 
 
