@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name nano-eagle-import)(type Legacy)(uri ${KIPRJMOD}/nano-eagle-import.lib)(options "")(descr ""))
+)
