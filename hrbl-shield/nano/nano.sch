@@ -240,12 +240,12 @@ Text Notes 9650 1100 0    60   ~ 0
 $Comp
 L Device:R R1
 U 1 1 5BE72349
-P 5950 1800
-F 0 "R1" H 6020 1846 50  0000 L CNN
-F 1 "220" H 6020 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 1800 50  0001 C CNN
-F 3 "~" H 5950 1800 50  0001 C CNN
-	1    5950 1800
+P 6000 1800
+F 0 "R1" H 6070 1846 50  0000 L CNN
+F 1 "220" H 6070 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 1800 50  0001 C CNN
+F 3 "~" H 6000 1800 50  0001 C CNN
+	1    6000 1800
 	0    1    1    0   
 $EndComp
 $Bitmap
@@ -8966,22 +8966,11 @@ Text Label 10450 1150 0    50   ~ 0
 +3.3V
 Wire Wire Line
 	10150 2200 10900 2200
-$Comp
-L Isolator:4N25 U6
-U 1 1 5B80BC5D
-P 6400 1900
-F 0 "U6" H 6400 2225 50  0000 C CNN
-F 1 "4N25" H 6400 2134 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 1700 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 1900 50  0001 L CNN
-	1    6400 1900
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 1800 0    50   Input ~ 0
+Text GLabel 5850 1800 0    50   Input ~ 0
 PUL_X
-Text GLabel 1800 4100 0    50   Input ~ 0
+Text GLabel 1450 4100 0    50   Input ~ 0
 LIM_X_IN
-Text GLabel 2350 6150 2    50   Input ~ 0
+Text GLabel 2350 6050 2    50   Input ~ 0
 PROBE
 $Bitmap
 Pos 4150 1550
@@ -12386,50 +12375,27 @@ FC EE D7 6C 9E 57 47 5A 40 67 6E 82 00 F2 B8 92 2B EB 22 BE 32 FF 57 E4 39 21 AE
 53 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 6700 6750 2    50   Input ~ 0
+Text GLabel 6750 6650 2    50   Input ~ 0
 5V_ISO
-$Comp
-L Isolator:4N25 U2
-U 1 1 5B80F87D
-P 2050 6150
-F 0 "U2" H 2050 6475 50  0000 C CNN
-F 1 "4N25" H 2050 6384 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1850 5950 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2050 6150 50  0001 L CNN
-	1    2050 6150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5B810170
-P 6100 2000
-F 0 "#PWR0101" H 6100 1750 50  0001 C CNN
-F 1 "GND" H 6105 1827 50  0000 C CNN
-F 2 "" H 6100 2000 50  0001 C CNN
-F 3 "" H 6100 2000 50  0001 C CNN
-	1    6100 2000
+P 6150 2000
+F 0 "#PWR0101" H 6150 1750 50  0001 C CNN
+F 1 "GND" H 6155 1827 50  0000 C CNN
+F 2 "" H 6150 2000 50  0001 C CNN
+F 3 "" H 6150 2000 50  0001 C CNN
+	1    6150 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 2000 2    50   Input ~ 0
+Text GLabel 6750 2000 2    50   Input ~ 0
 PUL_X_OUT
-NoConn ~ 6700 1800
 Text Notes 6050 1350 0    50   ~ 0
 Outgoing signals
 Text Notes 1650 1400 0    50   ~ 0
 Incoming signals
-Text GLabel 2400 4000 2    50   Input ~ 0
+Text GLabel 2350 3900 2    50   Input ~ 0
 LIM_X
-$Comp
-L Isolator:4N25 U3
-U 1 1 5B81334A
-P 2100 4000
-F 0 "U3" H 2100 4325 50  0000 C CNN
-F 1 "4N25" H 2100 4234 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1900 3800 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2100 4000 50  0001 L CNN
-	1    2100 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5B81407D
@@ -12441,33 +12407,21 @@ F 3 "" H 2400 4100 50  0001 C CNN
 	1    2400 4100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 3900
 $Comp
 L Device:R R2
 U 1 1 5B81539E
-P 1650 3900
-F 0 "R2" H 1720 3946 50  0000 L CNN
-F 1 "220" H 1720 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 3900 50  0001 C CNN
-F 3 "~" H 1650 3900 50  0001 C CNN
-	1    1650 3900
+P 1300 3900
+F 0 "R2" H 1370 3946 50  0000 L CNN
+F 1 "220" H 1370 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 3900 50  0001 C CNN
+F 3 "~" H 1300 3900 50  0001 C CNN
+	1    1300 3900
 	0    1    1    0   
 $EndComp
-Text GLabel 1800 4750 0    50   Input ~ 0
+Text GLabel 1450 4750 0    50   Input ~ 0
 LIM_Y_IN
-Text GLabel 2400 4650 2    50   Input ~ 0
+Text GLabel 2350 4550 2    50   Input ~ 0
 LIM_Y
-$Comp
-L Isolator:4N25 U4
-U 1 1 5B8166C3
-P 2100 4650
-F 0 "U4" H 2100 4975 50  0000 C CNN
-F 1 "4N25" H 2100 4884 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1900 4450 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2100 4650 50  0001 L CNN
-	1    2100 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5B8166CA
@@ -12479,33 +12433,21 @@ F 3 "" H 2400 4750 50  0001 C CNN
 	1    2400 4750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 4550
 $Comp
 L Device:R R3
 U 1 1 5B8166D2
-P 1650 4550
-F 0 "R3" H 1720 4596 50  0000 L CNN
-F 1 "220" H 1720 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 4550 50  0001 C CNN
-F 3 "~" H 1650 4550 50  0001 C CNN
-	1    1650 4550
+P 1300 4550
+F 0 "R3" H 1370 4596 50  0000 L CNN
+F 1 "220" H 1370 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 4550 50  0001 C CNN
+F 3 "~" H 1300 4550 50  0001 C CNN
+	1    1300 4550
 	0    1    1    0   
 $EndComp
-Text GLabel 1800 5400 0    50   Input ~ 0
+Text GLabel 1450 5400 0    50   Input ~ 0
 LIM_Z_IN
-Text GLabel 2400 5300 2    50   Input ~ 0
+Text GLabel 2350 5200 2    50   Input ~ 0
 LIM_Z
-$Comp
-L Isolator:4N25 U5
-U 1 1 5B816D1C
-P 2100 5300
-F 0 "U5" H 2100 5625 50  0000 C CNN
-F 1 "4N25" H 2100 5534 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1900 5100 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2100 5300 50  0001 L CNN
-	1    2100 5300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5B816D23
@@ -12517,218 +12459,157 @@ F 3 "" H 2400 5400 50  0001 C CNN
 	1    2400 5400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 5200
 $Comp
 L Device:R R4
 U 1 1 5B816D2B
-P 1650 5200
-F 0 "R4" H 1720 5246 50  0000 L CNN
-F 1 "220" H 1720 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 5200 50  0001 C CNN
-F 3 "~" H 1650 5200 50  0001 C CNN
-	1    1650 5200
+P 1300 5200
+F 0 "R4" H 1370 5246 50  0000 L CNN
+F 1 "220" H 1370 5155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 5200 50  0001 C CNN
+F 3 "~" H 1300 5200 50  0001 C CNN
+	1    1300 5200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5B8187B9
-P 5950 2500
-F 0 "R5" H 6020 2546 50  0000 L CNN
-F 1 "220" H 6020 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 2500 50  0001 C CNN
-F 3 "~" H 5950 2500 50  0001 C CNN
-	1    5950 2500
+P 6000 2500
+F 0 "R5" H 6070 2546 50  0000 L CNN
+F 1 "220" H 6070 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 2500 50  0001 C CNN
+F 3 "~" H 6000 2500 50  0001 C CNN
+	1    6000 2500
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U7
-U 1 1 5B8187C0
-P 6400 2600
-F 0 "U7" H 6400 2925 50  0000 C CNN
-F 1 "4N25" H 6400 2834 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 2400 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 2600 50  0001 L CNN
-	1    6400 2600
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 2500 0    50   Input ~ 0
+Text GLabel 5850 2500 0    50   Input ~ 0
 PUL_Y
 $Comp
 L power:GND #PWR0105
 U 1 1 5B8187C8
-P 6100 2700
-F 0 "#PWR0105" H 6100 2450 50  0001 C CNN
-F 1 "GND" H 6105 2527 50  0000 C CNN
-F 2 "" H 6100 2700 50  0001 C CNN
-F 3 "" H 6100 2700 50  0001 C CNN
-	1    6100 2700
+P 6150 2700
+F 0 "#PWR0105" H 6150 2450 50  0001 C CNN
+F 1 "GND" H 6155 2527 50  0000 C CNN
+F 2 "" H 6150 2700 50  0001 C CNN
+F 3 "" H 6150 2700 50  0001 C CNN
+	1    6150 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 2700 2    50   Input ~ 0
+Text GLabel 6750 2700 2    50   Input ~ 0
 PUL_Y_OUT
-Text GLabel 6700 2600 2    50   Input ~ 0
+Text GLabel 6750 2500 2    50   Input ~ 0
 5V_ISO
-NoConn ~ 6700 2500
 $Comp
 L Device:R R6
 U 1 1 5B818E3E
-P 5950 3150
-F 0 "R6" H 6020 3196 50  0000 L CNN
-F 1 "220" H 6020 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 3150 50  0001 C CNN
-F 3 "~" H 5950 3150 50  0001 C CNN
-	1    5950 3150
+P 6000 3150
+F 0 "R6" H 6070 3196 50  0000 L CNN
+F 1 "220" H 6070 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 3150 50  0001 C CNN
+F 3 "~" H 6000 3150 50  0001 C CNN
+	1    6000 3150
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U8
-U 1 1 5B818E45
-P 6400 3250
-F 0 "U8" H 6400 3575 50  0000 C CNN
-F 1 "4N25" H 6400 3484 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 3050 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 3250 50  0001 L CNN
-	1    6400 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 3150 0    50   Input ~ 0
+Text GLabel 5850 3150 0    50   Input ~ 0
 PUL_Z
 $Comp
 L power:GND #PWR0106
 U 1 1 5B818E4D
-P 6100 3350
-F 0 "#PWR0106" H 6100 3100 50  0001 C CNN
-F 1 "GND" H 6105 3177 50  0000 C CNN
-F 2 "" H 6100 3350 50  0001 C CNN
-F 3 "" H 6100 3350 50  0001 C CNN
-	1    6100 3350
+P 6150 3350
+F 0 "#PWR0106" H 6150 3100 50  0001 C CNN
+F 1 "GND" H 6155 3177 50  0000 C CNN
+F 2 "" H 6150 3350 50  0001 C CNN
+F 3 "" H 6150 3350 50  0001 C CNN
+	1    6150 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 3350 2    50   Input ~ 0
+Text GLabel 6750 3350 2    50   Input ~ 0
 PUL_Z_OUT
-Text GLabel 6700 3250 2    50   Input ~ 0
+Text GLabel 6750 3150 2    50   Input ~ 0
 5V_ISO
-NoConn ~ 6700 3150
 $Comp
 L Device:R R7
 U 1 1 5B819AC4
-P 5950 3800
-F 0 "R7" H 6020 3846 50  0000 L CNN
-F 1 "220" H 6020 3755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 3800 50  0001 C CNN
-F 3 "~" H 5950 3800 50  0001 C CNN
-	1    5950 3800
+P 6000 3800
+F 0 "R7" H 6070 3846 50  0000 L CNN
+F 1 "220" H 6070 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 3800 50  0001 C CNN
+F 3 "~" H 6000 3800 50  0001 C CNN
+	1    6000 3800
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U9
-U 1 1 5B819ACB
-P 6400 3900
-F 0 "U9" H 6400 4225 50  0000 C CNN
-F 1 "4N25" H 6400 4134 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 3700 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 3900 50  0001 L CNN
-	1    6400 3900
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 3800 0    50   Input ~ 0
+Text GLabel 5850 3800 0    50   Input ~ 0
 DIR_X
 $Comp
 L power:GND #PWR0107
 U 1 1 5B819AD3
-P 6100 4000
-F 0 "#PWR0107" H 6100 3750 50  0001 C CNN
-F 1 "GND" H 6105 3827 50  0000 C CNN
-F 2 "" H 6100 4000 50  0001 C CNN
-F 3 "" H 6100 4000 50  0001 C CNN
-	1    6100 4000
+P 6150 4000
+F 0 "#PWR0107" H 6150 3750 50  0001 C CNN
+F 1 "GND" H 6155 3827 50  0000 C CNN
+F 2 "" H 6150 4000 50  0001 C CNN
+F 3 "" H 6150 4000 50  0001 C CNN
+	1    6150 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 4000 2    50   Input ~ 0
+Text GLabel 6750 4000 2    50   Input ~ 0
 DIR_X_OUT
-Text GLabel 6700 3900 2    50   Input ~ 0
+Text GLabel 6750 3800 2    50   Input ~ 0
 5V_ISO
-NoConn ~ 6700 3800
 $Comp
 L Device:R R8
 U 1 1 5B81A161
-P 5950 4450
-F 0 "R8" H 6020 4496 50  0000 L CNN
-F 1 "220" H 6020 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 4450 50  0001 C CNN
-F 3 "~" H 5950 4450 50  0001 C CNN
-	1    5950 4450
+P 6000 4450
+F 0 "R8" H 6070 4496 50  0000 L CNN
+F 1 "220" H 6070 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 4450 50  0001 C CNN
+F 3 "~" H 6000 4450 50  0001 C CNN
+	1    6000 4450
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U10
-U 1 1 5B81A168
-P 6400 4550
-F 0 "U10" H 6400 4875 50  0000 C CNN
-F 1 "4N25" H 6400 4784 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 4350 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 4550 50  0001 L CNN
-	1    6400 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 4450 0    50   Input ~ 0
+Text GLabel 5850 4450 0    50   Input ~ 0
 DIR_Y
 $Comp
 L power:GND #PWR0108
 U 1 1 5B81A170
-P 6100 4650
-F 0 "#PWR0108" H 6100 4400 50  0001 C CNN
-F 1 "GND" H 6105 4477 50  0000 C CNN
-F 2 "" H 6100 4650 50  0001 C CNN
-F 3 "" H 6100 4650 50  0001 C CNN
-	1    6100 4650
+P 6150 4650
+F 0 "#PWR0108" H 6150 4400 50  0001 C CNN
+F 1 "GND" H 6155 4477 50  0000 C CNN
+F 2 "" H 6150 4650 50  0001 C CNN
+F 3 "" H 6150 4650 50  0001 C CNN
+	1    6150 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 4650 2    50   Input ~ 0
+Text GLabel 6750 4650 2    50   Input ~ 0
 DIR_Y_OUT
-Text GLabel 6700 4550 2    50   Input ~ 0
+Text GLabel 6750 4450 2    50   Input ~ 0
 5V_ISO
-NoConn ~ 6700 4450
 $Comp
 L Device:R R9
 U 1 1 5B81BCBE
-P 5950 5050
-F 0 "R9" H 6020 5096 50  0000 L CNN
-F 1 "220" H 6020 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 5050 50  0001 C CNN
-F 3 "~" H 5950 5050 50  0001 C CNN
-	1    5950 5050
+P 6000 5050
+F 0 "R9" H 6070 5096 50  0000 L CNN
+F 1 "220" H 6070 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 5050 50  0001 C CNN
+F 3 "~" H 6000 5050 50  0001 C CNN
+	1    6000 5050
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U11
-U 1 1 5B81BCC5
-P 6400 5150
-F 0 "U11" H 6400 5475 50  0000 C CNN
-F 1 "4N25" H 6400 5384 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 4950 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 5150 50  0001 L CNN
-	1    6400 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 5050 0    50   Input ~ 0
+Text GLabel 5850 5050 0    50   Input ~ 0
 DIR_Z
 $Comp
 L power:GND #PWR0109
 U 1 1 5B81BCCD
-P 6100 5250
-F 0 "#PWR0109" H 6100 5000 50  0001 C CNN
-F 1 "GND" H 6105 5077 50  0000 C CNN
-F 2 "" H 6100 5250 50  0001 C CNN
-F 3 "" H 6100 5250 50  0001 C CNN
-	1    6100 5250
+P 6150 5250
+F 0 "#PWR0109" H 6150 5000 50  0001 C CNN
+F 1 "GND" H 6155 5077 50  0000 C CNN
+F 2 "" H 6150 5250 50  0001 C CNN
+F 3 "" H 6150 5250 50  0001 C CNN
+	1    6150 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 5250 2    50   Input ~ 0
+Text GLabel 6750 5250 2    50   Input ~ 0
 DIR_Z_OUT
-Text GLabel 6700 5150 2    50   Input ~ 0
+Text GLabel 6750 5050 2    50   Input ~ 0
 5V_ISO
-NoConn ~ 6700 5050
 $Comp
 L Connector_Generic:Conn_01x08 X_PLUG_SOCKET1
 U 1 1 5B81C945
@@ -13041,57 +12922,41 @@ Consider PROBE on own connector\n
 $Comp
 L Device:R R10
 U 1 1 5B83CE67
-P 5950 5950
-F 0 "R10" H 6020 5996 50  0000 L CNN
-F 1 "220" H 6020 5905 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 5950 50  0001 C CNN
-F 3 "~" H 5950 5950 50  0001 C CNN
-	1    5950 5950
+P 6000 5950
+F 0 "R10" H 6070 5996 50  0000 L CNN
+F 1 "220" H 6070 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 5950 50  0001 C CNN
+F 3 "~" H 6000 5950 50  0001 C CNN
+	1    6000 5950
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U12
-U 1 1 5B83CE6E
-P 6400 6050
-F 0 "U12" H 6400 6375 50  0000 C CNN
-F 1 "4N25" H 6400 6284 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 5850 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 6050 50  0001 L CNN
-	1    6400 6050
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 5950 0    50   Input ~ 0
+Text GLabel 5850 5950 0    50   Input ~ 0
 SPINDLE_EN
 $Comp
 L power:GND #PWR04
 U 1 1 5B83CE76
-P 6050 6150
-F 0 "#PWR04" H 6050 5900 50  0001 C CNN
-F 1 "GND" H 6055 5977 50  0000 C CNN
-F 2 "" H 6050 6150 50  0001 C CNN
-F 3 "" H 6050 6150 50  0001 C CNN
-	1    6050 6150
+P 6150 6150
+F 0 "#PWR04" H 6150 5900 50  0001 C CNN
+F 1 "GND" H 6155 5977 50  0000 C CNN
+F 2 "" H 6150 6150 50  0001 C CNN
+F 3 "" H 6150 6150 50  0001 C CNN
+	1    6150 6150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 5950
 $Comp
 L Connector_Generic:Conn_01x04 SPINDLE_CTR1
 U 1 1 5B83EAD9
-P 7500 6150
-F 0 "SPINDLE_CTR1" H 7580 6142 50  0000 L CNN
-F 1 "Conn_01x04" H 7580 6051 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical" H 7500 6150 50  0001 C CNN
-F 3 "~" H 7500 6150 50  0001 C CNN
-	1    7500 6150
+P 7700 6150
+F 0 "SPINDLE_CTR1" H 7780 6142 50  0000 L CNN
+F 1 "Conn_01x04" H 7780 6051 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical" H 7700 6150 50  0001 C CNN
+F 3 "~" H 7700 6150 50  0001 C CNN
+	1    7700 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 6050 6700 6050
-Wire Wire Line
-	6700 6150 7300 6150
-Text Label 6900 6050 0    50   ~ 0
+Text Label 6800 5950 0    50   ~ 0
 +24V_IN
-Text Label 6700 6150 0    50   ~ 0
+Text Label 6750 6150 0    50   ~ 0
 SPINDLE_EN_OUT
 $Comp
 L power:GNDS #PWR06
@@ -13107,44 +12972,28 @@ $EndComp
 $Comp
 L Device:R R11
 U 1 1 5B842D78
-P 5950 6650
-F 0 "R11" H 6020 6696 50  0000 L CNN
-F 1 "220" H 6020 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 6650 50  0001 C CNN
-F 3 "~" H 5950 6650 50  0001 C CNN
-	1    5950 6650
+P 6000 6650
+F 0 "R11" H 6070 6696 50  0000 L CNN
+F 1 "220" H 6070 6605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5930 6650 50  0001 C CNN
+F 3 "~" H 6000 6650 50  0001 C CNN
+	1    6000 6650
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:4N25 U13
-U 1 1 5B842D7F
-P 6400 6750
-F 0 "U13" H 6400 7075 50  0000 C CNN
-F 1 "4N25" H 6400 6984 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6200 6550 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6400 6750 50  0001 L CNN
-	1    6400 6750
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 6650 0    50   Input ~ 0
+Text GLabel 5850 6650 0    50   Input ~ 0
 SPINDLE_PWM
 $Comp
 L power:GND #PWR05
 U 1 1 5B842D87
-P 6050 6850
-F 0 "#PWR05" H 6050 6600 50  0001 C CNN
-F 1 "GND" H 6055 6677 50  0000 C CNN
-F 2 "" H 6050 6850 50  0001 C CNN
-F 3 "" H 6050 6850 50  0001 C CNN
-	1    6050 6850
+P 6100 6850
+F 0 "#PWR05" H 6100 6600 50  0001 C CNN
+F 1 "GND" H 6105 6677 50  0000 C CNN
+F 2 "" H 6100 6850 50  0001 C CNN
+F 3 "" H 6100 6850 50  0001 C CNN
+	1    6100 6850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 6650
-Wire Wire Line
-	6700 6850 7300 6850
-Wire Wire Line
-	7300 6850 7300 6350
-Text Label 7100 6850 0    50   ~ 0
+Text Label 6750 6850 0    50   ~ 0
 SPINDLE_PWM_OUT
 Text Notes 6050 5700 0    50   ~ 0
 Spindle controls
@@ -13173,46 +13022,43 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5B84C456
-P 2350 6250
-F 0 "#PWR012" H 2350 6000 50  0001 C CNN
-F 1 "GND" H 2355 6077 50  0000 C CNN
-F 2 "" H 2350 6250 50  0001 C CNN
-F 3 "" H 2350 6250 50  0001 C CNN
-	1    2350 6250
+P 2500 6250
+F 0 "#PWR012" H 2500 6000 50  0001 C CNN
+F 1 "GND" H 2505 6077 50  0000 C CNN
+F 2 "" H 2500 6250 50  0001 C CNN
+F 3 "" H 2500 6250 50  0001 C CNN
+	1    2500 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 5B84F227
-P 1600 6050
-F 0 "R14" H 1670 6096 50  0000 L CNN
-F 1 "220" H 1670 6005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 6050 50  0001 C CNN
-F 3 "~" H 1600 6050 50  0001 C CNN
-	1    1600 6050
+P 1500 6050
+F 0 "R14" H 1570 6096 50  0000 L CNN
+F 1 "220" H 1570 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1430 6050 50  0001 C CNN
+F 3 "~" H 1500 6050 50  0001 C CNN
+	1    1500 6050
 	0    1    1    0   
 $EndComp
-Text GLabel 6700 1900 2    50   Input ~ 0
+Text GLabel 6750 1800 2    50   Input ~ 0
 5V_ISO
-Text GLabel 1500 5200 0    50   Input ~ 0
+Text GLabel 1150 5200 0    50   Input ~ 0
 5V_ISO
-Text GLabel 1500 4550 0    50   Input ~ 0
+Text GLabel 1150 4550 0    50   Input ~ 0
 5V_ISO
-Text GLabel 1500 3900 0    50   Input ~ 0
+Text GLabel 1150 3900 0    50   Input ~ 0
 5V_ISO
 Text GLabel 4550 7250 2    50   Input ~ 0
 5V_ISO
-Text GLabel 1450 6050 0    50   Input ~ 0
+Text GLabel 1350 6050 0    50   Input ~ 0
 5V_ISO
-Text Label 750  6250 0    50   ~ 0
+Text Label 800  6250 0    50   ~ 0
 PROBE_PLATE
-Wire Wire Line
-	800  6250 1750 6250
-Text Label 750  6350 0    50   ~ 0
+Text Label 800  6350 0    50   ~ 0
 GROUND_SPINDLE
 Text Notes 1700 5750 0    50   ~ 0
 Probe connector
-NoConn ~ 2350 6050
 Wire Wire Line
 	9250 6950 9300 6950
 Wire Wire Line
@@ -13223,8 +13069,6 @@ Wire Wire Line
 	9250 6850 9300 6850
 Wire Wire Line
 	9200 3700 9300 3700
-Wire Wire Line
-	6050 6150 6100 6150
 Wire Wire Line
 	800  6350 1500 6350
 Wire Wire Line
@@ -13271,8 +13115,6 @@ F 3 "~" H 9250 7400 50  0001 C CNN
 	1    9250 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 6850 6100 6850
 Text Notes 3300 6900 0    50   ~ 0
 Voltage regulator fixed 5V
 $Comp
@@ -13318,27 +13160,15 @@ Wire Wire Line
 Connection ~ 9250 1400
 Text GLabel 2850 2950 2    50   Input ~ 0
 ABORT
-$Comp
-L Isolator:4N25 U1
-U 1 1 5B8967B0
-P 1200 2450
-F 0 "U1" H 1200 2775 50  0000 C CNN
-F 1 "4N25" H 1200 2684 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1000 2250 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 1200 2450 50  0001 L CNN
-	1    1200 2450
-	1    0    0    -1  
-$EndComp
 Text Notes 50   2850 0    50   ~ 0
 Reset on loss of external power. Two coupers to invert signal\n
-NoConn ~ 1500 2350
 Text Notes 3600 3450 0    50   ~ 0
 All IN PINs\nhas internal 20k \npull up resistor to +5V
 $Comp
 L Device:R R12
 U 1 1 5B8967CE
 P 750 2350
-F 0 "R12" H 820 2396 50  0000 L CNN
+F 0 "R12" H 700 2350 50  0000 L CNN
 F 1 "220" H 820 2305 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 2350 50  0001 C CNN
 F 3 "~" H 750 2350 50  0001 C CNN
@@ -13350,27 +13180,16 @@ Text GLabel 600  2350 0    50   Input ~ 0
 $Comp
 L power:GNDS #PWR07
 U 1 1 5B8967D6
-P 800 2550
-F 0 "#PWR07" H 800 2300 50  0001 C CNN
-F 1 "GNDS" H 805 2377 50  0000 C CNN
-F 2 "" H 800 2550 50  0001 C CNN
-F 3 "" H 800 2550 50  0001 C CNN
-	1    800  2550
+P 650 2550
+F 0 "#PWR07" H 650 2300 50  0001 C CNN
+F 1 "GNDS" H 655 2377 50  0000 C CNN
+F 2 "" H 650 2550 50  0001 C CNN
+F 3 "" H 650 2550 50  0001 C CNN
+	1    650  2550
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 3450 0    50   Input ~ 0
 ALARM_IN
-$Comp
-L Isolator:4N25 U16
-U 1 1 5B8967F1
-P 2100 3350
-F 0 "U16" H 2100 3675 50  0000 C CNN
-F 1 "4N25" H 2100 3584 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1900 3150 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2100 3350 50  0001 L CNN
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5B8967F8
@@ -13382,24 +13201,19 @@ F 3 "" H 2400 3450 50  0001 C CNN
 	1    2400 3450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 3250
 $Comp
 L Device:R R13
 U 1 1 5B8967FF
-P 1600 3250
-F 0 "R13" H 1670 3296 50  0000 L CNN
-F 1 "220" H 1670 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 3250 50  0001 C CNN
-F 3 "~" H 1600 3250 50  0001 C CNN
-	1    1600 3250
+P 1350 3250
+F 0 "R13" H 1420 3296 50  0000 L CNN
+F 1 "220" H 1420 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1280 3250 50  0001 C CNN
+F 3 "~" H 1350 3250 50  0001 C CNN
+	1    1350 3250
 	0    1    1    0   
 $EndComp
 Text GLabel 1200 3250 0    50   Input ~ 0
 5V_ISO
-Wire Wire Line
-	1200 3450 1800 3450
-Wire Wire Line
-	2400 3350 2700 3350
 $Comp
 L power:GND #PWR09
 U 1 1 5B8E1148
@@ -13413,11 +13227,8 @@ F 3 "" H 2400 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 2550 2400 2650
-Wire Wire Line
-	2400 2450 2700 2450
 Text GLabel 1600 1850 0    50   Input ~ 0
 5V_ISO
-NoConn ~ 2400 2350
 $Comp
 L Device:R R15
 U 1 1 5B966FF1
@@ -13429,25 +13240,12 @@ F 3 "~" H 1650 2000 50  0001 C CNN
 	1    1650 2000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Isolator:4N25 U14
-U 1 1 5B8C1D6E
-P 2100 2450
-F 0 "U14" H 2100 2775 50  0000 C CNN
-F 1 "4N25" H 2100 2684 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 1900 2250 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 2100 2450 50  0001 L CNN
-	1    2100 2450
-	1    0    0    -1  
-$EndComp
 Text Notes 1250 3150 0    50   ~ 0
 Acc manual: \nR min 460 ohm\n
 Wire Wire Line
 	1600 1850 1650 1850
 Wire Wire Line
 	1650 2150 1650 2350
-Wire Wire Line
-	1900 2450 2100 2450
 $Comp
 L power:GNDS #PWR08
 U 1 1 5B9C09BB
@@ -13462,26 +13260,7 @@ $EndComp
 Wire Wire Line
 	1500 2550 1650 2550
 Wire Wire Line
-	1800 2550 1650 2550
-Connection ~ 1650 2550
-Wire Wire Line
-	1650 2350 1800 2350
-Wire Wire Line
-	1500 2450 1650 2450
-Wire Wire Line
-	1650 2450 1650 2350
-Connection ~ 1650 2350
-Wire Wire Line
-	2700 2450 2700 2950
-Wire Wire Line
 	2700 2950 2850 2950
-Connection ~ 2700 2950
-Wire Wire Line
-	2700 2950 2700 3350
-Wire Wire Line
-	1750 3250 1800 3250
-Wire Wire Line
-	1200 3250 1450 3250
 Text Notes 350  3650 0    50   ~ 0
 All motors ALARM in Parallell
 Text Notes 650  6500 0    50   ~ 0
@@ -13490,8 +13269,6 @@ Wire Wire Line
 	9200 7550 9250 7550
 Wire Wire Line
 	9200 7650 9250 7650
-Wire Wire Line
-	800  2550 900  2550
 Wire Wire Line
 	9250 7400 9250 7550
 Connection ~ 9250 7550
@@ -13522,7 +13299,7 @@ P 3750 7250
 F 0 "U15" H 3750 7492 50  0000 C CNN
 F 1 "IFX27001TFV50ATMA1CT-ND" H 3750 7401 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3750 7450 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 3850 7000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1651339.pdf?_ga=2.123470472.240520133.1535375388-988732575.1532621408&_gac=1.188802521.1535375388.CjwKCAjwwo7cBRBwEiwAMEoXPFBHkOO1KtZ2nriz7KeKgsjJ-LRe34y2nuipbUsNsmla29VfXMDi_hoCD9wQAvD_BwE" H 3850 7000 50  0001 C CNN
 	1    3750 7250
 	1    0    0    -1  
 $EndComp
@@ -13537,9 +13314,6 @@ Wire Wire Line
 	4250 7800 4150 7800
 Wire Wire Line
 	4150 7800 4150 7750
-Wire Wire Line
-	3750 7800 4150 7800
-Connection ~ 4150 7800
 $Comp
 L pspice:CAP C2
 U 1 1 5BA4C0A6
@@ -13563,7 +13337,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 7800 3750 7800
 Connection ~ 3400 7800
-Connection ~ 3750 7800
 $Comp
 L pspice:CAP C3
 U 1 1 5BA6120C
@@ -13603,4 +13376,244 @@ Wire Wire Line
 	4200 5950 4300 5950
 Text Notes 1800 2050 0    50   ~ 0
 Will act as shorted pull down all the time
+$Comp
+L Isolator:SFH6206-3T U6
+U 1 1 5BA7EC1E
+P 6450 1900
+F 0 "U6" H 6450 2267 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 2176 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 1500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 1900 50  0001 C CNN
+	1    6450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U8
+U 1 1 5BA95109
+P 6450 2600
+F 0 "U8" H 6450 2967 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 2876 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 2200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U9
+U 1 1 5BA99624
+P 6450 3250
+F 0 "U9" H 6450 3617 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 3526 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 2850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 3250 50  0001 C CNN
+	1    6450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U10
+U 1 1 5BA9DB7F
+P 6450 3900
+F 0 "U10" H 6450 4267 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 4176 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 3500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 3900 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U11
+U 1 1 5BAA20DF
+P 6450 4550
+F 0 "U11" H 6450 4917 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 4826 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 4150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 4550 50  0001 C CNN
+	1    6450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U12
+U 1 1 5BAA6628
+P 6450 5150
+F 0 "U12" H 6450 5517 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 5426 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 4750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 5150 50  0001 C CNN
+	1    6450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U13
+U 1 1 5BAACA76
+P 6450 6050
+F 0 "U13" H 6450 6417 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 6326 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 5650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 6050 50  0001 C CNN
+	1    6450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5950 7300 5950
+Wire Wire Line
+	7300 5950 7300 6050
+$Comp
+L Isolator:SFH6206-3T U7
+U 1 1 5BABA740
+P 6450 6750
+F 0 "U7" H 6450 7117 50  0000 C CNN
+F 1 "SFH6206-3T" H 6450 7026 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 6450 6350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 6750 50  0001 C CNN
+	1    6450 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6850 6150 6850
+Wire Wire Line
+	6750 6150 7500 6150
+Wire Wire Line
+	7300 6050 7500 6050
+Wire Wire Line
+	7300 6250 7500 6250
+$Comp
+L Isolator:SFH6206-3T U1
+U 1 1 5BAD95CE
+P 1200 2450
+F 0 "U1" H 1200 2817 50  0000 C CNN
+F 1 "SFH6206-3T" H 1200 2726 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1200 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2450 50  0001 C CNN
+	1    1200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2350 1500 2350
+Wire Wire Line
+	650  2550 900  2550
+$Comp
+L Isolator:SFH6206-3T U2
+U 1 1 5BAEB96A
+P 2050 2450
+F 0 "U2" H 2050 2817 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 2726 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2450 50  0001 C CNN
+	1    2050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2550 1650 2550
+Connection ~ 1650 2550
+Wire Wire Line
+	1750 2350 1650 2350
+Connection ~ 1650 2350
+Wire Wire Line
+	2700 2350 2350 2350
+Wire Wire Line
+	2700 2350 2700 2950
+Wire Wire Line
+	2350 2550 2400 2550
+$Comp
+L Isolator:SFH6206-3T U3
+U 1 1 5BB0215E
+P 2050 3350
+F 0 "U3" H 2050 3717 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 3626 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 2950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 3350 50  0001 C CNN
+	1    2050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3250 1750 3250
+Wire Wire Line
+	1200 3450 1750 3450
+Wire Wire Line
+	2700 2950 2700 3250
+Wire Wire Line
+	2700 3250 2350 3250
+Connection ~ 2700 2950
+Wire Wire Line
+	2400 3450 2350 3450
+$Comp
+L Isolator:SFH6206-3T U4
+U 1 1 5BB1CBE8
+P 2050 4000
+F 0 "U4" H 2050 4367 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 4276 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 3600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 4000 50  0001 C CNN
+	1    2050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3900 1750 3900
+Wire Wire Line
+	1750 4100 1450 4100
+$Comp
+L Isolator:SFH6206-3T U5
+U 1 1 5BB30082
+P 2050 4650
+F 0 "U5" H 2050 5017 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 4926 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 4650 50  0001 C CNN
+	1    2050 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4550 1750 4550
+Wire Wire Line
+	1450 4750 1750 4750
+Wire Wire Line
+	2350 4750 2400 4750
+$Comp
+L Isolator:SFH6206-3T U14
+U 1 1 5BB44608
+P 2050 5300
+F 0 "U14" H 2050 5667 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 5576 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 4900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 5300 50  0001 C CNN
+	1    2050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5200 1450 5200
+Wire Wire Line
+	1450 5400 1750 5400
+Wire Wire Line
+	2350 5400 2400 5400
+Wire Wire Line
+	7500 6850 7500 6350
+Wire Wire Line
+	6750 6850 7500 6850
+$Comp
+L Isolator:SFH6206-3T U16
+U 1 1 5BB7111D
+P 2050 6150
+F 0 "U16" H 2050 6517 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 6426 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 5750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 6150 50  0001 C CNN
+	1    2050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6050 1750 6050
+Wire Wire Line
+	1750 6250 800  6250
+Wire Wire Line
+	2350 6250 2500 6250
+Wire Wire Line
+	2350 4100 2400 4100
+Text Label 1500 2550 0    50   ~ 0
+PWR_ABR
+Text Label 1550 2350 0    50   ~ 0
+PWR_SIG
+Connection ~ 3750 7800
+Connection ~ 4150 7800
+Wire Wire Line
+	3750 7800 4150 7800
 $EndSCHEMATC
