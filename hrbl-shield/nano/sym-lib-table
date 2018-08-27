@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name nano-eagle-import)(type Legacy)(uri ${KIPRJMOD}/nano-eagle-import.lib)(options "")(descr ""))
+  (lib (name Regulator_Linear)(type Legacy)(uri ${KIPRJMOD}/Regulator_Linear.lib)(options "")(descr ""))
 )
