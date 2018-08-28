@@ -1,4 +1,4 @@
-update=28/08/2018 12:11:58
+update=28/08/2018 16:11:55
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,11 +28,11 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=0
+ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.35
-MinViaDiameter=0.3
+MinViaDiameter=1
 MinViaDrill=0.3
-MinMicroViaDiameter=0.3
+MinMicroViaDiameter=1
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.35
