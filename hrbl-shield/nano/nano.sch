@@ -13732,4 +13732,48 @@ Wire Wire Line
 Connection ~ 4150 7800
 Text Notes 3550 8000 0    50   ~ 0
 this 0 R is to control where the grounds join
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5B8B75FD
+P 1700 7500
+F 0 "MH4" H 1800 7546 50  0000 L CNN
+F 1 "MountingHole" H 1800 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1700 7500 50  0001 C CNN
+F 3 "~" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5B8B7AAF
+P 1350 7500
+F 0 "MH3" H 1450 7546 50  0000 L CNN
+F 1 "MountingHole" H 1450 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1350 7500 50  0001 C CNN
+F 3 "~" H 1350 7500 50  0001 C CNN
+	1    1350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5B8B7CFB
+P 1050 7500
+F 0 "MH2" H 1150 7546 50  0000 L CNN
+F 1 "MountingHole" H 1150 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1050 7500 50  0001 C CNN
+F 3 "~" H 1050 7500 50  0001 C CNN
+	1    1050 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5B8B7D84
+P 700 7500
+F 0 "MH1" H 800 7546 50  0000 L CNN
+F 1 "MountingHole" H 800 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 700 7500 50  0001 C CNN
+F 3 "~" H 700 7500 50  0001 C CNN
+	1    700  7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -187,6 +187,21 @@ X ~ 4 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Regulator_Linear_IFX27001TFV50ATMA1CT-ND
 #
 DEF Regulator_Linear_IFX27001TFV50ATMA1CT-ND U 0 10 Y Y 1 F N
