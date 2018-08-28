@@ -13612,8 +13612,6 @@ Text Label 1500 2550 0    50   ~ 0
 PWR_ABR
 Text Label 1550 2350 0    50   ~ 0
 PWR_SIG
-Connection ~ 3750 7800
-Connection ~ 4150 7800
 $Comp
 L Device:R R16
 U 1 1 5B865306
@@ -13704,6 +13702,34 @@ Wire Wire Line
 	6750 3350 6800 3350
 Wire Wire Line
 	7100 3350 7250 3350
+$Comp
+L power:GNDS #PWR0114
+U 1 1 5B8A262D
+P 4050 7700
+F 0 "#PWR0114" H 4050 7450 50  0001 C CNN
+F 1 "GNDS" V 4055 7572 50  0000 R CNN
+F 2 "" H 4050 7700 50  0001 C CNN
+F 3 "" H 4050 7700 50  0001 C CNN
+	1    4050 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5B8A2633
+P 3950 7800
+F 0 "R20" V 3743 7800 50  0000 C CNN
+F 1 "0" V 3834 7800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3880 7800 50  0001 C CNN
+F 3 "~" H 3950 7800 50  0001 C CNN
+	1    3950 7800
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	3750 7800 4150 7800
+	3800 7800 3750 7800
+Connection ~ 3750 7800
+Wire Wire Line
+	4100 7800 4150 7800
+Connection ~ 4150 7800
+Text Notes 3550 8000 0    50   ~ 0
+this 0 R is to control where the grounds join
 $EndSCHEMATC
