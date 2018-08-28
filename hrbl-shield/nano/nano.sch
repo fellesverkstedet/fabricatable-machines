@@ -12522,7 +12522,7 @@ F 3 "" H 6150 3350 50  0001 C CNN
 	1    6150 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 3350 2    50   Input ~ 0
+Text GLabel 7250 3350 2    50   Input ~ 0
 PUL_Z_OUT
 Text GLabel 6750 3150 2    50   Input ~ 0
 5V_ISO
@@ -12636,7 +12636,7 @@ F 3 "" H 9200 3700 50  0001 C CNN
 $EndComp
 Text GLabel 9300 3800 0    50   Input ~ 0
 DIR_X_OUT
-Text GLabel 9300 4000 0    50   Input ~ 0
+Text GLabel 9000 4000 0    50   Input ~ 0
 ALARM_IN
 Text GLabel 9300 4300 0    50   Input ~ 0
 LIM_X_IN
@@ -12754,7 +12754,7 @@ F 3 "" H 9250 4650 50  0001 C CNN
 $EndComp
 Text GLabel 9300 4750 0    50   Input ~ 0
 DIR_Y_OUT
-Text GLabel 9300 4950 0    50   Input ~ 0
+Text GLabel 9000 4950 0    50   Input ~ 0
 ALARM_IN
 Text GLabel 9300 5250 0    50   Input ~ 0
 LIM_Y_IN
@@ -12880,7 +12880,7 @@ F 3 "" H 9250 6450 50  0001 C CNN
 $EndComp
 Text GLabel 9300 6550 0    50   Input ~ 0
 DIR_Z_OUT
-Text GLabel 9300 6750 0    50   Input ~ 0
+Text GLabel 9000 6750 0    50   Input ~ 0
 ALARM_IN
 Text GLabel 9300 7050 0    50   Input ~ 0
 LIM_Z_IN
@@ -13614,6 +13614,96 @@ Text Label 1550 2350 0    50   ~ 0
 PWR_SIG
 Connection ~ 3750 7800
 Connection ~ 4150 7800
+$Comp
+L Device:R R16
+U 1 1 5B865306
+P 9150 4000
+F 0 "R16" V 8943 4000 50  0000 C CNN
+F 1 "0" V 9034 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 4000 50  0001 C CNN
+F 3 "~" H 9150 4000 50  0001 C CNN
+	1    9150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDS #PWR0111
+U 1 1 5B865792
+P 8850 4900
+F 0 "#PWR0111" H 8850 4650 50  0001 C CNN
+F 1 "GNDS" V 8855 4772 50  0000 R CNN
+F 2 "" H 8850 4900 50  0001 C CNN
+F 3 "" H 8850 4900 50  0001 C CNN
+	1    8850 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDS #PWR0112
+U 1 1 5B86BCA7
+P 9050 6650
+F 0 "#PWR0112" H 9050 6400 50  0001 C CNN
+F 1 "GNDS" V 9055 6522 50  0000 R CNN
+F 2 "" H 9050 6650 50  0001 C CNN
+F 3 "" H 9050 6650 50  0001 C CNN
+	1    9050 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5B86BCAD
+P 9150 6750
+F 0 "R18" V 8943 6750 50  0000 C CNN
+F 1 "0" V 9034 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 6750 50  0001 C CNN
+F 3 "~" H 9150 6750 50  0001 C CNN
+	1    9150 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 6750 9000 6750
+Connection ~ 9300 6750
+$Comp
+L Device:R R17
+U 1 1 5B865798
+P 9150 4950
+F 0 "R17" V 8943 4950 50  0000 C CNN
+F 1 "0" V 9034 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 4950 50  0001 C CNN
+F 3 "~" H 9150 4950 50  0001 C CNN
+	1    9150 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 9300 4000
+Wire Wire Line
+	9000 4000 9300 4000
+Connection ~ 9300 4950
+Wire Wire Line
+	9000 4950 9300 4950
+$Comp
+L power:GNDS #PWR0113
+U 1 1 5B886EF5
+P 7000 3400
+F 0 "#PWR0113" H 7000 3150 50  0001 C CNN
+F 1 "GNDS" V 7005 3272 50  0000 R CNN
+F 2 "" H 7000 3400 50  0001 C CNN
+F 3 "" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5B886EFB
+P 6950 3350
+F 0 "R19" V 6743 3350 50  0000 C CNN
+F 1 "0" V 6834 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6880 3350 50  0001 C CNN
+F 3 "~" H 6950 3350 50  0001 C CNN
+	1    6950 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3350 6800 3350
+Wire Wire Line
+	7100 3350 7250 3350
 Wire Wire Line
 	3750 7800 4150 7800
 $EndSCHEMATC
