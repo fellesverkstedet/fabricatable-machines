@@ -43,9 +43,27 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Pre set plates for Cura
 
-These are four pre set plates of parts to be sliced in [Cura](https://ultimaker.com/en/products/ultimaker-cura-software), they take between 7-8 h each to print using standard draft settings so in total 30h.
+These are four pre set plates of parts to be sliced in [Cura](https://ultimaker.com/en/products/ultimaker-cura-software), they take between 7-8 h each to print using standard draft settings so in total 30h to make all parts.
 
 [CURA plates.zip](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/CURA_plates.zip)
+
+#### Plate1
+* Roller_cover 9/16st
+
+#### Plate2
+* Roller_cover 3/16st
+* Roller_cover_no_snap_x_lower 1/1st
+* Roller_cover_no_snap_x_lower_mirrored 1/1st
+* Roller_cover_y_axis 4/4st
+
+#### Plate3
+* Viper_xtop_and_z-axis 6/6st
+* Viper_y-axis 4/4st
+
+#### Plate4
+* Roller_cover 7/16st
+* viper_xlower 1/1st
+* viper_xlower_mirror 1/1st
 
 ![All plates](./img/Cura_plates_UM0.jpg)
 
