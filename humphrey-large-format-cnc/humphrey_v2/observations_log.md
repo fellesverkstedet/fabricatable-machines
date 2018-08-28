@@ -157,4 +157,6 @@ Andra i bygg acceptera vårdslös om brand
 ## Notes h3
 
 Make easier access to screws between gantry feet and bottom plate in gantry
+Vipers on bottom x needs waashers due to that the axis positon was moved so that it would align better now when there is no edge chamfer
+
 
