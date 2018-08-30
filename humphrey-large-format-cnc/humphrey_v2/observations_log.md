@@ -158,5 +158,5 @@ Andra i bygg acceptera vårdslös om brand
 
 Make easier access to screws between gantry feet and bottom plate in gantry
 Vipers on bottom x needs waashers due to that the axis positon was moved so that it would align better now when there is no edge chamfer
-
+Collision with y-top-bearings to the side of the torsion box when making the rails perfectly paralell. Probably means that the torsion box is more than a few mmm of from being straight. Makes sense. Solved with adding a small bend in the rail and using excenters on all four bearings that keep it locked in the horizontal plane. 
 

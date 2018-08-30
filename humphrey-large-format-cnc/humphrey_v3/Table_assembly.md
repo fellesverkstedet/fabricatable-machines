@@ -66,8 +66,10 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ### Building the torsion box
 
-* Find the 8 mm thick valchromat "bottom skin" pieces. Note that on one side the holes are placed 100mm further in, this is the operator side. Place this side towards were you will be standing when operating the machine.
+* Find the 8 mm thick valchromat "bottom skin" pieces. Note which side is the operator side. Place this side towards were you will be standing when operating the machine. Flip over the sheets to switch side if necessary. 
 
+* Note in the picture which side is the far back end of the machine, place this away from where you opperate the machine.
+ 
 ![Size](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/8mm_skins.JPG)
 
 * Align the legs under the bottom torsion box skins (8 mm thick) using 6mm diameter wooden dowels. There are 12 predrilled holes.
@@ -132,7 +134,7 @@ The torsion box is build from glued together valchromat and consists of two "ski
 
 ![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/link_place.JPG)
 
-* Find M6 screws to use as temorary guide pins (Ø6mm wooden dowels can also be used but screws are easier)
+* Find M6x30mm screws to use as temorary guide pins.
 * Screw the M6 screws into the Ø6mm holes in the bottom of the Y-rails to align the rails with the Ø6mm holes in the valchromat table. Make sure they go all the way through the spacer into the top layer of valchromat.
 
 ![y_rails](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/y-rail4.jpg)
