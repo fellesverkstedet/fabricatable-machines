@@ -48,3 +48,11 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 * Find optimal smd optcupler and update routing (for 4N25 or 4N35 use 390 Ohm resistor)
 * Inspect for errors and unfabricatable geometry
 * CNC mill, solder and test the board
+
+
+# Notes new version
+
+* Careful with which layer you mirror!
+* 8mm/s with a Ø0.4mm china endmill worked! (did most with 4.5mm/S)
+* Milling order: Start with side where you will mill most vias. 1st 3mm bit, outline and index holes for flipping. 2nd drill holes 3rd 0.4 mm trace milling 4th flip card and keep working with same bit. This order gives few toolchanges and good precision.
+* attacvh with double sided skotch tape (jernia)
