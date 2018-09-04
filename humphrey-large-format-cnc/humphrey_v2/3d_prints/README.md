@@ -67,9 +67,29 @@ These are four pre set plates of parts to be sliced in [Cura](https://ultimaker.
 
 ![All plates](./img/Cura_plates_UM0.jpg)
 
-
-# Pictures
+### Pictures
 
 ![All prints](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
 
-_All the prints!_
+_All thedust cover prints!_
+
+# Dust skirt
+
+A 3D-printed dust skirt system that is held on by magnets.
+
+![All three](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/dust-all_three.JPG)
+
+## Lower part
+
+Print with support ON.
+
+![iso lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust_iso.JPG)
+
+[Lower STL file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_lower.zip)
+
+![Lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust.JPG)
+ 
+_Print with this side up and supports on_
+
+
+
