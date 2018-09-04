@@ -12860,7 +12860,7 @@ U 1 1 5B82A872
 P 9500 6650
 F 0 "Z_PLUG_SOCKET1" H 9579 6642 50  0000 L CNN
 F 1 "Conn_01x08" H 9579 6551 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.81_1x08_P3.81mm_Vertical" H 9500 6650 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical" H 9500 6650 50  0001 C CNN
 F 3 "~" H 9500 6650 50  0001 C CNN
 	1    9500 6650
 	1    0    0    -1  
@@ -13212,8 +13212,6 @@ F 3 "" H 2400 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 2550 2400 2650
-Text GLabel 1600 1850 0    50   Input ~ 0
-5V_ISO
 $Comp
 L Device:R R15
 U 1 1 5B966FF1
@@ -13227,8 +13225,6 @@ F 3 "~" H 1650 2000 50  0001 C CNN
 $EndComp
 Text Notes 1250 3150 0    50   ~ 0
 Acc manual: \nR min 460 ohm\n
-Wire Wire Line
-	1600 1850 1650 1850
 Wire Wire Line
 	1650 2150 1650 2350
 $Comp
@@ -13467,8 +13463,6 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 2350 1500 2350
-Wire Wire Line
 	650  2550 900  2550
 $Comp
 L Isolator:SFH6206-3T U2
@@ -13482,11 +13476,7 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2550 1650 2550
-Connection ~ 1650 2550
-Wire Wire Line
 	1750 2350 1650 2350
-Connection ~ 1650 2350
 Wire Wire Line
 	2700 2350 2350 2350
 Wire Wire Line
@@ -13581,9 +13571,9 @@ Wire Wire Line
 	2350 6250 2500 6250
 Wire Wire Line
 	2350 4100 2400 4100
-Text Label 1500 2550 0    50   ~ 0
+Text Label 1550 2450 0    50   ~ 0
 PWR_ABR
-Text Label 1550 2350 0    50   ~ 0
+Text Label 1650 2250 0    50   ~ 0
 PWR_SIG
 $Comp
 L Device:R R16
@@ -13791,4 +13781,39 @@ Wire Wire Line
 	750  6100 700  6100
 Wire Wire Line
 	750  5850 950  5850
+$Comp
+L power:+5V #PWR0115
+U 1 1 5B8E61E3
+P 1650 1750
+F 0 "#PWR0115" H 1650 1600 50  0001 C CNN
+F 1 "+5V" H 1665 1923 50  0000 C CNN
+F 2 "" H 1650 1750 50  0001 C CNN
+F 3 "" H 1650 1750 50  0001 C CNN
+	1    1650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1750 1650 1850
+Text Notes 1750 1700 0    50   ~ 0
+FIXED FROM 5V ISO!!
+Text Notes 7350 6500 0    50   ~ 0
+Change to 4 pin!!
+Text Notes 1300 5150 0    50   ~ 0
+Insert DIODE
+Text Notes 1250 4550 0    50   ~ 0
+Insert DIODE\n\n
+Text Notes 1250 3850 0    50   ~ 0
+Insert DIODE
+Text Label 1500 5200 0    50   ~ 0
+DIODE
+Text Label 1500 4550 0    50   ~ 0
+DIODE2
+Text Label 1500 3900 0    50   ~ 0
+DIODE3
+Wire Wire Line
+	1750 2550 1750 2450
+Wire Wire Line
+	1750 2450 1500 2450
+Wire Wire Line
+	1500 2450 1500 2350
 $EndSCHEMATC
