@@ -89,7 +89,7 @@ _Print with this side up and supports on_
 
 ![Lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust.JPG)
  
- (It doesn't currently fit on an ulitmaker. The picture is trickery.)
+ (It doesn't currently fit on an ultimaker. The picture is trickery.)
 
 
 
