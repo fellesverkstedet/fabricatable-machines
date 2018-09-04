@@ -81,15 +81,16 @@ A 3D-printed dust skirt system that is held on by magnets.
 
 ## Lower part
 
-Print with support ON.
+[Lower STL file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_lower.zip)
 
 ![iso lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust_iso.JPG)
 
-[Lower STL file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_lower.zip)
+_Print with this side up and supports on_
 
 ![Lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust.JPG)
  
-_Print with this side up and supports on_
+ (It doesn't currently fit on an ulitmaker. The picture is trickery.)
+
 
 
 
