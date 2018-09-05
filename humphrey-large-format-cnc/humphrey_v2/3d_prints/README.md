@@ -1,4 +1,10 @@
-# 3D prints for Humphrey dust protection of roller axis
+# 3D prints for Humphrey 
+
+These are the 3D prints for the dust protection of the rollers and for the dust extraction.
+
+[Jump to Dust skirt](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v2/3d_prints#dust-skirt)
+
+# Dust protection of roller axis
 
 These are all the 3D prints needed for Humphrey with roller axis (currently v2 and v3.)
 
@@ -71,18 +77,23 @@ These are four pre set plates of parts to be sliced in [Cura](https://ultimaker.
 
 ![All prints](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
 
-_All thedust cover prints!_
+_All the dust covers and vipers freshly printed_
 
 # Dust skirt
 
 A 3D-printed dust skirt system that is held on by magnets.
 
-![All three](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/dust-all_three.JPG)
+[STL files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_prints.zip)
+
+## Top part
+
+This is a hose adapter for a 100 mm dust extraction hose.
+
+![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust.JPG)
+
+![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust_iso.JPG)
 
 ## Lower part
-
-[Lower STL file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_lower.zip)
-
 ![iso lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust_iso.JPG)
 
 _Print with this side up and supports on_
