@@ -85,15 +85,13 @@ A 3D-printed dust skirt system that is held on by magnets.
 
 [STL files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_prints.zip)
 
-![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust.JPG)
-
-![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust_iso.JPG)
-
 ## Top part
 
 This is a hose adapter for a 100 mm dust extraction hose.
 
-![iso lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust_iso.JPG)
+![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust.JPG)
+
+![top](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/top_dust_iso.JPG)
 
 ## Lower part
 ![iso lower](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/img/lower_dust_iso.JPG)
