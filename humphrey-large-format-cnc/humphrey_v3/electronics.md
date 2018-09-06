@@ -61,7 +61,7 @@ The pinion rolls 40 mm per revolution so that gives us 80 microsteps per mm (5 f
 
 #### HISU motor calibration
 
-A HISU should be used to increase motor torque, remove smoothing and set the max error value for the closed loop.
+A HISU can be used to increase motor torque, remove smoothing and set the max error value for the closed loop.
 
 ![Hisu](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/6C3A13B4-B353-4DFC-950C-6E98B35EEC22.jpeg)
 
@@ -72,6 +72,8 @@ A HISU should be used to increase motor torque, remove smoothing and set the max
  _How to HISU_
  
  [Default values for the motor](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/Default%20values.txt)
+
+See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf) for which values to change.
 
 ## Commanding computer
 
