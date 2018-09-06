@@ -24,9 +24,11 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 
 The spidle will spin 24000 rpm when given 400hz from the vfd.
 
-It should not be run slower than 10000 rpm since it's air cooled, so we set a minimum of PD011 = 166 
- 
+It should not be run slower than 10000 rpm since it's air cooled, so we set a minimum of 165 hz
+
 ### Connections
+
+[Settings advice](https://www.cnczone.com/forums/spindles-vfd/346620-huanyang-vfd-spindle-accelerate-amp-decelerate-settings.html)
 
 [Recommendations](http://www.woodworkforums.com/f170/tips-newbie-huanyang-vfd-users-96380)
 [Guide for Mach3](http://www.kronosrobotics.com/hy02d223b-vfd-type-1/) use the settings below:
@@ -35,14 +37,16 @@ It should not be run slower than 10000 rpm since it's air cooled, so we set a mi
 
 Set these parameters on the VFD
 
-* pd001= 1
+* pd000 = 0 
+* pd001 = 1 
 * pd002 = 1
-* pd070 = 1
+* PD005 = 400
 * pd007 = clear
-* PD011 = 166 
+* PD011 = 165
+* pd014 = 2
+* pd015 = 2
+* pd070 = 1
 * jumper leftmost (VI to center)
-
-Also set the spin up and spin down time to 2s.
 
 ## Motors
 
