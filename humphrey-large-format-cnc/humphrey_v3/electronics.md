@@ -50,7 +50,11 @@ Set these parameters on the VFD
 
 ## Motors
 
+The enable pins can be ignored, then they are always read as enabled. We either want the motors to hold position or be unpowered by us cutting all power. 
+
 ### Connections
+
+See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
 
 ### Programming
 
@@ -74,6 +78,18 @@ A HISU can be used to increase motor torque, remove smoothing and set the max er
  [Default values for the motor](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/Default%20values.txt)
 
 See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf) for which values to change.
+
+P16 = accepted error in degrees (ca) before throwing an error and stopping, requiring a power-off-on to reset. Try a low setting like 5 to detect problems early! 
+
+P19 = set to 0 for no extra speed smoothing in the motor.
+
+P8 = sets holding torque (max 40)
+
+P9 = sets driving torque (max 30)
+
+P8 + P9 = gives total torque. They can be set to max for max performance but setting them to ~70% saves on pinion wear when accidentaly crashing the machine into endstops etc. 
+
+It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
 
 ## Commanding computer
 
