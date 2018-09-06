@@ -13816,4 +13816,12 @@ Wire Wire Line
 	1750 2450 1500 2450
 Wire Wire Line
 	1500 2450 1500 2350
+Text Notes 7200 6250 0    50   ~ 0
+DCM(COM)
+Text Notes 7350 6050 0    50   ~ 0
+FOR
+Text Notes 7400 7100 0    50   ~ 0
+ACM(GND)
+Text Notes 7500 6800 0    50   ~ 0
+VI\n
 $EndSCHEMATC
