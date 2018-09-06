@@ -58,8 +58,8 @@ These are instructions for how to assemble Humphrey v3 from a kit of parts, in t
 * [Table assembly](Table_assembly.md)
 * [Gantry assembly](Gantry_assembly.md)
 * [Carriage assemby](Carriage_assembly.md)
-* Tuning the motion system
-* Electronics
+* [Tuning the motion system](tuning.md)
+* [Electronics](electronics.md)
 
 ## Assembly times
 
