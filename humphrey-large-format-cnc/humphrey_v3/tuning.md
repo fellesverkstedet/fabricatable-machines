@@ -39,6 +39,8 @@ One side is now straight and will be our reference for the second one.
 
 ## Tuning rollers
 
+**IMPORTANT!** It's extremely easy to overtighten the excenters, you have 10x times more power compared to tightening a screw, you will **NOT** feel it going tight with the tool, you need to test if it spins with your finger.
+
 * To tune the rollers you will need a 8mm (steel) and a 17 mm wrench (it's part of the aluminium milling cut-sheets so you should have one).
 
 ![tools for tuning](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/tools.jpg)
