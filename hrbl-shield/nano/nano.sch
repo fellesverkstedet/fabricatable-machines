@@ -12392,8 +12392,6 @@ Text GLabel 6750 2000 2    50   Input ~ 0
 PUL_X_OUT
 Text Notes 6050 1350 0    50   ~ 0
 Outgoing signals
-Text Notes 1650 1400 0    50   ~ 0
-Incoming signals
 Text GLabel 2350 3900 2    50   Input ~ 0
 LIM_X
 $Comp
@@ -12458,17 +12456,6 @@ F 2 "" H 2400 5400 50  0001 C CNN
 F 3 "" H 2400 5400 50  0001 C CNN
 	1    2400 5400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5B816D2B
-P 1300 5200
-F 0 "R4" H 1370 5246 50  0000 L CNN
-F 1 "220" H 1370 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 5200 50  0001 C CNN
-F 3 "~" H 1300 5200 50  0001 C CNN
-	1    1300 5200
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
@@ -12944,18 +12931,18 @@ F 3 "" H 6150 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6800 5950 0    50   ~ 0
-+24V_IN
+FOR
 Text Label 6750 6150 0    50   ~ 0
-SPINDLE_EN_OUT
+DCM(COM)
 $Comp
 L power:GNDS #PWR06
 U 1 1 5B842985
-P 7500 6950
-F 0 "#PWR06" H 7500 6700 50  0001 C CNN
-F 1 "GNDS" V 7505 6822 50  0000 R CNN
-F 2 "" H 7500 6950 50  0001 C CNN
-F 3 "" H 7500 6950 50  0001 C CNN
-	1    7500 6950
+P 6800 6950
+F 0 "#PWR06" H 6800 6700 50  0001 C CNN
+F 1 "GNDS" V 6805 6822 50  0000 R CNN
+F 2 "" H 6800 6950 50  0001 C CNN
+F 3 "" H 6800 6950 50  0001 C CNN
+	1    6800 6950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -12982,8 +12969,6 @@ F 3 "" H 6100 6850 50  0001 C CNN
 	1    6100 6850
 	1    0    0    -1  
 $EndComp
-Text Label 6750 6850 0    50   ~ 0
-SPINDLE_PWM_OUT
 Text Notes 6050 5700 0    50   ~ 0
 Spindle controls
 $Comp
@@ -13032,11 +13017,7 @@ F 3 "~" H 1500 6050 50  0001 C CNN
 $EndComp
 Text GLabel 6750 1800 2    50   Input ~ 0
 5V_ISO
-Text GLabel 1150 5200 0    50   Input ~ 0
-5V_ISO
-Text GLabel 1150 4550 0    50   Input ~ 0
-5V_ISO
-Text GLabel 1150 3900 0    50   Input ~ 0
+Text GLabel 150  4550 0    50   Input ~ 0
 5V_ISO
 Text GLabel 4550 7250 2    50   Input ~ 0
 5V_ISO
@@ -13145,8 +13126,8 @@ Wire Wire Line
 Connection ~ 9250 1400
 Text GLabel 2850 2950 2    50   Input ~ 0
 ABORT
-Text Notes 50   2850 0    50   ~ 0
-Reset on loss of external power. Two coupers to invert signal\n
+Text Notes 200  2950 0    50   ~ 0
+Reset on loss of external power. \nTwo coupers to invert signal\n
 Text Notes 3600 3450 0    50   ~ 0
 All IN PINs\nhas internal 20k \npull up resistor to +5V
 $Comp
@@ -13223,19 +13204,19 @@ F 3 "~" H 1650 2000 50  0001 C CNN
 	1    1650 2000
 	-1   0    0    1   
 $EndComp
-Text Notes 1250 3150 0    50   ~ 0
+Text Notes 550  3400 0    50   ~ 0
 Acc manual: \nR min 460 ohm\n
 Wire Wire Line
 	1650 2150 1650 2350
 $Comp
 L power:GNDS #PWR08
 U 1 1 5B9C09BB
-P 1650 2550
-F 0 "#PWR08" H 1650 2300 50  0001 C CNN
-F 1 "GNDS" H 1655 2377 50  0000 C CNN
-F 2 "" H 1650 2550 50  0001 C CNN
-F 3 "" H 1650 2550 50  0001 C CNN
-	1    1650 2550
+P 1650 2600
+F 0 "#PWR08" H 1650 2350 50  0001 C CNN
+F 1 "GNDS" H 1655 2427 50  0000 C CNN
+F 2 "" H 1650 2600 50  0001 C CNN
+F 3 "" H 1650 2600 50  0001 C CNN
+	1    1650 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -13355,8 +13336,6 @@ Wire Wire Line
 	3600 5950 3700 5950
 Wire Wire Line
 	4200 5950 4300 5950
-Text Notes 1800 2050 0    50   ~ 0
-Will act as shorted pull down all the time
 $Comp
 L Isolator:SFH6206-3T U6
 U 1 1 5BA7EC1E
@@ -13434,10 +13413,6 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 6050 50  0001 C CNN
 	1    6450 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 5950 7300 5950
-Wire Wire Line
-	7300 5950 7300 6050
 $Comp
 L Isolator:SFH6206-3T U7
 U 1 1 5BABA740
@@ -13739,36 +13714,8 @@ F 3 "~" H 700 7500 50  0001 C CNN
 	1    700  7500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 SPINDLE_CRT2
-U 1 1 5B881667
-P 7800 6050
-F 0 "SPINDLE_CRT2" H 7880 6042 50  0000 L CNN
-F 1 "Conn_01x02" H 7880 5951 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 7800 6050 50  0001 C CNN
-F 3 "~" H 7800 6050 50  0001 C CNN
-	1    7800 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 SPINDLE_CRT1
-U 1 1 5B887DAA
-P 7850 6850
-F 0 "SPINDLE_CRT1" H 7930 6842 50  0000 L CNN
-F 1 "Conn_01x02" H 7930 6751 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 7850 6850 50  0001 C CNN
-F 3 "~" H 7850 6850 50  0001 C CNN
-	1    7850 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 6050 7600 6050
-Wire Wire Line
-	6750 6150 7600 6150
 Wire Wire Line
 	6750 6850 7650 6850
-Wire Wire Line
-	7500 6950 7650 6950
 Text Label 800  5850 2    50   ~ 0
 GROUND_SPINDLE
 Wire Wire Line
@@ -13796,8 +13743,6 @@ Wire Wire Line
 	1650 1750 1650 1850
 Text Notes 1750 1700 0    50   ~ 0
 FIXED FROM 5V ISO!!
-Text Notes 7350 6500 0    50   ~ 0
-Change to 4 pin!!
 Text Notes 1300 5150 0    50   ~ 0
 Insert DIODE
 Text Notes 1250 4550 0    50   ~ 0
@@ -13816,12 +13761,102 @@ Wire Wire Line
 	1750 2450 1500 2450
 Wire Wire Line
 	1500 2450 1500 2350
-Text Notes 7200 6250 0    50   ~ 0
+Text Notes 8250 6450 0    50   ~ 0
 DCM(COM)
-Text Notes 7350 6050 0    50   ~ 0
+Text Notes 8250 6350 0    50   ~ 0
 FOR
-Text Notes 7400 7100 0    50   ~ 0
+Text Notes 8250 6650 0    50   ~ 0
 ACM(GND)
-Text Notes 7500 6800 0    50   ~ 0
+Text Notes 8250 6550 0    50   ~ 0
 VI\n
+$Comp
+L pspice:DIODE S1JA-13-F1
+U 1 1 5B92F59F
+P 400 4550
+F 0 "S1JA-13-F1" H 400 4815 50  0000 C CNN
+F 1 "DIODE" H 400 4724 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 400 4550 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 400 4550 50  0001 C CNN
+	1    400  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5B816D2B
+P 1300 5200
+F 0 "R4" H 1370 5246 50  0000 L CNN
+F 1 "220" H 1370 5155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 5200 50  0001 C CNN
+F 3 "~" H 1300 5200 50  0001 C CNN
+	1    1300 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 3900 700  3900
+Wire Wire Line
+	1150 5200 700  5200
+Wire Wire Line
+	700  3900 700  4550
+Wire Wire Line
+	1150 4550 700  4550
+Connection ~ 700  4550
+Wire Wire Line
+	700  4550 700  5200
+Wire Wire Line
+	600  4550 700  4550
+Wire Wire Line
+	150  4550 200  4550
+Text Notes -700 4800 0    50   ~ 0
+To stop backflow from the\n 36V pullup on the limit switch signal pin
+Text Notes 1400 950  0    50   ~ 0
+Incoming signals
+Wire Notes Line
+	1500 2350 1650 2350
+Wire Notes Line
+	1650 2550 1750 2550
+Wire Wire Line
+	1650 2600 1650 2550
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5B97B5A1
+P 8150 6400
+F 0 "J1" H 8230 6392 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 6301 50  0000 C BNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 8150 6400 50  0001 C CNN
+F 3 "~" H 8150 6400 50  0001 C CNN
+	1    8150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 6150 7650 6150
+Wire Wire Line
+	7650 6850 7650 6500
+Wire Wire Line
+	7650 6500 7950 6500
+Wire Wire Line
+	7750 6950 7750 6600
+Wire Wire Line
+	7750 6600 7950 6600
+Wire Wire Line
+	7650 6400 7650 6150
+Wire Wire Line
+	7650 6400 7950 6400
+Wire Wire Line
+	7950 6300 7750 6300
+Text Notes 7150 6150 0    50   ~ 0
+Spindle_EN_out
+Text Notes 6950 5950 0    50   ~ 0
++24V in
+Text Notes 6850 6850 0    50   ~ 0
+Spindle PWM out
+Text Label 6750 6850 0    50   ~ 0
+VI
+Text Label 6900 6950 0    50   ~ 0
+ACM(GND)
+Wire Wire Line
+	6750 5950 7750 5950
+Wire Wire Line
+	7750 5950 7750 6300
+Wire Wire Line
+	6800 6950 7750 6950
 $EndSCHEMATC
