@@ -8973,7 +8973,7 @@ LIM_X_IN
 Text GLabel 2350 6050 2    50   Input ~ 0
 PROBE
 $Bitmap
-Pos 4150 1550
+Pos 4650 1550
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 EA 00 00 02 A6 08 02 00 00 00 0D 7D 4A 
@@ -12904,8 +12904,6 @@ F 3 "" H 9250 6900 50  0001 C CNN
 	1    9250 6950
 	0    1    1    0   
 $EndComp
-Text Notes 9600 6150 0    50   ~ 0
-Consider PROBE on own connector\n
 $Comp
 L Device:R R10
 U 1 1 5B83CE67
@@ -13124,34 +13122,32 @@ $EndComp
 Wire Wire Line
 	9150 1400 9250 1400
 Connection ~ 9250 1400
-Text GLabel 2850 2950 2    50   Input ~ 0
+Text GLabel 2850 2000 2    50   Input ~ 0
 ABORT
-Text Notes 200  2950 0    50   ~ 0
-Reset on loss of external power. \nTwo coupers to invert signal\n
 Text Notes 3600 3450 0    50   ~ 0
 All IN PINs\nhas internal 20k \npull up resistor to +5V
 $Comp
 L Device:R R12
 U 1 1 5B8967CE
-P 750 2350
-F 0 "R12" H 700 2350 50  0000 L CNN
-F 1 "220" H 820 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 2350 50  0001 C CNN
-F 3 "~" H 750 2350 50  0001 C CNN
-	1    750  2350
+P 750 2000
+F 0 "R12" H 700 2000 50  0000 L CNN
+F 1 "220" H 550 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 2000 50  0001 C CNN
+F 3 "~" H 750 2000 50  0001 C CNN
+	1    750  2000
 	0    1    1    0   
 $EndComp
-Text GLabel 600  2350 0    50   Input ~ 0
+Text GLabel 600  2000 0    50   Input ~ 0
 5V_ISO
 $Comp
 L power:GNDS #PWR07
 U 1 1 5B8967D6
-P 650 2550
-F 0 "#PWR07" H 650 2300 50  0001 C CNN
-F 1 "GNDS" H 655 2377 50  0000 C CNN
-F 2 "" H 650 2550 50  0001 C CNN
-F 3 "" H 650 2550 50  0001 C CNN
-	1    650  2550
+P 650 2200
+F 0 "#PWR07" H 650 1950 50  0001 C CNN
+F 1 "GNDS" H 655 2027 50  0000 C CNN
+F 2 "" H 650 2200 50  0001 C CNN
+F 3 "" H 650 2200 50  0001 C CNN
+	1    650  2200
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 3450 0    50   Input ~ 0
@@ -13183,46 +13179,38 @@ Text GLabel 1200 3250 0    50   Input ~ 0
 $Comp
 L power:GND #PWR09
 U 1 1 5B8E1148
-P 2400 2650
-F 0 "#PWR09" H 2400 2400 50  0001 C CNN
-F 1 "GND" H 2405 2477 50  0000 C CNN
-F 2 "" H 2400 2650 50  0001 C CNN
-F 3 "" H 2400 2650 50  0001 C CNN
-	1    2400 2650
+P 2400 2300
+F 0 "#PWR09" H 2400 2050 50  0001 C CNN
+F 1 "GND" H 2405 2127 50  0000 C CNN
+F 2 "" H 2400 2300 50  0001 C CNN
+F 3 "" H 2400 2300 50  0001 C CNN
+	1    2400 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2550 2400 2650
+	2400 2200 2400 2300
 $Comp
 L Device:R R15
 U 1 1 5B966FF1
-P 1650 2000
-F 0 "R15" H 1720 2046 50  0000 L CNN
-F 1 "220" H 1720 1955 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 2000 50  0001 C CNN
-F 3 "~" H 1650 2000 50  0001 C CNN
-	1    1650 2000
+P 1600 1700
+F 0 "R15" H 1670 1746 50  0000 L CNN
+F 1 "220" H 1670 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 1700 50  0001 C CNN
+F 3 "~" H 1600 1700 50  0001 C CNN
+	1    1600 1700
 	-1   0    0    1   
 $EndComp
-Text Notes 550  3400 0    50   ~ 0
-Acc manual: \nR min 460 ohm\n
-Wire Wire Line
-	1650 2150 1650 2350
 $Comp
 L power:GNDS #PWR08
 U 1 1 5B9C09BB
-P 1650 2600
-F 0 "#PWR08" H 1650 2350 50  0001 C CNN
-F 1 "GNDS" H 1655 2427 50  0000 C CNN
-F 2 "" H 1650 2600 50  0001 C CNN
-F 3 "" H 1650 2600 50  0001 C CNN
-	1    1650 2600
+P 1500 2400
+F 0 "#PWR08" H 1500 2150 50  0001 C CNN
+F 1 "GNDS" H 1505 2227 50  0000 C CNN
+F 2 "" H 1500 2400 50  0001 C CNN
+F 3 "" H 1500 2400 50  0001 C CNN
+	1    1500 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 2550 1650 2550
-Wire Wire Line
-	2700 2950 2850 2950
 Text Notes 350  3650 0    50   ~ 0
 All motors ALARM in Parallell
 Text Notes 200  6450 0    50   ~ 0
@@ -13426,38 +13414,12 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 6450 6750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 6850 6150 6850
-$Comp
-L Isolator:SFH6206-3T U1
-U 1 1 5BAD95CE
-P 1200 2450
-F 0 "U1" H 1200 2817 50  0000 C CNN
-F 1 "SFH6206-3T" H 1200 2726 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1200 2050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2450 50  0001 C CNN
-	1    1200 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	650  2550 900  2550
-$Comp
-L Isolator:SFH6206-3T U2
-U 1 1 5BAEB96A
-P 2050 2450
-F 0 "U2" H 2050 2817 50  0000 C CNN
-F 1 "SFH6206-3T" H 2050 2726 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 2050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2450 50  0001 C CNN
-	1    2050 2450
-	1    0    0    -1  
-$EndComp
+	650  2200 900  2200
 Wire Wire Line
-	1750 2350 1650 2350
+	2700 2000 2350 2000
 Wire Wire Line
-	2700 2350 2350 2350
-Wire Wire Line
-	2700 2350 2700 2950
-Wire Wire Line
-	2350 2550 2400 2550
+	2350 2200 2400 2200
 $Comp
 L Isolator:SFH6206-3T U3
 U 1 1 5BB0215E
@@ -13474,10 +13436,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3450 1750 3450
 Wire Wire Line
-	2700 2950 2700 3250
-Wire Wire Line
 	2700 3250 2350 3250
-Connection ~ 2700 2950
 Wire Wire Line
 	2400 3450 2350 3450
 $Comp
@@ -13506,8 +13465,6 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 4650 50  0001 C CNN
 	1    2050 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 4550 1750 4550
 Wire Wire Line
 	1450 4750 1750 4750
 Wire Wire Line
@@ -13546,10 +13503,6 @@ Wire Wire Line
 	2350 6250 2500 6250
 Wire Wire Line
 	2350 4100 2400 4100
-Text Label 1550 2450 0    50   ~ 0
-PWR_ABR
-Text Label 1650 2250 0    50   ~ 0
-PWR_SIG
 $Comp
 L Device:R R16
 U 1 1 5B865306
@@ -13641,17 +13594,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 3350 7250 3350
 $Comp
-L power:GNDS #PWR0114
-U 1 1 5B8A262D
-P 4050 7700
-F 0 "#PWR0114" H 4050 7450 50  0001 C CNN
-F 1 "GNDS" V 4055 7572 50  0000 R CNN
-F 2 "" H 4050 7700 50  0001 C CNN
-F 3 "" H 4050 7700 50  0001 C CNN
-	1    4050 7700
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R20
 U 1 1 5B8A2633
 P 3950 7800
@@ -13668,7 +13610,7 @@ Connection ~ 3750 7800
 Wire Wire Line
 	4100 7800 4150 7800
 Connection ~ 4150 7800
-Text Notes 3550 8000 0    50   ~ 0
+Text Notes 3150 8100 0    50   ~ 0
 this 0 R is to control where the grounds join
 $Comp
 L Mechanical:MountingHole MH4
@@ -13731,36 +13673,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0115
 U 1 1 5B8E61E3
-P 1650 1750
-F 0 "#PWR0115" H 1650 1600 50  0001 C CNN
-F 1 "+5V" H 1665 1923 50  0000 C CNN
-F 2 "" H 1650 1750 50  0001 C CNN
-F 3 "" H 1650 1750 50  0001 C CNN
-	1    1650 1750
+P 1600 1450
+F 0 "#PWR0115" H 1600 1300 50  0001 C CNN
+F 1 "+5V" H 1615 1623 50  0000 C CNN
+F 2 "" H 1600 1450 50  0001 C CNN
+F 3 "" H 1600 1450 50  0001 C CNN
+	1    1600 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1750 1650 1850
-Text Notes 1750 1700 0    50   ~ 0
-FIXED FROM 5V ISO!!
-Text Notes 1300 5150 0    50   ~ 0
-Insert DIODE
-Text Notes 1250 4550 0    50   ~ 0
-Insert DIODE\n\n
-Text Notes 1250 3850 0    50   ~ 0
-Insert DIODE
-Text Label 1500 5200 0    50   ~ 0
-DIODE
-Text Label 1500 4550 0    50   ~ 0
-DIODE2
-Text Label 1500 3900 0    50   ~ 0
-DIODE3
-Wire Wire Line
-	1750 2550 1750 2450
-Wire Wire Line
-	1750 2450 1500 2450
-Wire Wire Line
-	1500 2450 1500 2350
+	1600 1450 1600 1550
 Text Notes 8250 6450 0    50   ~ 0
 DCM(COM)
 Text Notes 8250 6350 0    50   ~ 0
@@ -13772,12 +13694,12 @@ VI\n
 $Comp
 L pspice:DIODE S1JA-13-F1
 U 1 1 5B92F59F
-P 400 4550
-F 0 "S1JA-13-F1" H 400 4815 50  0000 C CNN
-F 1 "DIODE" H 400 4724 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 400 4550 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 400 4550 50  0001 C CNN
-	1    400  4550
+P 800 3900
+F 0 "S1JA-13-F1" H 800 4165 50  0000 C CNN
+F 1 "DIODE" H 800 4074 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 800 3900 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 800 3900 50  0001 C CNN
+	1    800  3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -13791,36 +13713,15 @@ F 3 "~" H 1300 5200 50  0001 C CNN
 	1    1300 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1150 3900 700  3900
-Wire Wire Line
-	1150 5200 700  5200
-Wire Wire Line
-	700  3900 700  4550
-Wire Wire Line
-	1150 4550 700  4550
-Connection ~ 700  4550
-Wire Wire Line
-	700  4550 700  5200
-Wire Wire Line
-	600  4550 700  4550
-Wire Wire Line
-	150  4550 200  4550
 Text Notes -700 4800 0    50   ~ 0
-To stop backflow from the\n 36V pullup on the limit switch signal pin
-Text Notes 1400 950  0    50   ~ 0
+Diodes to  stop backflow from the\n 36V pullup on the limit switch signal pin
+Text Notes 1400 600  0    50   ~ 0
 Incoming signals
-Wire Notes Line
-	1500 2350 1650 2350
-Wire Notes Line
-	1650 2550 1750 2550
-Wire Wire Line
-	1650 2600 1650 2550
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L Connector_Generic:Conn_01x04 SPINDLE1
 U 1 1 5B97B5A1
 P 8150 6400
-F 0 "J1" H 8230 6392 50  0000 L CNN
+F 0 "SPINDLE1" H 8230 6392 50  0000 L CNN
 F 1 "Conn_01x04" H 8230 6301 50  0000 C BNN
 F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 8150 6400 50  0001 C CNN
 F 3 "~" H 8150 6400 50  0001 C CNN
@@ -13859,4 +13760,152 @@ Wire Wire Line
 	7750 5950 7750 6300
 Wire Wire Line
 	6800 6950 7750 6950
+Wire Wire Line
+	2700 2000 2850 2000
+Connection ~ 2700 2000
+$Comp
+L Isolator:SFH6206-3T U2
+U 1 1 5BAEB96A
+P 2050 2100
+F 0 "U2" H 2050 2467 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 2376 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 1700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2100 50  0001 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH6206-3T U1
+U 1 1 5BAD95CE
+P 1200 2100
+F 0 "U1" H 1200 2467 50  0000 C CNN
+F 1 "SFH6206-3T" H 1200 2376 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1200 1700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR0116
+U 1 1 5B98D457
+P 1750 2400
+F 0 "#PWR0116" H 1750 2150 50  0001 C CNN
+F 1 "GNDS" H 1755 2227 50  0000 C CNN
+F 2 "" H 1750 2400 50  0001 C CNN
+F 3 "" H 1750 2400 50  0001 C CNN
+	1    1750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1850 1600 2000
+Wire Wire Line
+	1600 2000 1500 2000
+Wire Wire Line
+	1600 2000 1750 2000
+Connection ~ 1600 2000
+$Comp
+L Device:R R21
+U 1 1 5B9C32D9
+P 2700 1300
+F 0 "R21" H 2770 1346 50  0000 L CNN
+F 1 "220" H 2770 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 1300 50  0001 C CNN
+F 3 "~" H 2700 1300 50  0001 C CNN
+	1    2700 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 5B9C32E0
+P 2700 1000
+F 0 "#PWR0117" H 2700 850 50  0001 C CNN
+F 1 "+5V" H 2715 1173 50  0000 C CNN
+F 2 "" H 2700 1000 50  0001 C CNN
+F 3 "" H 2700 1000 50  0001 C CNN
+	1    2700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5B9E16EA
+P 2700 1650
+F 0 "R22" H 2770 1696 50  0000 L CNN
+F 1 "220" H 2770 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 1650 50  0001 C CNN
+F 3 "~" H 2700 1650 50  0001 C CNN
+	1    2700 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1000 2700 1150
+Wire Wire Line
+	2700 1450 2700 1500
+Wire Wire Line
+	2700 1800 2700 2000
+Text Notes 2800 1500 0    50   ~ 0
+Optional. Adds to\nInternal 20k pull up
+Text Notes 250  1800 0    50   ~ 0
+From regulator
+Text Notes 1750 1300 0    50   ~ 0
+From arduino
+Wire Wire Line
+	2700 2000 2700 3250
+Wire Wire Line
+	1500 2200 1500 2400
+$Comp
+L pspice:DIODE S1JA-13-F2
+U 1 1 5BA4C99C
+P 800 4550
+F 0 "S1JA-13-F2" H 800 4815 50  0000 C CNN
+F 1 "DIODE" H 800 4724 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 800 4550 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 800 4550 50  0001 C CNN
+	1    800  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE S1JA-13-F3
+U 1 1 5BA53AC5
+P 800 5200
+F 0 "S1JA-13-F3" H 800 5465 50  0000 C CNN
+F 1 "DIODE" H 800 5374 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 800 5200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 800 5200 50  0001 C CNN
+	1    800  5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  3900 300  3900
+Wire Wire Line
+	300  3900 300  4550
+Wire Wire Line
+	300  5200 600  5200
+Wire Wire Line
+	600  4550 300  4550
+Connection ~ 300  4550
+Wire Wire Line
+	300  4550 300  5200
+Wire Wire Line
+	150  4550 300  4550
+Wire Wire Line
+	1000 3900 1150 3900
+Wire Wire Line
+	1150 5200 1000 5200
+Wire Wire Line
+	1750 2400 1750 2200
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5BA98C3A
+P 4150 7800
+F 0 "#FLG0105" H 4150 7875 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 7973 50  0000 C CNN
+F 2 "" H 4150 7800 50  0001 C CNN
+F 3 "~" H 4150 7800 50  0001 C CNN
+	1    4150 7800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 4550 1150 4550
+Wire Wire Line
+	1450 4550 1750 4550
 $EndSCHEMATC
