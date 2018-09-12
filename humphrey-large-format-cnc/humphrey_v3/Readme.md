@@ -6,6 +6,8 @@ A full size CNC milling machine of the [Humphrey machine family.](https://github
 
 This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](https://www.facebook.com/Makerspace-i-Brumunddal-199245720667673/) and developed and manufactured as a kit by [Jakob Nilsson from Norlink](https://norlinkmakes.com/marketplace/). The MiB members then assembled the kit from the [online instructions below.](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#making-the-kit-of-parts)
 
+### [CLICK FOR INSTRUCTIONS ON HOW TO USE](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
+
 ## Stats
 
 * Work area 2440x1220 mm (standard size of sheet stock)
