@@ -10,6 +10,8 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/hrbl_connections_all.JPG)
 
+![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/Connector_guide.jpg)
+
 ### Programming
 
 * [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
