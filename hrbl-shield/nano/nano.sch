@@ -13200,17 +13200,6 @@ F 3 "~" H 1600 1700 50  0001 C CNN
 	1    1600 1700
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GNDS #PWR08
-U 1 1 5B9C09BB
-P 1500 2400
-F 0 "#PWR08" H 1500 2150 50  0001 C CNN
-F 1 "GNDS" H 1505 2227 50  0000 C CNN
-F 2 "" H 1500 2400 50  0001 C CNN
-F 3 "" H 1500 2400 50  0001 C CNN
-	1    1500 2400
-	1    0    0    -1  
-$EndComp
 Text Notes 350  3650 0    50   ~ 0
 All motors ALARM in Parallell
 Text Notes 200  6450 0    50   ~ 0
@@ -13785,17 +13774,6 @@ F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2100 50  0001 C CNN
 	1    1200 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDS #PWR0116
-U 1 1 5B98D457
-P 1750 2400
-F 0 "#PWR0116" H 1750 2150 50  0001 C CNN
-F 1 "GNDS" H 1755 2227 50  0000 C CNN
-F 2 "" H 1750 2400 50  0001 C CNN
-F 3 "" H 1750 2400 50  0001 C CNN
-	1    1750 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 1850 1600 2000
 Wire Wire Line
@@ -13825,33 +13803,14 @@ F 3 "" H 2700 1000 50  0001 C CNN
 	1    2700 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R22
-U 1 1 5B9E16EA
-P 2700 1650
-F 0 "R22" H 2770 1696 50  0000 L CNN
-F 1 "220" H 2770 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 1650 50  0001 C CNN
-F 3 "~" H 2700 1650 50  0001 C CNN
-	1    2700 1650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2700 1000 2700 1150
-Wire Wire Line
-	2700 1450 2700 1500
-Wire Wire Line
-	2700 1800 2700 2000
-Text Notes 2800 1500 0    50   ~ 0
-Optional. Adds to\nInternal 20k pull up
-Text Notes 250  1800 0    50   ~ 0
+Text Notes 50   1950 0    50   ~ 0
 From regulator
 Text Notes 1750 1300 0    50   ~ 0
 From arduino
 Wire Wire Line
 	2700 2000 2700 3250
-Wire Wire Line
-	1500 2200 1500 2400
 $Comp
 L pspice:DIODE S1JA-13-F2
 U 1 1 5BA4C99C
@@ -13891,8 +13850,6 @@ Wire Wire Line
 	1000 3900 1150 3900
 Wire Wire Line
 	1150 5200 1000 5200
-Wire Wire Line
-	1750 2400 1750 2200
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 5BA98C3A
@@ -13908,4 +13865,53 @@ Wire Wire Line
 	1000 4550 1150 4550
 Wire Wire Line
 	1450 4550 1750 4550
+$Comp
+L Device:LED D1
+U 1 1 5B996CA3
+P 2700 1700
+F 0 "D1" V 2738 1583 50  0000 R CNN
+F 1 "LED" V 2647 1583 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 1700 50  0001 C CNN
+F 3 "~" H 2700 1700 50  0001 C CNN
+	1    2700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1450 2700 1550
+Wire Wire Line
+	2700 1850 2700 2000
+Text Notes 3000 1700 0    50   ~ 0
+Abort indicator
+$Comp
+L nano-eagle-import:GND #SUPPLY01
+U 1 1 5B9CDDAB
+P 1750 2450
+F 0 "#SUPPLY01" H 1750 2450 50  0001 C CNN
+F 1 "GND" H 1750 2333 42  0000 C CNN
+F 2 "" H 1750 2450 50  0001 C CNN
+F 3 "" H 1750 2450 50  0001 C CNN
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-eagle-import:GND #SUPPLY0101
+U 1 1 5B9D63D9
+P 1500 2450
+F 0 "#SUPPLY0101" H 1500 2450 50  0001 C CNN
+F 1 "GND" H 1500 2333 42  0000 C CNN
+F 2 "" H 1500 2450 50  0001 C CNN
+F 3 "" H 1500 2450 50  0001 C CNN
+	1    1500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2200 1750 2450
+Wire Wire Line
+	1500 2200 1500 2450
+Text Notes 1100 2900 0    50   ~ 0
+Currently needs patch cable!
+Text Notes 1850 2600 0    50   ~ 0
+Arduino GND!
+Text Notes 250  2500 0    50   ~ 0
+Regulator GND
 $EndSCHEMATC
