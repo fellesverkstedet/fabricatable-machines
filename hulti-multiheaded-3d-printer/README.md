@@ -119,11 +119,8 @@ I´ll skip the detailed explanation of the CAM proess, Jake over at CBA has done
 
 ## Assemble 
 
-Once I have all the parts it´s just a matter assembling and tuning. As Jake describes in he´s walktrough, it is important to tune the glide blocks just right. You want them to be tight enough so that your setup is stiff enough, but loose enough so that you´ll have a allright and smooth motion. **IMPORTANT NOTE:** valchro againt valchro doesn´t glide smoothly. At this point I fitted all of my glide blocks with [UHMW tape](https://www.amazon.co.uk/dp/B00DE2P5FG/ref=pe_3187911_185740111_TE_item). This worked amazingly well. My towers are now running smoothly along my rails. Imaginge that! A bearing free 3D printer. In 2018! ´
+Once I have all the parts it´s just a matter assembling and tuning. As Jake describes in he´s walktrough, it is important to tune the glide blocks just right. You want them to be tight enough so that your setup is stiff enough, but loose enough so that you´ll have a allright and smooth motion. **IMPORTANT NOTE:** valchro againt valchro doesn´t glide smoothly. At this point I fitted all of my glide blocks with [UHMW tape](https://www.amazon.co.uk/dp/B00DE2P5FG/ref=pe_3187911_185740111_TE_item). This worked well. My towers are now running smooth-ish along the rails. 
 
-    
-
-## Electronics and Control 
 
 
 
