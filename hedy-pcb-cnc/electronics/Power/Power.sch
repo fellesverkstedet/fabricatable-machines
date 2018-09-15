@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Power-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -272,4 +273,15 @@ Wire Wire Line
 Connection ~ 3100 1950
 Wire Wire Line
 	3100 1950 3150 1950
+$Comp
+L Device:Polyfuse POLYFUSE?
+U 1 1 5B9B9214
+P 1900 3300
+F 0 "POLYFUSE?" V 1675 3300 50  0000 C CNN
+F 1 "Polyfuse" V 1766 3300 50  0000 C CNN
+F 2 "" H 1950 3100 50  0001 L CNN
+F 3 "~" H 1900 3300 50  0001 C CNN
+	1    1900 3300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
