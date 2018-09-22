@@ -1,0 +1,28 @@
+
+HIGH PRIO
+wire probe and test
+clean the stickers
+put on the stickers
+mount camera
+Create homeing procedure
+testmill
+surface work area
+test lighting
+fab light mouts
+mount lighting
+Mill medallion
+Make on/off and emergency stop holes. Add safety wood piece and wire
+Toolchange wedge (for use without elastic cord)
+tidy cables (shorten and attach)  lid on card lid on 230v
+Pack for shipping
+
+
+
+STRETCH GOALS
+Design case and fab case make Side-walls for case. door switch
+Cut the wood dowels
+Make toolkit with bits for delivery with machine
+Make holes prettier
+webcam camera settings possible optimization
+
+mount elastic cord for Y
