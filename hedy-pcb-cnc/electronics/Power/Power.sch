@@ -129,8 +129,6 @@ Wire Wire Line
 	4000 4250 6400 4250
 Wire Wire Line
 	6400 4250 6400 2550
-Text Notes 4400 3150 0    50   ~ 0
-Check normally closed and open on switches and contactors\n
 $Comp
 L Connector:Screw_Terminal_01x02 HRBL_SHIELD
 U 1 1 5B9B1053
@@ -231,8 +229,8 @@ Wire Notes Line
 	9150 3200 9150 3050
 Wire Notes Line
 	8250 2700 8900 2700
-Text Notes 3450 3800 0    50   ~ 0
-2 NC 1 NO
+Text Notes 3700 3800 0    50   ~ 0
+2 NC
 Text Notes 3600 2850 0    50   ~ 0
 2 NC
 Wire Wire Line
