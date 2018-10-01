@@ -2,7 +2,7 @@
 
 A full size CNC milling machine of the [Humphrey machine family.](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc#humphrey---large-format-cnc-mill)
 
-![posing_with_motion_system](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/installation/posing_with_motion_system.JPG)
+![installing_humphrey_group.jpg](img/installation/posing_with_assembled_machine.JPG)
 
 This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](https://www.facebook.com/Makerspace-i-Brumunddal-199245720667673/) and developed and manufactured as a kit by [Jakob Nilsson from Norlink](https://norlinkmakes.com/marketplace/). The MiB members then assembled the kit from the [online instructions below.](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#making-the-kit-of-parts)
 
@@ -70,6 +70,8 @@ These are instructions for how to assemble Humphrey v3 from a kit of parts, in t
 * Table assembly, Gantry assembly and Carriage assembly was completed in 6-7 hours of workshop spread over two days, without stressing.
 
 # Pictures
+
+![posing_with_motion_system](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/installation/posing_with_motion_system.JPG)
 
 ![cad_iso.JPG](./img/cad_iso.JPG)
 

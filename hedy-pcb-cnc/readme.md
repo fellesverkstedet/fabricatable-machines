@@ -27,7 +27,7 @@ We want it to be possible for you to make your own copy or customized version of
 * 1 sheet (2440x1220mm) of 8 mm thich valchromat
 * Small piece of 12 mm thick POM plastic (100x50mm) for the three 8pinions 
 * *(Optional)* 3D-prints of the 60-circumference pinions using PLA or simmilar
-*  Small piece of 8 mm thick plastic sheet (85x322mm) for making small toothed 40mm-circumference rack [(can be made from valchromat if using larger teeth, see below)](readme.md#Rack_and_pinion_tooth_sizes)
+*  Small piece of 8 mm thick plastic sheet (85x322mm) for making small toothed 40mm-circumference rack [(can be made from valchromat if using larger teeth, see below)](readme.md#rack-and-pinion-tooth-sizes)
 * 18 of Ø16mm CAM follower rollers, fixed Ø6 mm shaft [example link](https://www.vxb.com/KR16-16mm-Cam-Follower-Needle-Roller-p/kit7246.htm)
 * 18 of Ø16mm CAM follower roller, adjustable +/- 0.5mm Ø9 mm shaft
 
