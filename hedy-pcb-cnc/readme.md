@@ -61,6 +61,8 @@ We want it to be possible for you to make your own copy or customized version of
 
 Hedy is built from three very similiar linear motion axis. If you have learned to tune one, you can use the same principles for the others. You always start with tuning the wheels and they are always mounted in pairs, one is fixed and one is adjustable, between them they hold the rail. We want want there to be no slop that allows the rail to rattle between the wheels as this will translate to poor preformance later. Making the wheels squeeze the rails too tight may damage the rails, wear out the wheels faster or reduce precision by uneccessarily incresing the force required for movement.
 
+![Iso with axis labels](img/iso_letters.jpg)
+
 We need to start with tuning the Y-carriage (y is vertical motion). To do this you need to first take out the x-motor so that we can take off the X and Y carriage assembly from the machine. Use a long 4 mm hex key to reach the outer screws holding the x-motor position adjustment plate to the machine and remove the screws. (Don't remove the inner screws that holds the motor to the adjustment plate.) 
 
 When you have removed the x-y assembly from the machine, take off the y-motor in the same way.
