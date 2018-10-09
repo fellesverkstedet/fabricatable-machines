@@ -9,7 +9,9 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 *The goal is give the same super easy connection as when working with RC servos on a breakout shield*
 
 ![jmc motor](./img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
-*The shield is deign to work with these ihss57 integrated motors. One cable in each end, thats it!.*
+![Sensor](img/SN04-N.JPG)
+
+*The shield is deign to work with these ihss57 integrated motors and SN04-N inductive proximity sensors. One cable in each end, thats it!.*
 
 ## Files
 
@@ -47,9 +49,6 @@ HRBL is currently in use in:
 * Control computer or raspberry pi
 * Limit switch to place next to motor (optional)
 * Spindle and VFD (optinal)
-
-![jmc motor](./img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
-*The shield is deign to work with these ihss57 integrated motors. One cable in each end, thats it!.*
 
 # Notes while fabricating new version
 
