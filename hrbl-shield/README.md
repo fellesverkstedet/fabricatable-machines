@@ -1,6 +1,6 @@
 # Hrbl - Grbl shield for integrated motors
 
-A shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board as well as providing electrical noise protection. It's tailor made for fabricatable CNC milling machine needs. Both sides can be covered with a [special laser-engraving sicker film](img/laser_sheets_specs.JPG) which functions as a solder mask and silkscreen print.
+A shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board as well as providing electrical noise protection. It's tailor made for fabricatable CNC milling machine needs. Both sides can be covered with a [special laser-engraving sicker film](img/laser_sheets_specs.JPG) which protects the card, functions as a solder mask and silkscreen print.
 
 ![top](img/pcb_front_w_cover.JPG)
 
@@ -12,6 +12,12 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 ![Sensor](img/SN04-N.JPG)
 
 *The shield is deign to work with these ihss57 integrated motors and SN04-N inductive proximity sensors. One cable in each end, thats it!.*
+
+### Connections
+
+![Connections](img/connections.JPG)
+
+[Connections SVG](img/hrbl_shield.svg)
 
 ## Files
 
