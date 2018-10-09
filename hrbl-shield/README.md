@@ -1,26 +1,42 @@
 # Hrbl - Grbl shield for integrated motors
 
-A shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board. Tailor made for fabricatable CNC milling machine needs. Potentially great to combine with [Hertz - axis monitoring board](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hertz-axis-monitor). Optimized for ihss57 integrated closed loop stepper motors.
+A shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board as well as providing electrical noise protection. It's tailor made for fabricatable CNC milling machine needs. Both sides can be covered with a [special laser-engraving sicker film](img/laser_sheets_specs.JPG) which functions as a solder mask and silkscreen print.
 
-![top](./img/hrbl-shield-v0_1-top.jpg)
+![top](img/pcb_front_w_cover.JPG)
+
+![top](img/pcb_back_w_cover.JPG)
+
 *The goal is give the same super easy connection as when working with RC servos on a breakout shield*
+
+![jmc motor](./img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
+*The shield is deign to work with these ihss57 integrated motors. One cable in each end, thats it!.*
+
+## Files
+
+* [All dxf files for milling and laser engraving the foil](nano/CNC/nano-all_DXFs.zip)
+* [KiCAD Schematic](nano/nano.sch)
+* [KiCAD Board](nano.kicad_pcb)
+* [KiCAD project file](nano.pro)
+* [KiCAD project folder](nano/)
 
 ### Status
 
-*First version almost ready for testing. Needs quality control and final component decisions*
+HRBL is currently in use in:
+* [Hedy v1](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hedy-pcb-cnc/readme.md) A CNC milling machine made to mill circuit boards like this one.
+* [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) A large size CNC milling machine built as a kit by Makerspace in Brumundal.
 
 ### Functionality
 
-* 4 x 8 pole cable connections that combine all connections needed per axis in one  *(Power, gnd, step, dir, limit switch, alarm, enable, signal gnd)*
-* Dual output for Y
-* The included limit switch signal connection has pull-up with resistors and capacitors for normally open limit switches running on same dc power as the motor drives
+* 4 x 8 pole pluggable connections that combine all connections needed per axis in one connector per motor
+* Dual connections for the y-axis, (if only one is needed this can be skipped.)
+* Full optoisolation separates the computer-arduino circuit from all signal and power wires.
 * Z axis milling bit probe connection with external pull-up
-* Spindle control with start and speed control. Uses optocoupler for safe handling of 24v start signal
-* Connection for safety contactor helper connection. Needs to be jumped if not used. Contactor helper need to be normally open
+* Spindle control with start and speed control. Uses optocoupler for safe handling of extrernal start signal
+* External power loss detection, keeps the controller in ABORT mode when there is no power to the motors.
 
 ### BOM
-
-*coming soon*
+* [BOM PDF](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.pdf)
+* [BOM ODS format](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.ods)
 
 ### Dependables
 
@@ -28,31 +44,30 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 * JMC ihss57 clsed loop integrated stepper motors
 * 8 pole cable with 0.5mm2 wires
 * Power supply and cables
-* Control computer or pi
+* Control computer or raspberry pi
 * Limit switch to place next to motor (optional)
 * Spindle and VFD (optinal)
-
-![bottom](./img/hrbl-shield-v0_1-bottom.jpg)
-*Power is routed in the bottom layer. The board is deaigned to be easy to CNC mill from a 2 sided FR1 board*
-
-![pcb](./img/hrbl-shield-v0_1-pcb.jpg)
-*Current PCB layout*
 
 ![jmc motor](./img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
 *The shield is deign to work with these ihss57 integrated motors. One cable in each end, thats it!.*
 
-### To do
+# Notes while fabricating new version
 
-* Find optimal smd connectors and update routing
-* Refine vias and connector type for 36v power
-* Find optimal smd optcupler and update routing (for 4N25 or 4N35 use 390 Ohm resistor)
-* Inspect for errors and unfabricatable geometry
-* CNC mill, solder and test the board
+* Careful with which layer you mirror when you mill it!
+* 8mm/s @18000rpm with a Ø0.4mm 2 flute china endmill worked! (did most with 4.5mm/s)
+* Attach with double sided skotch tape (Jernia-brand worked well)
+* Mill and drill from the side where you will solder the most thorugh hole components first
+* Drilled Ø1mm holes were too tight for the contacts, mill them to at least Ø1,2mm next time.
+* Don't make the alignment holes for flipping the card too tight.
 
+### Future
+HRBL-shield is potentially great to combine with [Hertz - axis monitoring board](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hertz-axis-monitor). Optimized for ihss57 integrated closed loop stepper motors.
 
-# Notes new version
+# Pictures
 
-* Careful with which layer you mirror!
-* 8mm/s with a Ø0.4mm china endmill worked! (did most with 4.5mm/S)
-* Milling order: Start with side where you will mill most vias. 1st 3mm bit, outline and index holes for flipping. 2nd drill holes 3rd 0.4 mm trace milling 4th flip card and keep working with same bit. This order gives few toolchanges and good precision.
-* attacvh with double sided skotch tape (jernia)
+![PCB](img/pcb_solder_mask_back_before.JPG)
+
+![PCB](img/pcb_solder_mask_front_before.JPG)
+
+![Laser sheet](img/laser_sheets_specs.JPG)
+
