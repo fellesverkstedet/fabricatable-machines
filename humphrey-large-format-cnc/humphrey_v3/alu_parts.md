@@ -4,11 +4,12 @@ These parts are milled from 200x8mm flat bar aluminium 6082-T6 grade. We buy the
 
 The CNC we used for manufacturing has a 2440 mm long work area.
 
-## Notes!
-Missing parts in layout: 
-* Homing plate
+## Notes from milling Humphrey v3
+Some parts were missing in the layout: 
+* Homing plate.
 * The small spindle spring mounting clamps.
-* Dust skirt holder
+* Dust skirt holder.
+* Two motor plate spacers.
 
 Recommended changes:
 * When milling. Make sure there is a loose fit tolerance between the X-rail and the gantry, otherwise it's hard to fit it on and impossible to change it.
