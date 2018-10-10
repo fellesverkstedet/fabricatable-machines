@@ -65,8 +65,12 @@ HRBL is currently in use in:
 * Drilled Ø1mm holes were too tight for the contacts, mill them to at least Ø1,2mm next time.
 * Don't make the alignment holes for flipping the card too tight.
 
-### Future
-HRBL-shield is potentially great to combine with [Hertz - axis monitoring board](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hertz-axis-monitor). Optimized for ihss57 integrated closed loop stepper motors.
+### Future ideas and things to do
+* HRBL-shield is potentially great to combine with [Hertz - axis monitoring board](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hertz-axis-monitor). Optimized for ihss57 integrated closed loop stepper motors.
+* Create a version with a onboard 328p microprocessor to be able to skip the arduino uno altogether, remember to breakout programming pins for the MCU
+* Consider replacing the 16 single channel SFH6206-3T optocouplers with 4 channel 4TLP291-4(GB) for reduced part count and cheaper BOM. 
+* (From [issue 20](https://github.com/fellesverkstedet/fabricatable-machines/issues/20) consider if we should change the 5V voltage regulator.
+* Establish a maximum current that we can draw through the card to the motors without overheating the traces (or ribbon cable).
 
 # Pictures
 
