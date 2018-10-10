@@ -61,5 +61,10 @@ SPIN BEARING PIC
 
 TIGHTEN ORDER PIC
 
+## Covers and vipers
+
+### Notes from assembly
+* Cover next to x motor was hard/impossible to fit due to clash with motor
+* Lesson learned from Hedy, rollers can be placed in planes 4 fixed on one side and 4 adjustable on the other, simplifies assy and access design and well as tuning instructions. 
 
 
