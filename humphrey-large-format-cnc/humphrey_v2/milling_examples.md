@@ -29,8 +29,6 @@ The hole is milled with a 6mm bit in one pass with default speed.
 
 ![Pic](img/logo1.jpg)
 
-(Toolmarks on bottom could have been greatly reduces by adding a finish pass.)
-
 ![Pic](img/logo2.jpg)
 
 ![Pic](img/closeup_results_of_test_cuts.JPG)
