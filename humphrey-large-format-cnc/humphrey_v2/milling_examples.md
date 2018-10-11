@@ -12,7 +12,10 @@ These are a series of test shapes milled on Humphrey v2.
 ![Pic](img/ring2.jpg)
 
 [![Pic](img/play_ring3.png)](https://photos.app.goo.gl/qn35tccbV4Q5kNfY8)
-[Download video](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/ring3_10mm_hole_6mmbit.MOV)
+
+[*Click to view in Google photos*](https://photos.app.goo.gl/qn35tccbV4Q5kNfY8)
+
+[Download video from git](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/ring3_10mm_hole_6mmbit.MOV)
 
 ![Pic](img/shape.jpg)
 
