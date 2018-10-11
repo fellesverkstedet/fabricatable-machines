@@ -53,6 +53,12 @@ The 3mm wide slots are 9 mm deep
 * Sheet 2: 12 mm torsion box parts 2 
 * Sheet 3: 6 legs probe and VFD stiffeners 
 
+### Production notes v3
+* One 12 mm short rib was missing in the cutsheet
+* Screw holes should be moved so that feet attach better
+* Screws on top of feet should be countersunk so that they do not protrude during assembly.
+* Include diagonal stiffeners
+
 ## 8 mm sheets
 
 3 sheets
