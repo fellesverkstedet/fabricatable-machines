@@ -31,8 +31,10 @@ These are a series of test shapes milled on Humphrey v2.
 
 ![Pic](img/closeup_results_of_test_cuts.JPG)
 
-## Not tuned in wood
+## Test axis experiments
 
-![Pic](img/first_cuts.JPG)
+Precision test using heavily loaded test axis after 2000 repetitions 
 
-![Pic](img/backlash_typical.jpg)
+[Youtube playlist, 7 videos](https://www.youtube.com/playlist?list=PLKSI6XgWmHYbdBKBy4OpFnty4vu3g5wap)
+
+
