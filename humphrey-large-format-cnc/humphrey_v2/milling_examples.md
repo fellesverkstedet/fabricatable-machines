@@ -17,6 +17,8 @@ These are a series of test shapes milled on Humphrey v2.
 
 [Download video from git](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/ring3_10mm_hole_6mmbit.MOV)
 
+The hole is milled with a 6mm bit in one pass with default speed.
+
 ![Pic](img/shape.jpg)
 
 ![Pic](img/shape2.jpg)
