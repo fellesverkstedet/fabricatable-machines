@@ -45,9 +45,11 @@ Vaccum hose upper guide bracket, better way of attaching?
 Way of adding z up/down endstops? (Up breaks homeing cable
 Use software travel limits to keep it from attempthing dump code
 
-
+Missing a 12mm y rib for the torsion box, had the wrong name, is missed in cutsheet
 
 Build thin box firsr, flip and glue. Leg screws hits ribs
+
+Feet were missing the "pre-drill" milled slots
 
 Missing 12mm box piece
 
@@ -97,9 +99,6 @@ Change tabs on  vertical y axis roller holder to make it impossible to assemble 
 tightening order for X-rail, add more tolerance to the finger holes and break the tips
 
 add Access to bottom gantry screws through the gantry feet 
-
-Missing a 12mm y rib for the torsion box, had the wrong name, is missed in cutsheet
-
 
 Done:
 Y motor plate wheels after vertical holder or collision happens. Also make them non identical to reduce mixup
