@@ -52,9 +52,9 @@ The 3mm wide slots are 9 mm deep
 * Sheet 1: 12 mm torsion box parts 1 
 
 ![wood sheet](img/parts/wood/12mm_1.JPG)
-* Sheet 2: 12 mm torsion box parts 2 
-![wood sheet](img/parts/wood/12mm_2.JPG)
+* Sheet 2: 12 mm torsion box parts 2 (missing one small rib, should be 5 is 4)
 
+![wood sheet](img/parts/wood/12mm_2.JPG)
 * Sheet 3: 6 legs probe and VFD stiffeners 
 
 ![wood sheet](img/parts/wood/12mm_3.JPG)
