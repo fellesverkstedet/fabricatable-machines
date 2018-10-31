@@ -50,8 +50,14 @@ All you need to make the parts:
 The 3mm wide slots are 9 mm deep
 
 * Sheet 1: 12 mm torsion box parts 1 
-* Sheet 2: 12 mm torsion box parts 2 
+
+![wood sheet](img/parts/wood/12mm_1.JPG)
+* Sheet 2: 12 mm torsion box parts 2 (missing one small rib, should be 5 is 4)
+
+![wood sheet](img/parts/wood/12mm_2.JPG)
 * Sheet 3: 6 legs probe and VFD stiffeners 
+
+![wood sheet](img/parts/wood/12mm_3.JPG)
 
 ### Production notes v3
 * One 12 mm short rib was missing in the cutsheet
@@ -67,13 +73,21 @@ The 3mm wide slots are 6.5 mm deep
 
 The pockets on the top edges is 4mm deep in both cases.
 
-* Sheet 1: 8 mm torsion box parts 1 (missing dogbbones)
+* Sheet 1: 8 mm torsion box parts 1 (missing dogbbones?)
+
+![wood sheet](img/parts/wood/8mm_1.JPG)
 * Sheet 2: 8 mm torsion box parts 2 
+
+![wood sheet](img/parts/wood/8mm_2.JPG)
 * Sheet 3: 8 mm torsion box parts 3 
+
+![wood sheet](img/parts/wood/8mm_3.JPG)
 
 ## 19 mm sheet
 
-1 sheet
+* Sheet 1: 19mm Spoilboard with alignment holes and glue holddowns
+
+![wood sheet](img/parts/wood/19mm_1.JPG)
 
 The pockets on both long edges are 8.5mm deep.
 
