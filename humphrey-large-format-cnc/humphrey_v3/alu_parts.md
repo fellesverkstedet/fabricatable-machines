@@ -12,10 +12,10 @@ Practically the work will be split up into one piece per session since they take
 
 ## Notes from milling Humphrey v3
 Some parts were missing in the layout: 
-* Homing plate.
+* Homing plate. (Now added)
 * The small spindle spring mounting clamps.
-* Dust skirt holder.
-* Two motor plate spacers.
+* Dust skirt holder. 
+* Two motor plate spacers. (Now added)
 
 *TODO:* They need to be added!
 
