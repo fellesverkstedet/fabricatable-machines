@@ -10,15 +10,6 @@ The CNC we used for manufacturing has a 2440 mm long work area, show here in rel
 
 Practically the work will be split up into one piece per session since they take many hours per stock.
 
-## Notes from milling Humphrey v3
-Some parts were missing in the layout: 
-* Homing plate. (Now added)
-* The small spindle spring mounting clamps.
-* Dust skirt holder. 
-* Two motor plate spacers. (Now added)
-
-*TODO:* They need to be added!
-
 Recommended changes:
 * When milling. Make sure there is a loose fit tolerance between the X-rail and the gantry, otherwise it's hard to fit it on and impossible to change it.
 
