@@ -24,7 +24,8 @@ HRBL is an Arduiono NANO shield aiming to simplify connecting motors, limit swit
 ## Files
 
 * [All dxf files for milling and laser engraving the foil](nano/CNC/nano-all_DXFs.zip)
-* [KiCAD Schematic](nano/nano.sch)
+* [KiCAD Schematic](nano/nano.sch) 
+* [PDF Schematic](nano/Schematic.pdf)
 * [KiCAD Board](nano.kicad_pcb)
 * [KiCAD project file](nano.pro)
 * [KiCAD project folder](nano/)
