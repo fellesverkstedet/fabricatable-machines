@@ -64,8 +64,6 @@ Text Label 10550 2300 0    60   ~ 0
 AREF
 Text Label 10550 1300 0    60   ~ 0
 Reset
-Text Notes 10800 1000 0    60   ~ 0
-Holes
 Text Notes 8500 575  0    60   ~ 0
 Shield for Arduino Nano
 Text Label 10250 950  1    60   ~ 0
@@ -74,54 +72,6 @@ Wire Notes Line
 	8475 650  9675 650 
 Wire Notes Line
 	9675 650  9675 475 
-$Comp
-L Connector_Generic:Conn_01x01 P3
-U 1 1 56D73ADD
-P 10800 650
-F 0 "P3" V 10900 650 50  0000 C CNN
-F 1 "CONN_01X01" V 10900 650 50  0001 C CNN
-F 2 "Socket_Arduino_Nano:1pin_Nano" H 10800 650 50  0001 C CNN
-F 3 "" H 10800 650 50  0000 C CNN
-	1    10800 650 
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 10800 850 
-$Comp
-L Connector_Generic:Conn_01x01 P4
-U 1 1 56D73D86
-P 10900 650
-F 0 "P4" V 11000 650 50  0000 C CNN
-F 1 "CONN_01X01" V 11000 650 50  0001 C CNN
-F 2 "Socket_Arduino_Nano:1pin_Nano" H 10900 650 50  0001 C CNN
-F 3 "" H 10900 650 50  0000 C CNN
-	1    10900 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P5
-U 1 1 56D73DAE
-P 11000 650
-F 0 "P5" V 11100 650 50  0000 C CNN
-F 1 "CONN_01X01" V 11100 650 50  0001 C CNN
-F 2 "Socket_Arduino_Nano:1pin_Nano" H 11000 650 50  0001 C CNN
-F 3 "" H 11000 650 50  0000 C CNN
-	1    11000 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P6
-U 1 1 56D73DD9
-P 11100 650
-F 0 "P6" V 11200 650 50  0000 C CNN
-F 1 "CONN_01X01" V 11200 650 50  0001 C CNN
-F 2 "Socket_Arduino_Nano:1pin_Nano" H 11100 650 50  0001 C CNN
-F 3 "" H 11100 650 50  0000 C CNN
-	1    11100 650 
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 10900 850 
-NoConn ~ 11000 850 
-NoConn ~ 11100 850 
 $Comp
 L Connector_Generic:Conn_01x15 P1
 U 1 1 56D73FAC
@@ -227,10 +177,6 @@ Wire Wire Line
 	10450 2400 10150 2400
 Wire Wire Line
 	10550 1300 10150 1300
-Wire Notes Line
-	11200 1050 10650 1050
-Wire Notes Line
-	10650 1050 10650 500 
 Wire Notes Line
 	11200 2850 8450 2850
 Wire Notes Line
@@ -4309,7 +4255,7 @@ F 3 "" H 6100 6850 50  0001 C CNN
 	1    6100 6850
 	1    0    0    -1  
 $EndComp
-Text Notes 6050 5700 0    50   ~ 0
+Text Notes 5850 5650 0    50   ~ 0
 Spindle controls
 $Comp
 L Connector_Generic:Conn_01x02 PROBE1
@@ -4357,7 +4303,7 @@ F 3 "~" H 1500 6050 50  0001 C CNN
 $EndComp
 Text GLabel 6750 1800 2    50   Input ~ 0
 5V_ISO
-Text GLabel 150  4550 0    50   Input ~ 0
+Text GLabel 300  4550 0    50   Input ~ 0
 5V_ISO
 Text GLabel 4750 7250 2    50   Input ~ 0
 5V_ISO
@@ -4466,7 +4412,7 @@ Wire Wire Line
 Connection ~ 9250 1400
 Text GLabel 2850 2000 2    50   Input ~ 0
 ABORT
-Text Notes 3600 3450 0    50   ~ 0
+Text Notes 3500 3600 0    50   ~ 0
 All IN PINs\nhas internal 20k \npull up resistor to +5V
 $Comp
 L Device:R R12
@@ -4542,10 +4488,8 @@ F 3 "~" H 1600 1700 50  0001 C CNN
 	1    1600 1700
 	-1   0    0    1   
 $EndComp
-Text Notes 350  3650 0    50   ~ 0
+Text Notes 150  3150 0    50   ~ 0
 All motors ALARM in Parallell
-Text Notes 200  6450 0    50   ~ 0
-Potential ground loop with spindle case earth
 Wire Wire Line
 	9200 7550 9250 7550
 Wire Wire Line
@@ -4997,8 +4941,8 @@ $Comp
 L pspice:DIODE S1JA-13-F1
 U 1 1 5B92F59F
 P 800 3900
-F 0 "S1JA-13-F1" H 800 4165 50  0000 C CNN
-F 1 "DIODE" H 800 4074 50  0000 C CNN
+F 0 "S1JA-13-F1" H 700 3800 50  0000 C CNN
+F 1 "DIODE" H 800 3750 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 800 3900 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 800 3900 50  0001 C CNN
 	1    800  3900
@@ -5015,7 +4959,7 @@ F 3 "~" H 1300 5200 50  0001 C CNN
 	1    1300 5200
 	0    1    1    0   
 $EndComp
-Text Notes -700 4800 0    50   ~ 0
+Text Notes 150  3750 0    50   ~ 0
 Diodes to  stop backflow from the\n 36V pullup on the limit switch signal pin
 Text Notes 1400 600  0    50   ~ 0
 Incoming signals
@@ -5148,8 +5092,6 @@ Connection ~ 300  4550
 Wire Wire Line
 	300  4550 300  5200
 Wire Wire Line
-	150  4550 300  4550
-Wire Wire Line
 	1000 3900 1150 3900
 Wire Wire Line
 	1150 5200 1000 5200
@@ -5184,7 +5126,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1850 2700 2000
 Text Notes 3000 1700 0    50   ~ 0
-Abort indicator
+Abort indicator LED
 $Comp
 L nano-eagle-import:GND #SUPPLY01
 U 1 1 5B9CDDAB
@@ -5244,33 +5186,12 @@ Connection ~ 1750 2550
 Connection ~ 1750 2400
 Wire Wire Line
 	1750 2400 1750 2550
-$Comp
-L pspice:CAP C4
-U 1 1 5BB54227
-P 7650 6750
-F 0 "C4" H 7828 6796 50  0000 L CNN
-F 1 "100nF (0.1uF)" H 7828 6705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7650 6750 50  0001 C CNN
-F 3 "" H 7650 6750 50  0001 C CNN
-	1    7650 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 6500 7650 6500
 Wire Wire Line
 	7950 6600 7950 7000
-Wire Wire Line
-	7950 7000 7650 7000
-Wire Wire Line
-	7650 6500 7300 6500
 Wire Wire Line
 	7300 6500 7300 6850
 Wire Wire Line
 	7300 6850 6750 6850
-Connection ~ 7650 6500
-Wire Wire Line
-	7650 7000 7250 7000
-Connection ~ 7650 7000
 $Comp
 L power:+5V #PWR037
 U 1 1 5BB922EE
@@ -14098,4 +14019,14 @@ Wire Wire Line
 	2750 7750 3150 7750
 Connection ~ 2750 7750
 Connection ~ 3150 7750
+Text Notes 250  1100 0    50   ~ 0
+This detects extrernal power loss
+Text Notes 200  6500 0    50   ~ 0
+Potential ground loop with spindle case earth. \nAvoid grounding case of spindle.
+Wire Wire Line
+	7300 6500 7950 6500
+Wire Wire Line
+	7250 7000 7950 7000
+Text Notes 3500 3200 0    50   ~ 0
+GRBL PINOUT REFERENCE
 $EndSCHEMATC
