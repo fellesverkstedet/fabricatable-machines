@@ -74,7 +74,9 @@ The pockets on the top edges is 4mm deep in both cases.
 
 * Sheet 1: 8 mm torsion box parts 1 
 
-**TODO:** Add Valchro-dust shields
+### TODO: 
+* Add Valchro-dust shields
+* Add sensor holders 2 st
 
 ![wood sheet](img/parts/wood/8mm_1.JPG)
 * Sheet 2: 8 mm torsion box parts 2 
