@@ -45,8 +45,6 @@ All you need to make the parts:
 
 ## 12 mm sheets
 
-*TODO:*  Add dust skirt wooden plate and top holder!
-
 3 sheets
 
 The 3mm wide slots are 9 mm deep
