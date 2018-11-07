@@ -92,7 +92,7 @@ The pockets on the top edges is 4mm deep in both cases.
 
 ![wood sheet](img/parts/wood/19mm_1.JPG)
 
-The pockets on both long edges are 8.5mm deep.
+The pockets on both long edges are 9 mm deep.
 
 * Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
 
