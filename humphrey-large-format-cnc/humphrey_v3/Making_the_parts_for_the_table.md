@@ -74,7 +74,9 @@ The 3mm wide slots are 6.5 mm deep
 
 The pockets on the top edges is 4mm deep in both cases.
 
-* Sheet 1: 8 mm torsion box parts 1 (missing dogbbones?)
+* Sheet 1: 8 mm torsion box parts 1 
+
+**TODO:** Add Valchro-dust shields
 
 ![wood sheet](img/parts/wood/8mm_1.JPG)
 * Sheet 2: 8 mm torsion box parts 2 
