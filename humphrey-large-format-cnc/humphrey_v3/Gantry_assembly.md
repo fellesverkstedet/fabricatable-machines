@@ -67,6 +67,10 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Brige core](./img/assembly/bridge_core4.JPG)
 
+* Make sure they are attached this way:
+
+![Brige core](./img/assembly/bridge_core5_close.JPG)
+
 # X-rail and backside
 
 * Find these parts:
