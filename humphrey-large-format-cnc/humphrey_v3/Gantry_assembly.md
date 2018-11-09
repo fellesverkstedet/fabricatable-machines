@@ -29,6 +29,8 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Drill marks](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_marks.jpg)
 
+![Threading](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/threading_bit.jpg)
+
 * Always keep the bits lubricated (or it will break, trust me). Wd-40, vaseline, oil... anytyhing goes. Using a dipping cup speeds things up.
 * Use a power drill and a sharp spiral fluted bit.
 * Drill horizontally, in hip height. (Vertical = no pushing power and hard to hold steady)
