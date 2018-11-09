@@ -45,8 +45,6 @@ All you need to make the parts:
 
 ## 12 mm sheets
 
-*TODO:*  Add dust skirt wooden plate and top holder!
-
 3 sheets
 
 The 3mm wide slots are 9 mm deep
@@ -74,7 +72,11 @@ The 3mm wide slots are 6.5 mm deep
 
 The pockets on the top edges is 4mm deep in both cases.
 
-* Sheet 1: 8 mm torsion box parts 1 (missing dogbbones?)
+* Sheet 1: 8 mm torsion box parts 1 
+
+### TODO: 
+* Add Valchro-dust shields
+* Add sensor holders 2 st
 
 ![wood sheet](img/parts/wood/8mm_1.JPG)
 * Sheet 2: 8 mm torsion box parts 2 
@@ -90,7 +92,7 @@ The pockets on the top edges is 4mm deep in both cases.
 
 ![wood sheet](img/parts/wood/19mm_1.JPG)
 
-The pockets on both long edges are 8.5mm deep.
+The pockets on both long edges are 9 mm deep.
 
 * Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
 
