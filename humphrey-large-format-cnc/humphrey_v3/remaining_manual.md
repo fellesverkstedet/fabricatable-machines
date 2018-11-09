@@ -103,6 +103,7 @@ Increase holes for long screws or buy shorter for the y wheels that clashed
 * Make adapter plate for new spindle (when I have verified hole pattern?)
 * Change tabs on  vertical y axis roller holder to make it impossible to assemble the wrong way (or remove difficulty)
 * Make the rollers not roll on the edges of the countersink on x.
+* Test fit track rollers in CAD!
 
 ### Valchro CAD:
 * New VFD pad for new VFD
