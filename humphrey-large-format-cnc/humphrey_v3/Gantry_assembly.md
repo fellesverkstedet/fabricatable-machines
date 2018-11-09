@@ -29,7 +29,11 @@ NOTE: If you are multiple people helping with the assembly, thread the parts as 
 
 ![Drill marks](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_marks.jpg)
 
-![Threading](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/threading_bit.jpg)
+![Drill And tap](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_and_tap.jpg)
+
+![Drilling](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/4.4mm_drill.jpg)![Threading](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/threading_bit.jpg)
+
+*Use a good 4.2-4.4mm diameter drill bit and a **spiral fluted thread cutting bit**. The combination bits that both drill and thread at the same time work well until they break and the hassle of removing a broken threading bit is not worth it*
 
 * Always keep the bits lubricated (or it will break, trust me). Wd-40, vaseline, oil... anytyhing goes. Using a dipping cup speeds things up.
 * Use a power drill and a sharp spiral fluted bit.
