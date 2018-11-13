@@ -4,22 +4,40 @@
  
 * A "full size", workshop size CNC platform for 3 axis milling
 * Fabricatable with a CNC mill
-* (UPDATED) Uses the [Roller axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) system
+* Uses the [Roller axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) system
 * Work area 1220 x 2440 Can be longer
 * Traveling gantry with integrated electronics
-* Can be made from 200mm x 8mm aluminium flat bar and 8 and 12mm valchromat
+* Made from 200mm x 8mm aluminium flat bar and 8 and 12mm valchromat
 
-## Humphrey v2
-*July 2018 Jakob Nilsson*
+## Current status
+_November 2018 Jakob Nilsson_
+
+The Humphrey model has been made in three completed versions and one more is in production.
+
+1. [Humphrey v1](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc#humphrey-v1) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
+2. [Humphrey v2](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc#humphrey-v2) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed at [Newtone](https://newtone.no/) in Oslo.
+3. [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Makerspace i Brumunddal.](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
+4. [Humphrey v4](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) - Parts are being produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), commissioned by [Buene](https://buene.com/) in Oslo.
+
+# [Jump to Humphrey version 3](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md)
+
+[The page for Humphrey v3 has the most complete and up to date making instructions and files](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) 
+
+![installing_humphrey_group.jpg](humphrey_v3/img/installation/posing_with_assembled_machine.JPG)
+
+# Humphrey v2
+
 ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/in_production.JPG)
 
-_Humphrey v2 doing it's first production cuts_
+_Humphrey v2 doing it's first production cuts at [Newtone AS](https://newtone.no/) in Oslo._
 
-For updated how to make see [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[![Newtones workshop in November](humphrey_v2/img/Newtone/thumb.JPG)]((https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v2/img/Newtone))
+
+[Picture gallery of Newtones workshop in November 2018](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v2/img/Newtone/readme.md)
 
 ### Summary 
 
-Humphrey v2 was comissioned by [Newtone](https://newtone.no/), which is a joint venture and shared creative workspace for recording, mixing and making music, they also build, repair and restore stuff need to create music. They have used it to build all the custom acustic wall elements they needed to build Norways biggest professional recording studio on their premisies. 
+Humphrey v2 was comissioned by [Newtone](https://newtone.no/), which is a joint venture and shared creative workspace for recording, mixing and making music, they also build, repair and restore stuff need to create music. They have used their humphrey CNC to mill lots of custom acustic wall elements when building Norways biggest professional recording studio on their premisies. 
 
 The design of Humphrey v2 was based on the lessons learned from Humphrey v1 (documented below) and upgraded with some additional request for new features. It was modeled from the base up in [Fusion360](https://www.autodesk.com/products/fusion-360/overview) [(3D model cloud link](https://a360.co/2Okah8P) using [cycloid rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#rack-and-pinion) to drive the motion and (initially) [Chamfer rails](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#chamfer-rail) as linear guides. All machined parts were produced at [Fellesverkstedet's](https://www.fellesverkstedet.no/) old facilites in [Urtegata, Olso.](https://goo.gl/maps/r2fua3EC7Hw). Fellesverkstedet is a shared workshop open for everyone who has and idea that they wants to make themselves.  
 
