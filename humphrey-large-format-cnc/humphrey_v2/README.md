@@ -1,7 +1,5 @@
 # Humphrey v2 roller upgrade 
 
-## Status:
-In production.
 
 ![Roller_gantry](img/roller_gantry.jpg)
 
