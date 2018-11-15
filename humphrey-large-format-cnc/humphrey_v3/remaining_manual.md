@@ -34,6 +34,7 @@ Dust skirt duct, (magnets, PLA and valcro)
 Viper (cloth)
 Arduino shield with connectors and shielding
 Drill z for endstop upwards
+Screws for power supply!
 
 ## Observations and lessons learned
 
@@ -50,8 +51,6 @@ More drills, skip combo tool pga break
 Tool for conical screws
 
 Bit for both type of wood screw
-
-Ingrease step on sides of spoilboard so it can take shipping abuse
 
 Screws unde gantry collides x z carriage
 
@@ -86,6 +85,8 @@ Assemble Y motor plate wheels after vertical holder or collision happens. Also m
 
 Increase holes for long screws or buy shorter for the y wheels that clashed
 
+Screws for power supply!
+
 ## Done:
 * Missing a 12mm y rib for the torsion box, had the wrong name, is missed in cutsheet (fixed)
 * Feet were missing the "pre-drill" milled slots (fixed)
@@ -93,6 +94,8 @@ Increase holes for long screws or buy shorter for the y wheels that clashed
 * Think about ways to make the feet more stable. Perhaps the screw should lock into the foot now it has play? 
 * Some leg screws hit interior ribs, annoying and needs changing. 
 * add Access to bottom gantry screws through the gantry feet 
+* Ingrease step on sides of spoilboard so it can take shipping abuse
+* Change tabs on  vertical y axis roller holder to make it impossible to assemble the wrong way (or remove difficulty)
 
 # TODO: 
 
@@ -101,7 +104,9 @@ Increase holes for long screws or buy shorter for the y wheels that clashed
 ### Alu cad
 * Sensible holes in z stage for adapter
 * Make adapter plate for new spindle (when I have verified hole pattern?)
-* Change tabs on  vertical y axis roller holder to make it impossible to assemble the wrong way (or remove difficulty)
+* Mount holes for board
+
+Bonus:
 * Make the rollers not roll on the edges of the countersink on x.
 * Test fit track rollers in CAD!
 
@@ -109,10 +114,14 @@ Increase holes for long screws or buy shorter for the y wheels that clashed
 * New VFD pad for new VFD
 * Bad fit valchro shields. Needs redesign (or verfication) +Make valchro sheilds sturdier?
 * Holddown screws in feet confusing where to screw move to side!
+* Fix wooden dust plate for 1,5kw spindle
+
 
 ### 3D-prints
 * Different diameter adapter for hose
-* 
+* Stronger vipers
+* More standardized vipers
+* Tighter covers
 
 ## Mill 
 * POM pinions
