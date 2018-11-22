@@ -8,6 +8,8 @@ This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](htt
 
 [![Video on youtube](img/video_thumb.jpg)](https://youtu.be/zEsviWFEUS8)
 
+[Video on Youtube of Humhprey v3 planing its spoilboard](https://youtu.be/zEsviWFEUS8)
+
 ### [CLICK FOR INSTRUCTIONS ON HOW TO USE](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
 
 ## Stats
