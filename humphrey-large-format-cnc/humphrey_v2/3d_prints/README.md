@@ -81,6 +81,8 @@ _All the dust covers and vipers freshly printed_
 
 # Dust skirt
 
+![Dust Skirt](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/dust_assy_render.jpg)
+
 A 3D-printed dust skirt system that is held on by magnets.
 
 [STL files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/dust_skirt_prints.zip)
