@@ -59,10 +59,9 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 [Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Viper_stl_h4.zip)
 
-* Viper_xtop_and_z-axis 8st
-* Viper_y-axis 4st
+* Viper_h4 12st
 
-12 prints, 2 models. 
+12 prints, 1 model. 
 
 ### Pictures
 
