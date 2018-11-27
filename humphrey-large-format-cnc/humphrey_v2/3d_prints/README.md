@@ -53,7 +53,7 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Covers
 
-[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Roller_covers-stl.zip)
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Roller_covers_stl_h4.zip)
 
 * Roller_cover 18st
 * Roller_cover_y_axis 4st
@@ -62,7 +62,7 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Vipers
 
-[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Vipers-stl.zip)
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Viper_stl_h4.zip)
 
 * Viper_xtop_and_z-axis 8st
 * Viper_y-axis 4st
