@@ -19,7 +19,30 @@
 
 [Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
 
-# 3D printed covers and vipers
+# 3D prints for Humphrey 4
+
+These are all the 3D prints needed for dust protection of Humphreys rollers. 
+
+## Instructions
+
+It takes in total ca 30h to print all parts.
+
+![All prints](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
+
+_All the dust covers and vipers for Humphrey version 3 when freshly printed (some have a differnt design compared to Humphrey 4)_
+
+You need a 3D printer and some patience, any FDM-3d-printer will do. PETG and PLA seems to work fine.
+
+Start with printing a copy of the cover "test platform" (see filename) and a "Roller_cover" to see if they fit.
+
+![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/apart-cover.jpg)
+![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/assembled-cover-test.jpg)
+
+Download the zip-files, unzip. Print the 33 parts in the quantities listed below, the quantiy is also written in each filename.
+
+### Print settings
+
+I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzle and 20% infill but feel free to experiment with other settings. If you want to modify the parts, you can fish out the originals from the [assembly files here](https://a360.co/2NBCXcX). 
 
 ## Updated parts H4
 
@@ -41,10 +64,6 @@
 
 12 prints, 2 models. 
 
-It takes in total ca 30h to print all parts.
-
 ### Pictures
 
-![All prints](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
-
-_All the dust covers and vipers for Humphrey version 3 when freshly printed (some have a differnt design compared to Humphrey 4)_
+![Covers and vipers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/img/covers_n_vipers.png)
