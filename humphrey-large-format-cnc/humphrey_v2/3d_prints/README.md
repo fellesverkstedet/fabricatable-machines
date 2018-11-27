@@ -25,6 +25,8 @@ Download the zip-files, unzip. Print the 33 parts in the quantities listed below
 
 I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzle and 20% infill but feel free to experiment with other settings. If you want to modify the parts, you can fish out the originals from the [assembly files here](https://a360.co/2NBCXcX). 
 
+## Parts H2 and H3
+
 ### Covers
 
 [Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Roller_covers-stl.zip)
@@ -46,6 +48,26 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 * Viper_y-axis 4st
 
 12 prints, 4 models. 
+
+## Updated parts H4
+
+### Covers
+
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Roller_covers-stl.zip)
+
+* Roller_cover 18st
+* Roller_cover_y_axis 4st
+
+22 prints, 2 models. 
+
+### Vipers
+
+[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/3d_prints/Vipers-stl.zip)
+
+* Viper_xtop_and_z-axis 8st
+* Viper_y-axis 4st
+
+12 prints, 2 models. 
 
 ### Pre set plates for Cura
 
