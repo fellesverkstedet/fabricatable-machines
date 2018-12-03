@@ -87,6 +87,11 @@ Increase holes for long screws or buy shorter for the y wheels that clashed
 
 Screws for power supply!
 
+### Notes from assembly
+* Cover next to x motor was hard/impossible to fit due to clash with motor
+* Lesson learned from Hedy, rollers can be placed in planes 4 fixed on one side and 4 adjustable on the other, simplifies assy and access design and well as tuning instructions. 
+
+
 ## Done:
 * Missing a 12mm y rib for the torsion box, had the wrong name, is missed in cutsheet (fixed)
 * Feet were missing the "pre-drill" milled slots (fixed)
