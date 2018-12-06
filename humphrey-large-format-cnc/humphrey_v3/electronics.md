@@ -17,12 +17,15 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 * [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
 * Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/GRBL_Spindle_ENABLE.zip)
 * Unzip and open the file in Examples > grblUpload > grblUpload.ino in the Arduino IDE interface
+* Connect to the arduino via USB
 * In the Arduino IDE interface: Select Arduino NANO and the correct COM port in the menu
 * In the Arduino IDE interface: Press upload
 
 [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
 Note: We use 80 microsteps per mm for all axis. See motors chapter below
+
+[GRBL Firmware setting reference from Newtone](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v2/Settings_backup)
 
 ## Motors
 
@@ -86,7 +89,9 @@ It’s not worth messing with the kp, ki and damping values unless you know what
 
 The spidle will spin 24000 rpm when given 400hz from the vfd.
 
-It should not be run slower than 10000 rpm since it's air cooled, so we set a minimum of 165 hz
+It should not be run slower than 10000 rpm since it's air cooled, so set a minimum of 165 hz
+
+*Always check what the VFD is programmed to output before tuning it on with the spindle attached!*
 
 ### China-VFD
 
