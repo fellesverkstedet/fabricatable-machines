@@ -9,6 +9,13 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 ### Humphrey v4 HRBL controller card
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/connections.JPG)
 
+Spindle controls schematic:
+
+![spindle controls](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/spindle_controls.JPG)
+
+* The FOR pin will be shorted to the DCM(COM) pin (in that direction) when the controller wants to turn the spindle on
+* The VI is an unfiltered 5V PWM signal with a 1kHz frequenzy, the 5V source is the controller (voltage reference).
+* ACM(GND) is a signal ground reference (for the PWM).
 
 ### LEGACY Humphrey v3 HRBL controller card
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/hrbl_connections_all.JPG)
