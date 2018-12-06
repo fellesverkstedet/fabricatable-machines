@@ -4,13 +4,13 @@
 
 The HRBL-controller is a optoisolated connection shield for an Arduino Nano running the GRBL CNC control firmware. 
 
-[Source files for KiCAD](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hrbl-shield/nano)
+[HRBL arduino NANO shield controller card](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hrbl-shield/nano)
 
-### Connections
+### Humphrey v4 HRBL controller card
+![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/connections.JPG)
 
+### LEGACY Humphrey v3 HRBL controller card
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/hrbl_connections_all.JPG)
-
-![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/Connector_guide.jpg)
 
 ### Programming
 
@@ -22,50 +22,39 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 
 [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
-## Spindle and Variable Frequency Drive
-
-The spidle will spin 24000 rpm when given 400hz from the vfd.
-
-It should not be run slower than 10000 rpm since it's air cooled, so we set a minimum of 165 hz
-
-### Connections
-
-[Settings advice](https://www.cnczone.com/forums/spindles-vfd/346620-huanyang-vfd-spindle-accelerate-amp-decelerate-settings.html)
-
-[Recommendations](http://www.woodworkforums.com/f170/tips-newbie-huanyang-vfd-users-96380)
-[Guide for Mach3](http://www.kronosrobotics.com/hy02d223b-vfd-type-1/) use the settings below:
-
-### Programming
-
-Set these parameters on the VFD
-
-* pd000 = 0 
-* pd001 = 1 
-* pd002 = 1
-* PD005 = 400
-* pd007 = clear
-* PD011 = 165
-* pd014 = 2
-* pd015 = 2
-* pd070 = 1
-* jumper leftmost (VI to center)
+Note: We use 80 microsteps per mm for all axis. See motors chapter below
 
 ## Motors
 
-The enable pins can be ignored, then they are always read as enabled. We either want the motors to hold position or be unpowered by us cutting all power. 
+Humphrey uses 4 Nema24 closed loop stepper motors with integrated drivers.
+
+![motor](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/ihss57-integrated-closed-loop-stepper-from-jmc.jpg)
+
+[Motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
 
 ### Connections
 
-See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
+Info:
+
+The enable pins can be ignored, then they are always read as enabled. We either want the motors to hold position or be unpowered by us cutting all power. 
 
 ### Programming
 
-[Stepper manual](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
+Set the dip switches on the steppers to 001100 to use 3200 steps per revolution. 
 
-Set the dip switches on the steppers to 001100 to use  3200 steps per revolution.
-The pinion rolls 40 mm per revolution so that gives us 80 microsteps per mm (5 fullsteps per mm).
+*IMPORTANT* Flip the last switch on one of the Y motors to make them spin in opposite direction.
 
-#### HISU motor calibration
+Info:
+
+The pinion rolls 40 mm per revolution so that and 3200 steps per revolution gives us 80 microsteps per mm (5 fullsteps per mm). We will program this into the firmware of the GRBL controller.
+
+## Motor and limit switch cable connections
+
+Make 4 of these, the ribbon cables should be ca 1.5 meters long each. The plugs go into the controller card and into the motors.
+
+![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/Connector_guide.jpg)
+
+### OPTIONAL: HISU motor calibration
 
 A HISU can be used to increase motor torque, remove smoothing and set the max error value for the closed loop.
 
@@ -92,6 +81,33 @@ P9 = sets driving torque (max 30)
 P8 + P9 = gives total torque. They can be set to max for max performance but setting them to ~70% saves on pinion wear when accidentaly crashing the machine into endstops etc. 
 
 It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
+
+## Spindle and Variable Frequency Drive
+
+The spidle will spin 24000 rpm when given 400hz from the vfd.
+
+It should not be run slower than 10000 rpm since it's air cooled, so we set a minimum of 165 hz
+
+### China-VFD
+
+[Settings advice](https://www.cnczone.com/forums/spindles-vfd/346620-huanyang-vfd-spindle-accelerate-amp-decelerate-settings.html)
+
+[Recommendations](http://www.woodworkforums.com/f170/tips-newbie-huanyang-vfd-users-96380)
+
+[Guide for Mach3](http://www.kronosrobotics.com/hy02d223b-vfd-type-1/) 
+
+Set these parameters on the VFD
+
+* pd000 = 0 
+* pd001 = 1 
+* pd002 = 1
+* PD005 = 400
+* pd007 = clear
+* PD011 = 165
+* pd014 = 2
+* pd015 = 2
+* pd070 = 1
+* jumper leftmost (VI to center)
 
 ## Commanding computer
 
