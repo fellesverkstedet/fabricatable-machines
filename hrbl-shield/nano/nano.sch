@@ -14029,4 +14029,8 @@ Wire Wire Line
 	7250 7000 7950 7000
 Text Notes 3500 3200 0    50   ~ 0
 GRBL PINOUT REFERENCE
+Text Notes 6700 6550 0    50   ~ 0
+Make REF V IN
+Text Notes 6500 7150 0    50   ~ 0
+Make PULL DOWN TO PWM. Don't connect GNDS
 $EndSCHEMATC
