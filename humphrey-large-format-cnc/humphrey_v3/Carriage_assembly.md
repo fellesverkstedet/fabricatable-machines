@@ -111,11 +111,20 @@
 
 # Mounting the spindle on the Z-axis
 
-Mount the spindle to the z-axis. Measure it so that it gets paralell with the sides. 
+When mounting the spindle to the z-axis. Measure it so that it gets paralell with the sides of the Z-axis. 
 
-The screw details will depend on which spindle size you have choosen. 
+* Find these parts:
 
-![spindle](./img/assembly/spindle.jpg)
+![spindle](./img/assembly/spindle_exploded.jpg)
+
+* Assemble them like this, glue the wood pieces together using screws as guides in the holes.
+
+![spindle](./img/assembly/spindle_and_dust.jpg)
+
+![spindle](./img/assembly/spindle_side.jpg
+
+* Attach a thick rubber string from the protruding mounts on the front of the X-carriage using the small aluminium clips. Thread the string down behind, below the spindle.
+
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
