@@ -61,7 +61,7 @@ We will start with the outside excenters that stop the gantry from moveing sidew
 * First make sure the screws holding the second y rail is screwed in, they don't need to be tight but they should hold the rail steady when we roll the gantry along them.
 
 * Now use the carriage as a guide to align the second y rail to be paralell with the first one. Roll the gantry along and feel the wheels on the outside, the ones you just tuned. They should not become too loose or too tight. Adjust the second Y rail accordingly. 
-* It can be helpful to put clamsp through the motor hole that gently presses the rail to the rollers at the positions you want to lock in.
+* It can be helpful to put clamps through the motor hole that gently presses the rail to the rollers at the positions you want to lock in.
 
 ### Y underside rollers
 
