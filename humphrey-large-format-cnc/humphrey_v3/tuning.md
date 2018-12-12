@@ -84,7 +84,7 @@ After all rollers are tuned:
 * LATER, when the machine is powered, test pushing on each axis to test if there is any free movement before you can feel the teeth engaging. There should be no gap. If there is a gap, try resetting the motor position so that the pinion is tighter on to the rack.
 * If the pinion is worn or damaged it will not be possible to get rid of the gap.
 
-## Tramming of spindle
+## OPTIONAL EXTRA TUNING: Tramming of spindle
 
 If you notice "stair steps" at the bottoms of milled pockets or on the spoilboard after planing it the spindle might not be perfectly perpendicular to the surface of the work area. 
 
@@ -98,11 +98,14 @@ When measuring the tram with the instrument, make sure to check it in different 
 
 If you find that the spindle needs rotating around the y axis you can take out the Z-axis and check that the spindles's position on the Z axis is paralell with the sides of the Z-axis before continuing. 
 
+If you find a misalignment in the spindle using the steps above you can modify the machine as described below to allow fine adjustment of the spindle tilt. 
+
 ![tilt spindle](./img/assembly/tilt_spindle.png)
 
 ![tilt spindle sideways](./img/assembly/tilt_spindle_sideways.png)
 
 ![tilt spindle front back](./img/assembly/tilt_spindle_front_back.png)
+
 
 
 
