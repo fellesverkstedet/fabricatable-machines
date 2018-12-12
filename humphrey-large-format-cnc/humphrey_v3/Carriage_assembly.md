@@ -109,6 +109,14 @@
 
 ![mount carriage](./img/assembly/mounted_carriage.JPG)
 
+# Mounting the spindle on the Z-axis
+
+Mount the spindle to the z-axis. Measure it so that it gets paralell with the sides. 
+
+The screw details will depend on which spindle size you have choosen. 
+
+![spindle](./img/assembly/spindle.jpg)
+
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
 [Instructions continues in: Tuning the motion system](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3/tuning.md)
