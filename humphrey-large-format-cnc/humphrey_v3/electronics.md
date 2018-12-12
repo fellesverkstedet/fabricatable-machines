@@ -1,5 +1,41 @@
 # Electronics
 
+Electronics assembly steps:
+
+* Mount the 36V power supply into the back of the gantry where the ventilation holes are
+* Mount the VFD to the gantry
+* Install the emergency stop 
+* SAFETY WARNING! Wire the incoming 220V to the VFD and the Power supply 
+* Test the emergency stop
+* Attach the arduino to the controller card
+* Test if the card works by connecting to it via USB
+* Program the arduino with GRBL
+* Connect with UGS and do the firmware settings
+* Make the cables for the motors and switches
+* Thread them through the holes in the gantry to where they should go. Mark the ends by the controller with X, Y and Z.
+* Make a power cable from the power supply to the controller, don't power yet.
+* Disconnect all cables from the controller
+* Power the controller, check for smoke. A LED should glow on the back if all is well.
+* Unscrew the Z motor assembly from the machine, we will use it to test the electronics.
+* Connect the power connector (only!) from the Z motor cable to the loose motor.
+* Connect the Z motor cable to the controller. Check if the motor turns on and gets stiff. If not, check what is wrong.
+* Connect also the signal plug on the Z motor. Connect the USB to the arduino. Open UGS, configure the firmware via UGS to 80 steps per mm. Try jogging Z. The motor should spin!
+* Connect the other cables to the controller and connect the power connectors (Only!) to the motors. Check that all turn on.
+* Try jogging the other axis small distances.
+* Open UGS, connect, go around the machine and test each limit switch, you should se an alarm in UGS for each.
+* If all works you can reconnect and retune the Z-axis. If it does not, use the loose motor to figure out what is wrong.
+* Mount the probe plate
+* Run a wire to the probe plate and another to the spindle for the probe connector
+* Program the VFD according to its manual and your spindle specifications.
+* Wire the control wires for the VFD (refer to your VFD manual and the HRBL schematic)
+* Test the VFD
+* Mount the controller in the gantry.
+* Attach the back of the gantry.
+* Clean of the table
+* Test jogging to all extremes, no snags or strange sounds. There should be no rattling (loose tuning of wheels or pinions) or squeeking, that means a pinion gets too tight for some reason. Retune if necessary. 
+* Set up a homeing sequence, before running it, jog the machine to the probe plate and test that it sends a probe alarm when you short it with a tool. 
+* Run a test job, have a fire extinguisher at hand, wear safety googles and ear protection.
+
 ## HRBL-Controller
 
 The HRBL-controller is a optoisolated connection shield for an Arduino Nano running the GRBL CNC control firmware. 
@@ -99,7 +135,6 @@ Set these parameters on the VFD
 * Download nightly build of [UGS](https://winder.github.io/ugs_website/)
 * Use this [file](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/Settings_backup/home%20and%20probe.gcode) to set up a good homeing-routine.
 * Use the homeing routine to make a post processor for Vcarve.
-
 
 ## User guide, how to mill with Humphrey
 
