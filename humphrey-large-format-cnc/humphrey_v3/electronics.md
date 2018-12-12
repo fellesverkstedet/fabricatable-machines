@@ -34,7 +34,13 @@ Electronics assembly steps:
 * Clean of the table
 * Test jogging to all extremes, no snags or strange sounds. There should be no rattling (loose tuning of wheels or pinions) or squeeking, that means a pinion gets too tight for some reason. Retune if necessary. 
 * Set up a homeing sequence, before running it, jog the machine to the probe plate and test that it sends a probe alarm when you short it with a tool. 
+* See the [wiki instructions for how to set up a job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
 * Run a test job, have a fire extinguisher at hand, wear safety googles and ear protection.
+* You now have a working machine!
+* Please help the project by adding to and improving it!
+* Post [issues](https://github.com/fellesverkstedet/fabricatable-machines/issues) to ask questions or suggest improvements
+
+[Back to the overview](Readme.md)
 
 ## HRBL-Controller
 
@@ -178,3 +184,4 @@ P8 + P9 = gives total torque. They can be set to max for max performance but set
 
 It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
 
+[Back to the overview](Readme.md)
