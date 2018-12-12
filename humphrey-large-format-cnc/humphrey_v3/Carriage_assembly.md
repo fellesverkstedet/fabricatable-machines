@@ -8,6 +8,8 @@
 
 * Find these parts:
 
+*NOTE!* Humphrey v4 is updated to use two identical bearing holders here, they both look like the top one.
+
 ![x axis carriage](./img/assembly/x_axis_plate_exploded.JPG)
 
 * Find bearings and the *fixed* bearing cores. They are as default assembled without washers.
@@ -26,17 +28,13 @@
 
 ### Top and bottom parts
 
-*  Arrange the bearings like this: (Shown with the bearings hidden for visibillity)
-
-![x axis carriage](./img/assembly/x_carriage_bottom_hidden.JPG)
+*  Build two of these: (Shown with the bearings hidden for visibillity)
 
 ![x axis carriage](./img/assembly/x_carriage_top_hidden.JPG)
 
 ![x axis carriage](./img/assembly/fixed_core_hole.jpg)
 
 * It should look like this when done:
-
-![x axis carriage](./img/assembly/x_carriage_bottom.JPG)
 
 ![x axis carriage](./img/assembly/x_carriage_top.JPG)
 
