@@ -69,4 +69,38 @@ After all rollers are tuned:
 * Wrap the 12  3d-printed vipers with felt strips
 * Screw on the 3d printed wipers
 
+# Tuning the stepper motors and pinions
+
+* Assemble the motor plates to the motors
+* Attatch pinons to the motor axis loosely
+* Dry fit the motors in each place and check that the pinion is positioned 0.5-1 mm from the bottom of the rack pocket to avoid rubbing or breaking.
+* Tighten the pinion screws
+* Screw the motor assemblies loosely to the machine
+* Jiggle the axis until the pinion on the motor interlocks with the rack teeth, try to find a good position of contact without pressing the pinion into the rack at all.
+* Tighten the screws holding the motor assembly to the machine.
+* Look to check that the pinion is still ca 0.5-1 mm from the bottom of the pocket.
+* Gently push the axis through its entire length to see that there are no colissions with protruding screws. The motors should provide even resistance, if it very hard to move, it is possible that the motor position presses the pinion too hard into the rack.
+* Install end stop screws for all axis.
+* LATER, when the machine is powered, test pushing on each axis to test if there is any free movement before you can feel the teeth engaging. There should be no gap. If there is a gap, try resetting the motor position so that the pinion is tighter on to the rack.
+* If the pinion is worn or damaged it will not be possible to get rid of the gap.
+
+## Tramming of spindle
+
+If you notice "stair steps" at the bottoms of milled pockets or on the spoilboard after planing it the spindle might not be perfectly perpendicular to the surface of the work area. 
+
+This can be caused by loose bearings, tune them all first and test again before proceeding.
+
+To check the tram of the spindle you can fashion a test instrument as shown in this [video.](https://www.youtube.com/watch?v=D6pfIoyhgTc)
+
+Before testing it you need a flat plane to refer to. Mill the bed flat first using a linear back and forth pattern, do not use a concentrically offset pattern (default in pockets). You do this to avoid heigh differences forming in the diagonals.
+
+When measuring the tram with the instrument, make sure to check it in different spots on the surface to detect twists in the x-axis or the Y-rails not being paralell.
+
+If you find that the spindle needs rotating around the y axis you can take out the Z-axis and check that the spindles's position on the Z axis is paralell with the sides of the Z-axis before continuing. 
+
+
+
+
+
+
 
