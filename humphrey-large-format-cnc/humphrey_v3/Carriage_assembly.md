@@ -91,7 +91,7 @@
 
 * Find these parts
 
-![Z carriage](./img/assembly/carriage_loose_parts1.JPG)
+![Z carriage](./img/assembly/carriage_loose_parts.JPG)
 
 * Screw them to the carriage and tighten those screws.
 
@@ -112,6 +112,8 @@
 ![mount carriage](./img/assembly/mounted_carriage.JPG)
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
+
+[Instructions continues in: Tuning the motion system](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3/tuning.md)
 
 [Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
 
