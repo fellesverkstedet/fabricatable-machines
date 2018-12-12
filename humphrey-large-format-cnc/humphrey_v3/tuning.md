@@ -73,6 +73,17 @@ We will start with the outside excenters that stop the gantry from moveing sidew
 
 ![X wheels](./img/assembly/x-rollers_order.png)
 
+
+### Z axis tuning
+
+* Tighten them in this order, first:
+
+![Z wheels](./img/assembly/z-rollers_order1.png)
+
+* Then:
+
+![Z wheels](./img/assembly/z-rollers_order2.png)
+
 # Tuning the stepper motors and pinions
 
 * Find these parts times four
@@ -104,6 +115,15 @@ After all rollers and motors are tuned:
 * Cover all rollers with 3d-printed covers 
 * Wrap the 12  3d-printed vipers with felt strips
 * Screw on the 3d printed wipers
+
+
+CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
+
+You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
+
+[Back to the main instructions page](Readme.md)
+
+
 
 ## OPTIONAL EXTRA TUNING: Tramming of spindle
 
