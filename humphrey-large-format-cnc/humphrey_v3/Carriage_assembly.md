@@ -121,9 +121,11 @@ When mounting the spindle to the z-axis. Measure it so that it gets paralell wit
 
 ![spindle](./img/assembly/spindle_and_dust.jpg)
 
-![spindle](./img/assembly/spindle_side.jpg
+![spindle](./img/assembly/spindle_side.jpg)
 
-* Attach a thick rubber string from the protruding mounts on the front of the X-carriage using the small aluminium clips. Thread the string down behind, below the spindle.
+* Attach a thick rubber string from the protruding mounts on the front of the X-carriage using two small aluminium clips. Thread the string down behind, below the spindle.
+
+![spindle](./img/assembly/spring_clip.jpg)
 
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
