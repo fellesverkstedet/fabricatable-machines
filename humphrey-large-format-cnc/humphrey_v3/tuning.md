@@ -11,13 +11,11 @@ NAMES PIC
 
 In order for the machine to work well both the guiding parts and the driving parts of the machine needs to be tuned. We always tune the guides first, then the motors with the pinions.
 
-# Aligning the Y-rails - Installation tuning
+# Aligning the Y-rails - The first rail
 
 The Y-rails are the "train tracks" under the long sides of the machine. We first need to make sure that they are paralell to each other if we want to be able to tune them.
 
-Having a long straight guide tool is very helpful for this step!
-
-RETTHOLT PIC
+Having a long straight guide tool is very helpful for this step! (Or, even better, you could use a laser.)
 
 The Y-rails are each split in two pieces that are joined in the middle. They are fixed where they meet in the middle of the machine but the rest of them can be adjusted sideways.
 
@@ -57,19 +55,33 @@ TIGHTEN DIR PIC
 
 SPIN BEARING PIC
 
-* Tighten them in this order, always make sure that the gantry is perpendicular to the table by pushing it aginst the stopper screws.
+### Y axis outside rollers
 
-TIGHTEN ORDER PIC
+We will start with the outside excenters that stop the gantry from moveing sideways.
 
-## Covers and vipers
+* Tighten the excenters in this order, while making sure that the gantry is perpendicular to the table by pushing it aginst the stopper screws. It helps being two but can be done alone.
 
-After all rollers are tuned: 
+![Y wheels](./img/assembly/y-wheels_sideways.png)
 
-* Cover all rollers with 3d-printed covers 
-* Wrap the 12  3d-printed vipers with felt strips
-* Screw on the 3d printed wipers
+### Fastening the second Y rail
+
+* First make sure the screws holding the second y rail is screwed in, they don't need to be tight but they should hold the rail steady when we roll the gantry along them.
+
+* Now use the carriage as a guide to align the second y rail to be paralell with the first one. Roll the gantry along and feel the wheels on the outside, the ones you just tuned. They should not become too loose or too tight. Adjust the second Y rail accordingly. 
+* It can be helpful to put clamsp through the motor hole that gently presses the rail to the rollers at the positions you want to lock in.
+
+### Y underside rollers
+
+* Tighen these four in any order, just don't forget to do it!
+
+### X axis tuning
+
+
+
 
 # Tuning the stepper motors and pinions
+
+![tilt spindle](./img/assembly/tilt_spindle.png)
 
 * Assemble the motor plates to the motors
 * Attatch pinons to the motor axis loosely
@@ -83,6 +95,14 @@ After all rollers are tuned:
 * Install end stop screws for all axis.
 * LATER, when the machine is powered, test pushing on each axis to test if there is any free movement before you can feel the teeth engaging. There should be no gap. If there is a gap, try resetting the motor position so that the pinion is tighter on to the rack.
 * If the pinion is worn or damaged it will not be possible to get rid of the gap.
+
+## Covers and vipers
+
+After all rollers and motors are tuned: 
+
+* Cover all rollers with 3d-printed covers 
+* Wrap the 12  3d-printed vipers with felt strips
+* Screw on the 3d printed wipers
 
 ## OPTIONAL EXTRA TUNING: Tramming of spindle
 
@@ -106,7 +126,8 @@ If you find a misalignment in the spindle using the steps above you can modify t
 
 ![tilt spindle front back](./img/assembly/tilt_spindle_front_back.png)
 
+CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
-
+You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
 
