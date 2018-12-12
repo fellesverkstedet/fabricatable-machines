@@ -84,6 +84,8 @@ We will start with the outside excenters that stop the gantry from moveing sidew
 
 ![Z wheels](./img/assembly/z-rollers_order2.png)
 
+* Remove the Z-axis and attach the spindle to it after tuning it if you have not done it already. 
+
 # Tuning the stepper motors and pinions
 
 * Find these parts times four
