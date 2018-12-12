@@ -1,5 +1,47 @@
 # Electronics
 
+Electronics assembly steps:
+
+* Mount the 36V power supply into the back of the gantry where the ventilation holes are
+* Mount the VFD to the gantry
+* Install the emergency stop 
+* SAFETY WARNING! Wire the incoming 220V to the VFD and the Power supply 
+* Test the emergency stop
+* Attach the arduino to the controller card
+* Test if the card works by connecting to it via USB
+* Program the arduino with GRBL
+* Connect with UGS and do the firmware settings
+* Make the cables for the motors and switches
+* Thread them through the holes in the gantry to where they should go. Mark the ends by the controller with X, Y and Z.
+* Make a power cable from the power supply to the controller, don't power yet.
+* Disconnect all cables from the controller
+* Power the controller, check for smoke. A LED should glow on the back if all is well.
+* Unscrew the Z motor assembly from the machine, we will use it to test the electronics.
+* Connect the power connector (only!) from the Z motor cable to the loose motor.
+* Connect the Z motor cable to the controller. Check if the motor turns on and gets stiff. If not, check what is wrong.
+* Connect also the signal plug on the Z motor. Connect the USB to the arduino. Open UGS, configure the firmware via UGS to 80 steps per mm. Try jogging Z. The motor should spin!
+* Connect the other cables to the controller and connect the power connectors (Only!) to the motors. Check that all turn on.
+* Try jogging the other axis small distances.
+* Open UGS, connect, go around the machine and test each limit switch, you should se an alarm in UGS for each.
+* If all works you can reconnect and retune the Z-axis. If it does not, use the loose motor to figure out what is wrong.
+* Mount the probe plate
+* Run a wire to the probe plate and another to the spindle for the probe connector
+* Program the VFD according to its manual and your spindle specifications.
+* Wire the control wires for the VFD (refer to your VFD manual and the HRBL schematic)
+* Test the VFD
+* Mount the controller in the gantry.
+* Attach the back of the gantry.
+* Clean of the table
+* Test jogging to all extremes, no snags or strange sounds. There should be no rattling (loose tuning of wheels or pinions) or squeeking, that means a pinion gets too tight for some reason. Retune if necessary. 
+* Set up a homeing sequence, before running it, jog the machine to the probe plate and test that it sends a probe alarm when you short it with a tool. 
+* See the [wiki instructions for how to set up a job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
+* Run a test job, have a fire extinguisher at hand, wear safety googles and ear protection.
+* You now have a working machine!
+* Please help the project by adding to and improving it!
+* Post [issues](https://github.com/fellesverkstedet/fabricatable-machines/issues) to ask questions or suggest improvements
+
+[Back to the overview](Readme.md)
+
 ## HRBL-Controller
 
 The HRBL-controller is a optoisolated connection shield for an Arduino Nano running the GRBL CNC control firmware. 
@@ -61,37 +103,9 @@ The pinion rolls 40 mm per revolution so that and 3200 steps per revolution give
 
 ## Motor and limit switch cable connections
 
-Make 4 of these, the ribbon cables should be ca 1.5 meters long each. The plugs go into the controller card and into the motors.
+Make 4 of these, the ribbon cables should be at least 1.6 meters long each. The plugs go into the controller card and into the motors.
 
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/Connector_guide.jpg)
-
-### OPTIONAL: HISU motor calibration
-
-A HISU can be used to increase motor torque, remove smoothing and set the max error value for the closed loop.
-
-![Hisu](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/6C3A13B4-B353-4DFC-950C-6E98B35EEC22.jpeg)
-
-[HISU on aliexpress](https://www.aliexpress.com/item/HISU-for-Andriy-Kyrychenko/32805819281.html?spm=2114.search0104.3.1.6c2661d1JJVdOY&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10059_5015212_10696_100031_10084_10083_10103_5015812_451_452_10618_5015112_10307_5015912,searchweb201603_56,ppcSwitch_5&algo_expid=bcced743-392b-477b-ba84-0d559d9ffe03-0&algo_pvid=bcced743-392b-477b-ba84-0d559d9ffe03&priceBeautifyAB=0) to adjust motor settings
-
-![how to HISU](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/HTB1.IttbURIWKJjSZFgq6zoxXXak.jpg)
- 
- _How to HISU_
- 
- [Default values for the motor](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/Default%20values.txt)
-
-See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf) for which values to change.
-
-P16 = accepted error in degrees (ca) before throwing an error and stopping, requiring a power-off-on to reset. Try a low setting like 5 to detect problems early! 
-
-P19 = set to 0 for no extra speed smoothing in the motor.
-
-P8 = sets holding torque (max 40)
-
-P9 = sets driving torque (max 30)
-
-P8 + P9 = gives total torque. They can be set to max for max performance but setting them to ~70% saves on pinion wear when accidentaly crashing the machine into endstops etc. 
-
-It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
 
 ## Spindle and Variable Frequency Drive
 
@@ -127,3 +141,47 @@ Set these parameters on the VFD
 * Download nightly build of [UGS](https://winder.github.io/ugs_website/)
 * Use this [file](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/Settings_backup/home%20and%20probe.gcode) to set up a good homeing-routine.
 * Use the homeing routine to make a post processor for Vcarve.
+
+## User guide, how to mill with Humphrey
+
+The user guide for how to mill with Humphrey is on the wiki part of this page.
+
+[Wiki link](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
+
+Please help the project by adding to and improving it!
+
+CONGRATULATIONS! That is all you need to get your Humphrey going! We hope you want to add to these instructions and post your questions and ideas for improvements in the [git issues for this repo](https://github.com/fellesverkstedet/fabricatable-machines/issues).
+
+And if you design your own improvements to the design or nice add-ons, please let us and everyone else know in the [git issues for this repo](https://github.com/fellesverkstedet/fabricatable-machines/issues)! 
+
+[Back to the overview](Readme.md)
+
+### OPTIONAL: HISU motor calibration
+
+A HISU can be used to increase motor torque, remove smoothing and set the max error value for the closed loop.
+
+![Hisu](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/6C3A13B4-B353-4DFC-950C-6E98B35EEC22.jpeg)
+
+[HISU on aliexpress](https://www.aliexpress.com/item/HISU-for-Andriy-Kyrychenko/32805819281.html?spm=2114.search0104.3.1.6c2661d1JJVdOY&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10059_5015212_10696_100031_10084_10083_10103_5015812_451_452_10618_5015112_10307_5015912,searchweb201603_56,ppcSwitch_5&algo_expid=bcced743-392b-477b-ba84-0d559d9ffe03-0&algo_pvid=bcced743-392b-477b-ba84-0d559d9ffe03&priceBeautifyAB=0) to adjust motor settings
+
+![how to HISU](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/dev_files/integrated_stepper/HTB1.IttbURIWKJjSZFgq6zoxXXak.jpg)
+ 
+ _How to HISU_
+ 
+ [Default values for the motor](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/Default%20values.txt)
+
+See the [motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf) for which values to change.
+
+P16 = accepted error in degrees (ca) before throwing an error and stopping, requiring a power-off-on to reset. Try a low setting like 5 to detect problems early! 
+
+P19 = set to 0 for no extra speed smoothing in the motor.
+
+P8 = sets holding torque (max 40)
+
+P9 = sets driving torque (max 30)
+
+P8 + P9 = gives total torque. They can be set to max for max performance but setting them to ~70% saves on pinion wear when accidentaly crashing the machine into endstops etc. 
+
+It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
+
+[Back to the overview](Readme.md)

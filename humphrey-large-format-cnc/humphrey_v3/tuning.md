@@ -73,6 +73,19 @@ We will start with the outside excenters that stop the gantry from moveing sidew
 
 ![X wheels](./img/assembly/x-rollers_order.png)
 
+
+### Z axis tuning
+
+* Tighten them in this order, first:
+
+![Z wheels](./img/assembly/z-rollers_order1.png)
+
+* Then:
+
+![Z wheels](./img/assembly/z-rollers_order2.png)
+
+* Remove the Z-axis and attach the spindle to it after tuning it if you have not done it already. Take extra care to make sure you mount it paralell to the sides of the z-axis.
+
 # Tuning the stepper motors and pinions
 
 * Find these parts times four
@@ -105,25 +118,44 @@ After all rollers and motors are tuned:
 * Wrap the 12  3d-printed vipers with felt strips
 * Screw on the 3d printed wipers
 
+
+CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
+
+You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
+
+[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+
+
 ## OPTIONAL EXTRA TUNING: Tramming of spindle
 
-If you notice "stair steps" at the bottoms of milled pockets or on the spoilboard after planing it the spindle might not be perfectly perpendicular to the surface of the work area. 
+These step are not necessary to start running your machine but rather an optional improvement you can do if you would like to improve the surface quality of milled flat surfaces. If you have noticed your machine leaving "stair steps" at the bottoms of milled pockets or on the spoilboard after planing it, then the spindle might not be perfectly perpendicular to the surface of the work area. This is how to straighten it.
 
-This can be caused by loose bearings, tune them all first and test again before proceeding.
+### Before starting
 
-To check the tram of the spindle you can fashion a test instrument as shown in this [video.](https://www.youtube.com/watch?v=D6pfIoyhgTc)
+* The same problem can be caused by loose bearings, tune them all first and test again before proceeding.
 
-Before testing it you need a flat plane to refer to. Mill the bed flat first using a linear back and forth pattern, do not use a concentrically offset pattern (default in pockets). You do this to avoid heigh differences forming in the diagonals.
+* To check the tram of the spindle you can fashion a test instrument as shown in this [video.](https://www.youtube.com/watch?v=D6pfIoyhgTc)
 
-When measuring the tram with the instrument, make sure to check it in different spots on the surface to detect twists in the x-axis or the Y-rails not being paralell.
+* Before testing it you need a flat plane to refer to. Mill the bed flat first using a linear back and forth pattern, do not use a concentrically offset pattern (default in pockets). You do this to avoid heigh differences forming in the diagonals.
 
-If you find that the spindle needs rotating around the y axis you can take out the Z-axis and check that the spindles's position on the Z axis is paralell with the sides of the Z-axis before continuing. 
+* When measuring the tram with the instrument, make sure to check it in different spots on the surface to detect twists in the x-axis or the Y-rails not being paralell.
 
-If you find a misalignment in the spindle using the steps above you can modify the machine as described below to allow fine adjustment of the spindle tilt. 
+* If you find that the spindle needs tilting around the y axis you can take out the Z-axis and check that the spindles's position on the Z axis is paralell with the sides of the Z-axis before continuing. 
+
+* If you find a misalignment in the spindle using the steps above you can modify the machine as described below to allow fine adjustment of the spindle tilt. 
+
+### Adding spindle tilt tuning option
+
+* Warning. This will make the machine slightly complicated to tune in the future. Since more rollers will be able to move you will have to keep track on which ones should be adjusted and which ones only control tilt when doing regular tuning later.
+* To add tilt tuning: Replace these fixed rollers with excenters:
 
 ![tilt spindle](./img/assembly/tilt_spindle.png)
 
+* To rotate the spindle around the Y axis, adjust these rollers:
+
 ![tilt spindle sideways](./img/assembly/tilt_spindle_sideways.png)
+
+* To rotate the spindle around the X axis, adjust these rollers:
 
 ![tilt spindle front back](./img/assembly/tilt_spindle_front_back.png)
 
@@ -131,4 +163,4 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-[Back to the main instructions page](Readme.md)
+[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
