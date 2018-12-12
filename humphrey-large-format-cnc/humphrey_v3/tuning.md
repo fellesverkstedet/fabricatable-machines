@@ -2,7 +2,7 @@
 
 Humphrey has a three axis linear motion system, the axis are named X, Y and Z. These names are the same ones later used when communicating the machine. 
 
-![Axis](.img/assembly/humphrey_axis.png)
+![Axis](./img/assembly/humphrey_axis.png)
 
 Each linear axis is guided by rollers that roll on a rail, the axis are driven by a pinion cog-wheel on a motor which drives against the rack teeth. 
 
@@ -131,4 +131,4 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-
+[Back to the main instructions page](Readme.md)
