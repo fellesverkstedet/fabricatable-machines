@@ -123,7 +123,7 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-[Back to the main instructions page](Readme.md)
+[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
 
 
 ## OPTIONAL EXTRA TUNING: Tramming of spindle
@@ -163,4 +163,4 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-[Back to the main instructions page](Readme.md)
+[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
