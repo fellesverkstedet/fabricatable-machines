@@ -98,8 +98,11 @@ When measuring the tram with the instrument, make sure to check it in different 
 
 If you find that the spindle needs rotating around the y axis you can take out the Z-axis and check that the spindles's position on the Z axis is paralell with the sides of the Z-axis before continuing. 
 
+![tilt spindle](./img/assembly/tilt_spindle.png)
 
+![tilt spindle sideways](./img/assembly/tilt_spindle_sideways.png)
 
+![tilt spindle front back](./img/assembly/tilt_spindle_front_back.png)
 
 
 
