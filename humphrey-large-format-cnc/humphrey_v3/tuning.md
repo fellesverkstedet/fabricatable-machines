@@ -2,12 +2,9 @@
 
 Humphrey has a three axis linear motion system, the axis are named X, Y and Z. These names are the same ones later used when communicating the machine. 
 
-XYZ PIC
-
+![Axis](.img/assembly/humphrey_axis.png)
 
 Each linear axis is guided by rollers that roll on a rail, the axis are driven by a pinion cog-wheel on a motor which drives against the rack teeth. 
-
-NAMES PIC
 
 In order for the machine to work well both the guiding parts and the driving parts of the machine needs to be tuned. We always tune the guides first, then the motors with the pinions.
 
@@ -49,11 +46,7 @@ One side is now straight and will be our reference for the second one.
 
 * Always tighten the excenters in the counter-clockwise direction, this way it will not move when the bolt is tighened. (The adjustable rollers cosist of an exceter with 1,5mm travel in each direction when turned a full turn. This means that it can be tighened either direction, clockwise or counter-clockwise.)
 
-TIGHTEN DIR PIC
-
 * Check the tightness by spinning the bearing with your finger. MAKE SURE that you still can spin the bearing in place without rolling it along the rail. If you can't, it means that you have overtighened it, and you can't know by how much.
-
-SPIN BEARING PIC
 
 ### Y axis outside rollers
 
@@ -76,12 +69,20 @@ We will start with the outside excenters that stop the gantry from moveing sidew
 
 ### X axis tuning
 
+* Tighten them in this order
 
-
+![X wheels](./img/assembly/x-rollers_order.png)
 
 # Tuning the stepper motors and pinions
 
-![tilt spindle](./img/assembly/tilt_spindle.png)
+* Find these parts times four
+
+![motor_exploded](./img/assembly/motor_exploded.jpg)
+
+* First drill and thread the pinions the same way you did for the aluminium, at the notches. But take exta care to aim for the center when drilling.
+* Insert M5 set screws into the three holes in each pinon so that you can lock it to the motor axis. Do not tighten yet.
+
+![motor_assembled](./img/assembly/motor_assembled.jpg)
 
 * Assemble the motor plates to the motors
 * Attatch pinons to the motor axis loosely
