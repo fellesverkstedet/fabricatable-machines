@@ -1,5 +1,7 @@
 # Electronics
 
+These are a short form list of steps you will need to go through to get your machine operational. There are more information and links for many of the steps below the list.
+
 Electronics assembly steps:
 
 * Mount the 36V power supply into the back of the gantry where the ventilation holes are
@@ -138,9 +140,14 @@ Set these parameters on the VFD
 
 ## Commanding computer
 
-* Download nightly build of [UGS](https://winder.github.io/ugs_website/)
+* Download nightly build of [UGS](https://winder.github.io/ugs_website/) and use a computer (PC, MAC or Linux) to control the machine
+
+OR
+
+* Use a raspberry pie and octoprint to set up a web based controller on your local network [instructions](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Electronics#octoprint-with-grbl-plug-in-in-progress)
+
 * Use this [file](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/Settings_backup/home%20and%20probe.gcode) to set up a good homeing-routine.
-* Use the homeing routine to make a post processor for Vcarve.
+* RECOMENDED! Use a post processor that always trigger the homeing routine to make it impossible to forget.
 
 ## User guide, how to mill with Humphrey
 
