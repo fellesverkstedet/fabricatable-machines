@@ -127,6 +127,14 @@ When mounting the spindle to the z-axis. Measure it so that it gets paralell wit
 
 ![spindle](./img/assembly/spring_clip.jpg)
 
+![spindle](./img/assembly/top_stifferner_dust.jpg)
+![spindle](./img/assembly/top_stifferner_dust_exploded.jpg)
+![spindle](./img/assembly/z-with-dust.JPG)
+![spindle](./img/assembly/dust_lower_exploded.jpg)
+![spindle](./img/assembly/dust_lower.jpg)
+![spindle](./img/assembly/leather_round.JPG)
+![spindle](./img/assembly/leather_under.jpg)
+![spindle](./img/assembly/all_dust.jpg)
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
