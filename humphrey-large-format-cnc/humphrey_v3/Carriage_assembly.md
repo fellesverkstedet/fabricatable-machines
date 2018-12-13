@@ -143,13 +143,15 @@
 
 ![spindle](./img/assembly/dust_lower.jpg)
 
+## Leather dust skirt
+
+* [Leather skirt DXF files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf)
+
 * Attach a leather skirt to the perimeter, predrill the wood or it will crack. Cracks can be fixed with glue :)
 
 ![spindle](./img/assembly/leather_round.JPG)
 
 * Attach a leather skirt to bottom of the Z axis
-
-[Leather skirt DXF files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf)
 
 ![spindle](./img/assembly/leather_under.jpg)
 
