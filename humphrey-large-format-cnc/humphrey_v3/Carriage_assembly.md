@@ -109,32 +109,67 @@
 
 ![mount carriage](./img/assembly/mounted_carriage.JPG)
 
-# Mounting the spindle on the Z-axis
-
-When mounting the spindle to the z-axis. Measure it so that it gets paralell with the sides of the Z-axis. 
+# Z axis, spindle and dust skirt
 
 * Find these parts:
 
 ![spindle](./img/assembly/spindle_exploded.jpg)
 
-* Assemble them like this, glue the wood pieces together using screws as guides in the holes.
+* When mounting the spindle to the z-axis. Measure it so that it gets paralell with the sides of the Z-axis. 
+* The wooden parts form the dust skirt ledge. 
+* Glue the wood pieces together using screws as guides in the holes.
 
 ![spindle](./img/assembly/spindle_and_dust.jpg)
 
 ![spindle](./img/assembly/spindle_side.jpg)
 
-* Attach a thick rubber string from the protruding mounts on the front of the X-carriage using two small aluminium clips. Thread the string down behind, below the spindle.
+* Find these wooden parts, they will create a strain relief for the dust extraction hose:
+
+![spindle](./img/assembly/top_stifferner_dust_exploded.jpg)
+
+* Assemble and glue them like this:
+
+![spindle](./img/assembly/top_stifferner_dust.jpg)
+
+* Screw the wooden pieces to the Z axis (wait till the glue has dried and remove the screws from the back for a snug fit)
+
+![spindle](./img/assembly/z-with-dust.JPG)
+
+* Find these wooden pieces: 
+
+![spindle](./img/assembly/dust_lower_exploded.jpg)
+
+* Assemble them like this, glue them together using screws as guides in the holes.
+
+![spindle](./img/assembly/dust_lower.jpg)
+
+* Attach a leather skirt to the perimeter, predrill the wood or it will crack. Cracks can be fixed with glue :)
+
+![spindle](./img/assembly/leather_round.JPG)
+
+* Attach a leather skirt to bottom of the Z axis
+
+[Leather skirt DXF files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf)
+
+![spindle](./img/assembly/leather_under.jpg)
+
+* Expoy 6 magnets into the holes in the handle and the dust ledge. Take care to match the polarity of the magnets and not to glue the wood to each other. Vaseline on the wood prevents the glue from sticking were it shouldn't. We want the handle to be removeable.
+* It should look like this when done: 
+
+![spindle](./img/assembly/all_dust.jpg)
+
+# Mounting the z axis on the X-carriage
+
+* We want to prevent the spindle from dropping into the material when the emergency stop is pressed now we will add a lifting spring.
+* Find two small aluminium clips that look like this: 
 
 ![spindle](./img/assembly/spring_clip.jpg)
 
-![spindle](./img/assembly/top_stifferner_dust.jpg)
-![spindle](./img/assembly/top_stifferner_dust_exploded.jpg)
-![spindle](./img/assembly/z-with-dust.JPG)
-![spindle](./img/assembly/dust_lower_exploded.jpg)
-![spindle](./img/assembly/dust_lower.jpg)
-![spindle](./img/assembly/leather_round.JPG)
-![spindle](./img/assembly/leather_under.jpg)
-![spindle](./img/assembly/all_dust.jpg)
+* Thread the string down behind, below the spindle.
+
+![spindle](./img/assembly/rubber_spring.jpg)
+
+* The tense the string so that the spindle is lifted 20-40mm from the bed when you release it. The motor will also add resistance later. 
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
