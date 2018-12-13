@@ -17,6 +17,8 @@ This post-Processor should work on GRBL-based machines such as
 30/JAN/2017 - V6 : Modified capabilities to also allow waterjet, laser-cutting..
 25/JUL/2018 - V7 : Code review to eliminate a bug causing GRBL Error 33. Compared this postProcessor with the latest grbl.cps
 16/NOV/2018 - V8 : Added extra coolant modes : Flood = M8, Mist = M7, Flood+Mist
+11/DEC/2018 - V9 [FORK] : Commented out the G53 line to stop it returning to machine home automatically after job is done.
+
 */
 
 description = "Openbuilds Grbl";
