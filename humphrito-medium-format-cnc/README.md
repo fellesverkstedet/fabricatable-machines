@@ -112,7 +112,7 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 * See our [European shopbot intallations](https://github.com/fellesverkstedet/European-ShopBot-installations) repo for ongoing research into safe and convenient installations of milling machines
 
 **Control board**
-* 1x [Arduino UNO](https://store.arduino.cc/genuino-uno-rev3)
+* 1x [Arduino UNO](https://store.arduino.cc/genuino-uno-rev3) using the [grbl firmware](https://github.com/gnea/grbl/wiki/Connecting-Grbl). [Use this version fo GRBL](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/GRBL_Spindle_ENABLE.zip)
 * 1x [GRBL screw terminal shield](https://www.tindie.com/products/18robots/grbl-compatible-cnc-shield-for-arduino/) *(untested)*
 * *Alternative control board is the awesome [Replicape](https://www.thing-printer.com/product/replicape/), removes the need for a dedicated computer to run the machine*
 
@@ -123,7 +123,7 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 ### Screw-and-glue joints for Valchromat
 I have deviced a way of removing the need for clamps when glueing milled valchromat parts together. The parts are slotted with the CNC so that you can screw them together from the side without them instantly cracking. Milled parts can be assembled using finger joints and then gently screwed together with a cordless electric screwdriver on a low torque setting. This screw joint will fail if you try to torque it very hard so only use it to provide a good clamping force for the glue to set.
 ![](img/experiment/screw_locked_finger_joint_test.jpg)
-[Read more about my screw-and-glue experiments](experiment.md)
+[Read more about screw-and-glue experiments](experiment.md)
 
 ## Future improvements
 * Can the Y range be increased so that we have acces to the work area above the gantry in resting position?
