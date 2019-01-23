@@ -47,6 +47,7 @@ These are instructions for how to make the kit of parts you will need to proceed
 * [Milling the valchromat parts](Making_the_parts_for_the_table.md)
 * [Milling the aluminium parts](alu_parts.md) 
 * [Making the plastic parts](plastic_parts.md)
+* [Leather skirt DXF file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf) for lasercutting
 * [Bill of materials (BOM) with the "vitamines" you need to buy](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
 
 ## Production times

@@ -42,7 +42,7 @@ Download the zip-files, unzip. Print the 33 parts in the quantities listed below
 
 ### Print settings
 
-I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzle and 20% infill but feel free to experiment with other settings. If you want to modify the parts, you can fish out the originals from the [assembly files here](https://a360.co/2NBCXcX). 
+I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzle, 1.6 wall thickness and 20% infill but feel free to experiment with other settings. If you want to modify the parts, you can fish out the originals from the [assembly files here](https://a360.co/2NBCXcX). 
 
 ## Updated parts H4
 
