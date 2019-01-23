@@ -17,6 +17,7 @@ This is the first version of Hedy and was the [Oslo Innovation Award given to Ot
 * Uses three Nema23 2 Nm closed loop stepper motors with integrated drivers
 * Full optoisolation for all signals and sensors
 * Built in 36V power supply
+* Decorated with laser engraved film purchased from [Alvøen](alvoen.no)
 
 ## Making your own
 
