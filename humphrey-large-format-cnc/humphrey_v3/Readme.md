@@ -26,7 +26,8 @@ This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](htt
 
 * [Fusion360 assembly](https://a360.co/2AF6yjp)
 * [STEP assembly](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip)
-* [BOM](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
+* [BOM pdf](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
+* [Detailed BOM and costs](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
 
 # How to make Humphrey v3
 
