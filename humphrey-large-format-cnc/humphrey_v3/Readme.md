@@ -26,13 +26,12 @@ This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](htt
 
 * [Fusion360 assembly](https://a360.co/2AF6yjp)
 * [STEP assembly](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip)
-* [BOM pdf](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
-* [Detailed BOM and costs](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
+* [Detailed BOM and raw material costs](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
 
 # How to make Humphrey v3
 
 ## Summary
-This is a guide on how to make the Humphrey v3 CNC millling machine.
+This is a guide on how to make the Humphrey CNC millling machine.
 Each section list the parts you will need to complete the stage. Please contribute by offering improvements to these instructions, either by commenting in the Issues or as a Pull-request.
 
 ![making_humphrey_group.jpg](./img/installation/making_humphrey_group.jpg)
@@ -41,19 +40,111 @@ Each section list the parts you will need to complete the stage. Please contribu
 
 [Interactive 3D model](https://a360.co/2AF6yjp)
 
-# Making the kit of parts
+# The the kit of parts
 
-These are instructions for how to make the kit of parts you will need to proceed with the assembly.
+![All parts to build the machine](img/all_parts_before_assembly.jpg)
+
+These are instructions for how to make and purchase the kit of parts that later will be built into the machine.
+
+## Components and raw materials that must be purchased
+
+These are all the raw materials like aluminum bars, all hardware like the motors and spindle and small things like glue, safety googles and all fasteners. This include everything needed to make and operate the machine, except the machines to make the parts on. All prices include shipping (to Oslo). 
+
+* [Google sheet with all costs and supplier links](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
+
+### Costs of all raw materials and components
+
+(January 2019, based on Humphery v4 costs in Norway): 
+
+| Total costs of materials                        | NOK       | USD    |
+|-------------------------------------------------|-----------|--------|
+| **Parts, raw materials and equipment:** | **29 281 kr** | **$3 404** |
+| Spare / Left in stock after delivery            | 3 265 kr  | $380   |
+
+
+| Cost by category                                | NOK       | USD    |
+|-------------------------------------------------|-----------|--------|
+| Consumables                                     | 1 540 kr  | $179   |
+| Electronics                                     | 1 268 kr  | $147   |
+| Fasteners                                       | 2 018 kr  | $235   |
+| Hardware                                        | 8 962 kr  | $1 042 |
+| Raw material                                    | 13 590 kr | $1 580 |
+| Tools and Equipment                             | 1 903 kr  | $221   |
+
+![cost_distribution_humphrey_v4](img/graphs/cost_distribution_humphrey_v4.svg)
+
+[Link to latest cost distribution graph](https://docs.google.com/spreadsheets/d/e/2PACX-1vRFsxxEswFi9kwq5cDtSGkzcAo4d8_0_BTRheJEo51AALQKhjnlniI_c3jKx94n0Hjt0YxRpFg8vjc2/pubchart?oid=960177774&format=interactive)
+
+The categories can be broken down further:
+
+### Consumables
+
+| Sub category | NOK  |
+|--------------|------|
+| Drill bits   | 67   |
+| Hand tools   | 96   |
+| Lubricant    | 49   |
+| Milling bits | 1328 |
+
+### Electronics
+
+| Sub category | NOK |
+|--------------|-----|
+| Cable        | 476 |
+| Connectors   | 16  |
+| Controller   | 589 |
+| Sensors      | 84  |
+| Switches     | 103 |
+
+### Fasteners
+
+| Sub category          | NOK  |
+|-----------------------|------|
+| Glue                  | 82   |
+| Magnets               | 79   |
+| Screws, nuts, washers | 1825 |
+| Zip ties              | 32   |
+
+### Hardware
+
+| Sub category     | NOK  |
+|------------------|------|
+| Bearings         | 635  |
+| Cable management | 387  |
+| Motors & drivers | 3613 |
+| Power supply     | 333  |
+| Spindle & driver | 3994 |
+
+### Raw material
+
+| Sub category      | NOK  |
+|-------------------|------|
+| Aluminium         | 6249 |
+| Elastic cord      | 80   |
+| Leather and cloth | 21   |
+| Plastic           | 154  |
+| Valchromat        | 7086 |
+
+### Tools and Equipment
+
+| Sub category     | NOK  |
+|------------------|------|
+| Collets          | 195  |
+| Hand tools       | 251  |
+| Milling bits     | 1301 |
+| Safety equipment | 80   |
+| Storage          | 76   |
+
+## Parts that can be made
+
+The machining of the parts has been broken down into sub sections:
 
 * [Milling the valchromat parts](Making_the_parts_for_the_table.md)
 * [Milling the aluminium parts](alu_parts.md) 
 * [Making the plastic parts](plastic_parts.md)
 * [Leather skirt DXF file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf) for lasercutting
-* [Bill of materials (BOM) with the "vitamines" you need to buy](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/BOM.pdf)
 
-## Production times
-
-### For a solo experienced person
+### Production times for a solo experienced person
 * Milling the aluminium parts took 5 regular workdays, CAM in Fusion360 and milled on a Shopbot
 * Milling the valchromat parts took 1 regular workday, CAM in Rhino using [Bark Beetle](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths) on a Shopbot
 * (Estimated from Cura) 20 h to print the 3D prints using one Ultimaker 
