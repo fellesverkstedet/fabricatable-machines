@@ -10,9 +10,6 @@ The CNC we used for manufacturing has a 2440 mm long work area, show here in rel
 
 Practically the work will be split up into one piece per session since they take many hours per stock.
 
-Recommended changes:
-* When milling. Make sure there is a loose fit tolerance between the X-rail and the gantry, otherwise it's hard to fit it on and impossible to change it.
-
 ## Files
 
 * Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp) 
@@ -52,6 +49,8 @@ We use VHF single flute milling bits for milling aluminium dry, that is without 
 * [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Get the feeds and speeds here. (These instructions are for an older version.)
 
 * [Make sure the CNC machine is well tuned and that the bed is leveled](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Theory#cnc-mill-machine-preparation). A loose machine vibrates and the chatter will damage the cutting edge of your bits which in turn might suddenly break them without warning.
+
+* Make yourself a favour and lasercut fresh wooden washers (4 mm inner diameter, 15-18 mm outer diameter) from some 3-4mm high quality plywood. It takes almost no time, do it! 
 
 ### Worn bits = sticky chips
 
@@ -95,6 +94,7 @@ Instead we use a few pieces of valchromat to make a quick jig and to clamp down 
 
 ![image](img/aluminium/trimmed.jpg)
 
+* Check the area for "screw volcanos"-bumps from previous jobs and hand sand them off if you find any. 
 * Vaccum of the dust so that the piece can lie flat.
 
 ![image](img/aluminium/vaccum.jpg)
@@ -107,7 +107,7 @@ Instead we use a few pieces of valchromat to make a quick jig and to clamp down 
 
 ![image](img/aluminium/clamp.jpg)
 
-The alumium is now clamped to the table in a known position.
+* The alumium is now clamped to the table in a known position without any screws in the work area!
 
 ![image](img/aluminium/clamped.jpg)
 
@@ -122,14 +122,14 @@ We strongly recommend planning out the whole job before starting to mill since i
 
 ![image](img/aluminium/holddown_scrap.jpg)
 
-*Don't remove the valchromat clamps yet.*
+*The valchromat clamps are removed in this picture, it's safer to leave them on longer.*
 
 * Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit.
 * When that is done you can change the bit to 6 mm and probe the height.
 * Start with milling away all small scrap pieces that were to small to secure with two screws. These can be <10 mm small and still ruin your day (break your bit when they come loose) so look extra carefully for them in the CAM simulation.
 * Mill the pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough.
 * Test the fit of the holes using a loose part. 
-* Now you can remove the clamps. But look out for areas without hold downs, and leave clamps there.
+* Now you can remove the clamps. But look out for areas without hold downs and leave the clamps there.
 
 ![image](img/aluminium/pockets.jpg)
 
@@ -143,16 +143,24 @@ We strongly recommend planning out the whole job before starting to mill since i
 
 *Note the areas where we milled away aluminium scrap that is too small to screw down. Some scrap pieces shown here have only one holddown screaw and therefore risk twisting when being cut loose, not good. Use two screws, even tightly spaced ones are OK.*
 
-* Run the remaining cutout passes with a 0.1mm finishing pass to make it look good.
+* Run the remaining cutout passes with a 0.1mm finishing pass to make it look good. This is the longest milling step and might take hours. Check the simulation time before starting and consider if you need to split the job. Listen for dramatic changes in the milling sound, it hearals trouble! 
+
+![image](img/aluminium/cut_out.jpg)
 
 * Run any tolerance adjustment operations if necessary.
-* Do a visual check if everything is done and got milled. Think twice!
-* Change to a single flute (if available) V bit and break the top edges to reduce the manual labour and to make the rack teeth nicer to the pinions.
+* Do a visual check if everything is done and got milled. Think twice before starting to loosen screws!
+* Change to a single flute (if available) V bit and break the top edges to reduce the manual edge sanding labour and to make the rack teeth nicer to the pinions.
 
 ![image](img/aluminium/break_edges.jpg)
 
-* Remove all parts test assemble them for your pleasure and to check that they fit.
+* Optional! Engrave the parts. It looks professional! **BUT!** Test your V bit on some scrap area to make sure it will look good. A wood-worn V bit will give 
+
+![image](img/aluminium/engrave.jpg)
+
+* Remove all parts and test assemble them for your pleasure and to check that they fit.
 
 ![image](img/aluminium/test_fit.jpg)
+
+* **IF YOU MISSED SOMETHING** It is possible to screw a piece back into place and orient it using the "shadow" left behind on the spoilboard when you cut it out.
 
 [Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
