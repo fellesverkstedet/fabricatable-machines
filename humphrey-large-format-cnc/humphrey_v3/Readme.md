@@ -44,7 +44,7 @@ Each section list the parts you will need to complete the stage. Please contribu
 
 ![All parts to build the machine](img/all_parts_before_assembly.jpg)
 
-These are instructions for how to make and purchase the kit of parts that later will be built into the machine.
+These are instructions for how to make the kit of parts that later will be built into the machine.
 
 ## Components and raw materials that must be purchased
 
@@ -70,6 +70,7 @@ These are all the raw materials like aluminum bars, all hardware like the motors
 | Hardware                                        | 8 962 kr  | $1 042 |
 | Raw material                                    | 13 590 kr | $1 580 |
 | Tools and Equipment                             | 1 903 kr  | $221   |
+
 ![cost_distribution_humphrey_v4](img/graphs/cost_distribution_humphrey_v4.svg)
 
 
@@ -83,7 +84,9 @@ The categories can be broken down further:
 | Hand tools   | 96   |
 | Lubricant    | 49   |
 | Milling bits | 1328 |
+
 ![cost_distribution_humphrey_v4](img/graphs/consumables.svg)
+
 ### Electronics
 
 | Sub category | NOK |
@@ -93,7 +96,9 @@ The categories can be broken down further:
 | Controller   | 589 |
 | Sensors      | 84  |
 | Switches     | 103 |
+
 ![cost_distribution_humphrey_v4](img/graphs/electronics.svg)
+
 ### Fasteners
 
 | Sub category          | NOK  |
@@ -102,7 +107,9 @@ The categories can be broken down further:
 | Magnets               | 79   |
 | Screws, nuts, washers | 1825 |
 | Zip ties              | 32   |
+
 ![cost_distribution_humphrey_v4](img/graphs/fasteners.svg)
+
 ### Hardware
 
 | Sub category     | NOK  |
@@ -112,7 +119,9 @@ The categories can be broken down further:
 | Motors & drivers | 3613 |
 | Power supply     | 333  |
 | Spindle & driver | 3994 |
+
 ![cost_distribution_humphrey_v4](img/graphs/hardware.svg)
+
 ### Raw material
 
 | Sub category      | NOK  |
@@ -122,7 +131,9 @@ The categories can be broken down further:
 | Leather and cloth | 21   |
 | Plastic           | 154  |
 | Valchromat        | 7086 |
+
 ![cost_distribution_humphrey_v4](img/graphs/raw_material.svg)
+
 ### Tools and Equipment
 
 | Sub category     | NOK  |
@@ -132,7 +143,16 @@ The categories can be broken down further:
 | Milling bits     | 1301 |
 | Safety equipment | 80   |
 | Storage          | 76   |
+
 ![cost_distribution_humphrey_v4](img/graphs/tools_and_equipment.svg)
+
+### Left in stock / Spare
+
+Fasteners are bought by the box and aluminium stock in 6 m lengths, this means that there will be some parts left over after the project is delivered. That is provided that no extra aluminium was used up as spare to cover from milling mistakes etc. This is a representation of the values that will be left in stock and can be used in the next project.  
+
+Note that this category does NOT include the tools that is "bound" to the machine, like wrenches for changing bits or safety glasses. Those are considered "consumed" by the building of the machine since they should not be removed from the machine.
+
+![cost_distribution_humphrey_v4](img/graphs/left_in_stock_spare.svg)
 
 ## Parts that can be made
 
