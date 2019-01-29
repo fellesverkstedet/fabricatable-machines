@@ -2,7 +2,7 @@
 
 ## Current status
 
-Operational at [Buene AS](buene.com)
+Operational at [Buene AS](http://buene.com)
 
 ![image](img/assembled_done.jpg)
 
