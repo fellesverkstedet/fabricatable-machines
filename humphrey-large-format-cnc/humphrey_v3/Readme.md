@@ -20,7 +20,7 @@ This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](htt
 * [Roller Axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail)
 * 800W 24000 rpm spindle
 * Valchromat torsion box bed
-* Closed loop 3Nm Nema24 stepper motors
+* [Integrated Closed loop 3Nm Nema24 stepper motors](https://topcnc.aliexpress.com/store/group/Integrated-closed-loop-stepper-Motor/1932111_504161502.html)
 
 ## Complete machine files
 
