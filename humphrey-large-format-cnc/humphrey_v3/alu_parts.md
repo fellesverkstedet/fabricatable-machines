@@ -51,15 +51,25 @@ We use VHF single flute milling bits for milling aluminium dry, that is without 
 
 * [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Get the feeds and speeds here. (These instructions are for an older version.)
 
-## Worn bits = sticky chips
+* [Make sure the CNC machine is well tuned and that the bed is leveled](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Theory#cnc-mill-machine-preparation). A loose machine vibrates and the chatter will damage the cutting edge of your bits which in turn might suddenly break them without warning.
 
-Provided that you are using the correct feeds and speeds you can easily see on the chips if your bit is still nice and sharp. You will use up one or two bits during this project so this is something you NEED to keep an eye on. 
+### Worn bits = sticky chips
+
+Provided that you are using the correct feeds and speeds and a tight machine you can easily see on the chips if your bit is still nice and sharp. You will wear out one bit at some point while milling this project so this is something you NEED to keep an eye on. 
 
 * Fresh bit = The chips do not stick together or to the stock
 * Used bit = the chips stick together in slots but can be brushed away
 * Worn bit = The chips stick together in slots and can not be brushed away, this bit will break if you go on.
 
-Use good dust extraction to avoid leaving loose chips on the part being milled, this causes uncesessary chip re-cutting and wears out your bit faster. 
+![ligthly_used_bit](img/aluminium/ligthly_used_bit.jpg)
+
+*These chips indicate a ligthly used bit, chips are just starting to stick slightly*
+
+![Dangerously_worn_bit](img/aluminium/dangerously_worn_bit.jpg)
+
+*These chips indicate a dangerously worn bit, the chips fuse together forming hard bristles. It will break if used much further.*
+
+Chip re-cutting also wears out your bit faster. To reduce bit wear it is smart to use good dust extraction to avoid leaving loose chips on the part being milled.
 
 ### Hold down of stock
 
@@ -70,13 +80,36 @@ Instead we use a few pieces of valchromat to make a quick jig and to clamp down 
 **Hold down steps:**
 
 * Make holddown pieces
-* Mark the table by milling 0.2 mm into it where the stock should go 
+
+![image](img/aluminium/holddown_pieces.jpg)
+
+* Mark the table by milling 0.2 mm into it where the stock should go. **NOTE!** Make extra sure the cut runs on the inside of the stock profile!
+
+![image](img/aluminium/mark.jpg)
+
 * Screw the jig pieces to the table so that they overlap the milled line a few millimeters.
+
+![image](img/aluminium/place.jpg)
+
 * Run the marking milling job again, use the same gcode file, this trims the jig pieces.
+
+![image](img/aluminium/trimmed.jpg)
+
+* Vaccum of the dust so that the piece can lie flat.
+
+![image](img/aluminium/vaccum.jpg)
+
 * Position the aluminium up against the jig pieces
+
+![image](img/aluminium/align.jpg)
+
 * Use the valchromat clamp pieces to clamp down the aluminium against the table. 
 
+![image](img/aluminium/clamp.jpg)
+
 The alumium is now clamped to the table in a known position.
+
+![image](img/aluminium/clamped.jpg)
 
 **Milling steps:**
 
