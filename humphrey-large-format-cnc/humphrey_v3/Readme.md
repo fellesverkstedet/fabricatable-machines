@@ -27,6 +27,8 @@ This version of Humphrey was commissioned by [MiB - Makerspace i Brumunddal](htt
 * [Fusion360 assembly](https://a360.co/2AF6yjp)
 * [STEP assembly](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip)
 * [Detailed BOM and raw material costs](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
+* [BOM in ODS](img/graphs/BOM.ods)
+* [BOM in PDF](img/graphs/BOM.pdf)
 
 # How to make Humphrey v3
 
@@ -50,7 +52,13 @@ These are instructions for how to make the kit of parts that later will be built
 
 These are all the raw materials like aluminum bars, all hardware like the motors and spindle and small things like glue, safety googles and all fasteners. This include everything needed to make and operate the machine, except the machines to make the parts on. All prices include shipping (to Oslo). 
 
-* [Google sheet with all costs and supplier links](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
+#### Spreadsheet with all costs and supplier links
+
+Use this to purchase all the parts
+
+* [BOM - Google sheet](https://docs.google.com/spreadsheets/d/1O0V0Yyn-vt2MoGoZ2DiTqdFMecpRSYYsnOq32u6BHwU/edit?usp=sharing)
+* [BOM in ODS](img/graphs/BOM.ods)
+* [BOM in PDF](img/graphs/BOM.pdf)
 
 ### Costs of all raw materials and components
 
