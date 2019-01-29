@@ -124,10 +124,10 @@ We strongly recommend planning out the whole job before starting to mill since i
 
 *The valchromat clamps are removed in this picture, it's safer to leave them on longer.*
 
-* Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit.
+* Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit. All pockets that can be, should be done with the 6 mm bit.
 * When that is done you can change the bit to 6 mm and probe the height.
 * Start with milling away all small scrap pieces that were to small to secure with two screws. These can be <10 mm small and still ruin your day (break your bit when they come loose) so look extra carefully for them in the CAM simulation.
-* Mill the pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough.
+* Mill pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough.
 * Test the fit of the holes using a loose part. 
 * Now you can remove the clamps. But look out for areas without hold downs and leave the clamps there.
 
@@ -141,19 +141,20 @@ We strongly recommend planning out the whole job before starting to mill since i
 
 ![image](img/aluminium/secure.jpg)
 
-*Note the areas where we milled away aluminium scrap that is too small to screw down. Some scrap pieces shown here have only one holddown screaw and therefore risk twisting when being cut loose, not good. Use two screws, even tightly spaced ones are OK.*
+*Note the areas where we have milled away aluminium scrap that is too small to screw down. Some scrap pieces shown here have only one holddown screw and therefore are risking twisting when they get cut loose, this is not good. Use two screw holes, even tightly spaced ones are OK.*
 
-* Run the remaining cutout passes with a 0.1mm finishing pass to make it look good. This is the longest milling step and might take hours. Check the simulation time before starting and consider if you need to split the job. Listen for dramatic changes in the milling sound, it hearals trouble! 
+* Run the remaining cutout passes and a 0.1mm finishing pass. This together is the longest milling operation and might take hours. Check the simulation time before starting and consider if you need to split the job to fit you workday. 
+* While milling, listen for dramatic changes in the sound, it hearals trouble! 
 
 ![image](img/aluminium/cut_out.jpg)
 
 * Run any tolerance adjustment operations if necessary.
 * Do a visual check if everything is done and got milled. Think twice before starting to loosen screws!
-* Change to a single flute (if available) V bit and break the top edges to reduce the manual edge sanding labour and to make the rack teeth nicer to the pinions.
+* Change to a V bit (single flute if available) and break the top edges to reduce the manual edge sanding labour and to make the rack teeth nicer to the pinions.
 
 ![image](img/aluminium/break_edges.jpg)
 
-* Optional! Engrave the parts. It looks professional! **BUT!** Test your V bit on some scrap area to make sure it will look good. A wood-worn V bit will give 
+* **Optional!** Engrave the parts. It looks professional! **BUT!** Test your V bit on some scrap area to make sure it will look good. A wood-worn V bit will leave ugly edges in aluminium.
 
 ![image](img/aluminium/engrave.jpg)
 
