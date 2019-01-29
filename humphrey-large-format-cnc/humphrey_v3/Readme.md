@@ -54,7 +54,7 @@ These are all the raw materials like aluminum bars, all hardware like the motors
 
 ### Costs of all raw materials and components
 
-(January 2019, based on Humphery v4 costs in Norway): 
+*(January 2019, based on Humphery v4 costs in Norway):*
 
 | Total costs of materials                        | NOK       | USD    |
 |-------------------------------------------------|-----------|--------|
@@ -70,10 +70,8 @@ These are all the raw materials like aluminum bars, all hardware like the motors
 | Hardware                                        | 8 962 kr  | $1 042 |
 | Raw material                                    | 13 590 kr | $1 580 |
 | Tools and Equipment                             | 1 903 kr  | $221   |
-
 ![cost_distribution_humphrey_v4](img/graphs/cost_distribution_humphrey_v4.svg)
 
-[Link to latest cost distribution graph](https://docs.google.com/spreadsheets/d/e/2PACX-1vRFsxxEswFi9kwq5cDtSGkzcAo4d8_0_BTRheJEo51AALQKhjnlniI_c3jKx94n0Hjt0YxRpFg8vjc2/pubchart?oid=960177774&format=interactive)
 
 The categories can be broken down further:
 
@@ -85,7 +83,7 @@ The categories can be broken down further:
 | Hand tools   | 96   |
 | Lubricant    | 49   |
 | Milling bits | 1328 |
-
+![cost_distribution_humphrey_v4](img/graphs/consumables.svg)
 ### Electronics
 
 | Sub category | NOK |
@@ -95,7 +93,7 @@ The categories can be broken down further:
 | Controller   | 589 |
 | Sensors      | 84  |
 | Switches     | 103 |
-
+![cost_distribution_humphrey_v4](img/graphs/electronics.svg)
 ### Fasteners
 
 | Sub category          | NOK  |
@@ -104,7 +102,7 @@ The categories can be broken down further:
 | Magnets               | 79   |
 | Screws, nuts, washers | 1825 |
 | Zip ties              | 32   |
-
+![cost_distribution_humphrey_v4](img/graphs/fasteners.svg)
 ### Hardware
 
 | Sub category     | NOK  |
@@ -114,7 +112,7 @@ The categories can be broken down further:
 | Motors & drivers | 3613 |
 | Power supply     | 333  |
 | Spindle & driver | 3994 |
-
+![cost_distribution_humphrey_v4](img/graphs/hardware.svg)
 ### Raw material
 
 | Sub category      | NOK  |
@@ -124,7 +122,7 @@ The categories can be broken down further:
 | Leather and cloth | 21   |
 | Plastic           | 154  |
 | Valchromat        | 7086 |
-
+![cost_distribution_humphrey_v4](img/graphs/raw_material.svg)
 ### Tools and Equipment
 
 | Sub category     | NOK  |
@@ -134,6 +132,7 @@ The categories can be broken down further:
 | Milling bits     | 1301 |
 | Safety equipment | 80   |
 | Storage          | 76   |
+![cost_distribution_humphrey_v4](img/graphs/tools_and_equipment.svg)
 
 ## Parts that can be made
 
