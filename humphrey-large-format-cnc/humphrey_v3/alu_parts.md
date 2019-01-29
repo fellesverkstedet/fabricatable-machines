@@ -113,9 +113,11 @@ The alumium is now clamped to the table in a known position.
 
 **Milling steps:**
 
-Having a good sequence for milling aluminium helps keeping track of holddowns and avoids loose pieces, saving you from unecessary broken bits or parts flying away. It can also save time since it reduces tool changes. We strongly recommend planning out the whole job before starting to mill since it otherwise is easy to get "lost" trying to see what is what when you are halfway through a job.
+Having a good sequence for milling aluminium helps keeping track of holddowns and avoids loose pieces, saving you from unecessary broken bits or parts flying away. It can also save time since it reduces tool changes. 
 
-* First run a drilling job with a 4 mm bit for all holddown holes that are there to secure loose scrap pieces and the scrap "skeleton". Make sure to have minimum two holes in all parts that will be loose. 9 / 10 times one screw is enough for small pieces but it sucks to damage a bit on the 10th. (Helical drill operation to a 5 mm diameter for this works great in Fusion360).  
+We strongly recommend planning out the whole job before starting to mill since it otherwise is easy to get "lost" trying to see what is what when you are halfway through a job.
+
+* First run a drilling job with a 4 mm bit for all holddown holes that are there to secure loose scrap pieces and the scrap "skeleton". Make sure to have minimum two holes in all parts that will be loose. (Helical drill operation to 5 mm diameter works great in Fusion360).  
 * Now put screws in ALL the holes you just drilled. No washers needed. Do this before drilling other holes that you WILL confuse them with.
 
 ![image](img/aluminium/holddown_scrap.jpg)
@@ -123,10 +125,11 @@ Having a good sequence for milling aluminium helps keeping track of holddowns an
 *Don't remove the valchromat clamps yet.*
 
 * Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit.
-* Time to change bit to 6 mm and probe the height.
+* When that is done you can change the bit to 6 mm and probe the height.
 * Start with milling away all small scrap pieces that were to small to secure with two screws. These can be <10 mm small and still ruin your day (break your bit when they come loose) so look extra carefully for them in the CAM simulation.
-* Mill the pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough, but test this.
-* Now you can remove the clamps.
+* Mill the pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough.
+* Test the fit of the holes using a loose part. 
+* Now you can remove the clamps. But look out for areas without hold downs, and leave clamps there.
 
 ![image](img/aluminium/pockets.jpg)
 
@@ -138,14 +141,18 @@ Having a good sequence for milling aluminium helps keeping track of holddowns an
 
 ![image](img/aluminium/secure.jpg)
 
+*Note the areas where we milled away aluminium scrap that is too small to screw down. Some scrap pieces shown here have only one holddown screaw and therefore risk twisting when being cut loose, not good. Use two screws, even tightly spaced ones are OK.*
+
 * Run the remaining cutout passes with a 0.1mm finishing pass to make it look good.
+
 * Run any tolerance adjustment operations if necessary.
-* Do a visual check if everything is done and got milled.
+* Do a visual check if everything is done and got milled. Think twice!
 * Change to a single flute (if available) V bit and break the top edges to reduce the manual labour and to make the rack teeth nicer to the pinions.
 
 ![image](img/aluminium/break_edges.jpg)
 
-* Remove one part and test the fit.
-* Remove the rest.
+* Remove all parts test assemble them for your pleasure and to check that they fit.
+
+![image](img/aluminium/test_fit.jpg)
 
 [Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
