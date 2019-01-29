@@ -125,14 +125,27 @@ Having a good sequence for milling aluminium helps keeping track of holddowns an
 * Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit.
 * Time to change bit to 6 mm and probe the height.
 * Start with milling away all small scrap pieces that were to small to secure with two screws. These can be <10 mm small and still ruin your day (break your bit when they come loose) so look extra carefully for them in the CAM simulation.
-* Mill all pockets using a positive tolerance to allow a loose fit.
+* Mill the pockets with a positive tolerance to make assembly easier fit. 0.1 mm should be enough, but test this.
 * Now you can remove the clamps.
+
+![image](img/aluminium/pockets.jpg)
+
 * Time to mark the part outlines! We do this to give a visual indication on the part were the cuts will go, this way it is MUCH simpler to see where to put hold down screws before cuttining loose all the parts. This takes no extra time since we will do 4 passes + finish pass anyway. Practically this will just add a pause after the first pass. 
-* Screw down all the parts using screws with wooden washers. Be generous and rather use more screws than less. Thanks to marking the part outlines in the previous steps you can see exactly where the mill will go.
+
+![image](img/aluminium/outlines.jpg)
+
+* Screw down all the parts using screws with wooden washers. Be generous and rather use more screws than less. Thanks to marking the part outlines in the previous steps you can see exactly where the mill will go. Remember that the goal is to reduce vibrations, not just to keep the part from flying away.
+
+![image](img/aluminium/secure.jpg)
+
 * Run the remaining cutout passes with a 0.1mm finishing pass to make it look good.
-* Run any tolerance adjustment passes if necessary.
-* Check if everything is done
-* Remove one part and test the fit
-* Remove the rest
+* Run any tolerance adjustment operations if necessary.
+* Do a visual check if everything is done and got milled.
+* Change to a single flute (if available) V bit and break the top edges to reduce the manual labour and to make the rack teeth nicer to the pinions.
+
+![image](img/aluminium/break_edges.jpg)
+
+* Remove one part and test the fit.
+* Remove the rest.
 
 [Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
