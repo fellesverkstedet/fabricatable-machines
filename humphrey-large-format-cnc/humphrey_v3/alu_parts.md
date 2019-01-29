@@ -116,7 +116,12 @@ The alumium is now clamped to the table in a known position.
 Having a good sequence for milling aluminium helps keeping track of holddowns and avoids loose pieces, saving you from unecessary broken bits or parts flying away. It can also save time since it reduces tool changes. We strongly recommend planning out the whole job before starting to mill since it otherwise is easy to get "lost" trying to see what is what when you are halfway through a job.
 
 * First run a drilling job with a 4 mm bit for all holddown holes that are there to secure loose scrap pieces and the scrap "skeleton". Make sure to have minimum two holes in all parts that will be loose. 9 / 10 times one screw is enough for small pieces but it sucks to damage a bit on the 10th. (Helical drill operation to a 5 mm diameter for this works great in Fusion360).  
-* Now put screws in ALL the holes you just drilled. No washers needed. Do this before drilling other holes that you WILL confuse them with. Don't remove the valchromat clamps yet.
+* Now put screws in ALL the holes you just drilled. No washers needed. Do this before drilling other holes that you WILL confuse them with.
+
+![image](img/aluminium/holddown_scrap.jpg)
+
+*Don't remove the valchromat clamps yet.*
+
 * Now the aluminium is firmly secured and you can run all small hole operations that require the 4 mm bit.
 * Time to change bit to 6 mm and probe the height.
 * Start with milling away all small scrap pieces that were to small to secure with two screws. These can be <10 mm small and still ruin your day (break your bit when they come loose) so look extra carefully for them in the CAM simulation.
