@@ -120,6 +120,11 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 * 1x Power supply (we recommended 36v for the iHSS57 steppers)
 * 2x E-chains or peasant style flexible strip of plastic
 
+### Wiring notes
+
+* Spindle Power supply interface: Professional aviation Interface, Interface 1234 marked 123 respectively connected to the inverter output end of the (U, V, W), 4 ground wire this interface must be safe ground. 
+* Suggestion: Diodes should be added to prevent flow of current from the proximity switches signal wire to the arduino. This will preventuse the LED on the switch to be always on instead of just when it detects something. The sensor will function correctly without doing this and the arduino seems to survive it but I think it's better to prevent it by installing a diode. Why I think this happens: The sensor signal wire is pulled high to 36V (or the power supply voltage) inside the sensor package and the arduino pins are pulled high to the USB 5V with 20kOhm internal pull up resistors. They share the ground.
+
 ### Screw-and-glue joints for Valchromat
 I have deviced a way of removing the need for clamps when glueing milled valchromat parts together. The parts are slotted with the CNC so that you can screw them together from the side without them instantly cracking. Milled parts can be assembled using finger joints and then gently screwed together with a cordless electric screwdriver on a low torque setting. This screw joint will fail if you try to torque it very hard so only use it to provide a good clamping force for the glue to set.
 ![](img/experiment/screw_locked_finger_joint_test.jpg)
