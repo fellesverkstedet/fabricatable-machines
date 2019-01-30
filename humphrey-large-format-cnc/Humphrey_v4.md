@@ -18,7 +18,7 @@ Operational at [Buene AS](http://buene.com)
 
 ![image](img/closeup_done.jpg)
 
-![image](img/first_cuts.jpg)
+![image](img/first_cuts_h4.jpg)
 
 First cuts!
 
