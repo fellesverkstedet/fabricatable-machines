@@ -111,10 +111,12 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 * Locking mechanism for safety door
 * See our [European shopbot intallations](https://github.com/fellesverkstedet/European-ShopBot-installations) repo for ongoing research into safe and convenient installations of milling machines
 
-**Control board**
+**Controlling the machine**
 * 1x [Arduino UNO](https://store.arduino.cc/genuino-uno-rev3) using the [grbl firmware](https://github.com/gnea/grbl/wiki/Connecting-Grbl). [Use this version of GRBL](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/GRBL_Spindle_ENABLE.zip)
 * 1x [GRBL screw terminal shield](https://www.tindie.com/products/18robots/grbl-compatible-cnc-shield-for-arduino/) 
 * *Alternative control board is the awesome [Replicape](https://www.thing-printer.com/product/replicape/), removes the need for a dedicated computer to run the machine*
+* Use [Universal Gcode sender to control the machine](http://winder.github.io/ugs_website/)
+
 
 **Miscellaneous**
 * 1x Power supply (we recommended 36v for the iHSS57 steppers)
