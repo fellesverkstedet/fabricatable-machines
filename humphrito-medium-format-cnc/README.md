@@ -126,7 +126,23 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
 
 * Spindle Power supply interface: Professional aviation Interface, Interface 1234 marked 123 respectively connected to the inverter output end of the (U, V, W), 4 ground wire this interface must be safe ground. 
 * Suggestion: Diodes should be added to prevent flow of current from the proximity switches signal wire to the arduino. This will preventuse the LED on the switch to be always on instead of just when it detects something. The sensor will function correctly without doing this and the arduino seems to survive it but I think it's better to prevent it by installing a diode. Why I think this happens: The sensor signal wire is pulled high to 36V (or the power supply voltage) inside the sensor package and the arduino pins are pulled high to the USB 5V with 20kOhm internal pull up resistors. They share the ground.
+* Wire the VFD to the arduino: VI to PWM, FOR to SPINDLE DIRECTION, ACM and DCM to GROUND.
 
+![VFD](VFD_wires.jpg)
+* **Set these parameters on the VFD*
+ * pd000 = 0 
+ * pd001 = 1 
+ * pd002 = 1
+ * PD005 = 400
+ * pd007 = clear
+ * PD011 = 165
+ * pd014 = 2
+ * pd015 = 2
+ * pd070 = 1
+ * jumper leftmost (VI to center)
+ * Don't set a minimum frequency on the VFD, it will not allow it to turn off then. 
+ * Don't set a minumum RPM in the firmware either, that moves the starting voltage of the PWM and messes up the RPM control.
+ 
 ### Screw-and-glue joints for Valchromat
 I have deviced a way of removing the need for clamps when glueing milled valchromat parts together. The parts are slotted with the CNC so that you can screw them together from the side without them instantly cracking. Milled parts can be assembled using finger joints and then gently screwed together with a cordless electric screwdriver on a low torque setting. This screw joint will fail if you try to torque it very hard so only use it to provide a good clamping force for the glue to set.
 ![](img/experiment/screw_locked_finger_joint_test.jpg)
