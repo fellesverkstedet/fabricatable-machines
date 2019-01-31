@@ -135,12 +135,11 @@ The Z axis with spindle mounting holes and trapped nuts on the back.
  * pd002 = 1
  * PD005 = 400
  * pd007 = clear
- * PD011 = 165
  * pd014 = 2
  * pd015 = 2
  * pd070 = 1
  * jumper leftmost (VI to center)
- * Don't set a minimum frequency on the VFD, it will not allow it to turn off then. 
+ * PD011 = 0 Don't set a minimum frequency on the VFD, it will not allow it to turn off then. 
  * Don't set a minumum RPM in the firmware either, that moves the starting voltage of the PWM and messes up the RPM control.
  
 ### Screw-and-glue joints for Valchromat
