@@ -34,7 +34,7 @@ Practically the work will be split up into one piece per session since they take
 
 ![Alu Parts](./img/parts/Roller_axis_plates.JPG)
 
-* X_Z_rails_cores [Fusion CAM](https://a360.co/2PhWqAk)
+* x-z rail [Fusion CAM](https://a360.co/2PhWqAk)
 
 ![Alu Parts](./img/parts/X_Z_rails_cores.JPG)
 
