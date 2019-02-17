@@ -18,7 +18,7 @@ Practically the work will be split up into one piece per session since they take
 
 ## Recommend milling sections:
 
-* Mega_nuts_long_motor_plates_2_motor_spacers [Fusion CAM](https://a360.co/2PiNYRo)
+* Y_rail_holder_alu [Fusion CAM](https://a360.co/2PiNYRo)
 
 ![Alu Parts](./img/parts/Mega_nuts_long_motor_plates_2_motor_spacers.JPG)
 
