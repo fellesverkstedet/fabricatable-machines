@@ -38,7 +38,7 @@ Practically the work will be split up into one piece per session since they take
 
 ![Alu Parts](./img/parts/X_Z_rails_cores.JPG)
 
-* 2_motor_plates_z_homeing_plate [Fusion CAM](https://a360.co/2PiNYRo)
+* Missed parts [Fusion CAM](https://a360.co/2SJKKvD)
 
 ![Alu parts](./img/parts/2_motor_plates_z_homeing_plate.JPG)
 
