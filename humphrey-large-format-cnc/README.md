@@ -1,6 +1,6 @@
 # Humphrey - Large format CNC mill
  
- ![Humphrey v2 Doing its first production](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/in_production.JPG)
+ ![Humphrey v2 Doing its first production](img/in_production.JPG)
  
 *[Humphrey v2](humphrey_v2.md) doing it's first production cuts at [Newtone AS](https://newtone.no/) in Oslo.*
  
