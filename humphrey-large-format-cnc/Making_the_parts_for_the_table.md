@@ -7,7 +7,7 @@ _"A torsion box consists of two thin layers of material (skins) on either side o
 
 The purpose of the tosion box is to make a stiff bed for the CNC machine to travel and operate on while keeping the parts easy to transport.
 
-![torsion box](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/table_complete.jpg)
+![torsion box](img/assembly/table_complete.jpg)
 
 *TODO:*
 * Add missing pieces of valchromat dust skirt to 8 mm and 12 mm sheets.

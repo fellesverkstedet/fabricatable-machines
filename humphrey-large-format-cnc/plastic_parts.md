@@ -25,7 +25,7 @@ These are all the 3D prints needed for dust protection of Humphreys rollers.
 
 It takes in total ca 30h to print all parts.
 
-![All prints](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v2/img/all_3d_printed_components.JPG)
+![All prints](img/all_3d_printed_components.JPG)
 
 _All the dust covers and vipers for Humphrey version 3 when freshly printed (some have a differnt design compared to Humphrey 4)_
 
@@ -33,8 +33,8 @@ You need a 3D printer and some patience, any FDM-3d-printer will do. PETG and PL
 
 Start with printing a copy of the cover "test platform" (see filename) and a "Roller_cover" to see if they fit.
 
-![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/apart-cover.jpg)
-![test](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/Roller%20axis/img/assembled-cover-test.jpg)
+![test](img/apart-cover.jpg)
+![test](img/assembled-cover-test.jpg)
 
 Download the zip-files, unzip. Print the 33 parts in the quantities listed below, the quantiy is also written in each filename.
 
@@ -46,7 +46,7 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Covers
 
-[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Roller_covers_stl_h4.zip)
+[Zip file](Roller_covers_stl_h4.zip)
 
 * Roller_cover 18st
 * Roller_cover_y_axis 4st
@@ -55,7 +55,7 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Vipers
 
-[Zip file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Viper_stl_h4.zip)
+[Zip file](Viper_stl_h4.zip)
 
 * Viper_h4 12st
 
