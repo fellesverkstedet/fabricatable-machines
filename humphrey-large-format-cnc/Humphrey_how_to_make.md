@@ -53,7 +53,7 @@ The machining of the parts has been broken down into sub sections:
 * [Milling the valchromat parts](Making_the_parts_for_the_table.md)
 * [Milling the aluminium parts](alu_parts.md) 
 * [Making the plastic parts](plastic_parts.md)
-* [Leather skirt DXF file](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf) for lasercutting
+* [Leather skirt DXF file](laser_leather_skirt.dxf) for lasercutting
 
 ### Production times for a solo experienced person
 * Milling the aluminium parts took 5 regular workdays, CAM in Fusion360 and milled on a Shopbot

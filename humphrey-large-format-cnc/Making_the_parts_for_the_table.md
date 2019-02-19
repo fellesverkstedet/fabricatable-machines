@@ -1,5 +1,5 @@
 
-# Making the parts for the table
+# Milling the valchromat parts for the table
 
 _"A torsion box consists of two thin layers of material (skins) on either side of a lightweight core, usually a grid of beams."_
 
@@ -97,9 +97,7 @@ The pockets on both long edges are 9 mm deep.
 
 * Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
 
-[How to make the other parts](Humphrey_how_to_make.md)
-
-[To the assembly overview](Humphrey_how_to_assemble.md)
+[Back to How to make the other parts](Humphrey_how_to_make.md)
 
 [Back to Humphrey overview](README.md)
 
