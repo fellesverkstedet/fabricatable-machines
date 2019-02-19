@@ -1,5 +1,5 @@
 
-# Torsion box table
+# Making the parts for the table
 
 _"A torsion box consists of two thin layers of material (skins) on either side of a lightweight core, usually a grid of beams."_
 
@@ -12,9 +12,7 @@ The purpose of the tosion box is to make a stiff bed for the CNC machine to trav
 *TODO:*
 * Add missing pieces of valchromat dust skirt to 8 mm and 12 mm sheets.
 
-# Making the parts for the table
-
-Materials required
+## Materials required
 
 Valchromat sheets 1220X2440 mm
 
@@ -99,8 +97,9 @@ The pockets on both long edges are 9 mm deep.
 
 * Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
 
+[How to make the other parts](Humphrey_how_to_make.md)
 
-[How to assemble the table](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Table_assembly.md)
+[To the assembly overview](Humphrey_how_to_assemble.md)
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to Humphrey overview](README.md)
 

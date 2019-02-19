@@ -46,7 +46,7 @@ Practically the work will be split up into one piece per session since they take
 
 We use VHF single flute milling bits for milling aluminium dry, that is without cooling. Always use new bits or bits that are only used in aluminium.
 
-* [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Get the feeds and speeds here. (These instructions are for an older version.)
+* [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Get the feeds and speeds here. 
 
 * [Make sure the CNC machine is well tuned and that the bed is leveled](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Theory#cnc-mill-machine-preparation). A loose machine vibrates and the chatter will damage the cutting edge of your bits which in turn might suddenly break them without warning.
 
@@ -164,4 +164,8 @@ We strongly recommend planning out the whole job before starting to mill since i
 
 * **IF YOU MISSED SOMETHING** It is possible to screw a piece back into place and orient it using the "shadow" left behind on the spoilboard when you cut it out.
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to the overview of how to make the other parts](Humphrey_how_to_make.md)
+
+[On to the assembly page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey readme](README.md)

@@ -17,8 +17,6 @@
  
  * [How to mill the pinions](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Follow our generic instruction on the wiki
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
-
 # 3D prints for Humphrey 4
 
 These are all the 3D prints needed for dust protection of Humphreys rollers. 
@@ -65,4 +63,8 @@ I recommend PLA or PETG with double or triple wall thickness using a 0.4mm nozzl
 
 ### Pictures
 
-![Covers and vipers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v2/img/covers_n_vipers.png)
+![Covers and vipers](img/covers_n_vipers.png)
+
+[How to make the other parts](Humphrey_how_to_make.md)
+
+[Back to Humphrey overview](README.md)

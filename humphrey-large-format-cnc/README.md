@@ -13,16 +13,13 @@
 * Traveling gantry with integrated electronics
 * Made from 200mm x 8mm aluminium flat bar stock and 8 and 12mm valchromat
 
-## How to make
+## How to build and use a Humphrey
 
-[![Make your own](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
+[![Make your own kit](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
 
-[Learn to make your own humphrey!](Humphrey_how_to_make.md)
-
-## How to use
-
+* [How to make a kit of parts](Humphrey_how_to_make.md)
+* [How to assemble the kit](Humphrey_how_to_assemble.md)
 * [Tuning guide](tuning.md)
-* [Programming](electronics.md#programming)
 * [How to run a milling job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
 
 ## Made versions of Humphrey
