@@ -30,7 +30,7 @@ Practically the work will be split up into one piece per session since they take
 
 ![Alu Parts](./img/parts/y-rails.JPG)
 
-* **ON HOLD** Being updated. Roller axis plates [Fusion CAM](https://a360.co/2Bg37jq)
+* Roller axis plates [Fusion CAM](https://a360.co/2Bg37jq)
 
 ![Alu Parts](./img/parts/Roller_axis_plates.JPG)
 

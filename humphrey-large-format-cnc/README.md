@@ -17,13 +17,13 @@
 
 [![Make your own](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
 
-[Learn to make your own humphrey!](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md)
+[Learn to make your own humphrey!](Humphrey_how_to_make.md)
 
 ## How to use
 
 * [Tuning guide](tuning.md)
 * [Programming](electronics.md#programming)
-* [How to run a milling job](How-to-use#humphrey)
+* [How to run a milling job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
 
 ## Made versions of Humphrey
 _As of Januari 2019 Jakob Nilsson_
