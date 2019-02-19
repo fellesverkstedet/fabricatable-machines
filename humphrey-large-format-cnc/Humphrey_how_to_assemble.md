@@ -31,7 +31,7 @@ The drilling and threading of the aluminium parts took up a large portion of tha
 
 *All parts of Humphrey v4 before assembly*
 
-![posing_with_motion_system](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/installation/posing_with_motion_system.JPG)
+![posing_with_motion_system](img/installation/posing_with_motion_system.JPG)
 
 *Makers from Dalamakers posing during the assembly of Humphrey v3*
 

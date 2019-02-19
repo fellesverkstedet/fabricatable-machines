@@ -20,7 +20,7 @@ _There are Ø6mm holes drilled through the aluminium Y-rails upp through the two
 
 * Use the straight guide to check if the Y-rail on the side with the ledge is straight. If it isn't release screws and adjust as neccessary. 
 
-![straight check](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/ledge_table.JPG)
+![straight check](img/assembly/ledge_table.JPG)
 
 One side is now straight and will be our reference for the second one. 
 
@@ -28,7 +28,7 @@ One side is now straight and will be our reference for the second one.
 
 * Insert the Ø6mm stopper screws or dowels into both sides of aluminum Y-rails to form stopping referenses for the gantry. Put them in the Ø6mm holes that are closest to the middle of the machine, and behind the gantry. They don't have to go in further than the aluminium, we just want them to stop the gantry from rolling past.
 
-![stoppers](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/stop_hole.jpg)
+![stoppers](img/assembly/stop_hole.jpg)
 
 * Now we know that the gantry is "square" to the rails. Now we will set the rollers of the gantry feet to the width between the Y-rails. We do it here in the middle of the machine since the rails are at a fixed distance here.
 
@@ -38,11 +38,11 @@ One side is now straight and will be our reference for the second one.
 
 * To tune the rollers you will need a 8mm (steel) and a 17 mm wrench (it's part of the aluminium milling cut-sheets so you should have one).
 
-![tools for tuning](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/tools.jpg)
+![tools for tuning](img/assembly/tools.jpg)
 
 * Not all rollers can or should be tuned. The ones you need to tune have an aluminum 6-side "nut" shape under the bearing and a hex-head bolt. The fixed rollers have a countersunk internal hex head and a round spacer, they should be nice and tight and will always be the fixed references we tune towards.
 
-![rollers](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/fixed_moving.JPG)
+![rollers](img/assembly/fixed_moving.JPG)
 
 * Always tighten the excenters in the counter-clockwise direction, this way it will not move when the bolt is tighened. (The adjustable rollers cosist of an exceter with 1,5mm travel in each direction when turned a full turn. This means that it can be tighened either direction, clockwise or counter-clockwise.)
 
@@ -123,7 +123,9 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to assembly main page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey overview](README.md)
 
 
 ## OPTIONAL EXTRA TUNING: Tramming of spindle
@@ -163,4 +165,6 @@ CONGRATULATIONS YOUR MACHINE IS NOW TUNED!
 
 You are now ready to start wireing your machine, see the [Electronics](electronics.md) chapter
 
-[Back to the main instructions page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to assembly main page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey overview](README.md)

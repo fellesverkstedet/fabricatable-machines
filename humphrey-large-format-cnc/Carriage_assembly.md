@@ -175,9 +175,11 @@
 
 _CONGRATULATIONS! THAT CONCLUDES THE CARRIAGE ASSEMBLY_
 
-[Instructions continues in: Tuning the motion system](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3/tuning.md)
+Instructions continues in: [Tuning the motion system](tuning.md)
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to assembly main page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey overview](README.md)
 
 
 

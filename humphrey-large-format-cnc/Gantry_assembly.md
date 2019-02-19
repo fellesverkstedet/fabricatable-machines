@@ -27,11 +27,11 @@ There are 150 holes in total on the whole machine that needs drilling and thread
 
 NOTE: If you are multiple people helping with the assembly, thread the parts as you go, starting with the ones needed for the first steps.
 
-![Drill marks](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_marks.jpg)
+![Drill marks](img/assembly/drill_marks.jpg)
 
-![Drill And tap](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/drill_and_tap.jpg)
+![Drill And tap](img/assembly/drill_and_tap.jpg)
 
-![Drilling](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/4.4mm_drill.jpg)![Threading](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/assembly/threading_bit.jpg)
+![Drilling](img/assembly/4.4mm_drill.jpg)![Threading](img/assembly/threading_bit.jpg)
 
 *Use a good 4.2-4.4mm diameter drill bit and a **spiral fluted thread cutting bit**. The combination bits that both drill and thread at the same time work well until they break and the hassle of removing a broken threading bit is not worth it*
 
@@ -201,4 +201,6 @@ _CONGRATULATIONS! THAT CONCLUDES THE GANTRY ASSEMBLY_
 
 Continued in [Carriage assembly](Carriage_assembly.md)
 
-[Back to assembly main page](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v3#how-to-make-humphrey-v3)
+[Back to assembly main page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey overview](README.md)

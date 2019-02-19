@@ -62,7 +62,7 @@ Spindle controls schematic:
 * ACM(GND) is a signal ground reference (for the PWM).
 
 ### LEGACY Humphrey v3 HRBL controller card
-![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/hrbl_connections_all.JPG)
+![Connections](img/electronics/hrbl_connections_all.JPG)
 
 ### Programming
 
@@ -107,7 +107,7 @@ The pinion rolls 40 mm per revolution so that and 3200 steps per revolution give
 
 Make 4 of these, the ribbon cables should be at least 1.6 meters long each. The plugs go into the controller card and into the motors.
 
-![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/img/electronics/Connector_guide.jpg)
+![Connections](img/electronics/Connector_guide.jpg)
 
 ## Spindle and Variable Frequency Drive
 
@@ -191,4 +191,9 @@ P8 + P9 = gives total torque. They can be set to max for max performance but set
 
 It’s not worth messing with the kp, ki and damping values unless you know what you are doing. We think they control how the stepper driver drives the current levels between steps, not how it uses the closed loop position. Changing them seems to changes the ”squeek” of the motors but not much else. Remember that is a closed loop stepper and not a servo. 
 
-[Back to the overview](Readme.md)
+When you are ready to test the machine see [How to run a milling job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)]
+
+[Back to assembly main page](Humphrey_how_to_assemble.md)
+
+[Back to Humphrey overview](README.md)
+
