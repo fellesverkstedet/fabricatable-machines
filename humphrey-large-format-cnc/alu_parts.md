@@ -10,6 +10,10 @@ The CNC we used for manufacturing has a 2440 mm long work area, show here in rel
 
 Practically the work will be split up into one piece per session since they take many hours per stock.
 
+![Alu milling 2h 15 min](img/aluminium/mill_parts_alu_humphrey.gif)
+ 
+*Simulation of 2 h 15 min aluminum milling, it's the lower section of the "Roller axis plates" below. In practice it will take about twice that since the operator needs time to screw all parts down correctly, do tool changes and plunder the table when it's done.*
+
 ## Files
 
 * Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp) *Currently broken in fusion, fix coming*
