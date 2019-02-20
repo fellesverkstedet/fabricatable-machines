@@ -1,8 +1,8 @@
 # Humphrey - Large format CNC mill
  
- ![Humphrey v2 Doing its first production](img/in_production.JPG)
+ ![Humphrey v2 Doing its first production](img/humphrey_versions1to4.jpg)
  
-*[Humphrey v2](humphrey_v2.md) doing it's first production cuts at [Newtone AS](https://newtone.no/) in Oslo.*
+*The first 4 iterations of Humphrey right after assembly*
  
  ## What is a Humphrey CNC mill
  
@@ -29,21 +29,21 @@ The Humphrey model has been made in four completed versions and one more is in p
 
 1. [Humphrey v1](humphrey_v1.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
 2. [Humphrey v2](humphrey_v2.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed at [Newtone](https://newtone.no/) in Oslo.
-3. [Humphrey v3](humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
-4. [Humphrey v4](humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
+3. [Humphrey v3](Humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
+4. [Humphrey v4](Humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
 5. A kit of parts for **Humphrey v5** is being produced by Nikolai Kolstad at [Fellesverkstedet](https://www.fellesverkstedet.no/) for [Kuben upper secondary school](https://kuben.vgs.no/) in Oslo.
 
 ### Humphrey v4 
 
 ![image](img/assembled_done.jpg)
 
-[Humphrey v4](humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
+[Humphrey v4](Humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
 
 ### Humphrey v3 
 
 ![installing_humphrey_group.jpg](img/installation/posing_with_assembled_machine.JPG)
 
-[Humphrey v3](humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
+[Humphrey v3](Humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
 
 ### Humphrey v2
 
