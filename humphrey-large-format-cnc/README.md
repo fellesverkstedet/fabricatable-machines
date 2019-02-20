@@ -25,6 +25,8 @@
 ## Made versions of Humphrey
 _As of Januari 2019 Jakob Nilsson_
 
+Click the links for more pictures!
+
 The Humphrey model has been made in four completed versions and one more is in production.
 
 1. [Humphrey v1](humphrey_v1.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
@@ -35,25 +37,25 @@ The Humphrey model has been made in four completed versions and one more is in p
 
 ### Humphrey v4 
 
-![image](img/assembled_done.jpg)
+[![image](img/assembled_done.jpg)](Humphrey_v4.md)
 
 [Humphrey v4](Humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
 
 ### Humphrey v3 
 
-![installing_humphrey_group.jpg](img/installation/posing_with_assembled_machine.JPG)
+[![installing_humphrey_group.jpg](img/installation/posing_with_assembled_machine.JPG)](Humphrey_v3.md)
 
 [Humphrey v3](Humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
 
 ### Humphrey v2
 
-![Humphrey v2 Doing its first production](img/in_production.JPG)
+[![Humphrey v2 Doing its first production](img/in_production.JPG)](humphrey_v2.md)
 
 [Humphrey v2](humphrey_v2.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed at [Newtone](https://newtone.no/) in Oslo.
 
 ### Humphrey v1
 
-![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)
+[![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)](humphrey_v1.md)
 
 [Humphrey v1](humphrey_v1.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
 
