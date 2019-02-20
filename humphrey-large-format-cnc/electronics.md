@@ -12,7 +12,7 @@ Electronics assembly steps:
 * Attach the arduino to the controller card
 * Test if the card works by connecting to it via USB
 * Program the arduino with GRBL
-* Connect with UGS and do the firmware settings
+* Connect with UGS and do the firmware settings, use the correct size of your machine!
 * Make the cables for the motors and switches
 * Thread them through the holes in the gantry to where they should go. Mark the ends by the controller with X, Y and Z.
 * Make a power cable from the power supply to the controller, don't power yet.
@@ -35,7 +35,9 @@ Electronics assembly steps:
 * Attach the back of the gantry.
 * Clean of the table
 * Test jogging to all extremes, no snags or strange sounds. There should be no rattling (loose tuning of wheels or pinions) or squeeking, that means a pinion gets too tight for some reason. Retune if necessary. 
-* Set up a homeing sequence, before running it, jog the machine to the probe plate and test that it sends a probe alarm when you short it with a tool. 
+* Set up a homeing sequence, before running it, jog the machine to the probe plate and test that it sends a probe alarm when you short it with a tool. [Use this gcode file as a template](Settings_backup/home_and_probe_grbl.gcode). Run one line at a time and find out the values you need for your machine and save it in a file of your own. 
+* TIP: Add the homeing routine to your UGS macros list by removing comments and separating the commands with semicolons (;). Keep the file for it's human readable comments.
+* Double check the machine size settings in the firmware from your homeing switches and consider using soft limits.
 * See the [wiki instructions for how to set up a job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
 * Run a test job, have a fire extinguisher at hand, wear safety googles and ear protection.
 * You now have a working machine!

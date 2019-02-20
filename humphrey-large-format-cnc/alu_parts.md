@@ -12,9 +12,9 @@ Practically the work will be split up into one piece per session since they take
 
 ## Files
 
-* Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp)
-* [Full step model](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/Assembly_h3%20v5_step.zip)
-* [All step files with the aluminium layouts](./parts/alu_parts_STEP.zip)
+* Full 3D model files online view [(Fusion)](https://a360.co/2AF6yjp) *Currently broken in fusion, fix coming*
+* [Full step model](Assembly_h3%20v5_step.zip) *Not the latest model*
+* [All step files with the aluminium layouts](./parts/alu_parts_STEP.zip) *latest as of 20/02/2019*
 
 ## Recommend milling sections:
 

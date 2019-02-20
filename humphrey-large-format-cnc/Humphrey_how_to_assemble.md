@@ -6,7 +6,7 @@
 
 This is a guide on how to build the Humphrey CNC millling machine from a kit of parts.
 
-To learn how to make the kit of parts see [How to make the kit](Humphrey_how_to_make.md)
+To learn how to machine the parts yourself see [How to make the kit](Humphrey_how_to_make.md)
 
 ## Putting it together
 

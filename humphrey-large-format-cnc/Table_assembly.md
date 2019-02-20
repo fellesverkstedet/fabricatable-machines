@@ -5,7 +5,7 @@ This section tells you how to build the table. It is recommended to start with t
 
 ![table](img/assembly/table_complete.jpg)
 
-[View 3D model in browser](https://a360.co/2AF6yjp)
+[View 3D model in browser](https://a360.co/2AF6yjp) *Currently broken. Fix coming*
 
 The table consist of a [torison box](https://en.wikipedia.org/wiki/Torsion_box) that rests on 6 legs with adjustable feet. On top of the torsion box there is a 19 mm thick spoil board sheet that is the size of the work area of the machine. This layer will be worn down when using the machine and will have to be re-planed every now and then and eventually it will have to be made thicker again by glueing on more sheets.
 

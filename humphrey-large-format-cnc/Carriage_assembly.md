@@ -145,7 +145,7 @@
 
 ## Leather dust skirt
 
-* [Leather skirt DXF files](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/laser_leather_skirt.dxf)
+* [Leather skirt DXF files](laser_leather_skirt.dxf)
 
 * Attach a leather skirt to the perimeter, predrill the wood or it will crack. Cracks can be fixed with glue :)
 

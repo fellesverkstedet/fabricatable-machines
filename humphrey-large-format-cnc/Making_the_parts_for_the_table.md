@@ -9,8 +9,7 @@ The purpose of the tosion box is to make a stiff bed for the CNC machine to trav
 
 ![torsion box](img/assembly/table_complete.jpg)
 
-*TODO:*
-* Add missing pieces of valchromat dust skirt to 8 mm and 12 mm sheets.
+
 
 ## Materials required
 
@@ -32,10 +31,13 @@ All you need to make the parts:
 * [Cleaned DXF files from Rhino with optional holddown](Table_parts_DXF-cleaned_holddown.zip) Try these first.
 * (Option) [DXF-files from fusion](Table_parts_DXF_from_fusion.zip) Try these if your CAM software can't open the ones above.
 
+*TODO:*
+* Add missing pieces of valchromat dust skirt to 8 mm and 12 mm sheets.
+
 *Source files:* (Normally not needed)
 * [Fusion model with layouts and most parts](https://a360.co/2Mzsrp2)
 * [Fusion model with the main torsion box core parts](https://a360.co/2OGe8wh)
-* [Fusion model with the legs](https://a360.co/2MuRitT)
+* [Fusion model with the legs](https://a360.co/2MuRitT) *Currently borken, fix coming*
 
 * [Online 3D model containing all parts](https://a360.co/2AF6yjp)
 
