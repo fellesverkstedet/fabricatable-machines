@@ -27,19 +27,13 @@ Equipment required
 * 3 mm milling bits
 
 ## Files
-All you need to make the parts:
-* [Cleaned DXF files from Rhino with optional holddown](Table_parts_DXF-cleaned_holddown.zip) Try these first.
-* (Option) [DXF-files from fusion](Table_parts_DXF_from_fusion.zip) Try these if your CAM software can't open the ones above.
-
-*TODO:*
-* Add missing pieces of valchromat dust skirt to 8 mm and 12 mm sheets.
-
-*Source files:* (Normally not needed)
+* [DXF files for milling](DXF_valchromat.zip)
 * [Fusion model with layouts and most parts](https://a360.co/2Mzsrp2)
 * [Fusion model with the main torsion box core parts](https://a360.co/2OGe8wh)
-* [Fusion model with the legs](https://a360.co/2MuRitT) *Currently borken, fix coming*
+* [Fusion model with the legs](https://a360.co/2MuRitT) 
 
-* [Online 3D model containing all parts](https://a360.co/2AF6yjp)
+* [Online 3D model containing all parts](https://a360.co/2AF6yjp) *Currently broken, fix coming*
+
 
 ## General
 
@@ -48,14 +42,12 @@ All you need to make the parts:
 
 ## 12 mm sheets
 
-3 sheets
-
 The 3mm wide slots are 9 mm deep
 
 * Sheet 1: 12 mm torsion box parts 1 
 
 ![wood sheet](img/parts/wood/12mm_1.JPG)
-* Sheet 2: 12 mm torsion box parts 2 
+* Sheet 2: 12 mm torsion box parts 2. 12.5 mm pockets are 3.5mm deep.
 ![wood sheet](img/parts/wood/12mm_2.JPG)
 * Sheet 3: 6 legs probe and VFD stiffeners 
 
@@ -69,17 +61,11 @@ The 3mm wide slots are 9 mm deep
 
 ## 8 mm sheets
 
-3 sheets
-
 The 3mm wide slots are 6.5 mm deep
 
 The pockets on the top edges is 4mm deep in both cases.
 
-* Sheet 1: 8 mm torsion box parts 1 
-
-### TODO: 
-* Add Valchro-dust shields
-* Add sensor holders 2 st
+* Sheet 1: 8 mm torsion box parts 1. 12.5 mm pockets are 3.5mm deep.
 
 ![wood sheet](img/parts/wood/8mm_1.JPG)
 * Sheet 2: 8 mm torsion box parts 2 
@@ -91,13 +77,11 @@ The pockets on the top edges is 4mm deep in both cases.
 
 ## 19 mm sheet
 
-* Sheet 1: 19mm Spoilboard with alignment holes and glue holddowns
-
-![wood sheet](img/parts/wood/19mm_1.JPG)
-
 The pockets on both long edges are 9 mm deep.
 
-* Sheet 1: 19 mm spoilboard with pre-drilled holes and ledges on the sides
+* Sheet 1: 19mm spoilboard with pre-drilled holes and ledges on the sides
+
+![wood sheet](img/parts/wood/19mm_1.JPG)
 
 [Back to How to make the other parts](Humphrey_how_to_make.md)
 
