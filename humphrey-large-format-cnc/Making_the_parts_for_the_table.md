@@ -37,41 +37,34 @@ Equipment required
 
 * The parts are modelled with dogbones for a 6mm bit.
 * Additonal holddown screw-holes can and should be be added, also inside parts where needed.
+* The 30mm diameter circles are indications of where to put hold downs.
 
 ## 12 mm sheets
 
-The 3mm wide slots are 9 mm deep
-
-* Sheet 1: 12 mm torsion box parts 1
+* Sheet 1: 12 mm torsion box parts 1. The 3mm wide slots are 9 mm deep.
 
 ![wood sheet](img/parts/wood/12mm_1.JPG)
-* Sheet 2: 12 mm torsion box parts 2. 12.5 mm pockets are 3.5mm deep.
+* Sheet 2: 12 mm torsion box parts 2. The 3mm wide slots are 9 mm deep. 12.5 mm pockets are 3.5mm deep. Mill a ledge on the outside of the circular parts to 6mm depth.
 ![wood sheet](img/parts/wood/12mm_2.JPG)
-* Sheet 3: 6 legs probe and VFD stiffeners. Countersink all 5 mm holes for large wood screw heads.
+* Sheet 3: 6 legs probe and VFD stiffeners. The 3mm wide slots are 9 mm deep. Countersink all 5 mm holes for large wood screw heads.
 
 ![wood sheet](img/parts/wood/12mm_3.JPG)
 
 ## 8 mm sheets
 
-The 3mm wide slots are 6.5 mm deep
-
-The pockets on the top edges is 4mm deep in both cases.
-
-* Sheet 1: 8 mm torsion box parts 1. 12.5 mm pockets are 3.5mm deep.
+* Sheet 1: 8 mm torsion box parts 1. The long pocket along the ledge is 4mm deep. The 3mm wide slots are 6.5 mm deep. 12.5 mm pockets are 3.5mm deep.
 
 ![wood sheet](img/parts/wood/8mm_1.JPG)
-* Sheet 2: 8 mm torsion box parts 2
+* Sheet 2: 8 mm torsion box parts 2. The 3mm wide slots are 6.5 mm deep
 
 ![wood sheet](img/parts/wood/8mm_2.JPG)
-* Sheet 3: 8 mm torsion box parts 3
+* Sheet 3: 8 mm torsion box parts 3. The 3mm wide slots are 6.5 mm deep. The long pocket along the ledge is 4mm deep.
 
 ![wood sheet](img/parts/wood/8mm_3.JPG)
 
 ## 19 mm sheet
 
-The pockets (ledges) on both long edges are 9.5 mm deep.
-
-* Sheet 1: 19mm Spoilboard with alignment holes, glue hold-downs and ledges on the sides
+* Sheet 1: 19mm Spoilboard with alignment holes, glue hold-downs and ledges on the sides. The pockets (ledges) on both long edges are 9.5 mm deep.
 
 ![wood sheet](img/parts/wood/19mm_1.JPG)
 
