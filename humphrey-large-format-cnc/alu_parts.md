@@ -46,6 +46,10 @@ Practically the work will be split up into one piece per session since they take
 
 ![Alu parts](./img/parts/2_motor_plates_z_homeing_plate.JPG)
 
+**NOTE** Alu spindle mount needs to be fitted to the spindle bolt pattern, measure to be safe!
+
+![Alu parts](./img/parts/spindle_mount.jpg)s
+
 ## How to mill aluminium parts
 
 We use VHF single flute milling bits for milling aluminium dry, that is without cooling. Always use new bits or bits that are only used in aluminium.
