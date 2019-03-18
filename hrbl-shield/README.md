@@ -66,6 +66,28 @@ HRBL is currently in use in:
 * **Side FRONT: load file: F.Cu Use bit: Ø0.4mm** First, compare the position of the small holes to your CAM view and see that you have the correct orientation of the file. Then pocket the copper to 0.1-0.3 mm deep.
 * **Side: FRONT Use bit: Ø1mm** Cut the big mounting holes, then cut out the card, a larger bit can be used if you want too. 
 
+#### Lasercut the soldemask and silkscreen
+
+* Use a lasercutter and move the focus height to the top of th film!
+
+### Production photos
+
+![Card](img/Hrbl1.jpg)
+
+![Card](img/Hrbl2.jpg)
+
+![Card](img/Hrbl3.jpg)
+
+![Card](img/Hrbl4.jpg)
+
+![Card](img/Hrbl5.jpg)
+
+![PCB](img/pcb_solder_mask_back_before.JPG)
+
+![PCB](img/pcb_solder_mask_front_before.JPG)
+
+![Laser sheet](img/laser_sheets_specs.JPG)
+
 ## Notes from previous fabrications 
 
 * Careful with which layer you mirror when you mill it!
@@ -100,12 +122,4 @@ HRBL is currently in use in:
 * Consider replacing the 16 single channel SFH6206-3T optocouplers with 4 channel 4TLP291-4(GB) for reduced part count and cheaper BOM. 
 * (From [issue 20](https://github.com/fellesverkstedet/fabricatable-machines/issues/20) consider if we should change the 5V voltage regulator.
 * Establish a maximum current that we can draw through the card to the motors without overheating the traces (or ribbon cable).
-
-# Pictures
-
-![PCB](img/pcb_solder_mask_back_before.JPG)
-
-![PCB](img/pcb_solder_mask_front_before.JPG)
-
-![Laser sheet](img/laser_sheets_specs.JPG)
 
