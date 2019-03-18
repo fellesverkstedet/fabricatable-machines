@@ -3663,8 +3663,6 @@ FC EE D7 6C 9E 57 47 5A 40 67 6E 82 00 F2 B8 92 2B EB 22 BE 32 FF 57 E4 39 21 AE
 53 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 6750 6650 2    50   Input ~ 0
-5V_ISO
 $Comp
 L power:GND #PWR0101
 U 1 1 5B810170
@@ -3971,36 +3969,36 @@ F 3 "" H 4700 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 POWER_IN1
+L Connector_Generic:Conn_01x02 PWR_IN1
 U 1 1 5B826A36
-P 9500 7550
-F 0 "POWER_IN1" H 9580 7542 50  0000 L CNN
-F 1 "Conn_01x02" H 9580 7451 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 9500 7550 50  0001 C CNN
-F 3 "~" H 9500 7550 50  0001 C CNN
-	1    9500 7550
+P 9500 3150
+F 0 "PWR_IN1" H 9580 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 9580 3051 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 9500 3150 50  0001 C CNN
+F 3 "~" H 9500 3150 50  0001 C CNN
+	1    9500 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+36V #PWR015
 U 1 1 5B826C66
-P 9200 7550
-F 0 "#PWR015" H 9200 7400 50  0001 C CNN
-F 1 "+36V" V 9215 7678 50  0000 L CNN
-F 2 "" H 9200 7550 50  0001 C CNN
-F 3 "" H 9200 7550 50  0001 C CNN
-	1    9200 7550
+P 9200 3150
+F 0 "#PWR015" H 9200 3000 50  0001 C CNN
+F 1 "+36V" V 9215 3278 50  0000 L CNN
+F 2 "" H 9200 3150 50  0001 C CNN
+F 3 "" H 9200 3150 50  0001 C CNN
+	1    9200 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR016
 U 1 1 5B826C6C
-P 9200 7650
-F 0 "#PWR016" H 9200 7450 50  0001 C CNN
-F 1 "GNDPWR" V 9204 7541 50  0000 R CNN
-F 2 "" H 9200 7600 50  0001 C CNN
-F 3 "" H 9200 7600 50  0001 C CNN
-	1    9200 7650
+P 9200 3250
+F 0 "#PWR016" H 9200 3050 50  0001 C CNN
+F 1 "GNDPWR" V 9204 3141 50  0000 R CNN
+F 2 "" H 9200 3200 50  0001 C CNN
+F 3 "" H 9200 3200 50  0001 C CNN
+	1    9200 3250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4216,21 +4214,6 @@ F 3 "" H 5950 6250 50  0001 C CNN
 	1    5950 6250
 	1    0    0    -1  
 $EndComp
-Text Label 6800 5950 0    50   ~ 0
-FOR
-Text Label 6750 6150 0    50   ~ 0
-DCM(COM)
-$Comp
-L power:GNDS #PWR06
-U 1 1 5B842985
-P 7250 7000
-F 0 "#PWR06" H 7250 6750 50  0001 C CNN
-F 1 "GNDS" V 7255 6872 50  0000 R CNN
-F 2 "" H 7250 7000 50  0001 C CNN
-F 3 "" H 7250 7000 50  0001 C CNN
-	1    7250 7000
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R11
 U 1 1 5B842D78
@@ -4258,26 +4241,15 @@ $EndComp
 Text Notes 5850 5650 0    50   ~ 0
 Spindle controls
 $Comp
-L Connector_Generic:Conn_01x02 PROBE1
-U 1 1 5B84979A
-P 500 6250
-F 0 "PROBE1" H 420 5925 50  0000 C CNN
-F 1 "Conn_01x02" H 420 6016 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 500 6250 50  0001 C CNN
-F 3 "~" H 500 6250 50  0001 C CNN
-	1    500  6250
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GNDS #PWR011
 U 1 1 5B84A86D
-P 950 5850
-F 0 "#PWR011" H 950 5600 50  0001 C CNN
-F 1 "GNDS" V 955 5722 50  0000 R CNN
-F 2 "" H 950 5850 50  0001 C CNN
-F 3 "" H 950 5850 50  0001 C CNN
-	1    950  5850
-	0    -1   -1   0   
+P 9150 8000
+F 0 "#PWR011" H 9150 7750 50  0001 C CNN
+F 1 "GNDS" V 9155 7872 50  0000 R CNN
+F 2 "" H 9150 8000 50  0001 C CNN
+F 3 "" H 9150 8000 50  0001 C CNN
+	1    9150 8000
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -4309,8 +4281,6 @@ Text GLabel 4750 7250 2    50   Input ~ 0
 5V_ISO
 Text GLabel 1350 6050 0    50   Input ~ 0
 5V_ISO
-Text Label 800  6250 0    50   ~ 0
-PROBE_PLATE
 Text Notes 1700 5750 0    50   ~ 0
 Probe connector
 Wire Wire Line
@@ -4359,12 +4329,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5B893FA4
-P 9250 7400
-F 0 "#FLG0101" H 9250 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 7574 50  0000 C CNN
-F 2 "" H 9250 7400 50  0001 C CNN
-F 3 "~" H 9250 7400 50  0001 C CNN
-	1    9250 7400
+P 9250 3000
+F 0 "#FLG0101" H 9250 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 3174 50  0000 C CNN
+F 2 "" H 9250 3000 50  0001 C CNN
+F 3 "~" H 9250 3000 50  0001 C CNN
+	1    9250 3000
 	1    0    0    -1  
 $EndComp
 Text Notes 3300 6900 0    50   ~ 0
@@ -4372,12 +4342,12 @@ Voltage regulator fixed 5V
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5B90DCFF
-P 9250 7800
-F 0 "#FLG0102" H 9250 7875 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 7973 50  0000 C CNN
-F 2 "" H 9250 7800 50  0001 C CNN
-F 3 "~" H 9250 7800 50  0001 C CNN
-	1    9250 7800
+P 9250 3400
+F 0 "#FLG0102" H 9250 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 3573 50  0000 C CNN
+F 2 "" H 9250 3400 50  0001 C CNN
+F 3 "~" H 9250 3400 50  0001 C CNN
+	1    9250 3400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -4491,19 +4461,19 @@ $EndComp
 Text Notes 150  3150 0    50   ~ 0
 All motors ALARM in Parallell
 Wire Wire Line
-	9200 7550 9250 7550
+	9200 3150 9250 3150
 Wire Wire Line
-	9200 7650 9250 7650
+	9200 3250 9250 3250
 Wire Wire Line
-	9250 7400 9250 7550
-Connection ~ 9250 7550
+	9250 3000 9250 3150
+Connection ~ 9250 3150
 Wire Wire Line
-	9250 7550 9300 7550
+	9250 3150 9300 3150
 Wire Wire Line
-	9250 7800 9250 7650
-Connection ~ 9250 7650
+	9250 3400 9250 3250
+Connection ~ 9250 3250
 Wire Wire Line
-	9250 7650 9300 7650
+	9250 3250 9300 3250
 $Comp
 L pspice:CAP C1
 U 1 1 5BA0E8D0
@@ -4544,7 +4514,7 @@ L pspice:CAP C3
 U 1 1 5BA6120C
 P 3950 5950
 F 0 "C3" V 3635 5950 50  0000 C CNN
-F 1 "100nF (0.1uF)" V 3726 5950 50  0000 C CNN
+F 1 "100nF" V 3726 5950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3950 5950 50  0001 C CNN
 F 3 "" H 3950 5950 50  0001 C CNN
 	1    3950 5950
@@ -4904,18 +4874,6 @@ F 3 "~" H 700 7500 50  0001 C CNN
 	1    700  7500
 	1    0    0    -1  
 $EndComp
-Text Label 800  5850 2    50   ~ 0
-GROUND_SPINDLE
-Wire Wire Line
-	700  6100 700  6150
-Wire Wire Line
-	700  6250 1750 6250
-Wire Wire Line
-	750  5850 750  6100
-Wire Wire Line
-	750  6100 700  6100
-Wire Wire Line
-	750  5850 950  5850
 $Comp
 L power:+5V #PWR0115
 U 1 1 5B8E61E3
@@ -4929,14 +4887,12 @@ F 3 "" H 1600 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 1450 1600 1550
-Text Notes 8250 6450 0    50   ~ 0
+Text Notes 9600 7450 0    50   ~ 0
 DCM(COM)
-Text Notes 8250 6350 0    50   ~ 0
+Text Notes 9600 7350 0    50   ~ 0
 FOR
-Text Notes 8250 6650 0    50   ~ 0
+Text Notes 9600 7750 0    50   ~ 0
 ACM(GND)
-Text Notes 8250 6550 0    50   ~ 0
-VI\n
 $Comp
 L pspice:DIODE S1JA-13-F1
 U 1 1 5B92F59F
@@ -4963,39 +4919,8 @@ Text Notes 150  3750 0    50   ~ 0
 Diodes to  stop backflow from the\n 36V pullup on the limit switch signal pin
 Text Notes 1400 600  0    50   ~ 0
 Incoming signals
-$Comp
-L Connector_Generic:Conn_01x04 SPINDLE1
-U 1 1 5B97B5A1
-P 8150 6400
-F 0 "SPINDLE1" H 8230 6392 50  0000 L CNN
-F 1 "Conn_01x04" H 8230 6301 50  0000 C BNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 8150 6400 50  0001 C CNN
-F 3 "~" H 8150 6400 50  0001 C CNN
-	1    8150 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 6150 7650 6150
-Wire Wire Line
-	7650 6400 7650 6150
-Wire Wire Line
-	7650 6400 7950 6400
-Wire Wire Line
-	7950 6300 7750 6300
-Text Notes 7150 6150 0    50   ~ 0
-Spindle_EN_out
-Text Notes 6950 5950 0    50   ~ 0
-+24V in
-Text Notes 6850 6850 0    50   ~ 0
+Text Notes 7750 6900 0    50   ~ 0
 Spindle PWM out
-Text Label 6750 6850 0    50   ~ 0
-VI
-Text Label 7300 7000 0    50   ~ 0
-ACM(GND)
-Wire Wire Line
-	6750 5950 7750 5950
-Wire Wire Line
-	7750 5950 7750 6300
 Wire Wire Line
 	2700 2000 2850 2000
 Connection ~ 2700 2000
@@ -5186,12 +5111,6 @@ Connection ~ 1750 2550
 Connection ~ 1750 2400
 Wire Wire Line
 	1750 2400 1750 2550
-Wire Wire Line
-	7950 6600 7950 7000
-Wire Wire Line
-	7300 6500 7300 6850
-Wire Wire Line
-	7300 6850 6750 6850
 $Comp
 L power:+5V #PWR037
 U 1 1 5BB922EE
@@ -14021,16 +13940,125 @@ Connection ~ 2750 7750
 Connection ~ 3150 7750
 Text Notes 250  1100 0    50   ~ 0
 This detects extrernal power loss
-Text Notes 200  6500 0    50   ~ 0
-Potential ground loop with spindle case earth. \nAvoid grounding case of spindle.
-Wire Wire Line
-	7300 6500 7950 6500
-Wire Wire Line
-	7250 7000 7950 7000
+Text Notes 300  6950 0    50   ~ 0
+Potential ground loop with spindle case earth. \nCan be avoided by NOT grounding case of \nspindle but that inreases electromagnetic noise. \nRecommendation, ground case and try, \ndisconnect if problems arise.
 Text Notes 3500 3200 0    50   ~ 0
 GRBL PINOUT REFERENCE
-Text Notes 6700 6550 0    50   ~ 0
-Make REF V IN
-Text Notes 6500 7150 0    50   ~ 0
-Make PULL DOWN TO PWM. Don't connect GNDS
+$Comp
+L Connector_Generic:Conn_01x08 SIGNAL_SOCKET1
+U 1 1 5C900CC3
+P 9500 7600
+F 0 "SIGNAL_SOCKET1" H 9250 7050 50  0000 L CNN
+F 1 "Conn_01x08" H 9300 6950 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical" H 9500 7600 50  0001 C CNN
+F 3 "~" H 9500 7600 50  0001 C CNN
+	1    9500 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 7300 0    50   Input ~ 0
+SOURCE_FOR
+Text GLabel 9150 7400 0    50   Input ~ 0
+GND_FOR
+Wire Wire Line
+	9150 7300 9300 7300
+Wire Wire Line
+	9150 7400 9300 7400
+Text GLabel 9150 7700 0    50   Input ~ 0
+GND_SPEED
+Text GLabel 9150 7500 0    50   Input ~ 0
+SOURCE_SPEED
+Text GLabel 9150 7600 0    50   Input ~ 0
+SIGNAL_SPEED
+Text GLabel 9150 7800 0    50   Input ~ 0
+PROBE_PLATE
+Wire Wire Line
+	9150 7500 9300 7500
+Wire Wire Line
+	9150 7600 9300 7600
+Wire Wire Line
+	9150 7700 9300 7700
+Wire Wire Line
+	9150 7900 9300 7900
+Text Notes 9600 7250 0    50   ~ 10
+HY Inverter \n(Aliexpress)
+Text Notes 9600 7550 0    50   ~ 0
++10V
+Text Notes 9600 7650 0    50   ~ 0
+VI
+Text Notes 10200 7250 0    50   ~ 10
+Invertek\nOptidrive
+Text Notes 10200 7350 0    50   ~ 0
++24 (1)\n
+Text Notes 10200 7450 0    50   ~ 0
+DIN1 (2)
+Text Notes 10200 7550 0    50   ~ 0
++10 (5)
+Text Notes 10200 7650 0    50   ~ 0
+Al1/D14 (6)
+Text Notes 10200 7750 0    50   ~ 0
+0V (7)
+Text GLabel 9150 7900 0    50   Input ~ 0
+5V_ISO
+Wire Wire Line
+	9150 8000 9300 8000
+Text GLabel 6800 5950 2    50   Input ~ 0
+SOURCE_FOR
+Text GLabel 6800 6150 2    50   Input ~ 0
+GND_FOR
+Text GLabel 6800 6650 2    50   Input ~ 0
+SOURCE_SPEED
+Text GLabel 7100 6850 2    50   Input ~ 0
+SIGNAL_SPEED
+Text Notes 7400 6650 0    50   ~ 0
+Spindle PWM voltage in
+Text GLabel 7100 7150 2    50   Input ~ 0
+GND_SPEED
+$Comp
+L Device:R R27
+U 1 1 5C986E7D
+P 6850 7000
+F 0 "R27" H 6920 7046 50  0000 L CNN
+F 1 "1000" H 7050 7050 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6780 7000 50  0001 C CNN
+F 3 "~" H 6850 7000 50  0001 C CNN
+	1    6850 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 7150 6850 7150
+Text Notes 7300 6000 0    50   ~ 0
+FOR signal voltage in
+Text Notes 6950 7050 0    50   ~ 0
+Pull down for PWM
+Text Notes 10750 7250 0    50   ~ 10
+VFD w/o PWM\nVref Source
+Text Notes 10750 7550 0    50   ~ 0
+JUMPER to pin7 (5V_ISO)
+Text Notes 10750 7650 0    50   ~ 0
+SPEED signal (0-5V)
+Text Notes 10750 7750 0    50   ~ 0
+JUMPER to pin8 (GNDS)
+Text GLabel 600  6250 0    50   Input ~ 0
+PROBE_PLATE
+Wire Wire Line
+	600  6250 1750 6250
+Text Label 800  6250 0    50   ~ 0
+PROBE_PLATE
+Wire Wire Line
+	6850 6850 7100 6850
+Wire Wire Line
+	6750 6850 6850 6850
+Connection ~ 6850 6850
+Wire Wire Line
+	6750 6650 6800 6650
+Wire Wire Line
+	6750 6150 6800 6150
+Wire Wire Line
+	6750 5950 6800 5950
+Wire Wire Line
+	9150 7800 9300 7800
+Text Notes 2750 5150 1    50   ~ 0
+Option: add indicator LED here, 1 for all
+Text Notes 2050 7000 0    50   ~ 0
+Add diode for reverse voltage protection?
 $EndSCHEMATC

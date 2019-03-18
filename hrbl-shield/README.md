@@ -19,22 +19,18 @@ HRBL is an Arduiono NANO shield aiming to simplify connecting motors, limit swit
 
 ![Connections](img/connections.JPG)
 
-[Connections SVG](img/hrbl_shield.svg)
-
 ## Files
 
-* [All dxf files for milling and laser engraving the foil](nano/CNC/nano-all_DXFs.zip)
-* [KiCAD Schematic](nano/nano.sch) 
-* [PDF Schematic](nano/Schematic.pdf)
-* [KiCAD Board](nano.kicad_pcb)
-* [KiCAD project file](nano.pro)
-* [KiCAD project folder](nano/)
+* [DXF](Hrbl_shield_dxf.zip)
+* [KiCAD](Hrbl_shield_kicad.zip) 
+* [SVG](Hrbl_shield_svg.zip)
+* [PDF Schematic](Hrbl_shield_pdf.pdf)
 
 ### Status
-
+    
 HRBL is currently in use in:
 * [Hedy v1](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hedy-pcb-cnc/readme.md) A CNC milling machine made to mill circuit boards like this one.
-* [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) A large size CNC milling machine built as a kit by Makerspace in Brumundal.
+* [Humphrey, several versions](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) A large size CNC milling machine.
 
 ### Functionality
 
@@ -45,7 +41,7 @@ HRBL is currently in use in:
 * Spindle control with start and speed control. Uses optocoupler for safe handling of extrernal start signal
 * External power loss detection, keeps the controller in ABORT mode when there is no power to the motors.
 
-### BOM
+### BOM (Out of date! See KiCAD files)
 * [BOM PDF](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.pdf)
 * [BOM ODS format](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.ods)
 
