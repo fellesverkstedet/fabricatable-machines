@@ -43,9 +43,10 @@ HRBL is currently in use in:
 * Spindle control with start and speed control. Uses optocoupler for safe handling of extrernal start signal
 * External power loss detection, keeps the controller in ABORT mode when there is no power to the motors.
 
-### BOM (Out of date! See KiCAD files)
-* [BOM PDF](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.pdf)
-* [BOM ODS format](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.ods)
+### BOM 
+* [Google sheet](https://docs.google.com/spreadsheets/d/1vCA67Y1DIPJUeFW0_8VqS5qq00QMX1T2yQB_3mDYkL8)
+* [BOM PDF](Hrlb_shield_BOM_pdf.pdf)
+* [BOM ODS format](Hrlb_shield_BOM_ods.ods)
 
 ### Dependables
 
