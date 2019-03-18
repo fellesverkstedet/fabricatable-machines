@@ -19,6 +19,8 @@ HRBL is an Arduiono NANO shield aiming to simplify connecting motors, limit swit
 
 ![Connections](img/connections.JPG)
 
+![Connections](img/connections_BACK.JPG)
+
 ## Files
 
 * [DXF](Hrbl_shield_dxf.zip)
