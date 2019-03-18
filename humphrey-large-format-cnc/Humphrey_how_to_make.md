@@ -54,6 +54,7 @@ The machining of the parts has been broken down into sub sections:
 * [Milling the aluminium parts](alu_parts.md) 
 * [Making the plastic parts](plastic_parts.md)
 * [Leather skirt DXF file](laser_leather_skirt.dxf) for lasercutting
+* [Making a shielded circuit board with connectors](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/README.md)
 
 ### Production times for a solo experienced person
 * Milling the aluminium parts took 5 regular workdays, CAM in Fusion360 and milled on a Shopbot
