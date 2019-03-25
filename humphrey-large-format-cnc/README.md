@@ -1,8 +1,9 @@
 # Humphrey - Large format CNC mill
  
- ![Humphrey v2 Doing its first production](img/humphrey_versions1to4.jpg)
+  ![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
  
-*The first 4 iterations of Humphrey right after assembly*
+ *The 5th iteration of Humphrey at Kuben High school, Oslo Norway*
+
  
  ## What is a Humphrey CNC mill
  
@@ -13,6 +14,10 @@
 * Traveling gantry with integrated electronics
 * Made from 200mm x 8mm aluminium flat bar stock and 8 and 12mm valchromat
 
+ ![Humphrey v2 Doing its first production](img/humphrey_versions1to4.jpg)
+ 
+ *The first 4 iterations of Humphrey right after assembly*
+ 
 ## How to build and use a Humphrey
 
 [![Make your own kit](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
