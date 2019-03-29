@@ -20,12 +20,12 @@
  
 ### How to build and use an aluminium gantry Humphrey
 
-[![Make your own kit](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
-
 * [How to make a kit of parts](Humphrey_how_to_make.md)
 * [How to assemble the kit](Humphrey_how_to_assemble.md)
 * [Tuning guide](tuning.md)
 * [How to run a milling job](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use#humphrey)
+
+[![Make your own kit](img/Small_humphrey_being_upgraded_to_rollers.JPG)](Humphrey_how_to_make.md)
 
 ### How to build a wood gantry Humphrey
 
