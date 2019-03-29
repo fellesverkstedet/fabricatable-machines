@@ -5,11 +5,11 @@
 *Shortbed version inside safety enclosure*
 
 ### BOM
-*(Bill of materials, the stuff you need buy in order to make one)*
+*(Bill of materials, the stuff you need to buy in order to make one)*
 
 **Stock for milling:**
 * For rails and axis carriages: 1pcs - 8mm Valchromat sheet 2440mm x 1220mm *(or similar type of HDF)*
-* For gantry and bed torsion box struture: 2pcs - 12mm OSB, Valchromat or other type of cheap wood composite sheet in 2440mm x 1220mm size
+* For gantry and bed torsion box struture: 2pcs - 12mm OSB, Valchromat, MDF or other type of cheap wood composite sheet in 2440mm x 1220mm size
 * For rack piecs: 1pcs - 4-8mm thickness polycarbonate 800mm x 320mm *(or other strong plastic type; POM, UHMWPE etc)*
 * For pinions: 1pcs  - 12mm POM 150mm x 100mm *(or other strong plastic type)*
 
@@ -23,7 +23,7 @@
 * 3pcs - [M20 Cable gland](https://www.sick.com/se/en/m20-gland/p/p315311)
 
 **Electronics:**
-* 4pcs -[ihss60 closed loop stepper motor with intergrated driver](https://www.aliexpress.com/store/product/NEMA-24-3N-m-425ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS60-36-30/1932111_32713260490.html)
+* 4pcs - [ihss60 closed loop stepper motor with intergrated driver](https://www.aliexpress.com/store/product/NEMA-24-3N-m-425ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS60-36-30/1932111_32713260490.html)
 * 1pcs - [40000 RPM spindle and driver kit](https://www.aliexpress.com/store/product/250w-40000rpm-ER8-Brushless-spindle-motor-MACH3-driver-DC36V-for-CNC-drilling-milling-carving-kits/1932111_32757165445.html)
 * 1pcs - [36V power supply](https://no.farnell.com/mean-well/hep-480-36a/power-supply-ac-dc-36v-13-3a/dp/2815954?st=power%20supply) *to power the four stepper moters and spindle*
 * 3pcs - [proximity switches](https://www.aliexpress.com/store/product/SN04-N-SN04-N2-SN04-P-SN04-P2-DC-NPN-PNP-NO-NC-4MM-DC-10/3105031_32842303693.html) or [green version](https://www.aliexpress.com/store/3105031/search?filterAllSearch=false&freeShipCountry=&minPrice=&maxPrice=&SearchText=sn04)
