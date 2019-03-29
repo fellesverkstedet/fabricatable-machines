@@ -36,11 +36,11 @@
 
 **Fasteners:**
 * 0.5l - standard PVA wood glue
-* 100pcs+- - 30mm torx 20 screws (pluss suitable diamter drill for predrilling)
-* 20pcs+- - M5 25mm socket head bolt (DIN standard machine screw)
-* 8pcs+- - M5 30mm socket head bolt (DIN standard machine screw)
+* 100pcs+- - 30mm torx20 wood screws, plus 1pcs wood drill of suitable diamter for predrilling
+* 20pcs+- - M5 25mm socket head bolt *(DIN standard machine screw)*
+* 8pcs+- - M5 30mm socket head bolt *(DIN standard machine screw)*
 * 30+- - M5 nuts
-* 10+- - M5 washers
+* 50+- - M5 washers
 
 ### Cut sheets
 Download work in progress cutsheets [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/new-dev-files)
