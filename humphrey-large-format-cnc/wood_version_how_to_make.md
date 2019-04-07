@@ -40,18 +40,23 @@
 * 100pcs+- - 30mm torx20 wood screws, plus 1pcs wood drill of suitable diamter for predrilling
 * 20pcs+- - M5 25mm socket head bolt *(DIN standard machine screw)*
 * 8pcs+- - M5 30mm socket head bolt *(DIN standard machine screw)*
-* 30+- - M5 nuts
-* 50+- - M5 washers
+* 30pcs+- - M5 nuts
+* 50pcs+- - M5 washers
+* 12pcs - M5 10mm set screws *(for attaching the pinoins to the motor shafts)*
+* 1pcs - M5 tap *(for tapping the set screw holes in the pinoins)*
+* 20pcs+- - 6mm wood dowel pins *(for aligning the rack pices to the rails)*
 
 ### Cut sheets
 Download work in progress cutsheets [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/new-dev-files)
 ![12mm and 8m cut sheet](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/wood-version-cut-sheets.jpg)
 
 ### How to fabricate the parts
-Download the [cutsheets](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/new-dev-files), order materials then cnc mill all the parts at your local fab lab, makerspace or hackerspace *(more info pending)*
+Download the [cutsheets](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files), order materials then CNC mill all the parts at your local fab lab, makerspace or hackerspace *(more info pending)*
+
+You can also 3D print the four [pinions](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood-gantry-files/pinion_for_3Dprinting.stl) with fabrication service like Shapeways. We reccomend SLS nylon printing for maxiumum strength and wear resistance.
 
 ### How to assemble
-Step by step instructions are pending, for now you can study the [3D assembly STEP file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/new-dev-files) for guidance
+Step by step instructions are pending, for now you can study the [3D assembly STEP or Rhino file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files) for guidance
 
 ### How to tune
 * Carefully adjust the eccentric bearings towards the rail surfce with the help of an hex/allen key *(the bearings should not spin freely but follow the movement of the axis, but dont tighten too hard as this will create prematre wear of the valchromat rails)*
