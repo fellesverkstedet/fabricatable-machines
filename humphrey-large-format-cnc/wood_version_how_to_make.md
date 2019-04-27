@@ -47,7 +47,7 @@
 * 20pcs+- - 6mm wood dowel pins *(for aligning the rack pices to the rails)*
 
 ### Cut sheets
-Download work in progress cutsheets [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/new-dev-files)
+Download work in progress cutsheets [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files)
 ![12mm and 8m cut sheet](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/wood-version-cut-sheets.jpg)
 
 ### How to fabricate the parts
