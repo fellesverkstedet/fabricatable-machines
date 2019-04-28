@@ -9,7 +9,7 @@
  ## Files
  
 * [Fusion File](https://a360.co/2MCFBlb) 
-* [Step file](./parts/40_pinion_dual_gap_STEP.zip)
+* [Step file](40_pinion_dual_gap_STEP.zip)
  
  Make at least 4 of these and a few spares.
  
