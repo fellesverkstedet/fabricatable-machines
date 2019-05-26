@@ -54,11 +54,18 @@ Practically the work will be split up into one piece per session since they take
 
 We use VHF single flute milling bits for milling aluminium dry, that is without cooling. Always use new bits or bits that are only used in aluminium.
 
-* [Aluminium milling advice in the wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Get the feeds and speeds here. 
-
 * [Make sure the CNC machine is well tuned and that the bed is leveled](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Theory#cnc-mill-machine-preparation). A loose machine vibrates and the chatter will damage the cutting edge of your bits which in turn might suddenly break them without warning.
 
 * Make yourself a favour and lasercut fresh wooden washers (4 mm inner diameter, 15-18 mm outer diameter) from some 3-4mm high quality plywood. It takes almost no time, do it!
+
+
+* These values have been used successfully on a [ShopBot PRSalpha](https://www.shopbottools.com/products/alpha)
+  * 6mm Endmill Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 2.5mm, ramp angle 12deg
+  * 4mm Endmill Up-Cut single-flute: Feed rate 10mm/s, plunge rate 6.7mm/s, Spindle RPM 18000, pass depth 1.68mm, ramp angle 12deg
+  * 3mm Endmill Up-Cut single-flute: Feed rate 9mm/s, plunge rate 6mm/s, Spindle RPM 18000, pass depth 1.2mm, ramp angle 12deg
+* Large cutouts and pockets should be milled in two operations to save time:
+  * **Roughing** 6mm Endmill Up-Cut single-flute: Feed rate 36mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 1.8mm, ramp angle 12deg **Leave 0.18 mm of the material for finishing at a lower feed speed**
+  * **Finishing** 6mm Endmill Up-Cut single-flute: Feed rate 12mm/s, plunge rate 8mm/s, Spindle RPM 18000, pass depth 8.5mm, ramp angle 12deg
 
 ### Worn bits = sticky chips
 
