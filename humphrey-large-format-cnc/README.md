@@ -4,6 +4,9 @@
  
  *The 5th iteration of Humphrey at Kuben High school, Oslo Norway*
  
+ [![Humphrey milling](http://img.youtube.com/vi/OQubzoJhvSk/0.jpg)](http://www.youtube.com/watch?v=OQubzoJhvSk "Humphrey milling")
+ 
+ *Video of humphrey v5 milling solid oak at Kuben High school, Oslo Norway*
 
  ### What is a Humphrey CNC mill
  
