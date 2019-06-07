@@ -1,0 +1,55 @@
+FP,C:\SbParts\XYandZzero_Zzero_bellow_material.sbp 	'load the file that automatically sets X, Y and Z Zero
+JZ,(4.00 + 12.000000)									'move to Z axis to material top of material + Z home postion
+VA,,,12.000000,,,,,0										'tell controller that the current postion is ZH home position (thereby making top of material our new Z Zero)
+&Materialthickness = 4.00						'make a variable for material thickness based on the user input at the start of a v-carve files
+MSGBOX (Is your material thickness &Materialthickness mm?, YesNo, SAFETY CHECK)	'create a pop-up dialog asking for confirmation of material thickness
+IF &msganswer = NO THEN GOSUB Canceljob				'if material thickness is wrong, go to the cancel job sub routine with a pop up message of shame
+'SHOPBOT FILE IN MM
+IF %(25)=0 THEN GOTO UNIT_ERROR	'check to see software is set to standard
+C#,90				 	'Lookup offset values
+'
+TR,18000,1
+'Turning router ON
+SO,1,1
+PAUSE 2
+'
+'Toolpath Name = 0 Hold down drill
+'Tool Name   = 3mm - Single flute - Plastic - ShopBot
+MS,16.93,11.95
+JZ,12.000000
+J3,719.490112,193.390656,12.000000
+M3,719.490112,193.390656,-4.500000
+J3,719.490112,193.390656,12.000000
+J3,719.490112,13.436114,12.000000
+M3,719.490112,13.436114,-4.500000
+J3,719.490112,13.436114,12.000000
+J3,489.060486,13.436114,12.000000
+M3,489.060486,13.436114,-4.500000
+J3,489.060486,13.436114,12.000000
+J3,489.060486,193.390656,12.000000
+M3,489.060486,193.390656,-4.500000
+J3,489.060486,193.390656,12.000000
+J3,278.412781,163.117935,12.000000
+M3,278.412781,163.117935,-4.500000
+J3,278.412781,163.117935,12.000000
+J3,277.151398,13.856568,12.000000
+M3,277.151398,13.856568,-4.500000
+J3,277.151398,13.856568,12.000000
+J3,22.017462,13.856568,12.000000
+M3,22.017462,13.856568,-4.500000
+J3,22.017462,13.856568,12.000000
+J3,23.278826,163.117935,12.000000
+M3,23.278826,163.117935,-4.500000
+J3,23.278826,163.117935,12.000000
+JZ,12.000000
+'
+'Turning router OFF
+SO,1,0
+J2,2000.000000,300.000000
+END
+UNIT_ERROR:
+C#,91					'Run file explaining unit error
+END
+Canceljob:	'define the name of the sub routine
+	MSGBOX (Please specificy the correct material thickness in you CAM program and try again,16,Shame on you)	'define the message box of shame
+END	'end the job
