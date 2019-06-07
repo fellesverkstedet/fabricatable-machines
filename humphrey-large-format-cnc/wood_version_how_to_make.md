@@ -56,7 +56,7 @@ Download the [cutsheets](https://github.com/fellesverkstedet/fabricatable-machin
 
 You can also 3D print the four [pinions](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood-gantry-files/pinion_for_3Dprinting.stl) with fabrication service like Shapeways. We reccomend SLS nylon printing for maxiumum strength and wear resistance.
 
-Vcarve and gcode files (including log files for aproximate milling times) have been added [here](https://github.com/fellesverkstedet/fabricatable-machines/humphrey-large-format-cnc/wood-gantry-files/Vcarve and gcode/)
+Vcarve and gcode files (including log files for aproximate milling times) have been added [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files/Vcarve%20and%20gcode)
 
 ### How to assemble
 Step by step instructions are pending, for now you can study the [3D assembly STEP or Rhino file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files) for guidance.
