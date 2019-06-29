@@ -1,0 +1,57 @@
+### Module positions - created on 06/28/19 19:19:44 ###
+### Printed by Pcbnew version kicad (6.0.0-rc1-dev-347-gd8782b751)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref       Val                      Package                                           PosX       PosY       Rot  Side
+C1          10uF                     C_1206_3216Metric_Pad1.42x1.75mm_HandSolder    21.8440    47.1170  180.0000  bottom
+C2          100nF_(0.1uF)            C_1206_3216Metric_Pad1.42x1.75mm_HandSolder    23.2410    54.5585  270.0000  bottom
+C3          100nF                    C_1206_3216Metric_Pad1.42x1.75mm_HandSolder   -11.8110    35.0520    0.0000  bottom
+C5          10uF                     C_1206_3216Metric_Pad1.42x1.75mm_HandSolder    26.0350    54.6100  270.0000  bottom
+C6          10uF                     C_1206_3216Metric_Pad1.42x1.75mm_HandSolder   -11.8025    32.2580    0.0000  bottom
+R1          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4290    29.3156    0.0000  bottom
+R2          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    27.4320     3.4290  180.0000  bottom
+R3          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    27.5590    -2.2860  180.0000  bottom
+R4          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    24.1300   -19.4310  180.0000  bottom
+R5          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4867    26.6730    0.0000  bottom
+R6          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4867    24.1330    0.0000  bottom
+R7          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4867    21.5930    0.0000  bottom
+R8          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4867    19.0530    0.0000  bottom
+R9          220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     3.4867    16.5130    0.0000  bottom
+R10         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder   -12.5730    -0.8525   90.0000  bottom
+R11         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.8900    -7.8740    0.0000  bottom
+R12         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.8900   -40.5130    0.0000  bottom
+R13         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.8900   -25.7810    0.0000  bottom
+R14         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.8900   -36.5760    0.0000  bottom
+R15         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.8900   -32.0040    0.0000  bottom
+R16         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    52.4510    51.4350  180.0000  bottom
+R17         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    52.4510    18.2880  180.0000  bottom
+R18         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    52.3240   -16.5100  180.0000  bottom
+R19         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    25.5270    25.0190   90.0000  bottom
+R20         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    21.8440    49.7840    0.0000  bottom
+R21         220                      R_1206_3216Metric_Pad1.42x1.75mm_HandSolder   -11.8025    28.7218    0.0000  bottom
+R22         0                        R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    18.5420   -43.1800    0.0000  bottom
+R23         1000                     R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    -5.5880    11.7475  180.0000  bottom
+R24         1000                     R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    -5.6150     8.9535  180.0000  bottom
+R25         1000                     R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    -5.5880     6.1595  180.0000  bottom
+R26         1000                     R_1206_3216Metric_Pad1.42x1.75mm_HandSolder   -11.8025    25.8008  180.0000  bottom
+R27         1000                     R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    43.0530   -46.1010   90.0000  bottom
+S1JA-13-F1  DIODE                    D_SMA_Handsoldering                            29.6047   -12.5146  180.0000  bottom
+S1JA-13-F2  DIODE                    D_SMA_Handsoldering                            29.6047    -8.4506  180.0000  bottom
+S1JA-13-F3  DIODE                    D_SMA_Handsoldering                            29.6047   -16.4116  180.0000  bottom
+U1          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   18.6055   -56.1975    0.0000  bottom
+U2          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   18.5420   -33.2740  180.0000  bottom
+U3          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   18.6055   -26.8605  180.0000  bottom
+U4          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800     7.3904    0.0000  bottom
+U5          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    -0.9916    0.0000  bottom
+U6          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    41.6560  180.0000  bottom
+U7          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    -9.2466  180.0000  bottom
+U8          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    35.9654  180.0000  bottom
+U9          SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    30.2504  180.0000  bottom
+U10         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    24.5354  180.0000  bottom
+U11         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    18.8204  180.0000  bottom
+U12         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800    13.1054  180.0000  bottom
+U13         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   18.6055   -47.3075    0.0000  bottom
+U14         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   17.7800   -14.9616    0.0000  bottom
+U15         IFX27001TFV50ATMA1CT-ND  TO-252-3_TabPin2                               16.1290    54.5585    0.0000  bottom
+U16         SFH6206-3T               SMDIP-4_W9.53mm_Clearance8mm                   18.5420   -39.1160  180.0000  bottom
+## End
