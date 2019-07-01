@@ -3925,23 +3925,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 PWR_IN1
 U 1 1 5B826A36
-P 7900 1400
-F 0 "PWR_IN1" H 7980 1392 50  0000 L CNN
-F 1 "Conn_01x02" H 7980 1301 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 7900 1400 50  0001 C CNN
-F 3 "~" H 7900 1400 50  0001 C CNN
-	1    7900 1400
+P 6150 7800
+F 0 "PWR_IN1" H 6230 7792 50  0000 L CNN
+F 1 "Conn_01x02" H 6230 7701 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 6150 7800 50  0001 C CNN
+F 3 "~" H 6150 7800 50  0001 C CNN
+	1    6150 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+36V #PWR015
 U 1 1 5B826C66
-P 7600 1400
-F 0 "#PWR015" H 7600 1250 50  0001 C CNN
-F 1 "+36V" V 7615 1528 50  0000 L CNN
-F 2 "" H 7600 1400 50  0001 C CNN
-F 3 "" H 7600 1400 50  0001 C CNN
-	1    7600 1400
+P 5850 7800
+F 0 "#PWR015" H 5850 7650 50  0001 C CNN
+F 1 "+36V" V 5865 7928 50  0000 L CNN
+F 2 "" H 5850 7800 50  0001 C CNN
+F 3 "" H 5850 7800 50  0001 C CNN
+	1    5850 7800
 	0    -1   -1   0   
 $EndComp
 Text GLabel 9500 4250 0    50   Input ~ 0
@@ -4119,12 +4119,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5B893FA4
-P 7650 1250
-F 0 "#FLG0101" H 7650 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 7650 1424 50  0000 C CNN
-F 2 "" H 7650 1250 50  0001 C CNN
-F 3 "~" H 7650 1250 50  0001 C CNN
-	1    7650 1250
+P 5900 7650
+F 0 "#FLG0101" H 5900 7725 50  0001 C CNN
+F 1 "PWR_FLAG" H 5900 7824 50  0000 C CNN
+F 2 "" H 5900 7650 50  0001 C CNN
+F 3 "~" H 5900 7650 50  0001 C CNN
+	1    5900 7650
 	1    0    0    -1  
 $EndComp
 Text Notes 3300 6900 0    50   ~ 0
@@ -4240,12 +4240,12 @@ $EndComp
 Text Notes 150  3150 0    50   ~ 0
 All motors ALARM in Parallell
 Wire Wire Line
-	7600 1400 7650 1400
+	5850 7800 5900 7800
 Wire Wire Line
-	7650 1250 7650 1400
-Connection ~ 7650 1400
+	5900 7650 5900 7800
+Connection ~ 5900 7800
 Wire Wire Line
-	7650 1400 7700 1400
+	5900 7800 5950 7800
 $Comp
 L pspice:CAP C1
 U 1 1 5BA0E8D0
@@ -4496,8 +4496,6 @@ Text Notes 50   1950 0    50   ~ 0
 From regulator
 Text Notes 1750 1300 0    50   ~ 0
 From arduino
-Wire Wire Line
-	2700 2000 2700 3250
 $Comp
 L pspice:DIODE S1JA-13-F2
 U 1 1 5BA4C99C
@@ -4570,26 +4568,26 @@ Abort indicator LED
 $Comp
 L nano-rescue:GND-nano-eagle-import #SUPPLY01
 U 1 1 5B9CDDAB
-P 1750 2650
-F 0 "#SUPPLY01" H 1750 2650 50  0001 C CNN
-F 1 "GND" H 1750 2533 42  0000 C CNN
-F 2 "" H 1750 2650 50  0001 C CNN
-F 3 "" H 1750 2650 50  0001 C CNN
-	1    1750 2650
-	1    0    0    -1  
+P 1750 2200
+F 0 "#SUPPLY01" H 1750 2200 50  0001 C CNN
+F 1 "GND" V 1850 2200 42  0000 C CNN
+F 2 "" H 1750 2200 50  0001 C CNN
+F 3 "" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	0    1    1    0   
 $EndComp
 $Comp
 L nano-rescue:GND-nano-eagle-import #SUPPLY0101
 U 1 1 5B9D63D9
-P 1500 2650
-F 0 "#SUPPLY0101" H 1500 2650 50  0001 C CNN
-F 1 "GND" H 1500 2533 42  0000 C CNN
-F 2 "" H 1500 2650 50  0001 C CNN
-F 3 "" H 1500 2650 50  0001 C CNN
-	1    1500 2650
-	1    0    0    -1  
+P 1500 2200
+F 0 "#SUPPLY0101" H 1500 2200 50  0001 C CNN
+F 1 "GND" V 1400 2200 42  0000 C CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	0    -1   -1   0   
 $EndComp
-Text Notes 2550 2500 0    50   ~ 0
+Text Notes 1200 2400 0    50   ~ 0
 Arduino GND!
 Text Notes 250  2500 0    50   ~ 0
 Regulator GND
@@ -4597,8 +4595,6 @@ Wire Wire Line
 	6150 6150 5950 6150
 Wire Wire Line
 	5950 6150 5950 6250
-Wire Wire Line
-	1500 2200 1500 2650
 $Comp
 L power:+5V #PWR037
 U 1 1 5BB922EE
@@ -13421,7 +13417,7 @@ Connection ~ 2750 7250
 Wire Wire Line
 	2750 7750 3150 7750
 Connection ~ 3150 7750
-Text Notes 250  1100 0    50   ~ 0
+Text Notes 150  1700 0    50   ~ 0
 This detects extrernal power loss
 Text Notes 300  6950 0    50   ~ 0
 Potential ground loop with spindle case earth. \nCan be avoided by NOT grounding case of \nspindle but that inreases electromagnetic noise. \nRecommendation, ground case and try, \ndisconnect if problems arise.
@@ -13661,7 +13657,7 @@ $Comp
 L Isolator:LTV-844 U1
 U 3 1 5D2DAD7C
 P 2050 3350
-F 0 "U1" H 2050 3675 50  0000 C CNN
+F 0 "U1" H 1900 3650 50  0000 C CNN
 F 1 "LTV-844" H 2050 3584 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads" H 1850 3150 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf" H 2075 3350 50  0001 L CNN
@@ -13864,12 +13860,12 @@ $EndComp
 $Comp
 L power:GNDS #PWR06
 U 1 1 5D47F2D9
-P 8450 7700
-F 0 "#PWR06" H 8450 7450 50  0001 C CNN
-F 1 "GNDS" V 8455 7572 50  0000 R CNN
-F 2 "" H 8450 7700 50  0001 C CNN
-F 3 "" H 8450 7700 50  0001 C CNN
-	1    8450 7700
+P 8450 7900
+F 0 "#PWR06" H 8450 7650 50  0001 C CNN
+F 1 "GNDS" V 8455 7772 50  0000 R CNN
+F 2 "" H 8450 7900 50  0001 C CNN
+F 3 "" H 8450 7900 50  0001 C CNN
+	1    8450 7900
 	0    1    1    0   
 $EndComp
 Text GLabel 8450 7200 0    50   Input ~ 0
@@ -13884,10 +13880,6 @@ Text GLabel 8450 7500 0    50   Input ~ 0
 SIGNAL_SPEED
 Text GLabel 8450 7800 0    50   Input ~ 0
 PROBE_PLATE
-Text GLabel 8450 7900 0    50   Input ~ 0
-5V_ISO
-Wire Wire Line
-	1750 2200 1750 2650
 $Comp
 L power:GNDS #PWR0112
 U 1 1 5D4CB2D7
@@ -13906,14 +13898,64 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR011
 U 1 1 5D581CAF
-P 7600 1500
-F 0 "#PWR011" H 7600 1250 50  0001 C CNN
-F 1 "GNDS" H 7605 1327 50  0000 C CNN
-F 2 "" H 7600 1500 50  0001 C CNN
-F 3 "" H 7600 1500 50  0001 C CNN
-	1    7600 1500
+P 5850 7900
+F 0 "#PWR011" H 5850 7650 50  0001 C CNN
+F 1 "GNDS" H 5855 7727 50  0000 C CNN
+F 2 "" H 5850 7900 50  0001 C CNN
+F 3 "" H 5850 7900 50  0001 C CNN
+	1    5850 7900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 1500 7700 1500
+	5850 7900 5950 7900
+$Comp
+L Device:R R?
+U 1 1 5D1B5913
+P 1600 2650
+F 0 "R?" V 1393 2650 50  0000 C CNN
+F 1 "220" V 1484 2650 50  0000 C CNN
+F 2 "" V 1530 2650 50  0001 C CNN
+F 3 "~" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:LTV-844 U1
+U 4 1 5D1AAA02
+P 2050 2750
+F 0 "U1" H 2050 3075 50  0000 C CNN
+F 1 "LTV-844" H 2050 2984 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads" H 1850 2550 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf" H 2075 2750 50  0001 L CNN
+	4    2050 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 7700 0    50   Input ~ 0
+ALARM_EXTRA
+Text Notes 8050 8150 0    50   ~ 0
+Alarm extra could be modified as 5v_iso source. if no use
+Text GLabel 1450 2650 0    50   Input ~ 0
+5V_ISO
+Text GLabel 1750 2850 0    50   Input ~ 0
+ALARM_EXTRA
+$Comp
+L power:GND #PWR?
+U 1 1 5D1EF83E
+P 2350 2850
+F 0 "#PWR?" H 2350 2600 50  0001 C CNN
+F 1 "GND" H 2500 2750 50  0000 C CNN
+F 2 "" H 2350 2850 50  0001 C CNN
+F 3 "" H 2350 2850 50  0001 C CNN
+	1    2350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2000 2700 2650
+Wire Wire Line
+	2350 2650 2700 2650
+Connection ~ 2700 2650
+Wire Wire Line
+	2700 2650 2700 3250
+Text Notes 0    2800 0    50   ~ 0
+Extra alarm for spindle stall etc
 $EndSCHEMATC

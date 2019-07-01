@@ -4424,11 +4424,11 @@ F 3 "" H 1600 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 1450 1600 1550
-Text Notes 9600 7450 0    50   ~ 0
+Text Notes 10700 7650 0    50   ~ 0
 DCM(COM)
-Text Notes 9600 7350 0    50   ~ 0
+Text Notes 10700 7550 0    50   ~ 0
 FOR
-Text Notes 9600 7750 0    50   ~ 0
+Text Notes 10700 7950 0    50   ~ 0
 ACM(GND)
 $Comp
 L pspice:DIODE S1JA-13-F1
@@ -4454,7 +4454,7 @@ F 3 "~" H 1300 5200 50  0001 C CNN
 $EndComp
 Text Notes 150  3750 0    50   ~ 0
 Diodes to  stop backflow from the\n 36V pullup on the limit switch signal pin
-Text Notes 1400 600  0    50   ~ 0
+Text Notes 1300 650  0    50   ~ 0
 Incoming signals
 Text Notes 7750 6900 0    50   ~ 0
 Spindle PWM out
@@ -4496,8 +4496,6 @@ Text Notes 50   1950 0    50   ~ 0
 From regulator
 Text Notes 1750 1300 0    50   ~ 0
 From arduino
-Wire Wire Line
-	2700 2000 2700 3250
 $Comp
 L pspice:DIODE S1JA-13-F2
 U 1 1 5BA4C99C
@@ -4570,26 +4568,26 @@ Abort indicator LED
 $Comp
 L nano-rescue:GND-nano-eagle-import #SUPPLY01
 U 1 1 5B9CDDAB
-P 1750 2650
-F 0 "#SUPPLY01" H 1750 2650 50  0001 C CNN
-F 1 "GND" H 1750 2533 42  0000 C CNN
-F 2 "" H 1750 2650 50  0001 C CNN
-F 3 "" H 1750 2650 50  0001 C CNN
-	1    1750 2650
-	1    0    0    -1  
+P 1750 2200
+F 0 "#SUPPLY01" H 1750 2200 50  0001 C CNN
+F 1 "GND" V 1850 2200 42  0000 C CNN
+F 2 "" H 1750 2200 50  0001 C CNN
+F 3 "" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	0    1    1    0   
 $EndComp
 $Comp
 L nano-rescue:GND-nano-eagle-import #SUPPLY0101
 U 1 1 5B9D63D9
-P 1500 2650
-F 0 "#SUPPLY0101" H 1500 2650 50  0001 C CNN
-F 1 "GND" H 1500 2533 42  0000 C CNN
-F 2 "" H 1500 2650 50  0001 C CNN
-F 3 "" H 1500 2650 50  0001 C CNN
-	1    1500 2650
-	1    0    0    -1  
+P 1500 2200
+F 0 "#SUPPLY0101" H 1500 2200 50  0001 C CNN
+F 1 "GND" V 1400 2200 42  0000 C CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	0    -1   -1   0   
 $EndComp
-Text Notes 2550 2500 0    50   ~ 0
+Text Notes 1200 2400 0    50   ~ 0
 Arduino GND!
 Text Notes 250  2500 0    50   ~ 0
 Regulator GND
@@ -4597,8 +4595,6 @@ Wire Wire Line
 	6150 6150 5950 6150
 Wire Wire Line
 	5950 6150 5950 6250
-Wire Wire Line
-	1500 2200 1500 2650
 $Comp
 L power:+5V #PWR037
 U 1 1 5BB922EE
@@ -13421,29 +13417,29 @@ Connection ~ 2750 7250
 Wire Wire Line
 	2750 7750 3150 7750
 Connection ~ 3150 7750
-Text Notes 250  1100 0    50   ~ 0
+Text Notes 150  1700 0    50   ~ 0
 This detects extrernal power loss
 Text Notes 300  6950 0    50   ~ 0
 Potential ground loop with spindle case earth. \nCan be avoided by NOT grounding case of \nspindle but that inreases electromagnetic noise. \nRecommendation, ground case and try, \ndisconnect if problems arise.
 Text Notes 3500 3200 0    50   ~ 0
 GRBL PINOUT REFERENCE
-Text Notes 9600 7200 0    50   ~ 10
+Text Notes 10700 7400 0    50   ~ 10
 HY Inverter \n(Aliexpress)
-Text Notes 9600 7550 0    50   ~ 0
+Text Notes 10700 7750 0    50   ~ 0
 +10V (DEF)
-Text Notes 9600 7650 0    50   ~ 0
+Text Notes 10700 7850 0    50   ~ 0
 VI
-Text Notes 10200 7200 0    50   ~ 10
+Text Notes 11300 7400 0    50   ~ 10
 Invertek\nOptidrive
-Text Notes 10200 7350 0    50   ~ 0
+Text Notes 11300 7550 0    50   ~ 0
 +24 (1)\n
-Text Notes 10200 7450 0    50   ~ 0
+Text Notes 11300 7650 0    50   ~ 0
 DIN1 (2)
-Text Notes 10200 7550 0    50   ~ 0
+Text Notes 11300 7750 0    50   ~ 0
 +10 (5)
-Text Notes 10200 7650 0    50   ~ 0
+Text Notes 11300 7850 0    50   ~ 0
 Al1/D14 (6)
-Text Notes 10200 7750 0    50   ~ 0
+Text Notes 11300 7950 0    50   ~ 0
 0V (7)
 Text GLabel 6800 5950 2    50   Input ~ 0
 SOURCE_FOR
@@ -13474,14 +13470,14 @@ Text Notes 7300 6000 0    50   ~ 0
 FOR signal voltage in
 Text Notes 6950 7050 0    50   ~ 0
 Pull down for PWM
-Text Notes 10750 7200 0    50   ~ 10
-VFD w/o PWM\nVref Source
-Text Notes 10750 7550 0    50   ~ 0
-JUMPER to pin7 (5V_ISO)
-Text Notes 10750 7650 0    50   ~ 0
+Text Notes 11850 7400 0    50   ~ 10
+VFD w/o PWM\nVref Source (legacy, \nuse Vout on VFD instead)
+Text Notes 11850 7750 0    50   ~ 0
+JUMPER to 5V_ISO
+Text Notes 11850 7850 0    50   ~ 0
 SPEED signal (0-5V)
-Text Notes 10750 7750 0    50   ~ 0
-JUMPER to pin8 (GNDS)
+Text Notes 11850 7950 0    50   ~ 0
+JUMPER to GNDS
 Text GLabel 600  6250 0    50   Input ~ 0
 PROBE_PLATE
 Wire Wire Line
@@ -13661,7 +13657,7 @@ $Comp
 L Isolator:LTV-844 U1
 U 3 1 5D2DAD7C
 P 2050 3350
-F 0 "U1" H 2050 3675 50  0000 C CNN
+F 0 "U1" H 1900 3650 50  0000 C CNN
 F 1 "LTV-844" H 2050 3584 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads" H 1850 3150 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf" H 2075 3350 50  0001 L CNN
@@ -13712,7 +13708,7 @@ F 3 "~" V 9900 6475 50  0001 C CNN
 	1    9900 6450
 	-1   0    0    1   
 $EndComp
-Text Notes 9250 7900 0    50   ~ 0
+Text Notes 10350 8100 0    50   ~ 0
 Pin Pair\n1    3\n2    3\n3    2\n4    1\n5    1\n6    2\n7    4\n8    4
 Text Notes 5950 950  0    50   ~ 0
 GND = ARDUINO GROUND\nGNDS = PSU GROUND USED FOR OUTGOING SIGNALS
@@ -13853,50 +13849,35 @@ $EndComp
 $Comp
 L Connector:8P8C_Shielded J1
 U 1 1 5D45306D
-P 8850 7500
-F 0 "J1" H 9350 8050 50  0000 R CNN
-F 1 "8P8C_Shielded SIG" H 9250 8050 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 8850 7525 50  0001 C CNN
-F 3 "~" V 8850 7525 50  0001 C CNN
-	1    8850 7500
+P 9950 7700
+F 0 "J1" H 10450 8250 50  0000 R CNN
+F 1 "8P8C_Shielded SIG" H 10350 8250 50  0000 R CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 9950 7725 50  0001 C CNN
+F 3 "~" V 9950 7725 50  0001 C CNN
+	1    9950 7700
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GNDS #PWR06
-U 1 1 5D47F2D9
-P 8450 7700
-F 0 "#PWR06" H 8450 7450 50  0001 C CNN
-F 1 "GNDS" V 8455 7572 50  0000 R CNN
-F 2 "" H 8450 7700 50  0001 C CNN
-F 3 "" H 8450 7700 50  0001 C CNN
-	1    8450 7700
-	0    1    1    0   
-$EndComp
-Text GLabel 8450 7200 0    50   Input ~ 0
+Text GLabel 9550 7400 0    50   Input ~ 0
 SOURCE_FOR
-Text GLabel 8450 7300 0    50   Input ~ 0
+Text GLabel 9550 7500 0    50   Input ~ 0
 GND_FOR
-Text GLabel 8450 7600 0    50   Input ~ 0
+Text GLabel 9550 7800 0    50   Input ~ 0
 GND_SPEED
-Text GLabel 8450 7400 0    50   Input ~ 0
+Text GLabel 9550 7600 0    50   Input ~ 0
 SOURCE_SPEED
-Text GLabel 8450 7500 0    50   Input ~ 0
+Text GLabel 9550 7700 0    50   Input ~ 0
 SIGNAL_SPEED
-Text GLabel 8450 7800 0    50   Input ~ 0
+Text GLabel 9550 7900 0    50   Input ~ 0
 PROBE_PLATE
-Text GLabel 8450 7900 0    50   Input ~ 0
-5V_ISO
-Wire Wire Line
-	1750 2200 1750 2650
 $Comp
 L power:GNDS #PWR0112
 U 1 1 5D4CB2D7
-P 8850 7000
-F 0 "#PWR0112" H 8850 6750 50  0001 C CNN
-F 1 "GNDS" H 8700 6950 50  0000 C CNN
-F 2 "" H 8850 7000 50  0001 C CNN
-F 3 "" H 8850 7000 50  0001 C CNN
-	1    8850 7000
+P 9950 7200
+F 0 "#PWR0112" H 9950 6950 50  0001 C CNN
+F 1 "GNDS" H 9800 7150 50  0000 C CNN
+F 2 "" H 9950 7200 50  0001 C CNN
+F 3 "" H 9950 7200 50  0001 C CNN
+	1    9950 7200
 	-1   0    0    1   
 $EndComp
 Text Notes 950  8550 0    50   ~ 0
@@ -13916,4 +13897,58 @@ F 3 "" H 5850 7900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 7900 5950 7900
+$Comp
+L Isolator:LTV-844 U1
+U 4 1 5D1AAA02
+P 2050 2750
+F 0 "U1" H 2050 3075 50  0000 C CNN
+F 1 "LTV-844" H 2050 2984 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads" H 1850 2550 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf" H 2075 2750 50  0001 L CNN
+	4    2050 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 8000 0    50   Input ~ 0
+ALARM_EXTRA_1
+Text Notes 9150 8350 0    50   ~ 0
+Alarm extra could be modified as 5v_iso source. if no use
+Text GLabel 1750 2850 0    50   Input ~ 0
+ALARM_EXTRA_2
+$Comp
+L power:GND #PWR?
+U 1 1 5D1EF83E
+P 2350 2850
+F 0 "#PWR?" H 2350 2600 50  0001 C CNN
+F 1 "GND" H 2500 2750 50  0000 C CNN
+F 2 "" H 2350 2850 50  0001 C CNN
+F 3 "" H 2350 2850 50  0001 C CNN
+	1    2350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2000 2700 2650
+Wire Wire Line
+	2350 2650 2700 2650
+Connection ~ 2700 2650
+Wire Wire Line
+	2700 2650 2700 3250
+Text Notes 0    2800 0    50   ~ 0
+Extra alarm for spindle stall etc
+Text GLabel 9550 8100 0    50   Input ~ 0
+ALARM_EXTRA_2
+Text GLabel 1450 2650 0    50   Input ~ 0
+ALARM_EXTRA_1
+$Comp
+L Device:R R?
+U 1 1 5D23E91C
+P 1600 2650
+F 0 "R?" H 1670 2696 50  0000 L CNN
+F 1 "220" H 1670 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 2650 50  0001 C CNN
+F 3 "~" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	0    1    1    0   
+$EndComp
+Text Notes 8850 9000 0    50   ~ 0
+If ALARM_SIGNAL on the VFD is normally connected to 5V and goes to GND when triggered:\nConnect ALARM_EXTRA1 to ALARM_SOURCE on the VFD and\nConnect ALARM_EXTRA2 to ALARM_SIGNAL on the VFD\nIf ALARM_SIGNAL on the VFD is normally connected to GND and goes to 5V when triggered:\nConnect ALARM_EXTRA1 to ALARM_SIGNAL on the VFD and\nConnect ALARM_EXTRA2 to ALARM_GND on the VFD\n
 $EndSCHEMATC
