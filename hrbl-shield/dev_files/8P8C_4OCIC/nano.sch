@@ -13857,17 +13857,17 @@ F 3 "~" V 9950 7725 50  0001 C CNN
 	1    9950 7700
 	-1   0    0    1   
 $EndComp
-Text GLabel 9550 7400 0    50   Input ~ 0
+Text GLabel 9550 8000 0    50   Input ~ 0
 SOURCE_FOR
-Text GLabel 9550 7500 0    50   Input ~ 0
+Text GLabel 9550 8100 0    50   Input ~ 0
 GND_FOR
 Text GLabel 9550 7800 0    50   Input ~ 0
 GND_SPEED
-Text GLabel 9550 7600 0    50   Input ~ 0
+Text GLabel 9550 7900 0    50   Input ~ 0
 SOURCE_SPEED
 Text GLabel 9550 7700 0    50   Input ~ 0
 SIGNAL_SPEED
-Text GLabel 9550 7900 0    50   Input ~ 0
+Text GLabel 9550 7600 0    50   Input ~ 0
 PROBE_PLATE
 $Comp
 L power:GNDS #PWR0112
@@ -13908,17 +13908,17 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-8
 	4    2050 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 8000 0    50   Input ~ 0
+Text GLabel 9550 7400 0    50   Input ~ 0
 ALARM_EXTRA_1
 Text Notes 9150 8350 0    50   ~ 0
 Alarm extra could be modified as 5v_iso source. if no use
 Text GLabel 1750 2850 0    50   Input ~ 0
 ALARM_EXTRA_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5D1EF83E
 P 2350 2850
-F 0 "#PWR?" H 2350 2600 50  0001 C CNN
+F 0 "#PWR06" H 2350 2600 50  0001 C CNN
 F 1 "GND" H 2500 2750 50  0000 C CNN
 F 2 "" H 2350 2850 50  0001 C CNN
 F 3 "" H 2350 2850 50  0001 C CNN
@@ -13934,15 +13934,15 @@ Wire Wire Line
 	2700 2650 2700 3250
 Text Notes 0    2800 0    50   ~ 0
 Extra alarm for spindle stall etc
-Text GLabel 9550 8100 0    50   Input ~ 0
+Text GLabel 9550 7500 0    50   Input ~ 0
 ALARM_EXTRA_2
 Text GLabel 1450 2650 0    50   Input ~ 0
 ALARM_EXTRA_1
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 5D23E91C
 P 1600 2650
-F 0 "R?" H 1670 2696 50  0000 L CNN
+F 0 "R16" H 1670 2696 50  0000 L CNN
 F 1 "220" H 1670 2605 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 2650 50  0001 C CNN
 F 3 "~" H 1600 2650 50  0001 C CNN
@@ -13951,4 +13951,6 @@ F 3 "~" H 1600 2650 50  0001 C CNN
 $EndComp
 Text Notes 8850 9000 0    50   ~ 0
 If ALARM_SIGNAL on the VFD is normally connected to 5V and goes to GND when triggered:\nConnect ALARM_EXTRA1 to ALARM_SOURCE on the VFD and\nConnect ALARM_EXTRA2 to ALARM_SIGNAL on the VFD\nIf ALARM_SIGNAL on the VFD is normally connected to GND and goes to 5V when triggered:\nConnect ALARM_EXTRA1 to ALARM_SIGNAL on the VFD and\nConnect ALARM_EXTRA2 to ALARM_GND on the VFD\n
+Text Label 1600 2000 0    50   ~ 0
+Invert
 $EndSCHEMATC
