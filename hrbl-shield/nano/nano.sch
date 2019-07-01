@@ -261,7 +261,7 @@ LIM_X_IN
 Text GLabel 2350 6050 2    50   Input ~ 0
 PROBE
 $Bitmap
-Pos 4650 1550
+Pos 4650 1300
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 EA 00 00 02 A6 08 02 00 00 00 0D 7D 4A 
@@ -4241,17 +4241,6 @@ $EndComp
 Text Notes 5850 5650 0    50   ~ 0
 Spindle controls
 $Comp
-L power:GNDS #PWR011
-U 1 1 5B84A86D
-P 9150 8000
-F 0 "#PWR011" H 9150 7750 50  0001 C CNN
-F 1 "GNDS" V 9155 7872 50  0000 R CNN
-F 2 "" H 9150 8000 50  0001 C CNN
-F 3 "" H 9150 8000 50  0001 C CNN
-	1    9150 8000
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR012
 U 1 1 5B84C456
 P 2500 6250
@@ -4380,32 +4369,32 @@ $EndComp
 Wire Wire Line
 	9150 1400 9250 1400
 Connection ~ 9250 1400
-Text GLabel 2850 2000 2    50   Input ~ 0
+Text GLabel 2850 1550 2    50   Input ~ 0
 ABORT
 Text Notes 3500 3600 0    50   ~ 0
 All IN PINs\nhas internal 20k \npull up resistor to +5V
 $Comp
 L Device:R R12
 U 1 1 5B8967CE
-P 750 2000
-F 0 "R12" H 700 2000 50  0000 L CNN
-F 1 "220" H 550 1950 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 2000 50  0001 C CNN
-F 3 "~" H 750 2000 50  0001 C CNN
-	1    750  2000
+P 750 1550
+F 0 "R12" H 700 1550 50  0000 L CNN
+F 1 "220" H 550 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 1550 50  0001 C CNN
+F 3 "~" H 750 1550 50  0001 C CNN
+	1    750  1550
 	0    1    1    0   
 $EndComp
-Text GLabel 600  2000 0    50   Input ~ 0
+Text GLabel 600  1550 0    50   Input ~ 0
 5V_ISO
 $Comp
 L power:GNDS #PWR07
 U 1 1 5B8967D6
-P 650 2200
-F 0 "#PWR07" H 650 1950 50  0001 C CNN
-F 1 "GNDS" H 655 2027 50  0000 C CNN
-F 2 "" H 650 2200 50  0001 C CNN
-F 3 "" H 650 2200 50  0001 C CNN
-	1    650  2200
+P 650 1750
+F 0 "#PWR07" H 650 1500 50  0001 C CNN
+F 1 "GNDS" H 655 1577 50  0000 C CNN
+F 2 "" H 650 1750 50  0001 C CNN
+F 3 "" H 650 1750 50  0001 C CNN
+	1    650  1750
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 3450 0    50   Input ~ 0
@@ -4437,25 +4426,25 @@ Text GLabel 1200 3250 0    50   Input ~ 0
 $Comp
 L power:GND #PWR09
 U 1 1 5B8E1148
-P 2400 2300
-F 0 "#PWR09" H 2400 2050 50  0001 C CNN
-F 1 "GND" H 2405 2127 50  0000 C CNN
-F 2 "" H 2400 2300 50  0001 C CNN
-F 3 "" H 2400 2300 50  0001 C CNN
-	1    2400 2300
+P 2400 1850
+F 0 "#PWR09" H 2400 1600 50  0001 C CNN
+F 1 "GND" H 2405 1677 50  0000 C CNN
+F 2 "" H 2400 1850 50  0001 C CNN
+F 3 "" H 2400 1850 50  0001 C CNN
+	1    2400 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2200 2400 2300
+	2400 1750 2400 1850
 $Comp
 L Device:R R15
 U 1 1 5B966FF1
-P 1600 1700
-F 0 "R15" H 1670 1746 50  0000 L CNN
-F 1 "220" H 1670 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 1700 50  0001 C CNN
-F 3 "~" H 1600 1700 50  0001 C CNN
-	1    1600 1700
+P 1600 1250
+F 0 "R15" H 1670 1296 50  0000 L CNN
+F 1 "220" H 1670 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 1250 50  0001 C CNN
+F 3 "~" H 1600 1250 50  0001 C CNN
+	1    1600 1250
 	-1   0    0    1   
 $EndComp
 Text Notes 150  3150 0    50   ~ 0
@@ -4637,11 +4626,11 @@ $EndComp
 Wire Wire Line
 	6100 6850 6150 6850
 Wire Wire Line
-	650  2200 900  2200
+	650  1750 900  1750
 Wire Wire Line
-	2700 2000 2350 2000
+	2700 1550 2350 1550
 Wire Wire Line
-	2350 2200 2400 2200
+	2350 1750 2400 1750
 $Comp
 L Isolator:SFH6206-3T U3
 U 1 1 5BB0215E
@@ -4877,16 +4866,16 @@ $EndComp
 $Comp
 L power:+5V #PWR0115
 U 1 1 5B8E61E3
-P 1600 1450
-F 0 "#PWR0115" H 1600 1300 50  0001 C CNN
-F 1 "+5V" H 1615 1623 50  0000 C CNN
-F 2 "" H 1600 1450 50  0001 C CNN
-F 3 "" H 1600 1450 50  0001 C CNN
-	1    1600 1450
+P 1600 1000
+F 0 "#PWR0115" H 1600 850 50  0001 C CNN
+F 1 "+5V" H 1615 1173 50  0000 C CNN
+F 2 "" H 1600 1000 50  0001 C CNN
+F 3 "" H 1600 1000 50  0001 C CNN
+	1    1600 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1450 1600 1550
+	1600 1000 1600 1100
 Text Notes 9600 7450 0    50   ~ 0
 DCM(COM)
 Text Notes 9600 7350 0    50   ~ 0
@@ -4917,72 +4906,70 @@ F 3 "~" H 1300 5200 50  0001 C CNN
 $EndComp
 Text Notes 150  3750 0    50   ~ 0
 Diodes to  stop backflow from the\n 36V pullup on the limit switch signal pin
-Text Notes 1400 600  0    50   ~ 0
+Text Notes 1400 150  0    50   ~ 0
 Incoming signals
 Text Notes 7750 6900 0    50   ~ 0
 Spindle PWM out
 Wire Wire Line
-	2700 2000 2850 2000
-Connection ~ 2700 2000
+	2700 1550 2850 1550
+Connection ~ 2700 1550
 $Comp
 L Isolator:SFH6206-3T U2
 U 1 1 5BAEB96A
-P 2050 2100
-F 0 "U2" H 2050 2467 50  0000 C CNN
-F 1 "SFH6206-3T" H 2050 2376 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 1700 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2100 50  0001 C CNN
-	1    2050 2100
+P 2050 1650
+F 0 "U2" H 2050 2017 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 1926 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 1250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 1650 50  0001 C CNN
+	1    2050 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:SFH6206-3T U1
 U 1 1 5BAD95CE
-P 1200 2100
-F 0 "U1" H 1200 2467 50  0000 C CNN
-F 1 "SFH6206-3T" H 1200 2376 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1200 1700 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 2100 50  0001 C CNN
-	1    1200 2100
+P 1200 1650
+F 0 "U1" H 1200 2017 50  0000 C CNN
+F 1 "SFH6206-3T" H 1200 1926 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1200 1250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 1200 1650 50  0001 C CNN
+	1    1200 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1850 1600 2000
+	1600 1400 1600 1550
 Wire Wire Line
-	1600 2000 1500 2000
+	1600 1550 1500 1550
 Wire Wire Line
-	1600 2000 1750 2000
-Connection ~ 1600 2000
+	1600 1550 1750 1550
+Connection ~ 1600 1550
 $Comp
 L Device:R R21
 U 1 1 5B9C32D9
-P 2700 1300
-F 0 "R21" H 2770 1346 50  0000 L CNN
-F 1 "220" H 2770 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 1300 50  0001 C CNN
-F 3 "~" H 2700 1300 50  0001 C CNN
-	1    2700 1300
+P 2700 850
+F 0 "R21" H 2770 896 50  0000 L CNN
+F 1 "220" H 2770 805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 850 50  0001 C CNN
+F 3 "~" H 2700 850 50  0001 C CNN
+	1    2700 850 
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0117
 U 1 1 5B9C32E0
-P 2700 1000
-F 0 "#PWR0117" H 2700 850 50  0001 C CNN
-F 1 "+5V" H 2715 1173 50  0000 C CNN
-F 2 "" H 2700 1000 50  0001 C CNN
-F 3 "" H 2700 1000 50  0001 C CNN
-	1    2700 1000
+P 2700 550
+F 0 "#PWR0117" H 2700 400 50  0001 C CNN
+F 1 "+5V" H 2715 723 50  0000 C CNN
+F 2 "" H 2700 550 50  0001 C CNN
+F 3 "" H 2700 550 50  0001 C CNN
+	1    2700 550 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1000 2700 1150
-Text Notes 50   1950 0    50   ~ 0
+	2700 550  2700 700 
+Text Notes 50   1500 0    50   ~ 0
 From regulator
-Text Notes 1750 1300 0    50   ~ 0
+Text Notes 1750 850  0    50   ~ 0
 From arduino
-Wire Wire Line
-	2700 2000 2700 3250
 $Comp
 L pspice:DIODE S1JA-13-F2
 U 1 1 5BA4C99C
@@ -5038,55 +5025,55 @@ Wire Wire Line
 $Comp
 L Device:LED D1
 U 1 1 5B996CA3
-P 2700 1700
-F 0 "D1" V 2738 1583 50  0000 R CNN
-F 1 "LED" V 2647 1583 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 1700 50  0001 C CNN
-F 3 "~" H 2700 1700 50  0001 C CNN
-	1    2700 1700
+P 2700 1250
+F 0 "D1" V 2738 1133 50  0000 R CNN
+F 1 "LED" V 2647 1133 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 1250 50  0001 C CNN
+F 3 "~" H 2700 1250 50  0001 C CNN
+	1    2700 1250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 1450 2700 1550
+	2700 1000 2700 1100
 Wire Wire Line
-	2700 1850 2700 2000
-Text Notes 3000 1700 0    50   ~ 0
+	2700 1400 2700 1550
+Text Notes 3000 1250 0    50   ~ 0
 Abort indicator LED
 $Comp
 L nano-eagle-import:GND #SUPPLY01
 U 1 1 5B9CDDAB
-P 1750 2650
-F 0 "#SUPPLY01" H 1750 2650 50  0001 C CNN
-F 1 "GND" H 1750 2533 42  0000 C CNN
-F 2 "" H 1750 2650 50  0001 C CNN
-F 3 "" H 1750 2650 50  0001 C CNN
-	1    1750 2650
+P 1750 2200
+F 0 "#SUPPLY01" H 1750 2200 50  0001 C CNN
+F 1 "GND" H 1750 2083 42  0000 C CNN
+F 2 "" H 1750 2200 50  0001 C CNN
+F 3 "" H 1750 2200 50  0001 C CNN
+	1    1750 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L nano-eagle-import:GND #SUPPLY0101
 U 1 1 5B9D63D9
-P 1500 2650
-F 0 "#SUPPLY0101" H 1500 2650 50  0001 C CNN
-F 1 "GND" H 1500 2533 42  0000 C CNN
-F 2 "" H 1500 2650 50  0001 C CNN
-F 3 "" H 1500 2650 50  0001 C CNN
-	1    1500 2650
+P 1500 2200
+F 0 "#SUPPLY0101" H 1500 2200 50  0001 C CNN
+F 1 "GND" H 1500 2083 42  0000 C CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "" H 1500 2200 50  0001 C CNN
+	1    1500 2200
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 2500 0    50   ~ 0
+Text Notes 2550 2050 0    50   ~ 0
 Arduino GND!
-Text Notes 250  2500 0    50   ~ 0
+Text Notes 250  2050 0    50   ~ 0
 Regulator GND
 $Comp
 L Device:R R22
 U 1 1 5BA17A51
-P 2100 2550
-F 0 "R22" H 2030 2504 50  0000 R CNN
-F 1 "0" H 2030 2595 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2030 2550 50  0001 C CNN
-F 3 "~" H 2100 2550 50  0001 C CNN
-	1    2100 2550
+P 2100 2100
+F 0 "R22" H 2030 2054 50  0000 R CNN
+F 1 "0" H 2030 2145 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2030 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+	1    2100 2100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -5094,23 +5081,23 @@ Wire Wire Line
 Wire Wire Line
 	5950 6150 5950 6250
 Wire Wire Line
-	1500 2200 1500 2650
+	1500 1750 1500 2200
 Wire Wire Line
-	2100 2400 1750 2400
+	2100 1950 1750 1950
 Wire Wire Line
-	1750 2200 1750 2400
+	1750 1750 1750 1950
 Wire Wire Line
-	2100 2700 1900 2700
+	2100 2250 1900 2250
 Wire Wire Line
-	1900 2700 1900 2550
+	1900 2250 1900 2100
 Wire Wire Line
-	1900 2550 1750 2550
+	1900 2100 1750 2100
 Wire Wire Line
-	1750 2550 1750 2650
-Connection ~ 1750 2550
-Connection ~ 1750 2400
+	1750 2100 1750 2200
+Connection ~ 1750 2100
+Connection ~ 1750 1950
 Wire Wire Line
-	1750 2400 1750 2550
+	1750 1950 1750 2100
 $Comp
 L power:+5V #PWR037
 U 1 1 5BB922EE
@@ -13938,7 +13925,7 @@ Wire Wire Line
 	2750 7750 3150 7750
 Connection ~ 2750 7750
 Connection ~ 3150 7750
-Text Notes 250  1100 0    50   ~ 0
+Text Notes 250  650  0    50   ~ 0
 This detects extrernal power loss
 Text Notes 300  6950 0    50   ~ 0
 Potential ground loop with spindle case earth. \nCan be avoided by NOT grounding case of \nspindle but that inreases electromagnetic noise. \nRecommendation, ground case and try, \ndisconnect if problems arise.
@@ -13998,7 +13985,7 @@ Al1/D14 (6)
 Text Notes 10200 7750 0    50   ~ 0
 0V (7)
 Text GLabel 9150 7900 0    50   Input ~ 0
-5V_ISO
+EXTRA_ALARM_1
 Wire Wire Line
 	9150 8000 9300 8000
 Text GLabel 6800 5950 2    50   Input ~ 0
@@ -14061,4 +14048,58 @@ Text Notes 2750 5150 1    50   ~ 0
 Option: add indicator LED here, 1 for all
 Text Notes 2050 7000 0    50   ~ 0
 Add diode for reverse voltage protection?
+Wire Wire Line
+	2700 1550 2700 2550
+Text GLabel 1200 2750 0    50   Input ~ 0
+EXTRA_ALARM_2
+$Comp
+L power:GND #PWR0114
+U 1 1 5D1DA577
+P 2400 2750
+F 0 "#PWR0114" H 2400 2500 50  0001 C CNN
+F 1 "GND" H 2405 2577 50  0000 C CNN
+F 2 "" H 2400 2750 50  0001 C CNN
+F 3 "" H 2400 2750 50  0001 C CNN
+	1    2400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5D1DA57D
+P 1350 2550
+F 0 "R28" H 1420 2596 50  0000 L CNN
+F 1 "220" H 1420 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1280 2550 50  0001 C CNN
+F 3 "~" H 1350 2550 50  0001 C CNN
+	1    1350 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 1200 2550 0    50   Input ~ 0
+EXTRA_ALARM_1
+Text Notes 150  2450 0    50   ~ 0
+EXTRA_ALARM_1\n
+$Comp
+L Isolator:SFH6206-3T U17
+U 1 1 5D1DA586
+P 2050 2650
+F 0 "U17" H 2050 3017 50  0000 C CNN
+F 1 "SFH6206-3T" H 2050 2926 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 2050 2250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 2050 2650 50  0001 C CNN
+	1    2050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2550 1750 2550
+Wire Wire Line
+	1200 2750 1750 2750
+Wire Wire Line
+	2400 2750 2350 2750
+Wire Wire Line
+	2350 2550 2700 2550
+Connection ~ 2700 2550
+Wire Wire Line
+	2700 2550 2700 3250
+Text GLabel 9150 8000 0    50   Input ~ 0
+EXTRA_ALARM_2
 $EndSCHEMATC
