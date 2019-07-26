@@ -123,3 +123,13 @@ HRBL is currently in use in:
 * (From [issue 20](https://github.com/fellesverkstedet/fabricatable-machines/issues/20) consider if we should change the 5V voltage regulator.
 * Establish a maximum current that we can draw through the card to the motors without overheating the traces (or ribbon cable).
 
+## Board house PCB
+
+Board manufactured by PCB Way from KiCAD gerber files.
+
+* [Gerber files](gerber/nano-hrbl.zip)
+* [Order directily on PCB Way](https://www.pcbway.com/project/shareproject/HRBL___grbl_shield_for_Fabricatable_Machines.html)
+
+![Front](img/pcb_way_front.jpg)
+
+![Back](img/pcb_way_back.jpg)
