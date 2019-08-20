@@ -4,6 +4,13 @@
 ## Plug-and-play grbl controller
 HRBL is an Arduiono NANO shield aiming to simplify connecting motors, limit switches, safety and spindle to an ardunio board as well as providing high quality electrical noise protection. It's tailor made for fabricatable CNC milling machine needs. Both sides are covered with a [special laser-engraving sicker film](img/laser_sheets_specs.JPG) purchased from [Alvøen](alvoen.no) which protects the card, functions as a solder mask and silkscreen print.
 
+## Soldering the components to the board
+Remember to put the 3 diodes, 1 LED and 15 optocoplers in the correct orientation. Also check print on board for orientation of the green connectors.
+
+Working board with components
+![backside](img/HRBL_soldered_backside.jpg)
+![frontside](img/HRBL_soldered_frontside.jpg)
+
 ![top](img/pcb_front_w_cover.JPG)
 
 ![top](img/pcb_back_w_cover.JPG)
