@@ -55,7 +55,7 @@ The HRBL-controller is a optoisolated connection shield for an Arduino Nano runn
 ### Humphrey v4 HRBL controller card
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/connections.JPG)
 
-Spindle controls schematic:
+Spindle controls schematic: **OBS! CHECK YOUR CARD VERSION! THIS DIFFERS!**
 
 ![spindle controls](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/spindle_controls.JPG)
 
