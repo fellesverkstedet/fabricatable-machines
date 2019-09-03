@@ -1,3 +1,19 @@
+/*
+
+Proof of concept Wifi controller for JMC closed loop integrated stepper motors iHSS60
+
+See https://github.com/fellesverkstedet/fabricatable-machines/tree/master/Module%20development/WirelessStepper
+
+and 
+
+https://github.com/fellesverkstedet/fabricatable-machines
+
+for doucmentation
+
+MIT Licence - Jakob Nilsson 03.09.2019 Oslo
+
+*/
+
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
