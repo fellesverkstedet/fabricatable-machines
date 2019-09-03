@@ -64,8 +64,5 @@ The idea is to add a wifi microcontroller to our motors
 * Timing between multiple motors. This [issue](https://github.com/fellesverkstedet/fabricatable-machines/issues/30#) debates if we can sync the clocks of such boards to make them perform precision tasks in paralell, like CNC milling. 
 
 
-### Mounting on and connecting to the motor
-
-
 
 
