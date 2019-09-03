@@ -31,7 +31,7 @@ const char* password = STAPSK;
 //Stepper control
 const byte stepPin = 5; //GPIO5 refernce D1
 const byte dirPin = 4; //GPIO4 reference D2
-const byte pulseLength = 5; //ms
+const byte pulseLength = 5; //milliseconds this can be changed to min 2.5 micro sec
 boolean stepDirection = 0;  
 int stepCounter = 0;
 
@@ -96,15 +96,17 @@ pinMode(dirPin,OUTPUT);
   server.on("/", handleRoot);
 
   server.on("/forward", []() {
-      Serial.print("forward");
+      Serial.print("forward"); 
+      //Takes 1000 steps in 0 direction
       stepDirection = 0;
-      stepCounter = 1000;
+      stepCounter = 1000; 
       navigationPage();
   });
 
 
   server.on("/backwards", []() {
       Serial.print("backwards");
+      //Takes 1000 steps in 1 direction
       stepDirection = 1;
       stepCounter = 1000;
       navigationPage();
