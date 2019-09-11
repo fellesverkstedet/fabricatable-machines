@@ -34,3 +34,27 @@ Can we use a cheap but safe contactor and make a simple old school latching circ
 * [ES21-SA10E1 Emergency stop button](https://www.sick.com/no/en/safety-switches/safety-command-devices/es21/es21-sa10e1/p/p79960) as many as needed (need to check if compatible)
 * [i16-SA205 SICK door switch](https://www.sick.com/no/en/safety-switches/electro-mechanical-safety-switches/i16s/i16-sa205/p/p338053) 1 required
 * [Safety relay with reset](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue23-3mf/ue23-3mf2a3/p/p79479) (looks really promising!) / [safety command](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue44-3sl/c/g186171)
+
+
+## Safety system functions and use cases
+
+* One CNC machine behind a safety screen
+* One door in the safety screen
+* One fixed operator station outside the safety screen
+* Emergency stop button accessable from operator station
+* Emergency stop button accessable from inside the safety screen
+
+### Use case: Normal use by normal user
+* The user can only operate the machine from outside the safety screen
+* The user can easily see the entire area inside the safety screen
+* A RESET button must be pressed to turn on power to the machine
+* The user is forbidden to power the machine with anyone else behind the safety screen
+* Opening the safety screen door cuts power to the machine
+* The door stays open automatically
+* The user is not allowed to close the door while inside the safety screen (no handle?)
+* An (several) emergency button(s) also cuts all power to the machine 
+
+### What can go wrong
+* A user activates the machine with someone else inside the safety screen, they touch the moving parts.
+* The machine is accidentaly activated while someone is changing bits.
+* The user notices a risk and is unable to stop the machine
