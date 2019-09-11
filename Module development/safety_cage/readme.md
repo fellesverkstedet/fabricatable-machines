@@ -37,7 +37,6 @@ Can we use a cheap but safe contactor and make a simple old school latching circ
 
 
 ## Safety system functions and use cases
-
 * One CNC machine behind a safety screen
 * One door in the safety screen
 * One fixed operator station outside the safety screen
@@ -51,10 +50,31 @@ Can we use a cheap but safe contactor and make a simple old school latching circ
 * The user is forbidden to power the machine with anyone else behind the safety screen
 * Opening the safety screen door cuts power to the machine
 * The door stays open automatically
-* The user is not allowed to close the door while inside the safety screen (no handle?)
-* An (several) emergency button(s) also cuts all power to the machine 
+* The user is not allowed to close the door while inside the safety screen (no inside handle)
+* Several emergency buttons can cut all power to the machine 
 
-### What can go wrong
-* A user activates the machine with someone else inside the safety screen, they touch the moving parts.
-* The machine is accidentaly activated while someone is changing bits.
-* The user notices a risk and is unable to stop the machine
+### Risk cases
+1. A user activates the machine with someone else inside the safety screen
+2. The machine is randomly activated while someone is changing bits
+3. The user is unable to stop the machine
+4. Something catches fire 
+5. While unattended the machine starts on its own
+
+### Possible bad consequences
+1. Permanent damage to hand
+2. Permanent damage to hand
+3. Damage to machine or material
+4. Fire, death
+5. Fire, death
+
+### What, at least, needs to happen for the bad consequence to happen
+1. Several options
+    1. Two users agree to break the safe use rules and the user inside the screen puts their hand in the work area and the machine runs into it
+    2. The view is blocked and the user does not notice them inside the safety screen
+    3. Malicious act, stealthily sealing the user inside the safety screen, resetting the power and activating the machine as the trapped user touches the milling bit.
+2. The door safety switch malfunctions and does not detect the door being opened and the machine controller malfunctions and activates the machine
+3. The machine controller malfunctions and the emergency stop malfunctions
+4. Several options
+    1. The user is absent while the machine is running
+    2. The user is unable to put out the fire
+5. The machine was left unattended while powered and the machine controller malfunctions
