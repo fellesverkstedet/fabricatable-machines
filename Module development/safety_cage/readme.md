@@ -78,3 +78,6 @@ Can we use a cheap but safe contactor and make a simple old school latching circ
     1. The user is absent while the machine is running
     2. The user is unable to put out the fire
 5. The machine was left unattended while powered and the machine controller malfunctions
+
+### Concequences of safety system failing
+There is no immiate risk from **only** the safety system failing, the machine controller must also malfunction at the same time as a user has their hands in a dangerous position. However we prefer to build a safety system that allows for an intermittently malfunctioning machine controller just to be sure. This is why we want a feature that locks the machine if the safety system is experiencing issues before they can cause an accident. In other words, we want to avoid a "silent" failure of the safety system.
