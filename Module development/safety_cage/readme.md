@@ -33,4 +33,4 @@ Can we use a cheap but safe contactor and make a simple old school latching circ
 * [ES11-SC4D8 Emergency STOP and RESET button](https://www.sick.com/no/en/safety-switches/safety-command-devices/es11/es11-sc4d8/p/p339946) 1 required
 * [ES21-SA10E1 Emergency stop button](https://www.sick.com/no/en/safety-switches/safety-command-devices/es21/es21-sa10e1/p/p79960) as many as needed (need to check if compatible)
 * [i16-SA205 SICK door switch](https://www.sick.com/no/en/safety-switches/electro-mechanical-safety-switches/i16s/i16-sa205/p/p338053) 1 required
-* [Safety relay with reset](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue23-3mf/ue23-3mf2a3/p/p79479) / [safety command](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue44-3sl/c/g186171)
+* [Safety relay with reset](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue23-3mf/ue23-3mf2a3/p/p79479) (looks really promising!) / [safety command](https://www.sick.com/no/en/senscontrol-safe-control-solutions/safety-relays/ue44-3sl/c/g186171)
