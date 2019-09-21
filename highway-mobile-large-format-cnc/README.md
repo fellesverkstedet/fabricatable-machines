@@ -36,7 +36,16 @@ While Humphrey was a great proof of concept of Highway, I need to dissasemble it
 
 ### Spindle
 
-The spindle is a Windward S4225-B60FL8. Max 6000 rpm BLDC 36V 250W which has it's own controller Windward BLDC-DZZ. At the moment the spindle unit is wired in manual mode:
+The spindle is a Windward S4225-B60FL8. Max 60000 rpm BLDC 36V 250W which has it's own controller Windward BLDC-DZZ. 
+
+![](img/S4225-B60_1.jpg)
+![](img/s-l500.jpg)
+![](img/s-l1600.jpg)
+![](img/s-l16002.jpg)
+![](img/BLDC-DZZ2.jpg)
+![](img/BLDCDZZ1.png)
+
+At the moment the spindle unit is wired in manual mode:
 
 - Brown --> Motor U
 - Green -->  Motor V
@@ -113,4 +122,6 @@ Highway MK II will become the truly fabricatable iteration of the CNC. For that 
 
 ## Files
 
-- [iHSS57-36-20 manual/datasheet (PDF file)](./files/ihss-ds.pdf)
+- [iHSS57-36-20 Stepper motor/driver datasheet (PDF)](./files/ihss-ds.pdf)
+- [Windward S4225-B60FL8 Spindle manual (PDF)]()
+- [Windward BLDC-DZZ Spinde controller (PDF)](./files/BLDC-DZZ-manual.pdf)
