@@ -42,6 +42,9 @@ The spindle is a Windward S4225-B60FL8. Max 60000 rpm BLDC 36V 250W which has it
 ![](img/s-l500.jpg)
 ![](img/s-l1600.jpg)
 ![](img/s-l16002.jpg)
+
+I am missing the cable shown below to control the spindle:
+
 ![](img/BLDC-DZZ2.jpg)
 ![](img/BLDCDZZ1.png)
 
