@@ -34,6 +34,54 @@ Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the p
 
 While Humphrey was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle.
 
+### Spindle
+
+The spindle is a Windward S4225-B60FL8. Max 6000 rpm BLDC 36V 250W which has it's own controller Windward BLDC-DZZ. At the moment the spindle unit is wired in manual mode:
+
+- Brown --> Motor U
+- Green -->  Motor V
+- Yellow --> Motor W
+- Red (small) --> Unused
+- Black (Small) --> Unused
+
+In the spindle controller Dip-switch 1 controls the ON/OFF of the unit and the RPM are controlled with a potentiometer. This will be changed in a future iteration.
+
+### Stepper motors
+
+Stepper motors are powered by 36V DC and the following color code:
+
+- PUL+ --> Blue
+- PUL- --> Green (GND)
+- DIR+ --> Yellow
+- DIR- --> Orange (GND)
+
+They all have the following Dip-Switch configuration:
+
+- S1 OFF
+- S2 ON
+- S3 ON
+- S4 OFF
+- S5 OFF
+
+Dip-Switch S6 varies with the motors (to recheck and adjust in MKI):
+
+- XR OFF
+- XL ON
+- Y OFF
+- Z ON
+
+The pins on the arduino are as follow:
+
+- Z Dir (yellow) --> D7
+- Z Pul (blue) --> D4
+
+- Y Dir (yellow) --> D5
+- Y Pul (blue) --> D2
+
+- X Dir (yellow) --> D6
+- X Pul (blue) --> D3
+
+
 ## The making of Highway MK I
 
 Highway MK I is a temporary iteration of the fabricatable CNC. I will use some commercial parts like an Igus linear axis and upcycle the Z axis from an old Probotix V90 CNC.
