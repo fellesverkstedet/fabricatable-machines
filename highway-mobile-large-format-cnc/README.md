@@ -9,7 +9,7 @@ Warning this is a WIP (Work in progress) documentation.
 
 ## Story
 
-During Fab14 in Tolousse (France) Jens Dyvik and his fabricatable machines team and Fran from [The Beach Lab](https://github.com/thebeachlab) decided to assemble a full size CNC machine on the roof of a Mercedes G wagon. The idea was successfully prototyped using a [Humphrey](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc) version.
+During Fab14 in Tolousse (France) Jens Dyvik and his fabricatable machines team and Fran from [The Beach Lab](https://github.com/thebeachlab) decided to assemble a full size CNC machine on the roof of a Mercedes G wagon. The idea was successfully prototyped using a [Hobo](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hobo-large-format-cnc) version.
 
 Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the parts under the condition of controlling it with a networked interface.
 
@@ -30,9 +30,9 @@ Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the p
 - [ ] Build Highway MK I. December 2019
 - [ ] Build Highway MK II. April 2020
 
-## Disassembling Humphrey (Highway MK 0)
+## Disassembling Hobo (Highway MK 0)
 
-While Humphrey was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle.
+While Hobo was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle.
 
 ### Spindle
 
