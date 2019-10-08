@@ -193,5 +193,5 @@ begin FOOTER
  
 "G0[ZH]"
 "M5"
-"G0 Y2600"
+"G0 Y260"
 "M02"
