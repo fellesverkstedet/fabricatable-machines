@@ -69,7 +69,7 @@ Spindle controls schematic Milled PCB ONLY!:
 ### Programming
 
 * [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
-* Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/humphrey_v3/GRBL_Spindle_ENABLE.zip)
+* Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/GRBL_Spindle_ENABLE.zip)
 * Unzip and open the file in Examples > grblUpload > grblUpload.ino in the Arduino IDE interface
 * Connect to the arduino via USB
 * In the Arduino IDE interface: Select Arduino NANO and the correct COM port in the menu
