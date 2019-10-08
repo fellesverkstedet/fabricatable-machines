@@ -50,12 +50,12 @@ Electronics assembly steps:
 
 The HRBL-controller is a optoisolated connection shield for an Arduino Nano running the GRBL CNC control firmware. 
 
-[HRBL arduino NANO shield controller card](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hrbl-shield/nano)
+For factory made PCB see [HRBL arduino NANO shield controller card](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hrbl-shield/README.md)
 
-### Humphrey v4 HRBL controller card
+### LEGACY Humphrey v4 HRBL controller card - Milled PCB ONLY! 
 ![Connections](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/connections.JPG)
 
-Spindle controls schematic: **OBS! CHECK YOUR CARD VERSION! THIS DIFFERS!**
+Spindle controls schematic Milled PCB ONLY!: 
 
 ![spindle controls](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/img/spindle_controls.JPG)
 
