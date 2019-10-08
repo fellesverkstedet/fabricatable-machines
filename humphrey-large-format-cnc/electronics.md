@@ -66,7 +66,7 @@ Spindle controls schematic Milled PCB ONLY!:
 ### LEGACY Humphrey v3 HRBL controller card
 ![Connections](img/electronics/hrbl_connections_all.JPG)
 
-### Programming
+### Programming the arduino with the GRBL firmware
 
 * [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
 * Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/GRBL_Spindle_ENABLE.zip)
