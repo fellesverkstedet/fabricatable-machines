@@ -70,10 +70,15 @@ Spindle controls schematic Milled PCB ONLY!:
 
 * [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
 * Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/GRBL_Spindle_ENABLE.zip)
-* Unzip and open the file in Examples > grblUpload > grblUpload.ino in the Arduino IDE interface
-* Connect to the arduino via USB
-* In the Arduino IDE interface: Select Arduino NANO and the correct COM port in the menu
-* In the Arduino IDE interface: Press upload
+* Manually unzip the file in a folder (don't skip this step)
+* Connect your arduino to your computer
+* Make sure your board is set to the appropriate Arduino board in the Tool->Board menu and the serial port is selected correctly in Tool->Serial Port. (If it does not show up, try installing these [arduino clone USB drivers](https://github.com/KubenKoder/Arduino/blob/master/USB%20driver/CH341SER.EXE) )
+* Now we need to add the GRBL files as a library to the Arduino program
+ * In the menu go to **Sketch > Include Library** and select Add .ZIP Library. (The Add .ZIP Library command supports both a .ZIP file or a folder.) Add the folder that you unzipped.
+ * You can confirm that the library has been added. Click the Sketch drop-down menu again, navigate to Include Library, then scroll to the bottom of the list where you should see grbl.
+* In the menu click: File > Open, navigate to the folder Examples->Grbl, and select GrblUpload.
+ **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
+* Press the round arrow button to compile and **upload** Grbl to your Arduino.
 
 [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
