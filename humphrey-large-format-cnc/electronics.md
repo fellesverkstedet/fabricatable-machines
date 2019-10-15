@@ -80,11 +80,8 @@ Spindle controls schematic Milled PCB ONLY!:
  **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
 * Press the round arrow button to compile and **upload** Grbl to your Arduino.
 * *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
-[How to use GRBL](https://github.com/gnea/grbl/wiki)
 
-Note: We use 80 microsteps per mm for all axis. See motors chapter below
-
-[GRBL Firmware setting reference from Newtone](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/humphrey_v2/Settings_backup)
+More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
 ## Motors
 
@@ -148,6 +145,20 @@ Set these parameters on the VFD
 ## Commanding computer
 
 * Download nightly build of [UGS](https://winder.github.io/ugs_website/) and use a computer (PC, MAC or Linux) to control the machine
+
+### Fixing the "missing java" problem with UGS
+If your computer suddenly claims that it can't find your Java installation you can help it by telling it where it is.
+* Find the ugsplatform/etc folder on your computer
+* Edit the ugsplatform.conf in your favorite text editor (notepad etc..)
+* Find the line starting with #jdkhome 
+* Replace it with this line:
+```
+ jdkhome="C:/Program Files (x86)/Java/jre1.8.0_221/"
+```
+* Double check that you have java in that folder, if it is somewhere else, adjust the path to fit.
+* UGS should now work
+* Do yourself a favour and create a desktop shortcut to the UGS start file **ugsplatform/bin/ugsplatform64.exe**
+
 
 OR
 
