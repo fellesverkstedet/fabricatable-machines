@@ -149,7 +149,8 @@ Set these parameters on the VFD
 
 ### Fixing the "missing java" problem with UGS
 If your computer suddenly claims that it can't find your Java installation you can help it by telling it where it is.
-* Find the ugsplatform/etc folder on your computer
+* Go to where the folder which contains the UGS program files, it's called ugsplatform. *It will be where you unpacked it, if you don't know where you put it, then it's probably in your downloads folder.* 
+* Open the ugsplatform/etc subfolder
 * Edit the ugsplatform.conf in your favorite text editor (notepad etc..)
 * Find the line starting with #jdkhome 
 * Replace it with this line:
