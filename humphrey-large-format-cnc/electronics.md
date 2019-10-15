@@ -79,7 +79,7 @@ Spindle controls schematic Milled PCB ONLY!:
 * In the menu click: File > Open, navigate to the folder Examples->Grbl, and select GrblUpload.
  **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
 * Press the round arrow button to compile and **upload** Grbl to your Arduino.
-* **If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader**
+* *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
 [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
 Note: We use 80 microsteps per mm for all axis. See motors chapter below
