@@ -144,7 +144,8 @@ Set these parameters on the VFD
 
 ## Commanding computer
 
-* Download nightly build of [UGS](https://winder.github.io/ugs_website/) and use a computer (PC, MAC or Linux) to control the machine
+* Download nightly build of [UGS Platform](https://winder.github.io/ugs_website/) and use a computer (PC, MAC or Linux) to control the machine
+* (The stable build )
 
 ### Fixing the "missing java" problem with UGS
 If your computer suddenly claims that it can't find your Java installation you can help it by telling it where it is.
@@ -158,7 +159,6 @@ If your computer suddenly claims that it can't find your Java installation you c
 * Double check that you have java in that folder, if it is somewhere else, adjust the path to fit.
 * UGS should now work
 * Do yourself a favour and create a desktop shortcut to the UGS start file **ugsplatform/bin/ugsplatform64.exe**
-
 
 OR
 
