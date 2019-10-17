@@ -154,7 +154,7 @@ If your computer suddenly claims that it can't find your Java installation you c
 * Open the ugsplatform/etc subfolder
 * Edit the ugsplatform.conf in your favorite text editor (notepad etc..)
 * Find the line starting with #jdkhome 
-* Replace it with this line:
+* Replace it with this line: (remove the #)
 ```
  jdkhome="C:/Program Files (x86)/Java/jre1.8.0_221/"
 ```
