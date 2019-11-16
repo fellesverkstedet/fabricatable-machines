@@ -245,7 +245,7 @@ LIM_X_IN
 Text GLabel 2350 6050 2    50   Input ~ 0
 PROBE
 $Bitmap
-Pos 11750 1650
+Pos 8300 2400
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 EA 00 00 02 A6 08 02 00 00 00 0D 7D 4A 
@@ -4582,6 +4582,7 @@ F 0 "U12" H 5300 4617 50  0000 C CNN
 F 1 "SFH6206-3T" H 5300 4526 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 5300 3850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 5300 4250 50  0001 C CNN
+F 4 "C118295 " H 5300 4250 50  0001 C CNN "LCSC"
 	1    5300 4250
 	1    0    0    -1  
 $EndComp
@@ -4951,7 +4952,7 @@ U 1 1 5B996CA3
 P 2700 1250
 F 0 "D1" V 2738 1133 50  0000 R CNN
 F 1 "LED (20mA 1.85V)" V 2647 1133 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 1250 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2700 1250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2861589.pdf?_ga=2.13061239.1966995363.1573910047-2047768108.1544702110" H 2700 1250 50  0001 C CNN
 	1    2700 1250
 	0    -1   -1   0   
@@ -13709,7 +13710,7 @@ L Device:R R25
 U 1 1 5BBEE7D4
 P 2500 5050
 F 0 "R25" H 2570 5096 50  0000 L CNN
-F 1 "1k" H 2570 5005 50  0000 L CNN
+F 1 "1k" H 2350 5100 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2430 5050 50  0001 C CNN
 F 3 "~" H 2500 5050 50  0001 C CNN
 	1    2500 5050
@@ -13733,7 +13734,7 @@ L Device:R R24
 U 1 1 5BBF7B19
 P 2500 4400
 F 0 "R24" H 2570 4446 50  0000 L CNN
-F 1 "1k" H 2570 4355 50  0000 L CNN
+F 1 "1k" H 2350 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2430 4400 50  0001 C CNN
 F 3 "~" H 2500 4400 50  0001 C CNN
 	1    2500 4400
@@ -13757,7 +13758,7 @@ L Device:R R23
 U 1 1 5BC01498
 P 2500 3750
 F 0 "R23" H 2570 3796 50  0000 L CNN
-F 1 "1k" H 2570 3705 50  0000 L CNN
+F 1 "1k" H 2350 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2430 3750 50  0001 C CNN
 F 3 "~" H 2500 3750 50  0001 C CNN
 	1    2500 3750
@@ -13942,8 +13943,6 @@ Wire Wire Line
 	5600 5500 5650 5500
 Wire Wire Line
 	13850 8800 14000 8800
-Text Notes 2750 5150 1    50   ~ 0
-Option: add indicator LED here, 1 for all
 Text Notes 8800 6450 0    50   ~ 0
 Diode for reverse voltage protection of the elektronics\nNot the motors and sensors.
 Wire Wire Line
@@ -14090,13 +14089,14 @@ Extra arduino decupling capacitors
 Text Notes 11300 6550 0    50   ~ 0
 Add power on LED?\nNot needed. abort led is enough \n(provides the same function)
 $Comp
-L Diode:1N4007 D2->|-1
+L Diode:1N4007 D2
 U 1 1 5DF54B69
 P 9350 6750
-F 0 "D2->|-1" H 9350 6534 50  0000 C CNN
+F 0 "D2" H 9350 6534 50  0000 C CNN
 F 1 "1N4007" H 9350 6625 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 9350 6575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9350 6750 50  0001 C CNN
+F 4 "->|-" H 9350 6750 59  0001 C CNN "Direction"
 	1    9350 6750
 	-1   0    0    1   
 $EndComp
@@ -14333,35 +14333,38 @@ LOW REF jumper to GNDS
 Text Notes 14300 8950 0    50   ~ 0
 Alarm opto. Drive through both with external signal to trigger.
 $Comp
-L Diode:1N4007 D3->|-1
+L Diode:1N4007 D3
 U 1 1 5E20FFFB
 P 750 3900
-F 0 "D3->|-1" H 750 3684 50  0000 C CNN
+F 0 "D3" H 750 3684 50  0000 C CNN
 F 1 "1N4007" H 750 3775 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 3725 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 3900 50  0001 C CNN
+F 4 "->|-" H 750 3900 59  0001 C CNN "Direction"
 	1    750  3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4007 D4->|-1
+L Diode:1N4007 D4
 U 1 1 5E22922B
 P 750 4550
-F 0 "D4->|-1" H 750 4334 50  0000 C CNN
+F 0 "D4" H 750 4334 50  0000 C CNN
 F 1 "1N4007" H 750 4425 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 4375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 4550 50  0001 C CNN
+F 4 "->|-" H 750 4550 59  0001 C CNN "Direction"
 	1    750  4550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4007 D5->|-1
+L Diode:1N4007 D5
 U 1 1 5E2359BC
 P 750 5200
-F 0 "D5->|-1" H 750 4984 50  0000 C CNN
+F 0 "D5" H 750 4984 50  0000 C CNN
 F 1 "1N4007" H 750 5075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 5025 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 5200 50  0001 C CNN
+F 4 "->|-" H 750 5200 59  0001 C CNN "Direction"
 	1    750  5200
 	-1   0    0    1   
 $EndComp
@@ -14376,7 +14379,7 @@ L pspice:CAP C7
 U 1 1 5E298409
 P 3150 1800
 F 0 "C7" V 2835 1800 50  0000 C CNN
-F 1 "100nF" V 2926 1800 50  0000 C CNN
+F 1 "0.1uF" V 2926 1800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 1800 50  0001 C CNN
 F 3 "" H 3150 1800 50  0001 C CNN
 	1    3150 1800

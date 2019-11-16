@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5E2E53BB
+P 4050 2250
+F 0 "R1" H 4120 2296 50  0000 L CNN
+F 1 "1000" H 4120 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3980 2250 50  0001 C CNN
+F 3 "~" H 4050 2250 50  0001 C CNN
+	1    4050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E2E5446
+P 4450 2250
+F 0 "C1" H 4565 2296 50  0000 L CNN
+F 1 "10Fu" H 4565 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4488 2100 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2100 4250 2100
+Wire Wire Line
+	4050 2400 4450 2400
+$Comp
+L power:GND #PWR02
+U 1 1 5E2E54BE
+P 4250 2450
+F 0 "#PWR02" H 4250 2200 50  0001 C CNN
+F 1 "GND" H 4255 2277 50  0000 C CNN
+F 2 "" H 4250 2450 50  0001 C CNN
+F 3 "" H 4250 2450 50  0001 C CNN
+	1    4250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5E2E54EB
+P 4250 2100
+F 0 "#PWR01" H 4250 1950 50  0001 C CNN
+F 1 "+5V" H 4265 2273 50  0000 C CNN
+F 2 "" H 4250 2100 50  0001 C CNN
+F 3 "" H 4250 2100 50  0001 C CNN
+	1    4250 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 2100
+Wire Wire Line
+	4250 2100 4450 2100
+$Comp
+L Device:R R2
+U 1 1 5E2E55F6
+P 5250 2200
+F 0 "R2" H 5320 2246 50  0000 L CNN
+F 1 "1000" H 5320 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5180 2200 50  0001 C CNN
+F 3 "~" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E2E55FD
+P 5650 2200
+F 0 "C2" H 5765 2246 50  0000 L CNN
+F 1 "10Fu" H 5765 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5688 2050 50  0001 C CNN
+F 3 "~" H 5650 2200 50  0001 C CNN
+	1    5650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2350 5650 2350
+$Comp
+L power:GND #PWR0101
+U 1 1 5E2E5606
+P 5450 2400
+F 0 "#PWR0101" H 5450 2150 50  0001 C CNN
+F 1 "GND" H 5455 2227 50  0000 C CNN
+F 2 "" H 5450 2400 50  0001 C CNN
+F 3 "" H 5450 2400 50  0001 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2050 4950 2050
+Wire Wire Line
+	4450 2050 4450 2100
+Connection ~ 5250 2050
+Connection ~ 4450 2100
+Wire Wire Line
+	5250 2050 5650 2050
+Wire Wire Line
+	4450 2400 4950 2400
+Wire Wire Line
+	5250 2400 5250 2350
+Connection ~ 4450 2400
+Connection ~ 5250 2350
+$Comp
+L Device:LED D1
+U 1 1 5E2E5726
+P 4950 2250
+F 0 "D1" V 4895 2328 50  0000 L CNN
+F 1 "LED" V 4986 2328 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 4950 2250 50  0001 C CNN
+F 3 "~" H 4950 2250 50  0001 C CNN
+	1    4950 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 4950 2400
+Wire Wire Line
+	4950 2400 5250 2400
+Wire Wire Line
+	4950 2100 4950 2050
+Connection ~ 4950 2050
+Wire Wire Line
+	4950 2050 4450 2050
+$EndSCHEMATC

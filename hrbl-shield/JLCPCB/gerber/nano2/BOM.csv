@@ -1,0 +1,17 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"LED_D5.0mm";1;"LED (20mA 1.85V)";;;
+2;"C7,C3,C2";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";3;"0.1uF";;;
+3;"D5->|-1,D4->|-1,D3->|-1,D2->|-1";"D_SMA_Handsoldering";4;"1N4007";;;
+4;"U19,U18,U3,U17,U16,U14,U13,U12,U11,U10,U9,U8,U7,U6,U5,U4,U2,U1";"SMDIP-4_W9.53mm_Clearance8mm";18;"SFH6206-3T";;;
+5;"R33,R31,R30,R27,R26,R25,R24,R23";"R_1206_3216Metric_Pad1.42x1.75mm_HandSolder";8;"1k";;;
+6;"R32,R29,R28,R21,R12,R15,R14,R13,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1";"R_1206_3216Metric_Pad1.42x1.75mm_HandSolder";19;"220";;;
+7;"RESET_CAP_JUMPER1";"SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm";1;"~";;;
+8;"Serial_conn1";"PinHeader_1x04_P2.54mm_Vertical";1;"Conn_01x04";;;
+9;"C4,C6,C5,C1";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";4;"10uF";;;
+10;"SIGNAL_SOCKET1,Z_PLUG_SOCKET1,Y2_PLUG_SOCKET1,Y1_PLUG_SOCKET1,X_PLUG_SOCKET1";"PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical";5;"Conn_01x08";;;
+11;"R22,R20,R19,R18,R17,R16";"R_1206_3216Metric_Pad1.42x1.75mm_HandSolder";6;"0";;;
+12;"PWR_IN1";"PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical";1;"Conn_01x02";;;
+13;"MH4,MH3,MH2,MH1";"MountingHole_4.5mm_Pad";4;"MountingHole";;;
+14;"U15";"TO-252-3_TabPin2";1;"IFX27001TFV50ATMA1CT-ND";;;
+15;"P1";"Socket_Strip_Arduino_1x15";1;"Digital";;;
+16;"P2";"Socket_Strip_Arduino_1x15";1;"Analog";;;
