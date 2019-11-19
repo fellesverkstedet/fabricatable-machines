@@ -245,7 +245,7 @@ LIM_X_IN
 Text GLabel 2350 6050 2    50   Input ~ 0
 PROBE
 $Bitmap
-Pos 8300 2400
+Pos 11700 1550
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 EA 00 00 02 A6 08 02 00 00 00 0D 7D 4A 
@@ -4839,11 +4839,11 @@ F 3 "" H 1600 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 1000 1600 1100
-Text Notes 14400 8450 0    50   ~ 0
+Text Notes 14000 8550 0    50   ~ 0
 DCM(COM)
-Text Notes 14400 8350 0    50   ~ 0
+Text Notes 14000 8450 0    50   ~ 0
 FOR
-Text Notes 14400 8750 0    50   ~ 0
+Text Notes 14000 8850 0    50   ~ 0
 ACM(GND)
 $Comp
 L Device:R R4
@@ -13841,60 +13841,60 @@ GRBL PINOUT REFERENCE
 $Comp
 L Connector_Generic:Conn_01x08 SIGNAL_SOCKET1
 U 1 1 5C900CC3
-P 14200 8600
-F 0 "SIGNAL_SOCKET1" H 13950 8050 50  0000 L CNN
-F 1 "Conn_01x08" H 14000 7950 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical" H 14200 8600 50  0001 C CNN
-F 3 "~" H 14200 8600 50  0001 C CNN
-	1    14200 8600
+P 13800 8700
+F 0 "SIGNAL_SOCKET1" H 13550 8150 50  0000 L CNN
+F 1 "Conn_01x08" H 13600 8050 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_8-G-3.5_1x08_P3.50mm_Vertical" H 13800 8700 50  0001 C CNN
+F 3 "~" H 13800 8700 50  0001 C CNN
+	1    13800 8700
 	1    0    0    -1  
 $EndComp
-Text GLabel 13850 8300 0    50   Input ~ 0
+Text GLabel 13450 8400 0    50   Input ~ 0
 SOURCE_FOR
-Text GLabel 13850 8400 0    50   Input ~ 0
+Text GLabel 13450 8500 0    50   Input ~ 0
 GND_FOR
 Wire Wire Line
-	13850 8300 14000 8300
+	13450 8400 13600 8400
 Wire Wire Line
-	13850 8400 14000 8400
-Text GLabel 13850 8700 0    50   Input ~ 0
+	13450 8500 13600 8500
+Text GLabel 13450 8800 0    50   Input ~ 0
 GND_SPEED
-Text GLabel 13850 8500 0    50   Input ~ 0
+Text GLabel 13450 8600 0    50   Input ~ 0
 SOURCE_SPEED
-Text GLabel 13850 8600 0    50   Input ~ 0
+Text GLabel 13450 8700 0    50   Input ~ 0
 SIGNAL_SPEED
-Text GLabel 13850 8800 0    50   Input ~ 0
+Text GLabel 13450 8900 0    50   Input ~ 0
 PROBE_PLATE
 Wire Wire Line
-	13850 8500 14000 8500
+	13450 8600 13600 8600
 Wire Wire Line
-	13850 8600 14000 8600
+	13450 8700 13600 8700
 Wire Wire Line
-	13850 8700 14000 8700
+	13450 8800 13600 8800
 Wire Wire Line
-	13850 8900 14000 8900
-Text Notes 14400 8250 0    50   ~ 10
+	13450 9000 13600 9000
+Text Notes 14000 8350 0    50   ~ 10
 HY Inverter \n(Aliexpress)
-Text Notes 14400 8550 0    50   ~ 0
+Text Notes 14000 8650 0    50   ~ 0
 +10V
-Text Notes 14400 8650 0    50   ~ 0
+Text Notes 14000 8750 0    50   ~ 0
 VI
-Text Notes 15000 8250 0    50   ~ 10
+Text Notes 14600 8350 0    50   ~ 10
 Invertek\nOptidrive
-Text Notes 15000 8350 0    50   ~ 0
+Text Notes 14600 8450 0    50   ~ 0
 +24 (1)\n
-Text Notes 15000 8450 0    50   ~ 0
+Text Notes 14600 8550 0    50   ~ 0
 DIN1 (2)
-Text Notes 15000 8550 0    50   ~ 0
+Text Notes 14600 8650 0    50   ~ 0
 +10 (5)
-Text Notes 15000 8650 0    50   ~ 0
+Text Notes 14600 8750 0    50   ~ 0
 Al1/D14 (6)
-Text Notes 15000 8750 0    50   ~ 0
+Text Notes 14600 8850 0    50   ~ 0
 0V (7)
-Text GLabel 13850 8900 0    50   Input ~ 0
+Text GLabel 13450 9000 0    50   Input ~ 0
 EXTRA_ALARM_IN
 Wire Wire Line
-	13850 9000 14000 9000
+	13450 9100 13600 9100
 Text GLabel 5650 5500 2    50   Input ~ 0
 SOURCE_FOR
 Text GLabel 5650 5700 2    50   Input ~ 0
@@ -13912,7 +13912,7 @@ L Device:R R27
 U 1 1 5C986E7D
 P 5700 6550
 F 0 "R27" H 5770 6596 50  0000 L CNN
-F 1 "1k" H 5750 6700 50  0000 L CNN
+F 1 "10k" H 5750 6700 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5630 6550 50  0001 C CNN
 F 3 "~" H 5700 6550 50  0001 C CNN
 	1    5700 6550
@@ -13942,7 +13942,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5650 5500
 Wire Wire Line
-	13850 8800 14000 8800
+	13450 8900 13600 8900
 Text Notes 8800 6450 0    50   ~ 0
 Diode for reverse voltage protection of the elektronics\nNot the motors and sensors.
 Wire Wire Line
@@ -13997,7 +13997,7 @@ Wire Wire Line
 Connection ~ 2700 2550
 Wire Wire Line
 	2700 2550 2700 3250
-Text GLabel 13850 9000 0    50   Input ~ 0
+Text GLabel 13450 9100 0    50   Input ~ 0
 EXTRA_ALARM_OUT
 $Comp
 L Device:R R31
@@ -14080,7 +14080,7 @@ Text Notes 14550 6000 0    50   ~ 0
 Y motor and sensor socket \n(same as above)
 Text Notes 14500 7000 0    50   ~ 0
 Z motor and sensor socket
-Text Notes 14250 8050 0    50   ~ 0
+Text Notes 13850 8150 0    50   ~ 0
 Signal to probe and spindle control
 Text Notes 11100 350  0    50   ~ 0
 JMC motor interface
@@ -14096,7 +14096,6 @@ F 0 "D2" H 9350 6534 50  0000 C CNN
 F 1 "1N4007" H 9350 6625 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 9350 6575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9350 6750 50  0001 C CNN
-F 4 "->|-" H 9350 6750 59  0001 C CNN "Direction"
 	1    9350 6750
 	-1   0    0    1   
 $EndComp
@@ -14191,7 +14190,7 @@ L Device:R R33
 U 1 1 5DF7011E
 P 5650 7700
 F 0 "R33" H 5720 7746 50  0000 L CNN
-F 1 "1k" H 5750 7850 50  0000 L CNN
+F 1 "10k" H 5750 7850 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5580 7700 50  0001 C CNN
 F 3 "~" H 5650 7700 50  0001 C CNN
 	1    5650 7700
@@ -14226,7 +14225,7 @@ L Device:R R30
 U 1 1 5DF63E93
 P 2500 7800
 F 0 "R30" H 2570 7846 50  0000 L CNN
-F 1 "1k" H 2570 7755 50  0000 L CNN
+F 1 "10k" H 2570 7755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2430 7800 50  0001 C CNN
 F 3 "~" H 2500 7800 50  0001 C CNN
 	1    2500 7800
@@ -14322,15 +14321,15 @@ F 3 "" H 14000 10100 50  0001 C CNN
 	1    14000 10100
 	0    1    1    0   
 $EndComp
-Text Notes 15500 8200 0    50   ~ 10
+Text Notes 15100 8300 0    50   ~ 10
 For PWM w/o ext V soruce
-Text Notes 15600 8550 0    50   ~ 0
+Text Notes 15200 8650 0    50   ~ 0
 HI REF Jumper to 5V_ISO
-Text Notes 15550 8650 0    50   ~ 0
+Text Notes 15150 8750 0    50   ~ 0
  0-5V PWM output
-Text Notes 15600 8750 0    50   ~ 0
+Text Notes 15200 8850 0    50   ~ 0
 LOW REF jumper to GNDS
-Text Notes 14300 8950 0    50   ~ 0
+Text Notes 13900 9050 0    50   ~ 0
 Alarm opto. Drive through both with external signal to trigger.
 $Comp
 L Diode:1N4007 D3
@@ -14340,7 +14339,7 @@ F 0 "D3" H 750 3684 50  0000 C CNN
 F 1 "1N4007" H 750 3775 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 3725 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 3900 50  0001 C CNN
-F 4 "->|-" H 750 3900 59  0001 C CNN "Direction"
+F 4 "C95872 " H 750 3900 50  0001 C CNN "LCSC"
 	1    750  3900
 	-1   0    0    1   
 $EndComp
@@ -14352,7 +14351,7 @@ F 0 "D4" H 750 4334 50  0000 C CNN
 F 1 "1N4007" H 750 4425 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 4375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 4550 50  0001 C CNN
-F 4 "->|-" H 750 4550 59  0001 C CNN "Direction"
+F 4 "C95872 " H 750 4550 59  0001 C CNN "LCSC"
 	1    750  4550
 	-1   0    0    1   
 $EndComp
@@ -14364,7 +14363,6 @@ F 0 "D5" H 750 4984 50  0000 C CNN
 F 1 "1N4007" H 750 5075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 750 5025 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 750 5200 50  0001 C CNN
-F 4 "->|-" H 750 5200 59  0001 C CNN "Direction"
 	1    750  5200
 	-1   0    0    1   
 $EndComp
@@ -14399,4 +14397,6 @@ F 3 "" H 3150 2050 50  0001 C CNN
 $EndComp
 Text Notes 3550 1800 0    50   ~ 0
 Extra cap
+Text Notes 12500 650  0    50   ~ 0
+Tx and Rx have 1k series resistor to UART IC
 $EndSCHEMATC

@@ -1,7 +1,0 @@
-### Module positions - created on 11/16/19 19:04:28 ###
-### Printed by Pcbnew version kicad (6.0.0-rc1-dev-347-gd8782b751)
-## Unit = mm, Angle = deg.
-## Side : top
-# Ref     Val               Package                                             PosX       PosY       Rot  Side
-D1        LED_(20mA_1.85V)  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder    11.4300    56.5150    0.0000  top
-## End
