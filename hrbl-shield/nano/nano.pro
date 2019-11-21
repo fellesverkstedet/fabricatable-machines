@@ -1,4 +1,4 @@
-update=18/03/2019 12:46:44
+update=19/11/2019 21:53:55
 version=1
 last_client=kicad
 [cvpcb]
@@ -75,7 +75,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=empty.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=jlcpcb_order_19112019/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

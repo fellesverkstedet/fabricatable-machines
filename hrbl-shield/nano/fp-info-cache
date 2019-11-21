@@ -1,4 +1,4 @@
-14604868032689812
+14606441959711347
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -42636,6 +42636,13 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+Fabricatable_machines_symbols
+Fabricatable_machines
+
+
+0
+0
+0
 Fiducial
 Fiducial_0.5mm_Dia_1mm_Outer
 Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)
