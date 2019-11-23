@@ -5,7 +5,7 @@ Made with a 3D printer, a laser cutter and a plywood saw.
 *Full sheet CNC milling machine, work area 2,6*1,2m*
 
 ## BOM
-* 12 mm Plywood rails, 99% straight cuts. Glue and nailgun assembly. Possible to use 8mm for structural parts and lesser loads.
+* 12 mm Plywood rails, 99% straight cuts. Glue and nailgun assembly. Use 8mm for structural parts = lighter = faster.
 * Integrated stepper motors 3Nm
 * Hrbl controller
 * Laser cut plastic racks
