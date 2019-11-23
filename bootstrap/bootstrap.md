@@ -41,6 +41,7 @@ Made with a 3D printer, a laser cutter and a plywood saw.
 * Make a test axis and test them under load. 3D print flex and wood deterioration from roller load is very interesting.
 * Add rollers to machine layout.
 * Import large teeth rack and pinion from wiki. Large teeth = Lower maximum performance but should be stronger.
+* Add motor mounts
 * Decide on axis width, now all have 120mm = low on X and hight on Y, ok on Z?
 * Decide on fasteners, 3D prints with trapped nuts or metal threaded inserts?
 * Add probing plate
