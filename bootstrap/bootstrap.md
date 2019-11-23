@@ -56,6 +56,6 @@ Glue and nailgun assembly. Use 8mm for structural parts = lighter = faster.
 * Consider hiding Y rails under bed for dust protection. Add spacer.
 * Develop a wiper system, consider covers for rollers.
 
-## Future development
+## Improvement ideas
 * If tuning does not stay tight, add tuning features to prints
-
+* Double rollers on high stress places = behind X top +2, front x bottom +2, top edge x +2 and y +4 = +10 => 58 total. All double = 96 bearings, perhaps worth it?
