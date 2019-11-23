@@ -45,7 +45,7 @@ Made with a 3D printer, a laser cutter and a plywood saw.
 * Decide on fasteners, 3D prints with trapped nuts or metal threaded inserts?
 * Add probing plate
 * Consider hiding Y rails under bed for dust protection. Add spacer.
-
+* Develop a wiper system, consider covers for rollers.
 
 ## Future development
 * If tuning does not stay tight, add tuning features to prints
