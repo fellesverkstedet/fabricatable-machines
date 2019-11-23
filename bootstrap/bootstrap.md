@@ -1,11 +1,19 @@
-# Bootstrap CNC mill
-Made with a 3D printer, a laser cutter and a plywood saw.
-
+# Bootstrap CNC mill - concept 
 ![](img/persp.JPG)
 *Full sheet CNC milling machine, work area 2,6*1,2m*
 
+## Description
+Design concept for making all parts for a CNC using a 3D printer, a laser cutter and a plywood saw. 
+
+Intended to be built in Skellefteå Sweden using their local machines.
+
+The supporting structural parts will be have to be built with non-cnc methods.
+
+Glue and nailgun assembly. Use 8mm for structural parts = lighter = faster.
+
+
 ## BOM
-* 12 mm Plywood rails, 99% straight cuts. Glue and nailgun assembly. Use 8mm for structural parts = lighter = faster.
+* 12 mm Plywood rails, 99% straight cuts.
 * Integrated stepper motors 3Nm
 * Hrbl controller
 * Laser cut plastic racks
