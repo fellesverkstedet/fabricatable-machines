@@ -1,11 +1,16 @@
 # Humphrey wood version - how to make
-*by Jens Dyvik, march 2019 (page in progress, please help improve this page)*
+*(page in progress, please help improve this page)*
+
+[![Wood_humphrey on bitraf](img/Hello_Wooden_Humphrey.jpg)](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
+
+*Shortbed version (1/4th) wooden Humphrey at bitraf*
 
 ![render of wood version](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/wood-version-render.jpg)
 *Shortbed version inside safety enclosure*
 
-Wooden Humphrey build by Haakon Walseng: [media files](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
-Unnamed and unsorted as of 21nd November 2019. Todo: add pictures and commentary to own build readme. Feel free to upload and add pictures to this readme.
+## Pictures and videos of the making of a Wooden Humphrey
+* Wooden Humphrey build by Haakon Walseng: [Media files](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
+*Unnamed and unsorted as of 21nd November 2019. Todo: Add pictures and commentary to own build readme. Feel free to upload and add pictures to this readme.*
 
 ### BOM
 *(Bill of materials, the stuff you need to buy in order to make one)*
