@@ -28,7 +28,7 @@
 
 # Files
 
-[Full size Fusion360 model (no rollers)](https://a360.co/33g6WgV)
+[Full size Fusion360 model (no rollers but fully jointed)](https://a360.co/33g6WgV)
 
 # Bed and supports
 The files here only covers the "machine" part of the CNC, the bed and its supports needs to be designed and built by local talents.
@@ -47,7 +47,7 @@ See [this torsion box video](https://www.thewoodwhisperer.com/videos/episode-18-
 * 48 holders are needed.
 * Tuning is done at assembly. The rollers are fixed in a position of pretension aginst the wood.
 
-[Fusion360 link](https://a360.co/2pHU1Xv) (Fully jointed)
+[Fusion360 link](https://a360.co/2pHU1Xv) 
 
 ## Guessed performance 
 * Errors under 1 mm should be very realistic, errors under 0,5mm is optimistic.
