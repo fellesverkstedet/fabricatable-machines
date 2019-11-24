@@ -3,6 +3,7 @@
 Humphrey type CNC mills can been made in different materials. Some are entirely made from valchromat (wood particle board) others have valchromat beds with aluminium axis and gantries. 
 
 ## Humphrey made entirely from wood
+Really fast to make (few days), less sturdy than aluminium.
  
   ![Wooden Humphrey at Bitraf](img/Hello_Wooden_Humphrey.jpg)
  
@@ -13,6 +14,7 @@ Humphrey type CNC mills can been made in different materials. Some are entirely 
  *Video demonstration of a wooden Humphrey at Fellesverkstedet, Oslo Norway*
 
 ## Humphrey made with aluminium gantry and axis
+Takes 1,5-2 weeks to make. Quite sturdy if tuned well.
  
   ![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
  
