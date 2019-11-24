@@ -16,7 +16,7 @@ Humphrey type CNC mills can been made in different materials. Some are entirely 
  
   ![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
  
- *The 5th iteration of at Kuben High school, Oslo Norway*
+ *The 5th iteration of Humphrey at Kuben upper secondary school, Oslo Norway*
  
  [![Humphrey milling (YOUTUBE)](http://img.youtube.com/vi/OQubzoJhvSk/0.jpg)](http://www.youtube.com/watch?v=OQubzoJhvSk "Humphrey milling")
  
@@ -51,7 +51,7 @@ Humphrey type CNC mills can been made in different materials. Some are entirely 
 * [How to make a wooden humphrey](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md)
 
 ### Completed versions of Humphrey
-_As of Januari 2019_
+_As of November 2019_
 
 Click the links for more pictures!
 
@@ -61,8 +61,14 @@ The Humphrey model has been made in four completed versions and one more is in p
 2. [Humphrey v2](humphrey_v2.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed at [Newtone](https://newtone.no/) in Oslo.
 3. [Humphrey v3](Humphrey_v3.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed in [Dalamakers](https://dalamakers.no) the [Makerspace in Brumunddal (facebook)](https://www.facebook.com/pages/category/Nonprofit-Organization/Makerspace-i-Brumunddal-199245720667673/)
 4. [Humphrey v4](Humphrey_v4.md), installed at [Buene AS](http://buene.com) in Oslo - Parts produced in [Bitraf](https://bitraf.no/) by [Jakob Nilsson](http://www.norlinkmakes.com).
-5. A kit of parts for **Humphrey v5** is being produced by Nikolai Kolstad at [Fellesverkstedet](https://www.fellesverkstedet.no/) for [Kuben upper secondary school](https://kuben.vgs.no/) in Oslo.
+5. **Humphrey v5** produced as a kit of parts by Nikolai Kolstad at [Fellesverkstedet](https://www.fellesverkstedet.no/) for [Kuben upper secondary school](https://kuben.vgs.no/) in Oslo.
 
+### Humphrey v5
+
+![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
+ 
+The 5th iteration of Humphrey, assembled at [Kuben upper secondary school, Oslo Norway](https://kuben.vgs.no/).
+ 
 ### Humphrey v4 
 
 [![image](img/assembled_done.jpg)](Humphrey_v4.md)
