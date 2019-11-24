@@ -1,9 +1,9 @@
 # Bootstrap CNC mill - concept 
 ![](img/persp.JPG)
-*Full sheet CNC milling machine, work area 2,6*1,2m*
+*Full sheet CNC milling machine, work area 2,6 x 1,2m*
 
 ## Description
-* Design concept for making all parts for a full siye CNC milling machine using a local 3D printer, a laser cutter and a plywood saw. 
+* Design concept for making all parts for a full size CNC milling machine using a local 3D printer, a laser cutter and a plywood saw. 
 * Heavily inspired by the previusly developed [Humphrey CNC mills](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md) made from valchromat and aluminium.
 * Plan to use use a skateboard bearing (608) based [roller axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#roller-rail) guide system. 
 * Plan to use the ["large size" rack and pinion](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#rack-and-pinion---sizes) with laser cut rack and 3D printed pinions.
