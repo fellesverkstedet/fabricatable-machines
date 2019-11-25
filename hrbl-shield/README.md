@@ -30,6 +30,10 @@ Working board with components
 ![Connections](img/connections_BACK.JPG)
 *Back of card - Silkscreen and solder mask layers, here shown mirrored compared to the files*
 
+## How to connect a generic spindle driver
+
+![Generic spindle](img/Spindle_illustrated.png)
+
 ## Files
 
 Please note that the files are as they come out of KiCAD, that means that the B-side layers are mirrored.
