@@ -12,7 +12,7 @@ HRBL is an Arduiono NANO shield aiming to simplify connecting motors, limit swit
 
 ![frontside](img/HRBL_soldered_frontside.jpg)
 
-*Hand soldedered SMDs, card from PCBWAY*
+*Hand soldered pluggable through-hole cable connectors, card from PCBWAY*
 # Status
 HRBL is currently in use in:
 * [Hedy v1](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hedy-pcb-cnc/readme.md) A CNC milling machine made to mill circuit boards like this one.
@@ -46,22 +46,34 @@ HRBL is currently in use in:
 * [PDF Schematic for JLCPCB version Nov 2019](Hrbl_shield_pdf.pdf)
 
 ## Program the Arduino
+* [Download and install arduino if you don't have it](https://www.arduino.cc/download_handler.php)
+* Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/GRBL_Spindle_ENABLE.zip)
+* Manually unzip the file in a folder. **Don't skip this step**
+* Connect your arduino to your computer
+* Make sure your board is set to **Arduino Nano** board in the Tool->Board menu and the serial port is selected correctly in Tool->Serial Port. (If it does not show up, try installing these [Chinese Arduino USB drivers (CH341)](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/CH341SER.EXE) )
+* Now we need to add the GRBL files as a library to the Arduino program
+ * In the menu go to **Sketch > Include Library** and select Add .ZIP Library. (The Add .ZIP Library command supports both a .ZIP file or a folder.) Add the folder that you unzipped.
+ * You can confirm that the library has been added. Click the Sketch drop-down menu again, navigate to Include Library, then scroll to the bottom of the list where you should see grbl.
+* In the menu click: File > Open, navigate to the folder Examples->Grbl, and select GrblUpload.
+ **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
+* Press the round arrow button to compile and **upload** Grbl to your Arduino.
+* *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
 
-## Connect the steppers
+More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
-## Connect the sensors
+## Connect the steppers and sensors
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/electronics/Connector_guide.jpg)
 
-## How to connect a spindle driver
-
+## Connect a spindle driver
 ![Generic spindle](img/Spindle_illustrated.png)
 
-## Connect alarms
+## Connect extra alarms (OPTIONAL)
+There are two pins on the signal connector that can be used to trigger an alarm. Drive them with 5V on one and GND on the other (either direction works). 
 
-## Test everything
+## Configure GRBL for your machine
+[See the setup guide on the Wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Machine-setup)
 
-# How to make 
-
-## Ways to make:
+# Ways to make the card
 
 * The HRBL card can be ordered with SMDs assembled from [JLCPCB.com](jlcpcb.com) using these [files (previously ordered 19-11-2019)](nano/jlcpcb_order_19112019/Hrbl_grbl_19112019.zip) *Please note that the assembly preview was buggy at the time, might still be. Ignore and proceed.)*
 * The plain HRBL card can be [ordered directly without components from PCBWAY using this link](https://www.pcbway.com/project/shareproject/HRBL___grbl_shield_for_Fabricatable_Machines.html)
@@ -166,4 +178,6 @@ Plain board manufactured by PCB Way from KiCAD gerber files.
 * Consider replacing the 16 single channel SFH6206-3T optocouplers with 4 channel 4TLP291-4(GB) for reduced part count and cheaper BOM. 
 * (From [issue 20](https://github.com/fellesverkstedet/fabricatable-machines/issues/20) consider if we should change the 5V voltage regulator.
 * Establish a maximum current that we can draw through the card to the motors without overheating the traces (or ribbon cable).
-
+* Add dual axis squaring
+* Change the ZIP filename so that you don't need to unzip GRBL
+* Consider 3 pin plugs for sensors
