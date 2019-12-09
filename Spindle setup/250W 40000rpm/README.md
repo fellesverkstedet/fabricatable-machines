@@ -1,8 +1,8 @@
-# 250W 40 000
-*Spindle Model: S4225-B40
+# Spindle setup
+*  Spindle Model: S4225-B40
 *Spindle driver: Windward BLDC-DZZ
 
-## Guide to conect up a 250W 40000rpm Spindle
+## Guide to connect up a 250W 40000rpm Spindle
 ### Work in progress... 9th of December 2019
 
 ## Start
@@ -20,9 +20,9 @@ To connect the spindle for testing you will need:
 ![spindleFlow](img/spindleFlow.jpg)
 * A) Spindle to driver, screw in place. Fits only one way (easy peasy)
 * B) Spindle to driver: 
-Green cable to U
-Yellow cable to V
-Brown cable to W (double check!)
+** Green cable to U
+** Yellow cable to V
+** Brown cable to W (double check!)
 2 remaining cables are probably for an inbuilt thermistor(?) in the spindle. Probably connect to: Motor-NTC and VCC (check manual)
 * C) Spindle driver ribbon cable, need only 5 strands: 
 brown to switch Start/stop
