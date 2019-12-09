@@ -20,50 +20,50 @@ To connect the spindle for testing you will need:
 ![spindleFlow](img/spindleFlow.jpg)
 * A) Spindle to driver, screw in place. Fits only one way (easy peasy)
 * B) Spindle to driver: 
-** Green cable to U
-** Yellow cable to V
-** Brown cable to W (double check!)
+* Green cable to U
+* Yellow cable to V
+* Brown cable to W (double check!)
 2 remaining cables are probably for an inbuilt thermistor(?) in the spindle. Probably connect to: Motor-NTC and VCC (check manual)
 * C) Spindle driver ribbon cable, need only 5 strands: 
-brown to switch Start/stop
-red to Switch GND
-orange to 10K VCC 
-yellow to 10K Speed-ADJ
-green to 10K GND
+* brown to switch Start/stop
+* red to Switch GND
+* orange to 10K VCC 
+* yellow to 10K Speed-ADJ
+* green to 10K GND
 ![driverConnect](img/driverConnectSwitch.jpg)
 * D) Ribbon cable to HRBL: 
-brown to + FOR
-red to - FOR
-orange to + PWM 
-yellow to SIG PWM
-green to - PWM
+* brown to + FOR
+* red to - FOR
+* orange to + PWM 
+* yellow to SIG PWM
+* green to - PWM
 ![HRBLDriver](img/HRBLDriver.jpg)
 * E) Power cable to power supply
 
 ## Switch flip on spindle driver
 ### Current setup: F2 error message on spindle driver display on startup, spindle spins slowly when (1) is flipped down. Able to adjust speed then but not a direct correspondence with the value sent by GRBL. Needs more troubleshooting!
-* 1) Down
-* 2) Up
-* 3) Up
-* 4) Down
-* 5) Up
-* 6) Up
-* 7) Up
-* 8) Down
+* (1) Down
+* (2) Up
+* (3) Up
+* (4) Down
+* (5) Up
+* (6) Up
+* (7) Up
+* (8) Down
 
 ## First testing
-Commands in GRBL:
-M3: start spindle
-S10000: set spindle speed to 10000rpm
-Test device for rpm: Tachometer (norwegian: turtallsmåler / turtallsteller)
-Example: https://www.kjell.com/no/produkter/elektro-og-verktoy/maleinstrumenter/turteller/uni-t-ut373-turtallsmaler-p48883
+### Commands in GRBL:
+* M3: start spindle
+* S10000: set spindle speed to 10000rpm
+* Test device for rpm: Tachometer (norwegian: turtallsmåler / turtallsteller)
+* Example: https://www.kjell.com/no/produkter/elektro-og-verktoy/maleinstrumenter/turteller/uni-t-ut373-turtallsmaler-p48883
 
 ## Further testing
 Test switches function.
 Read manual of spindle driver to figure out [MENU] and [POLES] on spindle driver.
 Figure out correct flipping of switches and options in [MENU] and [POLES] for GRBL speed set to equal actual Spindle speed.
 
-##Some more pictures:
+## Some more pictures:
 ![Tools](img/toolsForSpindleConnect.jpg)
 ![SpindleConnector](img/spindleConnector.jpg)
 ![overview](img/overview.jpg)
@@ -74,14 +74,14 @@ Figure out correct flipping of switches and options in [MENU] and [POLES] for GR
 ---
 Reading different rpm
 Just some reading to check what switch (5) did
-*RPM, Display [5] PWM UP, Display [5] PWM DATA  
-*5000, 36, 7-10
-*10000,38, 10-11
-*15000, 39, 16
-*20000, 40, 17-18
-*25000, 40, 20-21
-*30000, 40, 33-35
-*40000, 41, 41
+* RPM, Display [5] PWM UP, Display [5] PWM DATA  
+* 5000, 36, 7-10
+* 10000,38, 10-11
+* 15000, 39, 16
+* 20000, 40, 17-18
+* 25000, 40, 20-21
+* 30000, 40, 33-35
+* 40000, 41, 41
 What is displayed: power usage?
 
 ---
