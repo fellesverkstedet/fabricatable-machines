@@ -1,6 +1,6 @@
 # Spindle setup
 *  Spindle Model: S4225-B40
-*Spindle driver: Windward BLDC-DZZ
+* Spindle driver: Windward BLDC-DZZ
 
 ## Guide to connect up a 250W 40000rpm Spindle
 ### Work in progress... 9th of December 2019
@@ -140,4 +140,25 @@ Bonus question:
 When you are running milling jobs, try with switch [4] in the Closed loop setting and see if it works better or worse. I worry that one of the modes will have a drop in RPM as the bit enters the material. It might be that one of the modes works better when you have set a lower than max RPM, I worry that it will loose lots of torque when the RPM is lowered. Remember to document!
 
 Let me know if there are more questions and PLEASE write down a guide as you go through this, write it straight into github or it is likely to not happen.
+---
+Test of spindle speed vs GRBL S... speed command:
+GRBL, Measured at spindle with tachometer
+S0, 4040rpm
+S5000, 36100rpm
+S10000, 38033rpm
+S15000, 38800rpm
+S20000, 39200
+S25000,
+S30000,
+S35000,
+S40000, 39950rpm
 
+With this switch setting:
+11010010
+
+Needs troubleshooting:
+GRBL command gives a measureable result but the numbers are totaly off.
+Spins when rpm is set by GRBL to be 0.
+Also F2 on spindle driver on startup.
+See manual, page 16:
+http://www.aero-mate.com/images/Windward/BLDC-DZZ%20User%20manual.pdf
