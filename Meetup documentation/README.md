@@ -9,37 +9,37 @@ Help wanted: software that can transcribe the audio files automatically, so we c
 
 Official meetups (feel free to add you own events. Using a similar layout). 
 
-V1
-Date:
-Location: Bitraf Makerspace, Oslo
-Attending:
-Short description:
-Audio: [soundFile](soundFile.ma4)
+V1  
+Date:  
+Location: Bitraf Makerspace, Oslo  
+Attending:  
+Short description:  
+Audio: [soundFile](soundFile.ma4)  
 
-V2
-Date:
-Location: Bitraf Makerspace, Oslo
-Attending:
-Short description:
-Audio: [soundFile](soundFile.ma4)
+V2  
+Date:  
+Location: Bitraf Makerspace, Oslo  
+Attending:  
+Short description:  
+Audio: [soundFile](soundFile.ma4)  
 
-V3
-Date:
-Location: Bitraf Makerspace, Oslo
-Attending:
-Short description:
-Audio: [soundFile](soundFile.ma4)
+V3  
+Date:  
+Location: Bitraf Makerspace, Oslo  
+Attending:  
+Short description:  
+Audio: [soundFile](soundFile.ma4)  
+  
+V4  
+Date:  
+Location: Bitraf Makerspace, Oslo  
+Attending:  
+Short description:  
+Audio: [soundFile](soundFile.ma4)  
 
-V4
-Date:
-Location: Bitraf Makerspace, Oslo
-Attending:
-Short description:
-Audio: [soundFile](soundFile.ma4)
-
-V5
-Date:
-Location: OsloMet Makerspace, Oslo
-Attending:
-Short description:
-Audio: [soundFile](soundFile.ma4)
+V5  
+Date:  
+Location: OsloMet Makerspace, Oslo  
+Attending:  
+Short description:  
+Audio: [soundFile](soundFile.ma4)  
