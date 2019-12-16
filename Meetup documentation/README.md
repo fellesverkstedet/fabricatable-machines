@@ -14,32 +14,32 @@ Date:
 Location: Bitraf Makerspace, Oslo
 Attending:
 Short description:
-Audio: ![soundFile](https://drive.google.com/file/d/15DFgoLk4-qKbczVaY2gkfDqGrzbWuZXw/view?usp=drivesdk)
+Audio: [soundFile](soundFile.ma4)
 
 V2
 Date:
 Location: Bitraf Makerspace, Oslo
 Attending:
 Short description:
-Audio: ![soundFile](https://drive.google.com/file/d/15FEQHCy6bfPX2smT1JJ6vEwEdNj2G01B/view?usp=drivesdk)
+Audio: [soundFile](soundFile.ma4)
 
 V3
 Date:
 Location: Bitraf Makerspace, Oslo
 Attending:
 Short description:
-Audio: ![soundFile](https://drive.google.com/file/d/15AQt9TCK5J8Z43wg-dxqgXsIM2VJRbjF/view?usp=drivesdk)
+Audio: [soundFile](soundFile.ma4)
 
 V4
 Date:
 Location: Bitraf Makerspace, Oslo
 Attending:
 Short description:
-Audio: ![soundFile](https://drive.google.com/file/d/1b3GFOzYNd1_iaGEzuxdtxUjpnqkDfWRo/view?usp=drivesdk)
+Audio: [soundFile](soundFile.ma4)
 
 V5
 Date:
 Location: OsloMet Makerspace, Oslo
-Attending: 
-Short description: First Meetup at OsloMet, where Haakon Walsengs Wooden Humphrey is currently located. Introduction by the attending, tour of the makerspace and som practical work: mounting 3 new 3d printed hard endstops , and first small test milling on this machine (without machine calibration).
-Audio: ![soundFile](https://drive.google.com/file/d/1b2DU0b5GHIIPG67UpCTtmmAkY5Jp1Fpt/view?usp=drivesdk)
+Attending:
+Short description:
+Audio: [soundFile](soundFile.ma4)
