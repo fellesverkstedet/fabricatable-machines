@@ -80,3 +80,7 @@ Step and direcion signals from microcontroller to each of the intergrated motor 
 
 ### How to configure
 Steps per mm = 40 *(more info pending)*
+
+### Hard endstops for 3d printing
+![endstop](https://drive.google.com/file/d/1bGgOnYXn5w3qPKVvl1ZfoLH06Uf3-SXC/view?usp=drivesdk)
+[Design files and readme](/wood-gantry-files\Hard endstops 3d print)
