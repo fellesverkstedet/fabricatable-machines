@@ -64,6 +64,8 @@ More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 ## Connect the steppers and sensors
 ![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/electronics/Connector_guide.jpg)
 
+* The SN04-N NPN NO sensor cable colors are: Blue = GND, Brown = VCC, BLACK = SIGNAL
+
 ## Connect a spindle driver
 ![Generic spindle](img/Spindle_illustrated.png)
 
