@@ -55,9 +55,9 @@ HRBL is currently in use in:
  * In the menu go to **Sketch > Include Library** and select Add .ZIP Library. (The Add .ZIP Library command supports both a .ZIP file or a folder.) Add the folder that you unzipped.
  * You can confirm that the library has been added. Click the Sketch drop-down menu again, navigate to Include Library, then scroll to the bottom of the list where you should see grbl.
 * In the menu click: File > Open, navigate to the folder Examples->Grbl, and select GrblUpload.
-* *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
 **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
 * Press the round arrow button to compile and **upload** Grbl to your Arduino.
+* *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
 
 More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
