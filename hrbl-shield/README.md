@@ -78,6 +78,17 @@ There are two pins on the signal connector that can be used to trigger an alarm.
 ## Use GRBL to run your machine
 [See the use guide on our wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use)
 
+## Optional: HISU settings
+
+[Required product](https://www.aliexpress.com/item/32805819281.html). 
+You can also access these setting using a RS232 serial connection but the HISU device is cheap.
+
+Recommended but not required. You can use a special handheld programming device to alter the settings in the motor drivers for the integrated stepper motors. There are two settings that are of special interest.
+* P16: Position error limit. If the motor detects an error bigger than this setting it will stop trying to recover the lost steps, throw an error and refuse to move until power is cycled. If I remember correctly the factory default setting allowed a full revolution before throwing an error. We recommend something much smaller to detect errors earlier. 
+* P19: Speed smoothness. This is a built in acceleration setting. Since we want to control the acceleraton completely this should be set to 0.
+
+[Full motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
+
 # Ways to make the card
 
 * The HRBL card can be ordered with SMDs assembled from [JLCPCB.com](jlcpcb.com) using these [files (previously ordered 19-11-2019)](nano/jlcpcb_order_19112019/Hrbl_grbl_19112019.zip) *Please note that the assembly preview was buggy at the time, might still be. Ignore and proceed.)*
