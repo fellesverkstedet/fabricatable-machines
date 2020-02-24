@@ -1,4 +1,4 @@
-# Bootstrap CNC mill - concept 
+# Hootstrap CNC mill - A bootstrap concept fabricateable machine
 ![](img/persp.JPG)
 *Full sheet CNC milling machine, work area 2,6 x 1,2m*
 
