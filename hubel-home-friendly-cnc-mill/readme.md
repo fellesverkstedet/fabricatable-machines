@@ -10,14 +10,14 @@ The hubel machine series is home and human friendly. Dust, noise and fumes are c
 ![Hubel family front](img/hubel-family-sketch-front.PNG)
 Left machine form factor: Prusa style 3D printer or rigid small CNC mill, middle: Medium size CNC mill, right: Large format CNC mill
 
-The series might have potential for replacing the entire set of standard fab lab machines. The medium sizzed milling machine might be able to replace the lasercutter with the help of a vacuum bed, high rpm spinlde, pen and oscilating knife attchment *(Zund type etc.)*
+The series might have potential for replacing the entire set of standard fab lab machines. The medium sizzed milling machine might be able to replace the lasercutter with the help of a vacuum bed, high rpm spinlde, pen and oscilating knife attachment *(Zund type etc.)*
 
 ### Design drivers:
-* Integrated machine frame and enclosure *(cabinet walls support axis rails, sppeeds up and simpflies fabrication)
+* Integrated machine frame and enclosure *(cabinet walls support axis rails, speeds up and simplifies fabrication)*
 * Focus on safety *(machine cannot be touched whhile running thanks to transparent doors)*
-* Focus on health and comfort *(sound and dust is contained inside enclosure, machine an dust extraction share the same environment)*
-* Matches standard kitchen grid *(450mm, 600mm, 900mm)
-* Matches standard kithen fabrication techniques? *(CNC milled melamine with edgebanding)*
+* Focus on health and comfort *(sound and dust is contained inside enclosure, machine and dust extraction share the same environment)*
+* Matches standard kitchen grid *(450mm, 600mm, 900mm)*
+* Matches standard kithen fabrication techniques? *(CNC milled melamine with edgebanding?)*
 
 ### Potential construction materials
 Frame:
