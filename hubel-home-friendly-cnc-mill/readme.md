@@ -1,4 +1,4 @@
-# Hübel - Home fiendly CNC mill
+# Hübel - Home friendly CNC mill
 by Jens Dyvik
 
 *status april 2020: Work in progress, only sketches so far*
