@@ -1,16 +1,31 @@
 # Humphrey wood version - how to make
-*(page in progress, please help improve this page)*
+*(page in progress, please help improve this page)*, Wooden humphrey designed by Jens Dyvik, January 2019
 
-[![Wood_humphrey on bitraf](img/Hello_Wooden_Humphrey.jpg)](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
+[Back to Humphrey overview](README.md)
 
-*Shortbed version (1/4th) wooden Humphrey at bitraf*
+![](img/wood-humphrey-with-3dprinthead.JPG)
+*Wood humphrey with Moarstruder 3D print head, test printing Prusa designed face shield part*
 
-![render of wood version](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/wood-version-render.jpg)
-*Shortbed version inside safety enclosure*
+### Index
+* Design wins
+* Design fails
+* [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
+* How to fabricate the parts
+* How to assemble
+* How to wire electronics
+* How to tune
+* [Fabriaction and assembly gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
+* [Machine use gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/machine&use&gallery/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
 
-## Pictures and videos of the making of a Wooden Humphrey
-* Wooden Humphrey build by Haakon Walseng: [Media files](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
-*Unnamed and unsorted as of 21nd November 2019. Todo: Add pictures and commentary to own build readme. Feel free to upload and add pictures to this readme.*
+### Design wins
+* Performance is amazing given the materials used and gantry pan length *(OSB, MDF, Polycarnonaete, POM - gantry span 1.3meter)*
+
+### Design fails
+* Gantry feet can wobble autwards  (roataion along Z axis- fores along X axis)
+* There should have been an extra bearing on Y axis accariages *(under the bed)* so that spring loading the gantry is the only force keeping pinions from moving away from rack
+* Valchromat leaves a lot of dust particles on bearings, requiring frequent cleaning
+* KR16 and KRE16 track rollers are too expensive given cost and performance of the machine. Plain 16mm outer iamter bearings with eccentric 3D printed bushings are currently being investigated
+
 
 ### BOM
 *(Bill of materials, the stuff you need to buy in order to make one)*
@@ -71,16 +86,126 @@ Step by step instructions are pending, for now you can study the [3D assembly ST
 
 You can also check out the new [Fusion 360 file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files/named-grouped-in-the-order-of-assembly-humphrey-wood-version-quarter-length-bed-v60.f3d) where all the parts have been named, put into groups and put into a suggested order of assembly. Tip: expand a group of bodies all the way, uncheck the lightbulbs for the individual bodies, not for the groups(!), and work your way through the assembly by turning on the lightbulbs starting at the top. Todo: mark the individual CNC-milled parts with an unique number, [1], [2], [3]... [148] etc and update the cutsheets with these numbers using blue stroke Hershey-text (for example using inkscape). When the 3D assembly CAD files and the cutsheets both have unique identification of the parts it will be much easier to make clear assembly instructions and to communicate about parts (for example when ordering spare parts, or talking about design improvemnts for a specific part).
 
-### How to tune
-* Carefully adjust the eccentric bearings towards the rail surfce with the help of an hex/allen key *(the bearings should not spin freely but follow the movement of the axis, but dont tighten too hard as this will create prematre wear of the valchromat rails)*
-* Gently hold the motor with pinion against the rack, then tighten the screws on the motor plate *(too much pressure creates uneven motion while too much distance from the rack creates backlash)*
-
 ### How to wire electronics
 Step and direcion signals from microcontroller to each of the intergrated motor drivers *(more info pending, also see [grbl documentation](https://github.com/gnea/grbl/wiki))*
 
 ### How to configure
 Steps per mm = 40 *(more info pending)*
 
+### How to tune
+* Carefully adjust the eccentric bearings towards the rail surfce with the help of an hex/allen key *(the bearings should not spin freely but follow the movement of the axis, but dont tighten too hard as this will create prematre wear of the valchromat rails)*
+* Gently hold the motor with pinion against the rack, then tighten the screws on the motor plate *(too much pressure creates uneven motion while too much distance from the rack creates backlash)*
+
 ### Hard endstops for 3d printing
 [endstop](https://drive.google.com/file/d/1bGgOnYXn5w3qPKVvl1ZfoLH06Uf3-SXC/view)  
 [Design files and readme](\wood-gantry-files\Hard endstops 3d print)
+
+### Fabriaction and assembly gallery
+![](img/wood-humphrey-making-of-milling-osb.JPG)
+**
+
+![](img/wood-humphrey-making-of-milling-valchromat.JPG)
+**
+
+![](img/wood-humphrey-making-of-gantry-parts.JPG)
+**
+
+![](img/wood-humphrey-making-of-dry-assembly.JPG)
+**
+
+![](img/wood-humphrey-making-of-milling-rack.JPG)
+**
+
+![](img/wood-humphrey-making-of-gluing-gantry.JPG)
+**
+
+![](img/wood-humphrey-making-of-gluing-torsion-box.JPG)
+**
+
+![](img/wood-humphrey-making-of-screwing-torsion-box.JPG)
+**
+
+![](img/wood-humphrey-making-of-mounting-rails.JPG)
+**
+
+![](img/wood-humphrey-making-of-adding-rack-pieces-to-gantry.JPG)
+**
+
+![](img/wood-humphrey-making-of-joined-rack-detail.JPG)
+**
+
+![](img/wood-humphrey-making-of-gluing-z-axis.JPG)
+**
+
+![](img/wood-humphrey-making-of-gantry-and-y-carriages.JPG)
+**
+
+![](img/wood-humphrey-making-of-inserting-kr16-track-rollers.JPG)
+**
+
+![](img/wood-humphrey-making-of-nut-space-too-tigth-for-wrench.JPG)
+*These slots are too narrow and needs to be filed/carved larger by hand. Updated design is pending, April 20202*
+
+![](img/wood-humphrey-making-of-y-rail-detai.JPG)
+**
+
+![](img/wood-humphrey-before-mounting-motors.JPG)
+**
+
+![](img/wood-humphrey-making-of-adding-gantry-to-bed.JPG)
+**
+
+![](img/wood-humphrey-making-of-prepping-motors-with-motor-plates.JPG)
+**
+
+![](img/wood-humphrey-making-of-mounting-pinions.JPG)
+**
+
+[![Wood_humphrey on bitraf](img/Hello_Wooden_Humphrey.jpg)](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
+**
+
+### Machine use gallery
+
+![](img/wood-humphrey-alu-test-cut.JPG)
+**
+
+![](img/wood-humphrey-milled-pcb.JPG)
+**
+
+![](img/wood-humphrey-printing-spiral-vase-box.JPG)
+**
+
+![](img/wood-humphrey-milling-pmma.JPG)
+**
+
+![](img/wood-humphrey-milling-pmma-rack-precision-comp-low-and-high-speed.JPG)
+**
+
+![](img/wood-humphrey-with-3dprinthead.JPG)
+**
+
+![](img/wood-humphrey-printing-prusa-covid19-faceshield.JPG)
+**
+
+![](img/wood-humphrey-milling-printed-saw-attachment.JPG)
+**
+
+![](img/wood-humphrey-with-printed-and-milled-saw-attachement.JPG)
+**
+
+![](img/wood-humphrey-test-sawing.JPG)
+**
+
+### Potential future work
+
+![render of wood version](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/wood-version-render.jpg)
+
+Humphrey needs a weel design enclosure, but it might be that the [Hübel](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/readme.md) machine in development is better solution for and enclosed machine
+
+### Documetation at external sources
+* Wooden Humphrey build by Haakon Walseng: [Media files](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
+*Unnamed and unsorted as of 21nd November 2019. Todo: Add pictures and commentary to own build readme. Feel free to upload and add pictures to this readme.*
+
+*Shortbed version inside safety enclosure*
+
+[Back to Humphrey overview](README.md)
