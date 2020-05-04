@@ -8,16 +8,21 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 ![](img/wood-humphrey-with-3dprinthead.JPG)
 *Wood humphrey with Moarstruder 3D print head, test printing Prusa designed face shield part*
 
+### What to expect
+* A weak machine that is precise enough to mill 0.3mm wide circuit board traces under low load, but will deflect under heavy cuts.
+* Rigidty is about the same as a Shapeoko 3
+* A fun machine that is easy to hack and that has such cheap strucutral components that you will not be afraid to play around, crash and experiement with.
+* A trojan horse! Once you have this is on your house, you or your organization will be hooked, and if you fabricate a longer bed, you can reuse the gantry and all the electronics for a super cheap 1220mm x 2440mm work area machine.
+* Wood creeps a bit over time. Expect about 1-2mm sag along a 1000m axis span.
+* A wood Humphrey requires more frequent and careful tuning than a metal Humphrey.
+
 ### Index *WIP*
-* Design wins
-* Design fails
+* [Description and lessons learned](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#design-wins)
 * [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
-* How to fabricate the parts
-* How to assemble
-* How to wire electronics
-* How to tune
+* [How to fabriacte parts](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#how-to-fabricate-the-parts)
 * [Fabriaction and assembly gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
 * [Machine use gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/machine&use&gallery/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
+* [Future work]()
 
 ### Design wins
 * Performance is amazing given the materials used and gantry length *(OSB, MDF, Polycarnonaete, POM - the gantry span is 1.3meter)*
@@ -28,18 +33,10 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 * Modular rack pieces aligned with dowels works great and is surprisingly precise.
 
 ### Design fails
-* Gantry feet can wobble autwards *(rotation along Z axis- forces along X axis)*, making the machine less stiff for cutting along X axis diraction than Y.
+* Gantry feet can wobble outwards *(rotation along Z axis- forces along X axis)*, making the machine less stiff for cutting along X axis diraction than Y.
 * There should have been an extra bearing on the Y axis accariages *(under the bed)*. Currently spring loading the gantry is the only force keeping pinions from moving away from rack.
 * Valchromat leaves a lot of dust particles on bearings, requiring frequent cleaning
-* KR16 and KRE16 track rollers are too expensive given cost and performance of the machine. Plain 16mm outer iamter bearings with eccentric 3D printed bushings are currently being investigated
-
-### What to expect
-* A weak machine that is precise enough to mill 0.3mm wide circuit board traces under low load, but will deflect under heavy cuts.
-* Rigidty is about the same as a Shapeoko 3
-* A fun machine that is easy to hack and that has such cheap strucutral components that you will not be afraid to play around, crash and experiement with.
-* A trojan horse! Once you have this is on your house, you or your organization will be hooked, and if you fabricate a longer bed, you can reuse the gantry and all the electronics for a super cheap 1220mm x 2440mm work area machine.
-* Wood creeps a bit over time. Expect about 1-2mm sag along a 1000m axis span.
-* A wood Humphrey requires more frequent and careful tuning than a metal Humphrey.
+* KR16 and KRE16 track rollers are too expensive given cost and performance of the machine. Plain 16mm outer iamter bearings with eccentric 3D printed bushings are currently being investigate
 
 
 ### BOM
@@ -90,14 +87,14 @@ Download work in progress cutsheets [here](https://github.com/fellesverkstedet/f
 
 
 ### How to fabricate the parts
-Download the [cutsheets](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files), order materials then CNC mill all the parts at your local fab lab, makerspace or hackerspace *(more info pending)*
+Download the [cutsheets](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files), order materials then CNC mill all the parts at your local fab lab, makerspace or hackerspace *(more info pending)*. See picures bellow.
 
 You can also 3D print the four [pinions](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood-gantry-files/pinion_for_3Dprinting.stl) with fabrication service like Shapeways. We reccomend SLS nylon printing for maxiumum strength and wear resistance.
 
 Vcarve and gcode files (including log files for aproximate milling times) have been added [here](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files/Vcarve%20and%20gcode)
 
 ### How to assemble
-Step by step instructions are pending, for now you can study the [3D assembly STEP or Rhino file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files) for guidance.
+Step by step instructions are pending, for now you can study the [3D assembly STEP or Rhino file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files) for guidance. There also lots pictures further down on this page.
 
 You can also check out the new [Fusion 360 file](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/humphrey-large-format-cnc/wood-gantry-files/named-grouped-in-the-order-of-assembly-humphrey-wood-version-quarter-length-bed-v60.f3d) where all the parts have been named, put into groups and put into a suggested order of assembly. Tip: expand a group of bodies all the way, uncheck the lightbulbs for the individual bodies, not for the groups(!), and work your way through the assembly by turning on the lightbulbs starting at the top. Todo: mark the individual CNC-milled parts with an unique number, [1], [2], [3]... [148] etc and update the cutsheets with these numbers using blue stroke Hershey-text (for example using inkscape). When the 3D assembly CAD files and the cutsheets both have unique identification of the parts it will be much easier to make clear assembly instructions and to communicate about parts (for example when ordering spare parts, or talking about design improvemnts for a specific part).
 
@@ -108,8 +105,12 @@ Step and direcion signals from microcontroller to each of the intergrated motor 
 Steps per mm = 40 *(more info pending)*
 
 ### How to tune
-* Carefully adjust the eccentric bearings towards the rail surfce with the help of an hex/allen key *(the bearings should not spin freely but follow the movement of the axis, but dont tighten too hard as this will create prematre wear of the valchromat rails)*
-* Gently hold the motor with pinion against the rack, then tighten the screws on the motor plate *(too much pressure creates uneven motion while too much distance from the rack creates backlash)*
+
+Carefully adjust the eccentric bearings towards the rail surfce with the help of an hex/allen key. No bearing should be able to spin freely (in the air), but dont tighten too hard as this will create prematre wear of the valchromat rails. When you lock the position of an axis with one hand and spin a bearing with the other, it should take some force to make it rotate/slip against the wooden rail. If you cannot spin it at all( make it slip) it is too tight and if it spins freely with no force it is too loose.
+
+The sideways bearings on the Y axis (gantry feet) are the most difficult to tune. You migth run out of tuning range on the eccentric bearings. The good news is the axis carriages are designed as a separate part that attaches to the gantry feet. So you can unscrew the and drill the holes for the securung bolts a little larger. This allows you shift the entire carriage closurer to the rail.
+
+Before you start tuning the bearings it can be convenient to disenage the pinions from the rack. Once the bearings are turned you can reposition the pinions against the rack. The motor with pinion should be held against the rack when you tighten the screws for the motor plate. Gently hold the motor with pinion against the rack, then tighten the screws on the motor plate *(too much pressure creates uneven motion while too much distance from the rack creates backlash)* It should not be pressed with force against the rack. It happens easily that the pinion gets mounted too hard against the rack.
 
 ### Hard endstops for 3d printing
 [endstop](https://drive.google.com/file/d/1bGgOnYXn5w3qPKVvl1ZfoLH06Uf3-SXC/view)  
