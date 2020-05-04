@@ -8,6 +8,14 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 ![](img/wood-humphrey-with-3dprinthead.JPG)
 *Wood humphrey with Moarstruder 3D print head, test printing Prusa designed face shield part*
 
+* [Description and lessons learned](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#design-wins)
+* [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
+* [The files](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#cut-sheets)
+* [How to fabriacte parts](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#how-to-fabricate-the-parts)
+* [Fabrication and assembly gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#fabriaction-and-assembly-gallery)
+* [Machine use gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#machine-use-gallery)
+* [Future work](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#potential-future-work)
+
 ### What to expect
 * A weak machine that is precise enough to mill 0.3mm wide circuit board traces under low load, but will deflect under heavy cuts.
 * Rigidty is about the same as a Shapeoko 3
@@ -15,14 +23,6 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 * A trojan horse! Once you have this is on your house, you or your organization will be hooked, and if you fabricate a longer bed, you can reuse the gantry and all the electronics for a super cheap 1220mm x 2440mm work area machine.
 * Wood creeps a bit over time. Expect about 1-2mm sag along a 1000m axis span.
 * A wood Humphrey requires more frequent and careful tuning than a metal Humphrey.
-
-### Index *WIP*
-* [Description and lessons learned](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#design-wins)
-* [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
-* [How to fabriacte parts](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#how-to-fabricate-the-parts)
-* [Fabriaction and assembly gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
-* [Machine use gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/machine&use&gallery/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
-* [Future work]()
 
 ### Design wins
 * Performance is amazing given the materials used and gantry length *(OSB, MDF, Polycarnonaete, POM - the gantry span is 1.3meter)*
