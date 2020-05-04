@@ -20,16 +20,16 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 * [Machine use gallery](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/machine&use&gallery/wood_version_how_to_make.md#fabriaction%and%assembly%gallery)
 
 ### Design wins
-* Performance is amazing given the materials used and gantry pan length *(OSB, MDF, Polycarnonaete, POM - gantry span 1.3meter)*
+* Performance is amazing given the materials used and gantry length *(OSB, MDF, Polycarnonaete, POM - the gantry span is 1.3meter)*
 * Torsion box based gantry and bed shows that you can make a reasonably stiff machine from weak materials
-* Wood is so easy to hcak, making it very easy to modify the parts and atatch extra hardware with screws and glue.
-* Placing the Y rails undernath the torsion box bed protects them from dust and eases machine access.
+* Wood construction makes it very easy to modify the parts and attatch extra hardware with screws and glue.
+* Placing the Y rails underneath the torsion box bed protects them from dust and eases machine access.
 * Using dowels pins to register rack and rail positions makes for easy and precise assembly.
 * Modular rack pieces aligned with dowels works great and is surprisingly precise.
 
 ### Design fails
-* Gantry feet can wobble autwards  (roataion along Z axis- fores along X axis)
-* There should have been an extra bearing on Y axis accariages *(under the bed)* so that spring loading the gantry is the only force keeping pinions from moving away from rack
+* Gantry feet can wobble autwards *(rotation along Z axis- forces along X axis)*, making the machine less stiff for cutting along X axis diraction than Y.
+* There should have been an extra bearing on the Y axis accariages *(under the bed)*. Currently spring loading the gantry is the only force keeping pinions from moving away from rack.
 * Valchromat leaves a lot of dust particles on bearings, requiring frequent cleaning
 * KR16 and KRE16 track rollers are too expensive given cost and performance of the machine. Plain 16mm outer iamter bearings with eccentric 3D printed bushings are currently being investigated
 
@@ -38,6 +38,8 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 * Rigidty is about the same as a Shapeoko 3
 * A fun machine that is easy to hack and that has such cheap strucutral components that you will not be afraid to play around, crash and experiement with.
 * A trojan horse! Once you have this is on your house, you or your organization will be hooked, and if you fabricate a longer bed, you can reuse the gantry and all the electronics for a super cheap 1220mm x 2440mm work area machine.
+* Wood creeps a bit over time. Expect about 1-2mm sag along a 1000m axis span.
+* A wood Humphrey requires more frequent and careful tuning than a metal Humphrey.
 
 
 ### BOM
@@ -115,99 +117,99 @@ Steps per mm = 40 *(more info pending)*
 
 ### Fabriaction and assembly gallery
 ![](img/wood-humphrey-making-of-milling-osb.JPG)
-**
+*milling osb*
 
 ![](img/wood-humphrey-making-of-milling-valchromat.JPG)
-**
+*milling-valchromat*
 
 ![](img/wood-humphrey-making-of-gantry-parts.JPG)
-**
+*finsihsed gantry parts*
 
 ![](img/wood-humphrey-making-of-dry-assembly.JPG)
-**
+*dry-assembly*
 
 ![](img/wood-humphrey-making-of-milling-rack.JPG)
-**
+*milling rack pieces, I used polycarbaonete because we had some left in the lab*
 
 ![](img/wood-humphrey-making-of-gluing-gantry.JPG)
-**
+*gluing the gantry*
 
 ![](img/wood-humphrey-making-of-gluing-torsion-box.JPG)
-**
+*gluing the torsion box*
 
 ![](img/wood-humphrey-making-of-screwing-torsion-box.JPG)
-**
+*Screwing-torsion-box, I reccomend counter sinking the holes*
 
 ![](img/wood-humphrey-making-of-mounting-rails.JPG)
-**
+*mounting rails*
 
 ![](img/wood-humphrey-making-of-adding-rack-pieces-to-gantry.JPG)
-**
+*adding rack pieces to gantry*
 
 ![](img/wood-humphrey-making-of-joined-rack-detail.JPG)
-**
+*joined rack detail. The burr comes from doin a finishing pass with too little material left. Luckily the burr comes of during use.*
 
 ![](img/wood-humphrey-making-of-gluing-z-axis.JPG)
-**
+*gluing z axis. Note the trapped nut for the spindle and how the dowel pins helps register the rack*
 
 ![](img/wood-humphrey-making-of-gantry-and-y-carriages.JPG)
-**
+*gantry and y carriages glued and ready to be joined by machine screws*
 
 ![](img/wood-humphrey-making-of-inserting-kr16-track-rollers.JPG)
-**
+*inserting KR16 and KRE16 track rollers*
 
 ![](img/wood-humphrey-making-of-nut-space-too-tigth-for-wrench.JPG)
 *These slots are too narrow and needs to be filed/carved larger by hand. Updated design is pending, April 20202*
 
+![](img/wood-humphrey-making-of-adding-gantry-to-bed.JPG)
+*adding gantry to bed*
+
 ![](img/wood-humphrey-making-of-y-rail-detai.JPG)
-**
+*Note how the skirt helps protect the Y rails from dust.*
 
 ![](img/wood-humphrey-before-mounting-motors.JPG)
-**
-
-![](img/wood-humphrey-making-of-adding-gantry-to-bed.JPG)
-**
+*before mounting motors*
 
 ![](img/wood-humphrey-making-of-prepping-motors-with-motor-plates.JPG)
-**
+*prepping motors with motor plates*
 
 ![](img/wood-humphrey-making-of-mounting-pinions.JPG)
-**
+*mounting pinions. Note the use ofcaliper to get a precise position on the motor shaft*
 
 [![Wood_humphrey on bitraf](img/Hello_Wooden_Humphrey.jpg)](https://drive.google.com/drive/folders/1xZQbLe3GOX46Vw-eJBSd3kV14ufqdYzH)
-**
+*All valchromat humphrey*
 
 ### Machine use gallery
 
 ![](img/wood-humphrey-alu-test-cut.JPG)
-**
+*alu test cut with 3mm bit. Lots of chatter, but possible. A finishing pass would help alot with precision.*
 
 ![](img/wood-humphrey-milled-pcb.JPG)
-**
+*FAB isp circuit test. The traces are 0.3mm wide!*
 
 ![](img/wood-humphrey-printing-spiral-vase-box.JPG)
-**
+*printing-spiral-vase-box*
 
 ![](img/wood-humphrey-milling-pmma.JPG)
-**
+*milling pmma with a 1mm bit*
 
 ![](img/wood-humphrey-milling-pmma-rack-precision-comp-low-and-high-speed.JPG)
-**
+*The top rack was done at low feedrate and 10000rpm on the spindle. The bottom rack with agrresive feedrate and acceleration and 60000rpm on the spindle. Note the huge difference in precision. A wooden humphrey can only be precise under low loads.*
 
 ![](img/wood-humphrey-with-3dprinthead.JPG)
-**
+*humphrey with Moarstruder 3d print head*
 
 ![](img/wood-humphrey-printing-prusa-covid19-faceshield.JPG)
-**
+*printing prusa covid19 faceshield, RC3. The extrusion is not well calibareted, and there is a little too much warping. But thank to the 1.2mm nozzle extruder, it takes only 40 minutes to print this part.*
 
 ![](img/wood-humphrey-milling-printed-saw-attachment.JPG)
-**
+*3D printing and finsish milling a saw attachment*
 
 ![](img/wood-humphrey-with-printed-and-milled-saw-attachement.JPG)
-**
+*humphrey with printed and milled saw attachement*
 
 ![](img/wood-humphrey-test-sawing.JPG)
-**
+*test sawing*
 
 ### Potential future work
 
