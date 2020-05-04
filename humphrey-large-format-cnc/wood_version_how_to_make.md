@@ -1,12 +1,14 @@
 # Humphrey wood version - how to make
-*(page in progress, please help improve this page)*, Wooden humphrey designed by Jens Dyvik, January 2019
+*(page in progress, please help improve this page)*
+
+Wooden humphrey designed by Jens Dyvik, January 2019
 
 [Back to Humphrey overview](README.md)
 
 ![](img/wood-humphrey-with-3dprinthead.JPG)
 *Wood humphrey with Moarstruder 3D print head, test printing Prusa designed face shield part*
 
-### Index
+### Index *WIP*
 * Design wins
 * Design fails
 * [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
@@ -19,12 +21,23 @@
 
 ### Design wins
 * Performance is amazing given the materials used and gantry pan length *(OSB, MDF, Polycarnonaete, POM - gantry span 1.3meter)*
+* Torsion box based gantry and bed shows that you can make a reasonably stiff machine from weak materials
+* Wood is so easy to hcak, making it very easy to modify the parts and atatch extra hardware with screws and glue.
+* Placing the Y rails undernath the torsion box bed protects them from dust and eases machine access.
+* Using dowels pins to register rack and rail positions makes for easy and precise assembly.
+* Modular rack pieces aligned with dowels works great and is surprisingly precise.
 
 ### Design fails
 * Gantry feet can wobble autwards  (roataion along Z axis- fores along X axis)
 * There should have been an extra bearing on Y axis accariages *(under the bed)* so that spring loading the gantry is the only force keeping pinions from moving away from rack
 * Valchromat leaves a lot of dust particles on bearings, requiring frequent cleaning
 * KR16 and KRE16 track rollers are too expensive given cost and performance of the machine. Plain 16mm outer iamter bearings with eccentric 3D printed bushings are currently being investigated
+
+### What to expect
+* A weak machine that is precise enough to mill 0.3mm wide circuit board traces under low load, but will deflect under heavy cuts.
+* Rigidty is about the same as a Shapeoko 3
+* A fun machine that is easy to hack and that has such cheap strucutral components that you will not be afraid to play around, crash and experiement with.
+* A trojan horse! Once you have this is on your house, you or your organization will be hooked, and if you fabricate a longer bed, you can reuse the gantry and all the electronics for a super cheap 1220mm x 2440mm work area machine.
 
 
 ### BOM
