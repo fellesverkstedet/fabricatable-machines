@@ -1,6 +1,8 @@
 # HECTOR - Medium sized CNC machine #
 
 ## About ##
+#### 2020
+HECTOR is currently being fitted for use by the pupils at Kuben upper secondary vocational school in Oslo, Norway. [Kuben school page in Norweigian](https://kuben.vgs.no/) [Project page in Norwegian.](https://github.com/robotikklinja/cnc-fres)
 
 #### 2017
 HECTOR was initially a 2017 fab academy final project. [Here is the full fab academy documentation.](http://archive.fabacademy.org/archives/2017/fablabverket/students/100/web/projects/diy_cnc/index.html)
