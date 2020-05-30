@@ -52,6 +52,8 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 * 16pcs - [non-adjustable KR16 stud type track rollers](https://www.kugellager-express.de/stud-type-track-roller-kr16-16x6x28-mm)
 * 20pcs - [adjustable KRE16 stud type track rollers](https://www.kugellager-express.de/stud-type-track-roller-kre16-pp-16x9x28-mm)
 
+Note May 2020: The KRE bearings are very expensive. Jens Dyvik has developed an alternative solution,a 3D printable bushing in combintion a rualer 16mm OD bearing and M5 screw. Files and documentaion [here](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Modules#eccentric-bearing-bushing). If you decide to 3D print these bushings your will need 36 regular [5x16x5 bearings](https://www.kugellager-express.de/miniature-deep-groove-ball-bearing-625-2rs-5x16x5-mm) and M5 12-16mm machine screw as well as large and small M5 washers. You will also need to modify the cutsheet and update all the 6mm holes to 5mm holes (the holes for non adjustable beaings). The 9mm holes can be left as they are. 3D printing bushings will be about 20% of the cost of KRE track rollers depending on the bearing type you buy. 
+
 **Safety:**
 * 1pcs - [Emergency stop buttom](https://www.sick.com/se/en/safety-switches/safety-command-devices/es21/es21-sb10g1/p/p81746)
 * 2pcs - [Door switch](https://www.sick.com/se/en/safety-switches/electro-mechanical-safety-switches/i16s/i16-sa203/p/p12219)
@@ -211,6 +213,25 @@ Before you start tuning the bearings it can be convenient to disenage the pinion
 
 ![](img/wood-humphrey-test-sawing.JPG)
 *test sawing*
+
+### Troubleshooting
+
+The follwing picture was captured by Haakon Walseng, who built a wood humphrey in the summer of 2019. He thought first that the damge to the rack was from the forces of repeated homing. But the direction of tooth breakage shows that it was caused by physically crashing the machine in combination with the rack being attached too loosely and shifted away. See numbered notes bellow:
+
+![](img/wood-humphrey-loose-rack-trouble-shooting.png)
+
+1. The direction of force applied to the broken tooth
+shows that the damage was caused from
+physically crashing the machine.
+Not from repeated homing which would have created damage in the opposite direction.
+2. The lower part of rack the tooth is only half broken,
+indicating that that the clearence between pinion and
+rack mounting surface was too high
+3. The rack has shifted more than 1mm from
+its correct location. The locating wooden dowels should have
+been left in the hole. And the screws should
+have been tighter.
+4. It was only the screw head that kept the rack from shifting even further away from its correct location.
 
 ### Potential future work
 
