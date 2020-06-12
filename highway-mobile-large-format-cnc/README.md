@@ -22,13 +22,13 @@ Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the p
 - Highway will be light
 - Highway will be black
 - Highway will have a low height profile
-- Highway will be controlled in a network array by [`mods`](https://github.com/fabfoundation/mods) (CBA requirement)
+- Highway will be controlled in a network array by [`mods CE`](https://github.com/fabfoundation/mods) (CBA requirement)
 
 ## Roadmap, deadlines and Milestones
 
-- [ ] Fully disassemble Humphrey. September 2019
-- [ ] Build Highway MK I. December 2019
-- [ ] Build Highway MK II. April 2020
+- [x] Fully disassemble Humphrey. September 2019
+- [ ] Build Highway MK I. June 2020
+- [ ] Build Highway MK II. Next Nordic Fab Labs meeting?
 
 ## Disassembling Hobo (Highway MK 0)
 
@@ -93,6 +93,15 @@ The pins on the arduino are as follow:
 - X Dir (yellow) --> D6
 - X Pul (blue) --> D3
 
+### Sending G-Code
+
+The arduino has a GRBL Gcode interpreter loaded. It shows up in /dev/ttyACM0 and connection is made at 115200 bps. Remember to set permissions to the port `sudo chmod 666 /dev/ttyACM0` at each login. Or if you want a persistent solution add your user to the `dialout` group (in ubuntu).
+
+In my first test seems like X and Y axis are swapped.
+
+### Reverse engineering the serial connection
+
+When Neil Gershenfeld accepted to sponsor the machine he put one condition: That I use a networked interface to drive the motors. My idea is using the UART connection that every stepper has. I talked to Jens in a dinner of the fab conference in Egypt and he told me that this interface was used to change settings in the motors. I found a video in youtube where they were going through this process but at the end the person also war performing some test to check the movement of the motor. So maybe there is an indocumented way to move the motors using the UART interface. For that purpose I will use the logic analyzer to try to reverse engineer the commands.
 
 ## The making of Highway MK I
 
@@ -116,12 +125,13 @@ Dimensions of the cable carriers:
 
 ### Making the Z axis
 
-
 ## The making of Highway MK II
 
-Highway MK II will become the truly fabricatable iteration of the CNC. For that purpose a trip to Oslo will be scheduled around easter 2020 (April 5 to April 12), when there is no ice on the roads.
+Highway MK II will become the truly fabricatable iteration of the CNC. For that purpose a trip to Oslo will be scheduled around ~~easter 2020 (April 5 to April 12), when there is no ice on the roads~~. Coronavirus stepped in the way, so I am rescheduling the trip to the next Nordic Fab Lab meeting.
 
 ![sitges-oslo](./img/sitges-oslo.png)
+
+In the mean time I became quite confident that I can redraw the parametric axes in blender/sverchok.
 
 ## Files
 
