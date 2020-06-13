@@ -1,11 +1,14 @@
 # Highway - mobile large format CNC mill
 
-Warning this is a WIP (Work in progress) documentation.
+> Warning this is a WIP (Work in progress) documentation.
 
 *Below is a picture of Highway MK-0 (Hobo) in August 2018*
 
 ![](./img/highwayfab14.jpg)
 
+This project is kindly sponsored by [MIT's CBA](http://www.cba.mit.edu/)
+
+![cba](./img/cba.png)
 
 <!-- vim-markdown-toc GFM -->
 
@@ -16,6 +19,7 @@ Warning this is a WIP (Work in progress) documentation.
 * [Electronic Components of Highway](#electronic-components-of-highway)
 	* [Spindle](#spindle)
 	* [Stepper motors](#stepper-motors)
+	* [Inductive proximity sensors](#inductive-proximity-sensors)
 * [Sending G-Code](#sending-g-code)
 * [Reverse engineering the serial connection](#reverse-engineering-the-serial-connection)
 * [The making of Highway MK I](#the-making-of-highway-mk-i)
@@ -23,7 +27,7 @@ Warning this is a WIP (Work in progress) documentation.
 	* [Making the Y axis](#making-the-y-axis)
 	* [Making the Z axis](#making-the-z-axis)
 * [The making of Highway MK II](#the-making-of-highway-mk-ii)
-* [Files](#files)
+* [Resources](#resources)
 
 <!-- vim-markdown-toc -->
 
@@ -118,6 +122,12 @@ The pins on the arduino are as follow:
 - Z Dir (yellow) --> D7
 - Z Pul (blue) --> D4
 
+### Inductive proximity sensors
+
+There are 2 Gaode SN04-N sensors. This inductive proximity sensor will detect the prescence of a metallic object within 5mm of the surface of the sensor. The detection distance may vary slightly depending on the shape, size, and type of metal the object is made of. It can detect through thin, non-metallic materials and has an LED indicator that turns on when the device is powered, and increases in brightness when an object is detected. The sensor behaves like a NPN switch that outputs GND when an metallic object is detected, and  VCC when is not detected.
+
+![](./img/inductive.jpg)
+
 ## Sending G-Code
 
 The arduino has a GRBL Gcode interpreter loaded. It shows up in /dev/ttyACM0 and connection is made at 115200 bps. Remember to set permissions to the port `sudo chmod 666 /dev/ttyACM0` at each login. Or if you want a persistent solution add your user to the `dialout` group (in ubuntu).
@@ -166,8 +176,10 @@ Highway MK II will become the truly fabricatable iteration of the CNC. For that 
 
 In the mean time I became quite confident that I can redraw the parametric axes in blender/sverchok.
 
-## Files
+## Resources
 
 - [iHSS57-36-20 Stepper motor/driver datasheet (PDF)](./files/ihss-ds.pdf)
 - [Windward S4225-B60FL8 Spindle manual (PDF)]()
 - [Windward BLDC-DZZ Spinde controller (PDF)](./files/BLDC-DZZ-manual.pdf)
+- [grbl github page](https://github.com/gnea/grbl)
+- Gaode inductive proximity sensor - [Mechanical drawings](./files/3528_0_Mechanical.pdf) - [3D step file](./files/3528_0_3D.zip)
