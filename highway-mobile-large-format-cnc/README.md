@@ -1,11 +1,31 @@
 # Highway - mobile large format CNC mill
 
-*August 2018*
-
-
 Warning this is a WIP (Work in progress) documentation.
 
+*Below is a picture of Highway MK-0 (Hobo) in August 2018*
+
 ![](./img/highwayfab14.jpg)
+
+
+<!-- vim-markdown-toc GFM -->
+
+* [Story](#story)
+* [Needs and challenges](#needs-and-challenges)
+* [Roadmap, deadlines and Milestones](#roadmap-deadlines-and-milestones)
+* [Disassembling Hobo (Highway MK-0)](#disassembling-hobo-highway-mk-0)
+* [Electronic Components of Highway](#electronic-components-of-highway)
+	* [Spindle](#spindle)
+	* [Stepper motors](#stepper-motors)
+* [Sending G-Code](#sending-g-code)
+* [Reverse engineering the serial connection](#reverse-engineering-the-serial-connection)
+* [The making of Highway MK I](#the-making-of-highway-mk-i)
+	* [Making the X axis](#making-the-x-axis)
+	* [Making the Y axis](#making-the-y-axis)
+	* [Making the Z axis](#making-the-z-axis)
+* [The making of Highway MK II](#the-making-of-highway-mk-ii)
+* [Files](#files)
+
+<!-- vim-markdown-toc -->
 
 ## Story
 
@@ -26,17 +46,19 @@ Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the p
 
 ## Roadmap, deadlines and Milestones
 
-- [x] Fully disassemble Hobo. September 2019
-- [ ] Build Highway MK I. June 2020
-- [ ] Build Highway MK II. Next Nordic Fab Labs meeting?
+- [x] Fully disassemble Hobo (Highway MK-0). September 2019
+- [ ] Build Highway MK-I. June 2020
+- [ ] Build Highway MK-II. Next Nordic Fab Labs meeting?
 
-## Disassembling Hobo (Highway MK 0)
+## Disassembling Hobo (Highway MK-0)
 
 While Hobo was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle. I keep Hobo frame in my boxroom for historical/sentimental reasons.
 
+## Electronic Components of Highway
+
 ### Spindle
 
-The spindle is a Windward S4225-B60FL8. Max 60000 rpm BLDC 36V 250W which has it's own controller Windward BLDC-DZZ. 
+The spindle is a Windward S4225-B60FL8. Max 60000 rpm BLDC 36V 250W which has it's own controller Windward BLDC-DZZ.
 
 ![](img/S4225-B60_1.jpg)
 ![](img/s-l500.jpg)
@@ -73,14 +95,17 @@ They all have the following Dip-Switch configuration:
 - S2 ON
 - S3 ON
 - S4 OFF
-- S5 OFF
 
-Dip-Switch S6 varies with the motors (to recheck and adjust in MKI):
+Which according to the datasheet indicates 2000 microsteps per turn. SW5 is used for setting the activate edge of the input signal.
 
-- XR OFF
-- XL ON
-- Y OFF
-- Z ON
+- S5 OFF in all motors
+
+Dip-Switch S6 indicates running direction and varies with the motors (to recheck and adjust in MKI):
+
+- XR OFF => CCW
+- XL ON => CW
+- Y OFF => CCW
+- Z ON => CW
 
 The pins on the arduino are as follow:
 
@@ -93,15 +118,23 @@ The pins on the arduino are as follow:
 - X Dir (yellow) --> D6
 - X Pul (blue) --> D3
 
-### Sending G-Code
+## Sending G-Code
 
 The arduino has a GRBL Gcode interpreter loaded. It shows up in /dev/ttyACM0 and connection is made at 115200 bps. Remember to set permissions to the port `sudo chmod 666 /dev/ttyACM0` at each login. Or if you want a persistent solution add your user to the `dialout` group (in ubuntu).
 
 In my first test seems like X and Y axis are swapped.
 
-### Reverse engineering the serial connection
+## Reverse engineering the serial connection
 
 When Neil Gershenfeld accepted to sponsor the machine he put one condition: That I use a networked interface to drive the motors. My idea is using the UART connection that every stepper has. I talked to Jens in a dinner of the fab conference in Egypt and he told me that this interface was used to change settings in the motors. I found a video in youtube where they were going through this process but at the end the person also war performing some test to check the movement of the motor. So maybe there is an indocumented way to move the motors using the UART interface. For that purpose I will use the logic analyzer to try to reverse engineer the commands.
+
+The VCC pin outputs 5V and according to the datasheet the connection seems to be 57600 bps. I connected the UART interface to an FTDI board
+
+- GND -> GND
+- TX -> RX
+- RX -> TX
+
+and powered the motor but the driver is silent. It does not say anything. Sending some random characters does not cause a reply from the motor either. Next thing I try is listening while I send some G-Code in UGS Next thing I try is listening while I send some G-Code in UGS/CNCJS. But again the UART is silent. It might need to be enabled somehow? 
 
 ## The making of Highway MK I
 
