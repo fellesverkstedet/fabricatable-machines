@@ -26,13 +26,13 @@ Prof. Neil Gershenfeld from the Center for Bits and Atoms at MIT sponsored the p
 
 ## Roadmap, deadlines and Milestones
 
-- [x] Fully disassemble Humphrey. September 2019
+- [x] Fully disassemble Hobo. September 2019
 - [ ] Build Highway MK I. June 2020
 - [ ] Build Highway MK II. Next Nordic Fab Labs meeting?
 
 ## Disassembling Hobo (Highway MK 0)
 
-While Hobo was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle.
+While Hobo was a great proof of concept of Highway, I need to dissasemble it to get the electronics and mechanical parts. It is too heavy, too tall and un-aerodynamic to be permanently assembled in a vehicle. I keep Hobo frame in my boxroom for historical/sentimental reasons.
 
 ### Spindle
 
