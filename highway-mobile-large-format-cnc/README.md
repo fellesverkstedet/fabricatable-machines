@@ -109,20 +109,20 @@ Dip-Switch S6 indicates running direction and varies with the motors (to recheck
 
 The pins on the arduino are as follow:
 
+- X Dir (yellow) --> D5
+- X Pul (blue) --> D2
+
+- Y Dir (yellow) --> D6
+- Y Pul (blue) --> D3
+
 - Z Dir (yellow) --> D7
 - Z Pul (blue) --> D4
-
-- Y Dir (yellow) --> D5
-- Y Pul (blue) --> D2
-
-- X Dir (yellow) --> D6
-- X Pul (blue) --> D3
 
 ## Sending G-Code
 
 The arduino has a GRBL Gcode interpreter loaded. It shows up in /dev/ttyACM0 and connection is made at 115200 bps. Remember to set permissions to the port `sudo chmod 666 /dev/ttyACM0` at each login. Or if you want a persistent solution add your user to the `dialout` group (in ubuntu).
 
-In my first test seems like X and Y axis are swapped.
+Sending G-Code trough the arduino serial port works. That opens a gate to control the motors in `mods`, but the ultimate goal would be to use the embedded UART interface if possible.
 
 ## Reverse engineering the serial connection
 
