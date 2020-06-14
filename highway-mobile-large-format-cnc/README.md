@@ -79,10 +79,14 @@ At the moment the spindle unit is wired in manual mode:
 - Brown --> Motor U
 - Green -->  Motor V
 - Yellow --> Motor W
-- Red (small) --> Unused
-- Black (Small) --> Unused
 
-In the spindle controller Dip-switch 1 controls the ON/OFF of the unit and the RPM are controlled with a potentiometer. This will be changed in a future iteration.
+There are also two small cables for a temperature sensor based in a 10K Thermistor - 3950 NTC. Here is the [lookup table](./files/103_3950_lookuptable.pdf) of temperature/resistance. If you want to use the temperature protection make sure to set Dip-switch 2 to ON. In that mode when the temperature reaches 75C the spindle will stop with F4 error code. The spindle is cooled down with forced air from the orifices at the top.
+- Red + (small) --> VCC in Motor NTC
+- Black - (Small) --> Motor NTC
+
+> TODO: Design a venturi cone to force air through the cooling orifices while driving.
+
+In the spindle controller Dip-switch 1 controls the ON/OFF of the unit when Dip-switch 8 is set to manual start/stop mode. If Dip-switch 6 isn't set to CNC mode, the RPM are controlled with a potentiometer (internal or external based on Dip-switch 7). RPM are shown in the 2-digit display.
 
 ### Stepper motors
 
