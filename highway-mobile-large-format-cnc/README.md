@@ -88,6 +88,8 @@ There are also two small cables for a temperature sensor based in a 10K Thermist
 
 In the spindle controller Dip-switch 1 controls the ON/OFF of the unit when Dip-switch 8 is set to manual start/stop mode. If Dip-switch 6 isn't set to CNC mode, the RPM are controlled with a potentiometer (internal or external based on Dip-switch 7). RPM are shown in the 2-digit display.
 
+The controller manual says the spindle is 2 poles, but only when P1 is selected I can read up to 50k rpm in the 2 digit screen. I need to investigate that.
+
 ### Stepper motors
 
 Stepper motors are powered by 36V DC and the following color code:
@@ -181,6 +183,8 @@ Highway MK II will become the truly fabricatable iteration of the CNC. For that 
 In the mean time I became quite confident that I can redraw the parametric axes in blender/sverchok.
 
 ## Resources
+
+> Warning, the translation of some of these manuals is not perfect. In addition to that, put the accuracy of the information under quarantine, contradictory statements may appear on the same document.
 
 - [iHSS57-36-20 Stepper motor/driver datasheet (PDF)](./files/ihss-ds.pdf)
 - [Windward S4225-B60FL8 Spindle manual (PDF)]()
