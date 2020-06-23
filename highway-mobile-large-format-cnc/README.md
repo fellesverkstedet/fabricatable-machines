@@ -152,6 +152,13 @@ The VCC pin outputs 5V and according to the datasheet the connection seems to be
 
 and powered the motor but the driver is silent. It does not say anything. Sending some random characters does not cause a reply from the motor either. Next thing I try is listening while I send some G-Code in UGS Next thing I try is listening while I send some G-Code in UGS/CNCJS. But again the UART is silent. It might need to be enabled somehow? 
 
+## Hold down
+Riding with a traditional sacraficial spoilboard on the roof might be cumbersome. So it could be interesting to mimic "European style" workholding with vacuum pods on rails in a similar fashion to Biesse rover machines etc. These vacuum pods could be mounted on the existing roof rack of the Gelenderwagen with a quick clamp system. Such vacuum pods would require a compressor and venturi valves to be transported in the car. If a sacraficial layer should be needed, a MDF board could be purchased from a local hardware store and held down with the vacuum pods.
+
+![](https://www.cncsparetools.com/Uploads/5ced073ad990e9805.jpg)
+
+It could be interesting to study vacuum pods like [Better vaccum cups](https://www.greenbvc.com/) and [Axiom precision](https://www.axiomprecision.com/vacuum-holddown-kit.html) and see if they can be 3D printed.
+
 ## The making of Highway MK I
 
 Highway MK I is a temporary iteration of the fabricatable CNC. I will use some commercial parts like an Igus linear axis and upcycle the Z axis from an old Probotix V90 CNC.
@@ -171,6 +178,12 @@ The Y axis is an Igus linear axis model 1539406 001 001
 Dimensions of the cable carriers:
 
 - Y axis cable carrier. The Y axis is 1.40m. The cable carrier will be 0.8 m.
+
+Possible Y and Z axis alternative to Igus linear axis: Openbuilds [C-Beam order ready cut](https://ooznest.co.uk/product/c-beam-linear-rail-cut-to-size/) and 3D printed modular rack pieces from the Fabricatable [flex axis](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axes#flex-axis). Rough Freecad sketch [here](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/Module%20development/herring-axis/alu_extrusion_herring_rack.FCStd)
+
+![](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/Module%20development/herring-axis/img/heering-axis-for-v-slot-extrusion-perspective.PNG)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/Module%20development/herring-axis/img/heering-axis-for-v-slot-extrusion-front.PNG)
 
 ### Making the Z axis
 
