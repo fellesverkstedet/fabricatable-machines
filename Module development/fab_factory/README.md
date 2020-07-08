@@ -6,4 +6,4 @@ Work in progress on combining multiple Fabricatable Axes to facilitate a fabrica
 - drilling 
 - mounting 
 
-![Application overview](fabricatable-machines/Module development/fab_factory/img/overview-01.png)
+![Application overview](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/Module%20development/fab_factory/img/overview-01.png)
