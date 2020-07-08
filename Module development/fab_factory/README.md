@@ -7,3 +7,7 @@ Work in progress on combining multiple Fabricatable Axes to facilitate a fabrica
 - mounting 
 
 ![Application overview](fabricatable-machines/Module development/fab_factory/img/overview-01.png)
+
+![Cut](fabricatable-machines/Module development/fab_factory/img/overview-02.png)
+
+![Drill](fabricatable-machines/Module development/fab_factory/img/overview-03.png)
