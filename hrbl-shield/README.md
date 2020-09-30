@@ -84,8 +84,13 @@ There are two pins on the signal connector that can be used to trigger an alarm.
 You can also access these setting using a RS232 serial connection but the HISU device is cheap.
 
 Recommended but not required. You can use a special handheld programming device to alter the settings in the motor drivers for the integrated stepper motors. There are two settings that are of special interest.
+* P8: Open loop current This parameter affects the static torque of the motor.
+* P9: Closed loop current This parameter affects the dynamic torque of the motor. (The actual current = open loop current +
+close loop current)
 * P16: Position error limit. If the motor detects an error bigger than this setting it will stop trying to recover the lost steps, throw an error and refuse to move until power is cycled. If I remember correctly the factory default setting allowed a full revolution before throwing an error. We recommend something much smaller to detect errors earlier. 
 * P19: Speed smoothness. This is a built in acceleration setting. Since we want to control the acceleraton completely this should be set to 0.
+
+
 
 [Full motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
 
