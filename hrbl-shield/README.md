@@ -90,7 +90,7 @@ close loop current)
 * P16: Position error limit. If the motor detects an error bigger than this setting it will stop trying to recover the lost steps, throw an error and refuse to move until power is cycled. If I remember correctly the factory default setting allowed a full revolution before throwing an error. We recommend something much smaller to detect errors earlier. 
 * P19: Speed smoothness. This is a built in acceleration setting. Since we want to control the acceleraton completely this should be set to 0.
 
-
+![HISU SETTINGS](img/HISU_settings.jpg)
 
 [Full motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
 
