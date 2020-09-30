@@ -73,7 +73,7 @@ More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 There are two pins on the signal connector that can be used to trigger an alarm. Drive them with 5V on one and GND on the other (either direction works). 
 
 ## Setup GRBL for your machine
-[See the setup guide on our Wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Machine-setup)
+[See the setup guide on our Wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/GRBL-and-UGS-setup)
 
 ## Use GRBL to run your machine
 [See the use guide on our wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use)
