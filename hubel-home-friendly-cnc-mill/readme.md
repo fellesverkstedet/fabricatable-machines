@@ -1,7 +1,8 @@
 # Hübel - Home friendly CNC mill
 by Jens Dyvik
 
-*status april 2020: Work in progress, only sketches so far*
+* *status april 2020: Work in progress, only sketches so far*
+* *update december 5th 2020, added freecad sketch+screenshots of openbuilds c-beam based design for Ikea Pax*
 
 The hubel machine series is home and human friendly. Dust, noise and fumes are contained inside integrated enclosures. Dust extractors / shopvacs are are located inside each enclouere *(behind cabinet doors)*. Noise and dust leakage from dust exctration will be reduced compared to traditional setups.
 
@@ -48,3 +49,23 @@ Windows/doors:
 Small and medium sized machine to be built and tested in 2020
 
 This is an open project. Please feel free to contribute through pull requests and git issue comments!
+
+### Sketches
+
+These sketches are based on the Openbuilds C-beam aluminum extrusions sold by Openbuilds parts store in the us and Ooznest in the UK/EU- The thought is to tailor make the alu frame to fit in an Ikea Pax closet (100cm wide, 58cm deep and 200cm high). This machine would have a work area of 800mm x 1220mm x 55mm, but the same gantry can easily be used with with longer rails to make full sheet size machine (2440mm x 1220mm). A larger machine would require making a custom safety cabinet though, while this one could be put in a ready made Ikea pax closet. The doors could either be self made or store bought Ikea Undredal tempered glass doors. The cost of only the extrusions for the config bellow would be about 310 USD excluding shipping and sales tax.
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-perspective-in-closet.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-perspective.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-front.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-top.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-side.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-printed-bearing-holder-test.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-bearing-placement-principle-perspective.jpeg)
+
+![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hubel-home-friendly-cnc-mill/img/c-beam-based-machine-bearing-placement-principle-front.jpeg)
