@@ -11,8 +11,8 @@
 ![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
 *The metal version takes 1,5-2 weeks to make. Quite sturdy if tuned well.*
  
-![Wooden Humphrey at Bitraf](img/Hello_Wooden_Humphrey.jpg)
-*The wood verision is srally fast to make (few days), but much less sturdy than aluminium*
+![](img/wood-humphrey-with-3dprinthead.JPG)
+*The wood version is really fast to make (1-2days), but much less sturdy than aluminium. Here with a Moarstruder 3D print head, test printing Prusa designed face shield part.*
 
 ### Index
  - Metal Humphrey documentation
@@ -66,7 +66,8 @@ The Humphrey model has been made in eight completed versions and three more is i
 
 [![Humphrey CNC mill](./img/01humphrey-first-cuts.jpg)](humphrey_v1.md)
 
-[Humphrey v1](humphrey_v1.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
+[Humphrey v1](humphrey_v1.md) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/). This was the fist machine we made that was big as its mother machine.
+
 
 #### Humphrey v2
 
