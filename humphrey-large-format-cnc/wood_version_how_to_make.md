@@ -8,6 +8,9 @@ Wooden humphrey designed by Jens Dyvik, January 2019
 ![](img/wood-humphrey-with-3dprinthead.JPG)
 *Wood humphrey with Moarstruder 3D print head, test printing Prusa designed face shield part*
 
+![Wooden Humphrey at Bitraf](img/Hello_Wooden_Humphrey.jpg)
+*All valchromat wood version made by Haakon Walseng. Note the lasercut scale model, nice way to get familiar with the design*
+
 * [Description and lessons learned](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#design-wins)
 * [Bill of materials](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#bom)
 * [The files](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/wood_version_how_to_make.md#cut-sheets)
