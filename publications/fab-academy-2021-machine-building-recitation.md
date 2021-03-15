@@ -19,8 +19,9 @@
  - Hans - Large format research platform
 
 ### Machine-building insights/scars
- - Machine maintenance and teaching
- - Chamfer rail disaster
+ - Machine maintenance and teaching - [Image of HTMAA students making chamfer rail glideblocks](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/photos/assembly/too_tight.jpg), student [project page](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/index.html).
+ - Chamfer rail disaster - [Image of student hold down](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/photos/assembly/sacrificial_layer_uneven.jpg), student [project page](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/index.html).
+ - Split rail trouble - [Image of split rails on first humphrey](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/humphrey-large-format-cnc/img/02humphrey-detail-of-joined-updside-down-rails.jpg)
  - The value of a design reference
 
 ### Lessons from deploying
