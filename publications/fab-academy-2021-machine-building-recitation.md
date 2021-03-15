@@ -25,6 +25,7 @@
  - The value of a design reference
 
 ### Lessons from deploying
+ - Improper tuning of bearing and pinion positions is the biggest limit in performance
  - Alu milling requires handholding
  - Not quite ready for commercial sales
  - Cheap to make more, but still time consuming to assemble and tune
