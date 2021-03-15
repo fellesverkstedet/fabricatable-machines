@@ -14,9 +14,9 @@
 
 
 ### What I am working on now
- - Pellatis extruder, getting familiar with recycling and mixing additive and subtractive manufacturing
- - H-axis, next gen fabriacatable axis
- - Hans - Large format research platform
+ - [Pellatis extruder](https://tobben.gitlab.io/pellatis/dev/update/2021/03/04/adapter-plate-machined.html), getting familiar with recycling and mixing additive and subtractive manufacturing
+ - [H-axis](https://fab.cba.mit.edu/classes/865.21/people/jensdyvik/#week3), next gen fabricatable axis
+ - [Hans - Large format research platform](https://fab.cba.mit.edu/classes/865.21/people/jensdyvik/#system)
 
 ### Machine-building insights/scars
  - Machine maintenance and teaching - [Image of HTMAA students making chamfer rail glideblocks](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/photos/assembly/too_tight.jpg), student [project page](https://fab.cba.mit.edu/classes/863.17/Harvard/machines/index.html).
