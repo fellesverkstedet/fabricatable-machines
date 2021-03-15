@@ -15,7 +15,7 @@
 
 ### What I am working on now
  - [Pellatis extruder](https://tobben.gitlab.io/pellatis/dev/update/2021/03/04/adapter-plate-machined.html), getting familiar with recycling and mixing additive and subtractive manufacturing
- - [H-axis](https://fab.cba.mit.edu/classes/865.21/people/jensdyvik/#week3), next gen fabricatable axis
+ - [H-axis](https://fab.cba.mit.edu/classes/865.21/people/jensdyvik/#week4), next gen fabricatable axis
  - [Hans - Large format research platform](https://fab.cba.mit.edu/classes/865.21/people/jensdyvik/#system)
 
 ### Machine-building insights/scars
@@ -25,10 +25,10 @@
  - The value of a design reference
 
 ### Lessons from deploying
- - Improper tuning of bearing and pinion positions is the biggest limit in performance
+ - Improper tuning of bearing and pinion positions by machine owners is the biggest limit in performance
  - Alu milling requires handholding
  - Not quite ready for commercial sales
- - Cheap to make more, but still time consuming to assemble and tune
+ - Cheap to make more of finished design, but still time consuming to assemble and tune
 
 ### How to connect
  - [Machine chat in repo](https://github.com/fellesverkstedet/fabricatable-machines/discussions)
