@@ -47,7 +47,7 @@ _As of January 2021_
 
 Click the links for more pictures!
 
-The Humphrey model has been made in eight completed versions and three more is in production.
+The Humphrey model has been made in seven completed versions and four more is in production.
 
 1. [Humphrey v1](humphrey_v1.md) - Designed by [Jens Dyvik](http://www.dyvikdesign.com/site/) - Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jens Dyvik](http://www.dyvikdesign.com/site/) and [Alex Schaub](http://www.fabguru.com/), installed at [Contact Amsterdam.](https://contactamsterdam.nl/)
 2. [Humphrey v2](humphrey_v2.md) - Redigned by [Jakob Nilsson](http://www.norlinkmakes.com)- Made in [Fellesverkstedet](https://www.fellesverkstedet.no/) by [Jakob Nilsson](http://www.norlinkmakes.com), installed at [Newtone](https://newtone.no/) in Oslo.
@@ -94,5 +94,11 @@ The Humphrey model has been made in eight completed versions and three more is i
 ![Humphrey v5](img/humphrey5-at-kuben-cropped.jpg)
  
 The 5th iteration of Humphrey, assembled at [Kuben upper secondary school, Oslo Norway](https://kuben.vgs.no/).
+
+#### Humphrey v11
+
+![Humphrey v11](img/humphrey-11.jpeg) ![Humphrey v11](img/humphrey-11axis.jpeg)
+
+Humphrey 11 in the making
 
 [Back to index](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/README.md#index)
