@@ -55,7 +55,7 @@ HRBL is currently in use in:
  * In the menu go to **Sketch > Include Library** and select Add .ZIP Library. (The Add .ZIP Library command supports both a .ZIP file or a folder.) Add the folder that you unzipped.
  * You can confirm that the library has been added. Click the Sketch drop-down menu again, navigate to Include Library, then scroll to the bottom of the list where you should see grbl.
 * In the menu click: File > Open, navigate to the folder Examples->Grbl, and select GrblUpload.
- **Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
+**Do not alter this example in any way! Grbl does not use any Arduino code. Altering this example may cause the Arduino IDE to reference Arduino code and compiling will fail.**
 * Press the round arrow button to compile and **upload** Grbl to your Arduino.
 * *If you can't upload try changing this in the menu: Tools > Processor > Old Bootloader*
 
@@ -64,6 +64,8 @@ More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 ## Connect the steppers and sensors
 ![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/electronics/Connector_guide.jpg)
 
+* The SN04-N NPN NO sensor cable colors are: Blue = GND, Brown = VCC, BLACK = SIGNAL
+
 ## Connect a spindle driver
 ![Generic spindle](img/Spindle_illustrated.png)
 
@@ -71,10 +73,26 @@ More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 There are two pins on the signal connector that can be used to trigger an alarm. Drive them with 5V on one and GND on the other (either direction works). 
 
 ## Setup GRBL for your machine
-[See the setup guide on our Wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Machine-setup)
+[See the setup guide on our Wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/GRBL-and-UGS-setup)
 
 ## Use GRBL to run your machine
 [See the use guide on our wiki](https://github.com/fellesverkstedet/fabricatable-machines/wiki/How-to-use)
+
+## Optional: HISU settings
+
+[Required product](https://www.aliexpress.com/item/32805819281.html). 
+You can also access these setting using a RS232 serial connection but the HISU device is cheap.
+
+Recommended but not required. You can use a special handheld programming device to alter the settings in the motor drivers for the integrated stepper motors. There are two settings that are of special interest.
+* P8: Open loop current This parameter affects the static torque of the motor.
+* P9: Closed loop current This parameter affects the dynamic torque of the motor. (The actual current = open loop current +
+close loop current)
+* P16: Position error limit. If the motor detects an error bigger than this setting it will stop trying to recover the lost steps, throw an error and refuse to move until power is cycled. If I remember correctly the factory default setting allowed a full revolution before throwing an error. We recommend something much smaller to detect errors earlier. 
+* P19: Speed smoothness. This is a built in acceleration setting. Since we want to control the acceleraton completely this should be set to 0.
+
+![HISU SETTINGS](img/HISU_settings.jpg)
+
+[Full motor manual](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/dev_files/integrated_stepper/20160528161106_17875.pdf)
 
 # Ways to make the card
 

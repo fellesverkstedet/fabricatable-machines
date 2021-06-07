@@ -1,16 +1,15 @@
 # Hattori - Small format CNC Mill and 3D printer
-*July-September 2017, by Jens Dyvik, Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
+*July-September 2017, designed by Jens Dyvik. Contributions by Torbjørn Nordvik Helgesen, Charlie Banthorpe, Jakob Nilsson and Erling Knudsen*
 
 ![*CNC mill version on the left, 3D printer version on the right*](./img/Hattori_CNCmill_and_3Dprinter.jpg)
 *CNC mill version on the left, 3D printer version on the right*
 
 ![*The chamfer rail axis system makes hot-swapping the machine bed and z-axis easy*](./img/Hattori_AwardPrinterEdition_hotswap_bed.jpg)
-*The chamfer rail axis system makes hot-swapping the machine bed and z-axis easy*
-
+*The chamfer rail axis system makes hot-swapping the machine bed and z-axis easy
 
 * A solid, small-format desktop CNC platform for CNC milling and 3D printing
 * Fabricatable with a CNC mill
-* Uses the [Chamfer Rail](../chamferrail) system
+* Uses the [Chamfer Rail](https://github.com/fellesverkstedet/fabricatable-machines-archive/tree/master/chamferrail) system
 * Current version has a 200mm x 300mm x 120mm work volume
 * Each axis is identical and can be made from from 130mm x 8mm aluminium flat bar or HDF sheet (reduced from 10mm) 
 * Hot-swappable build platform and end-effectors for quick job processing or transition between milling and 3D-printing
@@ -32,7 +31,9 @@
 
 
 **Design fails**
-* The split chamfer rail parts require semi complex cnc machining operations
+* The plain bearing "chamfer rail" glideblocks had too much friction, making the steppers not reach their postion due to stepper "springiness"
+* Chamfer rail was hard to tune
+* The split chamfer rail parts required semi complex cnc machining operations
 * Drilling and tapping in aluminium adds a lot of assembly time (though an HDF base glued with wood glue is a great allrounder)
 * Integrating a versatile electronics enclousere is half solved (ihss57 motors with integrated drivers seem promising for reducing enclosure volume and cable mangement)
 * Spring or elastic band gravity assist on Z-axis is half solved (the goal is to have an automatable swap system of Z-axis)
@@ -88,7 +89,7 @@
 
 
 
-### To do
+### To do _(Edit: we will no longer do, but could have been done_
 * Test UHMW tape on HDF and Aluminium glide blocks
 * Update base design to play nice with larger motors like ihss57
 * Update CAD files in repo
@@ -105,6 +106,23 @@
 * Remove wedge lock from main design?
 * Solve fileament roll squaek - bigger fillet?
 
+### Version history
+
+#### [Hattori 1](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hattori-small-format-cnc/README.md)
+[![Hattori1](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/hattori-small-format-cnc/img/Hattori_CNCmill_version.jpg)](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+*Small format CNC mill, fast and furious. Desined and fabricated by Jens Dyvik*
+
+#### [Hattori 2](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+[![Hattori2](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/hattori-small-format-cnc/img/hattori2-at-kuben-vgs.jpg)](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+*A modified extended version with a larger work are and all aluminum frame by Tobjørn Nordvik Helgesen*
+
+#### [Hattori 3](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+[![Hattori3](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/hattori-small-format-cnc/img/Hattori-Trophy-OIW2017-9.jpg)](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+*This 3D printer version was custom made as a trophy for Oslo Innovation Award. All the axes and racks were milled from high quality black mdf. Super cheap and super fast to fabricate! By Jens Dvvik, Jakob Nilsson and Erling Knutsen*
+
+#### [Hattori 4](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+[![Hattori4](https://raw.githubusercontent.com/fellesverkstedet/fabricatable-machines/master/hattori-small-format-cnc/img/Hattori4-at-kuben-vgs.jpg)](https://github.com/fellesverkstedet/fabricatable-machines/tree/master/hattori-small-format-cnc/README.md)
+*A beefed up version that can mill upside down and is suitable for educational environments, by Tobjørn Nordvik Helgesen*
 
 ### Development log
 ![3D-Printer / CNC Mill array concept sketch](sketch/img/3D-print-and-cnc-mill-array-sketch.jpg)

@@ -15,7 +15,7 @@
  
  Use 11-13 mm thick POM plastic sheet.
  
- * [How to mill the pinions](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#how-to-fabricate) Follow our generic instruction on the wiki
+ * [How to mill the pinions](https://github.com/fellesverkstedet/fabricatable-machines/wiki/Fabricatable-axis#pinion-milling) 
 
 # 3D prints for Humphrey 4
 
