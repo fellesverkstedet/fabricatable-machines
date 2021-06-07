@@ -62,6 +62,10 @@ HRBL is currently in use in:
 More information about GRBL [How to use GRBL](https://github.com/gnea/grbl/wiki)
 
 ## Connect the steppers and sensors
+[PDF Schematic of connections for one axis](connections_hrbl_shield_inkscape.pdf)
+
+![](dev_files/Connections_hrbl_shield_inkscape.svg)
+
 ![](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/img/electronics/Connector_guide.jpg)
 
 * The SN04-N NPN NO sensor cable colors are: Blue = GND, Brown = VCC, BLACK = SIGNAL
