@@ -21,6 +21,9 @@ $RECYCLE.BIN/
 *.3dmbak
 *.3dm.rhl
 
+# Freecad backups
+*.FCStd1
+
 # =========================
 # Operating System Files
 # =========================
