@@ -1,7 +1,7 @@
 # Hanzo - large format 3D printer and machining center
 
 
-*By Jens Dyvik, 2021*
+*by Jens Dyvik, 2021*
 
 ![](img/.JPG)
 
@@ -17,9 +17,9 @@
 ### What
 
  - A cartesian machine with a 3m x 1,4m x 1,5m work area
- - Able to print rough and fast 
+ - Able to print rough and fast with the[Pellatis - pellet extruder](https://tobben.gitlab.io/pellatis/) that we are developing
  - With a toolchanger system
- - With dual pinion drive for electronic pretension _(less backlash, higher cost and complexity)_
+ - With dual pinion drive for electronic pretension *(less backlash, but higher cost and complexity)*
  - Tailor made to experiment with automation and machine making
  
 ### Why
