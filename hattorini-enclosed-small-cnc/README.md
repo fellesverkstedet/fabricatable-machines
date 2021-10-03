@@ -11,7 +11,10 @@ A small agile CNC platform for fast milling or 3D printing. The enclosure might 
 ![](img/motor-with-ballscrew.jpeg)
  
 ![](img/motor-and-rail-research-aliexpress.JPG)
+*Option for a prusa style architecture with lots rigidity. Dual motors on Y and Z, and 4 blocks per axis*
  
+![](img/motor-and-rail-research-aliexpress-3-motors-and-1-block-per-rail.JPG)
+*More frugal option for classic CMC architecture, with one motor per axis and 2 blocks per rail*
  
  Alternative:
  
