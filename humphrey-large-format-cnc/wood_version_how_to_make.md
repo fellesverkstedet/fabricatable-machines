@@ -65,7 +65,7 @@ Note May 2020: The KRE bearings are very expensive. Jens Dyvik has developed an 
 **Electronics:**
 * 4pcs - [ihss60 closed loop stepper motor with intergrated driver](https://www.aliexpress.com/store/product/NEMA-24-3N-m-425ozf-in-Integrated-Closed-Loop-Stepper-motor-36VDC-JMC-iHSS60-36-30/1932111_32713260490.html)
 * 1pcs - [40000 RPM spindle and driver kit](https://www.aliexpress.com/store/product/250w-40000rpm-ER8-Brushless-spindle-motor-MACH3-driver-DC36V-for-CNC-drilling-milling-carving-kits/1932111_32757165445.html)
-* Spindle alternative - [24000rpm 800 watt](https://www.aliexpress.com/store/product/Square-0-8KW-Air-cooled-Spindle-motor-ER11-24000rpm-400Hz-ENGRAVING-MILLING-GRIND-6-5A/907217_32665487318.html?spm=2114.12010612.0.0.54a41c927Yz5F6) and [VFD](https://inverterdrive.com/group/AC-Inverter-Drives-230V/Invertek-Optidrive-E3-1-1-kW-single-Inverter/)
+* Spindle alternative - [24000rpm 800 watt](https://www.aliexpress.com/store/product/Square-0-8KW-Air-cooled-Spindle-motor-ER11-24000rpm-400Hz-ENGRAVING-MILLING-GRIND-6-5A/907217_32665487318.html?spm=2114.12010612.0.0.54a41c927Yz5F6) and [VFD](https://inverterdrive.com/group/AC-Inverter-Drives-230V/Invertek-ODE-3-120070-1F1A/)
 * 1pcs - [36V power supply](https://no.farnell.com/mean-well/hep-480-36a/power-supply-ac-dc-36v-13-3a/dp/2815954?st=power%20supply) *to power the four stepper moters and spindle*
 * 3pcs - [proximity switches](https://www.aliexpress.com/store/product/SN04-N-SN04-N2-SN04-P-SN04-P2-DC-NPN-PNP-NO-NC-4MM-DC-10/3105031_32842303693.html) or [green version](https://www.aliexpress.com/store/3105031/search?filterAllSearch=false&freeShipCountry=&minPrice=&maxPrice=&SearchText=sn04)
 * 1pcs - Aruduino Nano microcontroller
