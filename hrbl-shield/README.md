@@ -50,7 +50,8 @@ HRBL is currently in use in:
 * Download the [GRBL files for arduino IDE programming with spindle enable configured](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/humphrey-large-format-cnc/GRBL_Spindle_ENABLE.zip)
 * Manually unzip the file in a folder. **Don't skip this step**
 * Connect your arduino to your computer
-* Make sure your board is set to **Arduino Nano** board in the Tool->Board menu and the serial port is selected correctly in Tool->Serial Port. (If it does not show up, try installing these [Chinese Arduino USB drivers (CH341)](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/CH341SER.EXE) )
+* Make sure your board is set to **Arduino Nano** board in the Tool->Board menu and the serial port is selected correctly in Tool->Serial Port. (If it does not show up, try installing these [Chinese Arduino USB drivers (CH341)](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hrbl-shield/CH341SER.EXE) Then you MUST also choose Old bootloader ![image](https://github.com/fellesverkstedet/fabricatable-machines/assets/3476653/31279693-d5ff-4010-9215-15d3204245c1)
+)
 * Now we need to add the GRBL files as a library to the Arduino program
  * In the menu go to **Sketch > Include Library** and select Add .ZIP Library. (The Add .ZIP Library command supports both a .ZIP file or a folder.) Add the folder that you unzipped.
  * You can confirm that the library has been added. Click the Sketch drop-down menu again, navigate to Include Library, then scroll to the bottom of the list where you should see grbl.
